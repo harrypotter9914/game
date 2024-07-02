@@ -23,7 +23,7 @@ children:
         prefab:
           type: MainRolePrefabBinding
           properties:
-            userName: WangZe
+            userName: WangZe111
             action: down
             x: 0
             y: -100
