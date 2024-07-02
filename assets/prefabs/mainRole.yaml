@@ -18,6 +18,7 @@ behaviours:
   - type: Walkable
     properties:
       speed: 5
+      jumpForce: 5 
 children:
   - behaviours:
       - type: Transform
