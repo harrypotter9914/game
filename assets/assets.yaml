@@ -1,0 +1,5 @@
+images:
+  - ./assets/images/icon.jpg
+prefabs:
+  - ./assets/prefabs/block.yaml
+  - ./assets/prefabs/mainRole.yaml

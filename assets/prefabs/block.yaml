@@ -1,0 +1,31 @@
+behaviours:
+  - type: Transform
+    properties:
+      x: 0
+      y: -0.0
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+  - type: RigidBody
+    properties:
+      x: 0
+      y: 0
+      type: 0
+  - type: BoxCollider
+    properties:
+      width: 1000
+      height: 100
+children:
+  - behaviours:
+      - type: Transform
+        properties:
+          x: -50
+          y: -50
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+      - type: ShapeRectRenderer
+        properties:
+          width: 1000
+          height: 100
+          color: red

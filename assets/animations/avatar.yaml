@@ -1,0 +1,70 @@
+actions:
+  crazy:
+    fps: 10
+    keyframes:
+      - 0
+      - 4
+      - 8
+      - 9
+  down:
+    fps: 2
+    keyframes:
+      - 0
+      - 1
+      - 2
+      - 3
+  left:
+    fps: 2
+    keyframes:
+      - 4
+      - 5
+      - 6
+      - 7
+  leftrun:
+    fps: 10
+    keyframes:
+      - 4
+      - 5
+      - 6
+      - 7
+spritesheet:
+  - x: 0
+    y: 0
+    width: 100
+    height: 157
+  - x: 100
+    y: 0
+    width: 100
+    height: 157
+  - x: 200
+    y: 0
+    width: 100
+    height: 157
+  - x: 300
+    y: 0
+    width: 100
+    height: 157
+  - x: 0
+    y: 157
+    width: 100
+    height: 157
+  - x: 100
+    y: 157
+    width: 100
+    height: 157
+  - x: 200
+    y: 157
+    width: 100
+    height: 157
+  - x: 300
+    y: 157
+    width: 100
+    height: 157
+  - x: 0
+    y: 314
+    width: 100
+    height: 157
+  - x: 0
+    y: 471
+    width: 100
+    height: 157
