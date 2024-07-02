@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@flyover/box2d": "^1.0.1"
+  }
+}

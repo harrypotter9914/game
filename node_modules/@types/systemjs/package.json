@@ -1,0 +1,40 @@
+{
+    "name": "@types/systemjs",
+    "version": "0.20.11",
+    "description": "TypeScript definitions for systemjs",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/systemjs",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Ludovic HENIN",
+            "githubUsername": "ludohenin",
+            "url": "https://github.com/ludohenin"
+        },
+        {
+            "name": "Nathan Walker",
+            "githubUsername": "NathanWalker",
+            "url": "https://github.com/NathanWalker"
+        },
+        {
+            "name": "Giedrius Grabauskas",
+            "githubUsername": "GiedriusGrabauskas",
+            "url": "https://github.com/GiedriusGrabauskas"
+        },
+        {
+            "name": "Aluan Haddad",
+            "githubUsername": "aluanhaddad",
+            "url": "https://github.com/aluanhaddad"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/systemjs"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "507bcd59d035d7fdb46767018234d118d4982ee9d70d906fc9fac7988b05ff03",
+    "typeScriptVersion": "4.5"
+}

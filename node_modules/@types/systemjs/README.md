@@ -1,0 +1,15 @@
+# Installation
+> `npm install --save @types/systemjs`
+
+# Summary
+This package contains type definitions for systemjs (https://github.com/systemjs/systemjs).
+
+# Details
+Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/systemjs/v0.
+
+### Additional Details
+ * Last updated: Tue, 07 Nov 2023 20:08:00 GMT
+ * Dependencies: none
+
+# Credits
+These definitions were written by [Ludovic HENIN](https://github.com/ludohenin), [Nathan Walker](https://github.com/NathanWalker), [Giedrius Grabauskas](https://github.com/GiedriusGrabauskas), and [Aluan Haddad](https://github.com/aluanhaddad).
