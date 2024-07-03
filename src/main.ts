@@ -1,4 +1,4 @@
-import { registerBehaviourClass, AnimationRenderer, BitmapRenderer, BoxCollider, Camera, CircleCollider, EdgeCollider, PhysicsWorld, RigidBody, Rotatable, ShapeRectRenderer, TextRenderer, Transform, GameEngine } from "../lib/mygameengine";
+import { registerBehaviourClass, AnimationRenderer, BitmapRenderer, BoxCollider, Camera, CircleCollider, EdgeCollider, PhysicsWorld, RigidBody, ShapeRectRenderer, TextRenderer, Transform, GameEngine } from "../lib/mygameengine";
 import { Walkable } from "./behaviours/Walkable";
 import { BlockPrefabBinding } from "./bindings/BlockPrefabBinding";
 import { MainRolePrefabBinding } from "./bindings/MainRolePrefabBinding";
@@ -10,7 +10,6 @@ registerBehaviourClass(CircleCollider);
 registerBehaviourClass(EdgeCollider);
 registerBehaviourClass(PhysicsWorld);
 registerBehaviourClass(RigidBody);
-registerBehaviourClass(Rotatable);
 registerBehaviourClass(ShapeRectRenderer);
 registerBehaviourClass(TextRenderer);
 registerBehaviourClass(Transform);
