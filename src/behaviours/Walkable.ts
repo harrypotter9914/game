@@ -1,4 +1,5 @@
 import { Behaviour, number, RigidBody, BoxCollider, Transform } from "../../lib/mygameengine";
+import { MainRolePrefabBinding } from "../bindings/MainRolePrefabBinding"; // 假设文件路径正确
 
 export class Walkable extends Behaviour {
   @number()
@@ -9,8 +10,16 @@ export class Walkable extends Behaviour {
 
   private jumpCount = 0;
   private isGrounded = false;
+  private mainRoleBinding: MainRolePrefabBinding | null = null;
+  private lastAction: string = 'right'; // 默认的action
 
   onStart() {
+    this.mainRoleBinding = this.gameObject.getBehaviour(MainRolePrefabBinding);
+    if (this.mainRoleBinding) {
+      this.mainRoleBinding.action = this.lastAction; // 设置默认的action为right
+    } else {
+      console.warn('MainRolePrefabBinding not found on the game object.');
+    }
     document.addEventListener('keydown', this.handleKeyDown.bind(this));
     document.addEventListener('keyup', this.handleKeyUp.bind(this));
   }
@@ -21,9 +30,17 @@ export class Walkable extends Behaviour {
     switch (event.code) {
       case 'ArrowLeft':
         rigid.b2RigidBody.SetLinearVelocity({ x: -this.speed, y: rigid.b2RigidBody.GetLinearVelocity().y });
+        this.lastAction = 'left';
+        if (this.mainRoleBinding) {
+          this.mainRoleBinding.action = this.lastAction;
+        }
         break;
       case 'ArrowRight':
         rigid.b2RigidBody.SetLinearVelocity({ x: this.speed, y: rigid.b2RigidBody.GetLinearVelocity().y });
+        this.lastAction = 'right';
+        if (this.mainRoleBinding) {
+          this.mainRoleBinding.action = this.lastAction;
+        }
         break;
       case 'KeyC':
         if (this.jumpCount < 2) {
@@ -41,9 +58,11 @@ export class Walkable extends Behaviour {
       case 'ArrowLeft':
       case 'ArrowRight':
         rigid.b2RigidBody.SetLinearVelocity({ x: rigid.b2RigidBody.GetLinearVelocity().x * 0.5, y: rigid.b2RigidBody.GetLinearVelocity().y });
+        if (this.mainRoleBinding) {
+          this.mainRoleBinding.action = this.lastAction; // 松开按键时恢复到松开按键前的action
+        }
         break;
       case 'KeyC':
-        // 不处理垂直速度，保持跳跃后的y方向速度
         break;
     }
   }
@@ -59,7 +78,6 @@ export class Walkable extends Behaviour {
       this.isGrounded = false;
     }
 
-    // 添加水平缓冲停止效果
     const velocity = rigid.b2RigidBody.GetLinearVelocity();
     if (velocity.x !== 0) {
       rigid.b2RigidBody.SetLinearVelocity({ x: velocity.x * 0.95, y: velocity.y });
@@ -71,7 +89,7 @@ export class Walkable extends Behaviour {
     const transform = this.gameObject.getBehaviour(Transform);
     const halfHeight = collider.height / 2;
 
-    // 假设地面y坐标为0，实际实现中根据具体情况检查
+    // 假设地面y坐标为0
     return transform.y - halfHeight <= 0;
   }
 

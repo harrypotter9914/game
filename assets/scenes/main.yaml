@@ -24,7 +24,7 @@ children:
           type: MainRolePrefabBinding
           properties:
             userName: WangZe11
-            action: down
+            action: right
             x: 0
             y: -100
       - behaviours: []
