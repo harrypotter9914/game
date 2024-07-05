@@ -3,7 +3,7 @@ behaviours:
     properties:
       x: 0
       y: -0.0
-      scaleX: 1
+      scaleX: 10
       scaleY: 1
       rotation: 0
   - type: RigidBody
@@ -11,6 +11,7 @@ behaviours:
       x: 0
       y: 0
       type: 0
+      gravityScale: 1
   - type: BoxCollider
     properties:
       width: 1000

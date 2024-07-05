@@ -5,3 +5,4 @@ texts:
   - ./assets/prefabs/block.yaml
   - ./assets/prefabs/mainRole.yaml
   - ./assets/animations/avatar.yaml
+excels:
