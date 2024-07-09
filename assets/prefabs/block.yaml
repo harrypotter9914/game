@@ -9,13 +9,16 @@ behaviours:
   - type: RigidBody
     properties:
       x: 0
-      y: 0
+      y: -0.0
       type: 0
       gravityScale: 1
   - type: BoxCollider
     properties:
-      width: 1000
+      tag: ''
+      width: 100000
       height: 100
+      centerX: 0
+      centerY: 0
 children:
   - behaviours:
       - type: Transform

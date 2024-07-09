@@ -18,7 +18,8 @@ children:
       - type: PhysicsWorld
     id: scene
     children:
-      - behaviours: []
+      - tag: "player"  # 添加tag属性
+        behaviours: []
         id: mainRole
         prefab:
           type: MainRolePrefabBinding
@@ -27,13 +28,15 @@ children:
             action: right
             x: 0
             y: -100
-      - behaviours: []
+      - tag: "ground"  # 添加tag属性
+        behaviours: []
         prefab:
           type: BlockPrefabBinding
           properties:
             x: 100
             y: 200
-  - behaviours:
+  - tag: "ui"  # 添加tag属性
+    behaviours:
       - type: Transform
         properties:
           x: 0
