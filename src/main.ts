@@ -2,6 +2,7 @@ import { registerBehaviourClass, AnimationRenderer, BitmapRenderer, BoxCollider,
 import { Walkable } from "./behaviours/Walkable";
 import { BlockPrefabBinding } from "./bindings/BlockPrefabBinding";
 import { MainRolePrefabBinding } from "./bindings/MainRolePrefabBinding";
+import { WallPrefabBinding } from "./bindings/WallPrefabBinding";
 registerBehaviourClass(AnimationRenderer);
 registerBehaviourClass(BitmapRenderer);
 registerBehaviourClass(BoxCollider);
@@ -17,5 +18,6 @@ registerBehaviourClass(Transform);
 registerBehaviourClass(Walkable);
 registerBehaviourClass(BlockPrefabBinding);
 registerBehaviourClass(MainRolePrefabBinding);
+registerBehaviourClass(WallPrefabBinding);
 const engine = new GameEngine();
 engine.start();

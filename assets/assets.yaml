@@ -4,5 +4,6 @@ images:
 texts:
   - ./assets/prefabs/block.yaml
   - ./assets/prefabs/mainRole.yaml
+  - ./assets/prefabs/wall.yaml
   - ./assets/animations/avatar.yaml
 excels:

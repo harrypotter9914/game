@@ -35,6 +35,13 @@ children:
           properties:
             x: 100
             y: 200
+      - tag: "wall"  # 添加tag属性
+        behaviours: []
+        prefab:
+          type: WallPrefabBinding
+          properties:
+            x: 200
+            y: 200
   - tag: "ui"  # 添加tag属性
     behaviours:
       - type: Transform

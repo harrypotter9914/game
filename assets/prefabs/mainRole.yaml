@@ -23,8 +23,9 @@ behaviours:
   - type: Walkable
     properties:
       speed: 2
-      jumpForce: 6
-      wallJumpForce: 5
+      jumpForce: 8
+      wallJumpForce: 20
+      wallSlideSpeed: 1
 children:
   - behaviours:
       - type: Transform
