@@ -14,6 +14,7 @@ behaviours:
       gravityScale: 1
   - type: BoxCollider
     properties:
+      isSensor: 0
       tag: ''
       width: 100
       height: 130
@@ -21,8 +22,8 @@ behaviours:
       centerY: 0
   - type: Walkable
     properties:
-      speed: 5
-      jumpForce: 7
+      speed: 2
+      jumpForce: 6
       wallJumpForce: 5
 children:
   - behaviours:

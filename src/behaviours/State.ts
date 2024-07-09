@@ -2,6 +2,37 @@ import { b2Vec2 } from "@flyover/box2d";
 import { RigidBody } from "../../lib/mygameengine";
 import { Walkable } from "./Walkable";
 
+
+function handleMovement(event: KeyboardEvent, walkable: Walkable) {
+  const rigid = walkable.gameObject.getBehaviour(RigidBody);
+  switch (event.code) {
+      case 'ArrowLeft':
+          rigid.b2RigidBody.SetLinearVelocity(new b2Vec2(-walkable.speed, rigid.b2RigidBody.GetLinearVelocity().y));
+          walkable.lastAction = 'left';
+          walkable.mainRoleBinding!.action = 'left'; 
+          walkable.isMoving = true;
+          break;
+      case 'ArrowRight':
+          rigid.b2RigidBody.SetLinearVelocity(new b2Vec2(walkable.speed, rigid.b2RigidBody.GetLinearVelocity().y));
+          walkable.lastAction = 'right';
+          walkable.mainRoleBinding!.action = 'right'; 
+          walkable.isMoving = true;
+          break;
+  }
+}
+
+function handleMovementKeyUp(event: KeyboardEvent, walkable: Walkable) {
+  switch (event.code) {
+      case 'ArrowLeft':
+      case 'ArrowRight':
+          walkable.isMoving = false;
+          walkable.mainRoleBinding!.action = walkable.lastAction;
+          break;
+  }
+}
+
+
+
 export abstract class State {
   protected walkable: Walkable;
 
@@ -23,35 +54,18 @@ export class GroundState extends State {
 
   handleInput(event: KeyboardEvent) {
     const rigid = this.walkable.gameObject.getBehaviour(RigidBody);
-    switch (event.code) {
-      case 'ArrowLeft':
-        rigid.b2RigidBody.SetLinearVelocity(new b2Vec2(-this.walkable.speed, rigid.b2RigidBody.GetLinearVelocity().y));
-        this.walkable.lastAction = 'left';
-        break;
-      case 'ArrowRight':
-        rigid.b2RigidBody.SetLinearVelocity(new b2Vec2(this.walkable.speed, rigid.b2RigidBody.GetLinearVelocity().y));
-        this.walkable.lastAction = 'right';
-        break;
-      case 'KeyC':
+    handleMovement(event, this.walkable);
+    if (event.code === 'KeyC') {
         this.walkable.jump(rigid);
         this.walkable.changeState(new AirState(this.walkable));
-        break;
     }
   }
 
   handleKeyUp(event: KeyboardEvent) {
-    const rigid = this.walkable.gameObject.getBehaviour(RigidBody);
-    switch (event.code) {
-      case 'ArrowLeft':
-      case 'ArrowRight':
-        rigid.b2RigidBody.SetLinearVelocity(new b2Vec2(rigid.b2RigidBody.GetLinearVelocity().x * 0.5, rigid.b2RigidBody.GetLinearVelocity().y));
-        this.walkable.mainRoleBinding!.action = this.walkable.lastAction; // 松开按键时恢复到松开按键前的action
-        break;
-    }
+    handleMovementKeyUp(event, this.walkable);
   }
 
   update(duringTime: number) {
-    // 在地面时，重置土狼时间
     this.walkable.coyoteTimer = this.walkable.coyoteTime;
   }
 
@@ -63,35 +77,24 @@ class AirState extends State {
 
   handleInput(event: KeyboardEvent) {
     const rigid = this.walkable.gameObject.getBehaviour(RigidBody);
-    switch (event.code) {
-      case 'ArrowLeft':
-        rigid.b2RigidBody.SetLinearVelocity(new b2Vec2(-this.walkable.speed, rigid.b2RigidBody.GetLinearVelocity().y));
-        this.walkable.lastAction = 'left';
-        break;
-      case 'ArrowRight':
-        rigid.b2RigidBody.SetLinearVelocity(new b2Vec2(this.walkable.speed, rigid.b2RigidBody.GetLinearVelocity().y));
-        this.walkable.lastAction = 'right';
-        break;
-      case 'KeyC':
-        if (!this.walkable.airJumped) {
-          this.walkable.jump(rigid, 0.6);
-          this.walkable.airJumped = true;
-          this.walkable.changeState(new DoubleJumpedState(this.walkable)); // 切换到二段跳后的状态
-        }
-        break;
+    handleMovement(event, this.walkable);
+    if (event.code === 'KeyC' && !this.walkable.airJumped) {
+        this.walkable.jump(rigid, 0.6);
+        this.walkable.airJumped = true;
+        this.walkable.changeState(new DoubleJumpedState(this.walkable));
     }
   }
 
   handleKeyUp(event: KeyboardEvent) {
-    // 可以在需要时处理松开按键的逻辑
+    handleMovementKeyUp(event, this.walkable);
   }
 
   update(duringTime: number) {
     this.walkable.coyoteTimer -= duringTime;
     if (this.walkable.isGrounded) {
-      this.walkable.changeState(new GroundState(this.walkable));
+        this.walkable.changeState(new GroundState(this.walkable));
     } else if (this.walkable.isOnWall) {
-      this.walkable.changeState(new WallState(this.walkable));
+        this.walkable.changeState(new WallState(this.walkable));
     }
   }
 
@@ -102,12 +105,10 @@ class WallState extends State {
   enter() {}
 
   handleInput(event: KeyboardEvent) {
-    const rigid = this.walkable.gameObject.getBehaviour(RigidBody);
-    switch (event.code) {
-      case 'KeyC':
+    if (event.code === 'KeyC') {
+        const rigid = this.walkable.gameObject.getBehaviour(RigidBody);
         this.walkable.wallJump(rigid);
         this.walkable.changeState(new AirState(this.walkable));
-        break;
     }
   }
 
@@ -117,7 +118,7 @@ class WallState extends State {
 
   update(duringTime: number) {
     if (!this.walkable.isOnWall) {
-      this.walkable.changeState(new AirState(this.walkable));
+        this.walkable.changeState(new AirState(this.walkable));
     }
   }
 
@@ -128,35 +129,18 @@ class DoubleJumpedState extends State {
   enter() {}
 
   handleInput(event: KeyboardEvent) {
-    const rigid = this.walkable.gameObject.getBehaviour(RigidBody);
-    switch (event.code) {
-      case 'ArrowLeft':
-        rigid.b2RigidBody.SetLinearVelocity(new b2Vec2(-this.walkable.speed, rigid.b2RigidBody.GetLinearVelocity().y));
-        this.walkable.lastAction = 'left';
-        break;
-      case 'ArrowRight':
-        rigid.b2RigidBody.SetLinearVelocity(new b2Vec2(this.walkable.speed, rigid.b2RigidBody.GetLinearVelocity().y));
-        this.walkable.lastAction = 'right';
-        break;
-    }
+    handleMovement(event, this.walkable);
   }
 
   handleKeyUp(event: KeyboardEvent) {
-    const rigid = this.walkable.gameObject.getBehaviour(RigidBody);
-    switch (event.code) {
-      case 'ArrowLeft':
-      case 'ArrowRight':
-        rigid.b2RigidBody.SetLinearVelocity(new b2Vec2(rigid.b2RigidBody.GetLinearVelocity().x * 0.5, rigid.b2RigidBody.GetLinearVelocity().y));
-        this.walkable.mainRoleBinding!.action = this.walkable.lastAction;
-        break;
-    }
+    handleMovementKeyUp(event, this.walkable);
   }
 
   update(duringTime: number) {
     if (this.walkable.isGrounded) {
-      this.walkable.changeState(new GroundState(this.walkable));
+        this.walkable.changeState(new GroundState(this.walkable));
     } else if (this.walkable.isOnWall) {
-      this.walkable.changeState(new WallState(this.walkable));
+        this.walkable.changeState(new WallState(this.walkable));
     }
   }
 
