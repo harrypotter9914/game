@@ -18,7 +18,7 @@ children:
       - type: PhysicsWorld
     id: scene
     children:
-      - tag: "player"  # 添加tag属性
+      - tag: "player"
         behaviours: []
         id: mainRole
         prefab:
@@ -28,49 +28,49 @@ children:
             action: right
             x: 0
             y: -100
-      - tag: "ground"  # 添加tag属性
+      - tag: "ground"
         behaviours: []
         prefab:
           type: BlockPrefabBinding
           properties:
             x: 100
             y: 300
-        - tag: "wall"  # 添加tag属性
+      - tag: "wall"
         behaviours: []
         prefab:
           type: WallPrefabBinding
           properties:
             x: 200
             y: 200
-      - tag: "wall"  # 添加tag属性
+      - tag: "wall"
         behaviours: []
         prefab:
           type: WallPrefabBinding
           properties:
             x: 200
             y: 100
-      - tag: "wall"  # 添加tag属性
+      - tag: "wall"
         behaviours: []
         prefab:
           type: WallPrefabBinding
           properties:
             x: 200
             y: 0
-      - tag: "wall"  # 添加tag属性
+      - tag: "wall"
         behaviours: []
         prefab:
           type: WallPrefabBinding
           properties:
             x: 200
             y: -100
-      - tag: "wall"  # 添加tag属性
+      - tag: "wall"
         behaviours: []
         prefab:
           type: WallPrefabBinding
           properties:
             x: 200
             y: -200
-  - tag: "ui"  # 添加tag属性
+  - tag: "ui"
     behaviours:
       - type: Transform
         properties:
