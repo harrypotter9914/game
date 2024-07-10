@@ -34,6 +34,13 @@ children:
           type: BlockPrefabBinding
           properties:
             x: 100
+            y: 300
+        - tag: "wall"  # 添加tag属性
+        behaviours: []
+        prefab:
+          type: WallPrefabBinding
+          properties:
+            x: 200
             y: 200
       - tag: "wall"  # 添加tag属性
         behaviours: []
@@ -41,7 +48,28 @@ children:
           type: WallPrefabBinding
           properties:
             x: 200
-            y: 200
+            y: 100
+      - tag: "wall"  # 添加tag属性
+        behaviours: []
+        prefab:
+          type: WallPrefabBinding
+          properties:
+            x: 200
+            y: 0
+      - tag: "wall"  # 添加tag属性
+        behaviours: []
+        prefab:
+          type: WallPrefabBinding
+          properties:
+            x: 200
+            y: -100
+      - tag: "wall"  # 添加tag属性
+        behaviours: []
+        prefab:
+          type: WallPrefabBinding
+          properties:
+            x: 200
+            y: -200
   - tag: "ui"  # 添加tag属性
     behaviours:
       - type: Transform

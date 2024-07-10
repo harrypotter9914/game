@@ -131,6 +131,7 @@ export class WallState extends State {
 
     if (!this.walkable.isOnWall) {
         this.walkable.changeState(new AirState(this.walkable));
+        console.log('exit wall state');
     }
   }
 
