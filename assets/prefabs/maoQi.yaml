@@ -1,0 +1,42 @@
+behaviours:
+  - type: Transform
+    properties:
+      x: 0
+      y: 0
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+  - type: RigidBody
+    properties:
+      x: 0
+      y: 0
+      type: 0
+      gravityScale: 1
+  - type: BoxCollider
+    properties:
+      isSensor: 1
+      tag: MaoQi
+      width: 50
+      height: 50
+      centerX: 0
+      centerY: 0
+children:
+  - behaviours:
+      - type: Transform
+        properties:
+          x: -50
+          y: -78
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+  - behaviours:
+      - type: Transform
+        properties:
+          x: -40
+          y: -45
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+      - type: BitmapRenderer
+        properties:
+          source: ./assets/images/MaoQi.png

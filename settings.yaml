@@ -2,4 +2,4 @@ defaultScene: ./assets/scenes/main.yaml
 currentEditSceneOrPrefab: ./assets/prefabs/mainRole.yaml
 gameViewport:
   width: 800
-  height: 800
+  height: 1000

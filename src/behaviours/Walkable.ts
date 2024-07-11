@@ -1,7 +1,8 @@
-import { Behaviour, number, RigidBody, GameObject, PhysicsSystem, Collider } from "../../lib/mygameengine";
+import { Behaviour, number, RigidBody, GameObject, PhysicsSystem, Transform, Collider, getGameObjectById } from "../../lib/mygameengine";
 import { MainRolePrefabBinding } from "../bindings/MainRolePrefabBinding"; 
 import { b2Vec2 } from "@flyover/box2d"; 
 import { State, GroundState, AirState, WallState, CornerState, DoubleJumpedState } from "../behaviours/State";
+import { Camera } from "../../lib/mygameengine"; 
 
 export class Walkable extends Behaviour {
     @number()
@@ -25,6 +26,9 @@ export class Walkable extends Behaviour {
     public coyoteTimer = 0;
     public isMoving = false; // 跟踪是否正在移动
     private currentState: State;
+    public initialJump = true; // 跟踪是否是初始跳跃
+    private cameraTransform: Transform | null = null;
+    private playerTransform: Transform | null = null;
 
     constructor() {
         super();
@@ -52,6 +56,18 @@ export class Walkable extends Behaviour {
             rigidBody.onCollisionEnter = this.handleCollisionEnter.bind(this);
             rigidBody.onCollisionExit = this.handleCollisionExit.bind(this);
         }
+
+         // 获取相机对象
+        const cameraObject = getGameObjectById('camera');
+        if (cameraObject) {
+            this.cameraTransform = cameraObject.getBehaviour(Transform);
+        }
+
+         // 获取玩家对象的 Transform
+         const playerObject = getGameObjectById('mainRole');
+         if (playerObject) {
+             this.playerTransform = playerObject.getBehaviour(Transform);
+         }
     }
 
     handleKeyDown(event: KeyboardEvent) {
@@ -119,7 +135,11 @@ export class Walkable extends Behaviour {
 
         rigid.b2RigidBody.SetLinearVelocity(velocity);
 
-        
+        // 更新相机位置
+        if (this.cameraTransform && this.playerTransform) {
+            this.cameraTransform.x = this.playerTransform.x;
+            this.cameraTransform.y = this.playerTransform.y;
+        }
     }
 
     onDestroy() {

@@ -3,6 +3,7 @@ import { RigidBody } from "../../lib/mygameengine";
 import { Walkable } from "./Walkable";
 
 
+
 function handleMovement(event: KeyboardEvent, walkable: Walkable) {
   const rigid = walkable.gameObject.getBehaviour(RigidBody);
   switch (event.code) {
@@ -24,6 +25,9 @@ function handleMovement(event: KeyboardEvent, walkable: Walkable) {
 function handleMovementKeyUp(event: KeyboardEvent, walkable: Walkable) {
   switch (event.code) {
       case 'ArrowLeft':
+          walkable.isMoving = false;
+          walkable.mainRoleBinding!.action = walkable.lastAction;
+        break;
       case 'ArrowRight':
           walkable.isMoving = false;
           walkable.mainRoleBinding!.action = walkable.lastAction;
@@ -50,6 +54,7 @@ export abstract class State {
 export class GroundState extends State {
   enter() {
     this.walkable.airJumped = false; // 重置空中跳跃状态
+    this.walkable.coyoteTimer = this.walkable.coyoteTime; // 重置土狼时间
   }
 
   handleInput(event: KeyboardEvent) {
@@ -57,7 +62,8 @@ export class GroundState extends State {
     handleMovement(event, this.walkable);
     if (event.code === 'KeyC') {
         this.walkable.jump(rigid);
-        this.walkable.changeState(new AirState(this.walkable));
+        this.walkable.initialJump = false; // 禁用土狼时间
+        console.log('jump');
     }
   }
 
@@ -66,22 +72,33 @@ export class GroundState extends State {
   }
 
   update(duringTime: number) {
-    this.walkable.coyoteTimer = this.walkable.coyoteTime;
+    if (!this.walkable.isGrounded) {
+        this.walkable.changeState(new AirState(this.walkable));
+    }
   }
 
   exit() {}
 }
 
 export class AirState extends State {
+
   enter() {}
 
   handleInput(event: KeyboardEvent) {
-    const rigid = this.walkable.gameObject.getBehaviour(RigidBody);
+   const rigid = this.walkable.gameObject.getBehaviour(RigidBody);
     handleMovement(event, this.walkable);
-    if (event.code === 'KeyC' && !this.walkable.airJumped) {
-        this.walkable.jump(rigid, 0.7);
-        this.walkable.airJumped = true;
-        this.walkable.changeState(new DoubleJumpedState(this.walkable));
+    if (event.code === 'KeyC') {
+        // 如果是初始跳跃并且在土狼时间内，允许跳跃
+        if (this.walkable.initialJump && this.walkable.coyoteTimer > 0) {
+            this.walkable.jump(rigid);
+            this.walkable.initialJump = false; // 禁用土狼时间
+            console.log('coyote time jump');
+        } else if (!this.walkable.airJumped) {
+            this.walkable.jump(rigid, 0.7);
+            console.log('double jump');
+            this.walkable.airJumped = true;
+            this.walkable.changeState(new DoubleJumpedState(this.walkable));
+        }
     }
   }
 
@@ -118,7 +135,6 @@ export class WallState extends State {
   }
 
   handleKeyUp(event: KeyboardEvent) {
-    // 可以在需要时处理松开按键的逻辑
   }
 
   update(duringTime: number) {
