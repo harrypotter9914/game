@@ -86,8 +86,6 @@ export class Walkable extends Behaviour {
         if (otherGameObject.tag === 'wall') {
             this.isOnWall = false;
         }
-
-        // 离开卡墙角状态的逻辑已经在 CornerState 中处理
     }
 
     jump(rigid: RigidBody, multiplier: number = 1) {

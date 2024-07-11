@@ -1,4 +1,5 @@
 import { registerBehaviourClass, AnimationRenderer, BitmapRenderer, BoxCollider, Camera, CapsuleCollider, CircleCollider, EdgeCollider, PhysicsWorld, RigidBody, ShapeRectRenderer, TextRenderer, Transform, GameEngine } from "../lib/mygameengine";
+import { Attackable } from "./behaviours/Attackable";
 import { Walkable } from "./behaviours/Walkable";
 import { BlockPrefabBinding } from "./bindings/BlockPrefabBinding";
 import { MainRolePrefabBinding } from "./bindings/MainRolePrefabBinding";
@@ -15,6 +16,7 @@ registerBehaviourClass(RigidBody);
 registerBehaviourClass(ShapeRectRenderer);
 registerBehaviourClass(TextRenderer);
 registerBehaviourClass(Transform);
+registerBehaviourClass(Attackable);
 registerBehaviourClass(Walkable);
 registerBehaviourClass(BlockPrefabBinding);
 registerBehaviourClass(MainRolePrefabBinding);
