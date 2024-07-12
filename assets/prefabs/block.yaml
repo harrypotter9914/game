@@ -15,8 +15,8 @@ behaviours:
   - type: BoxCollider
     properties:
       isSensor: 0
-      tag: ''
-      width: 100000
+      tag: 'block'
+      width: 10000
       height: 100
       centerX: 0
       centerY: 0

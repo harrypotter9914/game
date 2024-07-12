@@ -20,17 +20,28 @@ behaviours:
       wallSlideSpeed: 1
   - type: CapsuleCollider
     properties:
+      isSensor: 0
+      tag: body
       radius: 10
-      width: 100
-      height: 130
+      width: 90
+      height: 60
       centerX: 0
-      centerY: 0
+      centerY: 70
+  - type: CapsuleCollider
+    properties:
+      isSensor: 0
+      tag: feet
+      radius: 10
+      width: 80
+      height: 60
+      centerX: 0
+      centerY: 5
 children:
   - behaviours:
       - type: Transform
         properties:
           x: -50
-          y: -78
+          y: -110
           scaleX: 1
           scaleY: 1
           rotation: 0

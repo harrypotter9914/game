@@ -30,6 +30,9 @@ export class Walkable extends Behaviour {
     private cameraTransform: Transform | null = null;
     private playerTransform: Transform | null = null;
 
+    private groundContactCount = 0; // 跟踪feet接触的数量
+    private wallContactCount = 0; // 跟踪body接触的数量
+
     constructor() {
         super();
         this.currentState = new GroundState(this); // 初始状态为地面状态
@@ -79,30 +82,38 @@ export class Walkable extends Behaviour {
     }
 
     handleCollisionEnter(other: RigidBody, otherCollider: Collider, self: RigidBody, selfCollider: Collider) {
-        const otherGameObject = other.gameObject;
-        if (otherGameObject.tag === 'ground') {
-            this.isGrounded = true;
-            this.airJumped = false; // 重置空中跳跃状态
+        if (selfCollider.tag === 'feet' && otherCollider.tag === 'block') {
+            this.groundContactCount++;
+            if (this.groundContactCount > 0) {
+                this.isGrounded = true;
+                this.airJumped = false; // 重置空中跳跃状态
+                console.log('grounded');
+            }
         }
-        if (otherGameObject.tag === 'wall') {
-            this.isOnWall = true;
-        }
-
-        // 检查是否需要切换到 CornerState
-        if (this.isGrounded && this.isOnWall) {
-            this.changeState(new CornerState(this));
+        if (selfCollider.tag === 'body' && otherCollider.tag === 'block') {
+            this.wallContactCount++;
+            if (this.wallContactCount > 0) {
+                this.isOnWall = true;
+            }
         }
     }
 
     handleCollisionExit(other: RigidBody, otherCollider: Collider, self: RigidBody, selfCollider: Collider) {
-        const otherGameObject = other.gameObject;
-        if (otherGameObject.tag === 'ground') {
-            this.isGrounded = false;
+        if (selfCollider.tag === 'feet' && otherCollider.tag === 'block') {
+            this.groundContactCount--;
+            if (this.groundContactCount === 0) {
+                this.isGrounded = false;
+                console.log('not grounded');
+            }
         }
-        if (otherGameObject.tag === 'wall') {
-            this.isOnWall = false;
+        if (selfCollider.tag === 'body' && otherCollider.tag === 'block') {
+            this.wallContactCount--;
+            if (this.wallContactCount === 0) {
+                this.isOnWall = false;
+            }
         }
     }
+
 
     jump(rigid: RigidBody, multiplier: number = 1) {
         rigid.b2RigidBody.SetLinearVelocity(new b2Vec2(rigid.b2RigidBody.GetLinearVelocity().x, this.jumpForce * multiplier));
@@ -118,6 +129,9 @@ export class Walkable extends Behaviour {
 
     onTick(duringTime: number) {
         this.currentState.update(duringTime);
+
+        console.log(this.currentState.constructor.name);
+        console.log('isGrounded:', this.isGrounded, 'isOnWall:', this.isOnWall);
 
         const rigid = this.gameObject.getBehaviour(RigidBody);
         let velocity = rigid.b2RigidBody.GetLinearVelocity();

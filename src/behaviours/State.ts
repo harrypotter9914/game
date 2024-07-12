@@ -55,12 +55,14 @@ export class GroundState extends State {
   enter() {
     this.walkable.airJumped = false; // 重置空中跳跃状态
     this.walkable.coyoteTimer = this.walkable.coyoteTime; // 重置土狼时间
+    this.walkable.initialJump = true; // 重置初始跳跃状态
   }
 
   handleInput(event: KeyboardEvent) {
     const rigid = this.walkable.gameObject.getBehaviour(RigidBody);
     handleMovement(event, this.walkable);
     if (event.code === 'KeyC') {
+        console.log('press c');
         this.walkable.jump(rigid);
         this.walkable.initialJump = false; // 禁用土狼时间
         console.log('jump');
@@ -72,8 +74,10 @@ export class GroundState extends State {
   }
 
   update(duringTime: number) {
-    if (!this.walkable.isGrounded) {
+    if (this.walkable.isGrounded === false) {
         this.walkable.changeState(new AirState(this.walkable));
+    } else if (this.walkable.isGrounded === true && this.walkable.isOnWall === true) {
+        this.walkable.changeState(new CornerState(this.walkable));
     }
   }
 
@@ -89,11 +93,11 @@ export class AirState extends State {
     handleMovement(event, this.walkable);
     if (event.code === 'KeyC') {
         // 如果是初始跳跃并且在土狼时间内，允许跳跃
-        if (this.walkable.initialJump && this.walkable.coyoteTimer > 0) {
+        if (this.walkable.initialJump === true && this.walkable.coyoteTimer > 0) {
             this.walkable.jump(rigid);
             this.walkable.initialJump = false; // 禁用土狼时间
             console.log('coyote time jump');
-        } else if (!this.walkable.airJumped) {
+        } else if (this.walkable.initialJump === false && this.walkable.airJumped === false) {
             this.walkable.jump(rigid, 0.7);
             console.log('double jump');
             this.walkable.airJumped = true;
@@ -108,10 +112,13 @@ export class AirState extends State {
 
   update(duringTime: number) {
     this.walkable.coyoteTimer -= duringTime;
-    if (this.walkable.isGrounded) {
+    console.log(this.walkable.coyoteTimer);
+    if (this.walkable.isGrounded === true && this.walkable.isOnWall === false) {
         this.walkable.changeState(new GroundState(this.walkable));
-    } else if (this.walkable.isOnWall) {
+    } else if (this.walkable.isOnWall === true && this.walkable.isGrounded === false) {
         this.walkable.changeState(new WallState(this.walkable));
+    } else if (this.walkable.isGrounded === true && this.walkable.isOnWall === true) {
+      this.walkable.changeState(new CornerState(this.walkable));
     }
   }
 
@@ -125,14 +132,11 @@ export class WallState extends State {
     const rigid = this.walkable.gameObject.getBehaviour(RigidBody);
     handleMovement(event, this.walkable);
     if (event.code === 'KeyC') {
-        const rigid = this.walkable.gameObject.getBehaviour(RigidBody);
-        if (this.walkable.isOnWall && !this.walkable.isGrounded) {
           console.log('wall jump');
           this.walkable.wallJump(rigid);
           this.walkable.changeState(new AirState(this.walkable));
       }
     }
-  }
 
   handleKeyUp(event: KeyboardEvent) {
   }
@@ -145,9 +149,10 @@ export class WallState extends State {
     velocity = new b2Vec2(velocity.x, -this.walkable.wallSlideSpeed);
     rigid.b2RigidBody.SetLinearVelocity(velocity);
 
-    if (!this.walkable.isOnWall) {
-        this.walkable.changeState(new AirState(this.walkable));
-        console.log('exit wall state');
+    if (this.walkable.isGrounded === true && this.walkable.isOnWall === true) {
+      this.walkable.changeState(new CornerState(this.walkable));
+    }else if (this.walkable.isGrounded === false && this.walkable.isOnWall === false) {
+      this.walkable.changeState(new AirState(this.walkable));
     }
   }
 
@@ -164,8 +169,9 @@ export class CornerState extends State {
     const rigid = this.walkable.gameObject.getBehaviour(RigidBody);
     handleMovement(event, this.walkable);
     if (event.code === 'KeyC') {
-      this.walkable.jump(rigid);
-      this.walkable.changeState(new AirState(this.walkable));
+        this.walkable.jump(rigid);
+        this.walkable.initialJump = false; // 禁用土狼时间
+        console.log('jump');
     }
   }
 
@@ -175,8 +181,10 @@ export class CornerState extends State {
 
   update(duringTime: number) {
     // 如果角色不再同时接触墙壁和地面，退出卡墙角状态
-    if (!this.walkable.isGrounded || !this.walkable.isOnWall) {
-      this.walkable.changeState(new GroundState(this.walkable));
+  if (this.walkable.isGrounded === true && this.walkable.isOnWall === false) {
+      this.walkable.changeState(new GroundState(this.walkable));   
+    } else if (this.walkable.isOnWall === true && this.walkable.isGrounded === false) {
+      this.walkable.changeState(new WallState(this.walkable));
     }
   }
 
@@ -197,10 +205,12 @@ export class DoubleJumpedState extends State {
   }
 
   update(duringTime: number) {
-    if (this.walkable.isGrounded) {
+    if (this.walkable.isGrounded === true && this.walkable.isOnWall === false) {
         this.walkable.changeState(new GroundState(this.walkable));
-    } else if (this.walkable.isOnWall) {
+    } else if (this.walkable.isOnWall === true && this.walkable.isGrounded === false) {
         this.walkable.changeState(new WallState(this.walkable));
+    } else if (this.walkable.isGrounded === true && this.walkable.isOnWall === true) {
+      this.walkable.changeState(new CornerState(this.walkable));
     }
   }
 
