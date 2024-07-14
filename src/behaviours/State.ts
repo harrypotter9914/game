@@ -9,14 +9,14 @@ function handleMovement(event: KeyboardEvent, walkable: Walkable) {
   switch (event.code) {
       case 'ArrowLeft':
           rigid.b2RigidBody.SetLinearVelocity(new b2Vec2(-walkable.speed, rigid.b2RigidBody.GetLinearVelocity().y));
-          walkable.lastAction = 'left';
-          walkable.mainRoleBinding!.action = 'left'; 
+          walkable.lastAction = 'leftrun';
+          walkable.mainRoleBinding!.action = 'leftrun'; 
           walkable.isMoving = true;
           break;
       case 'ArrowRight':
           rigid.b2RigidBody.SetLinearVelocity(new b2Vec2(walkable.speed, rigid.b2RigidBody.GetLinearVelocity().y));
-          walkable.lastAction = 'right';
-          walkable.mainRoleBinding!.action = 'right'; 
+          walkable.lastAction = 'rightrun';
+          walkable.mainRoleBinding!.action = 'rightrun'; 
           walkable.isMoving = true;
           break;
   }
@@ -26,11 +26,11 @@ function handleMovementKeyUp(event: KeyboardEvent, walkable: Walkable) {
   switch (event.code) {
       case 'ArrowLeft':
           walkable.isMoving = false;
-          walkable.mainRoleBinding!.action = walkable.lastAction;
+          walkable.mainRoleBinding!.action = 'leftidle';
         break;
       case 'ArrowRight':
           walkable.isMoving = false;
-          walkable.mainRoleBinding!.action = walkable.lastAction;
+          walkable.mainRoleBinding!.action = 'rightidle';
           break;
   }
 }
@@ -56,6 +56,22 @@ export class GroundState extends State {
     this.walkable.airJumped = false; // 重置空中跳跃状态
     this.walkable.coyoteTimer = this.walkable.coyoteTime; // 重置土狼时间
     this.walkable.initialJump = true; // 重置初始跳跃状态
+
+    if (this.walkable.lastAction === 'leftrun' || this.walkable.lastAction === 'leftjump') {
+      this.walkable.mainRoleBinding!.action = 'leftidle';
+      this.walkable.lastAction = 'leftidle';
+      if (this.walkable.isMoving === true) {
+        this.walkable.mainRoleBinding!.action = 'leftrun';
+        this.walkable.lastAction = 'leftrun';
+      }
+    } else {
+      this.walkable.mainRoleBinding!.action = 'rightidle';
+      this.walkable.lastAction = 'rightidle';
+      if (this.walkable.isMoving === true) {
+        this.walkable.mainRoleBinding!.action = 'rightrun';
+        this.walkable.lastAction = 'rightrun';
+      }
+    }
   }
 
   handleInput(event: KeyboardEvent) {
@@ -63,6 +79,13 @@ export class GroundState extends State {
     handleMovement(event, this.walkable);
     if (event.code === 'KeyC') {
         console.log('press c');
+        if (this.walkable.lastAction === 'leftrun' || this.walkable.lastAction === 'leftidle') {
+          this.walkable.mainRoleBinding!.action = 'leftjump';
+          this.walkable.lastAction = 'leftjump';
+        } else {
+          this.walkable.mainRoleBinding!.action = 'rightjump';
+          this.walkable.lastAction = 'rightjump';
+        }
         this.walkable.jump(rigid);
         this.walkable.initialJump = false; // 禁用土狼时间
         console.log('jump');
@@ -94,10 +117,18 @@ export class AirState extends State {
     if (event.code === 'KeyC') {
         // 如果是初始跳跃并且在土狼时间内，允许跳跃
         if (this.walkable.initialJump === true && this.walkable.coyoteTimer > 0) {
+            this.walkable.mainRoleBinding!.action = this.walkable.lastAction === 'leftrun' ? 'leftjump' : 'rightjump';
             this.walkable.jump(rigid);
             this.walkable.initialJump = false; // 禁用土狼时间
             console.log('coyote time jump');
         } else if (this.walkable.initialJump === false && this.walkable.airJumped === false) {
+          if (this.walkable.lastAction === 'leftrun' || this.walkable.lastAction === 'leftjump') {
+            this.walkable.mainRoleBinding!.action = 'leftjump';
+            this.walkable.lastAction = 'leftjump';
+          } else {
+            this.walkable.mainRoleBinding!.action = 'rightjump';
+            this.walkable.lastAction = 'rightjump';
+          }
             this.walkable.jump(rigid, 0.7);
             console.log('double jump');
             this.walkable.airJumped = true;
@@ -169,6 +200,7 @@ export class CornerState extends State {
     const rigid = this.walkable.gameObject.getBehaviour(RigidBody);
     handleMovement(event, this.walkable);
     if (event.code === 'KeyC') {
+      this.walkable.mainRoleBinding!.action = this.walkable.lastAction === 'leftrun' ? 'leftjump' : 'rightjump';
         this.walkable.jump(rigid);
         this.walkable.initialJump = false; // 禁用土狼时间
         console.log('jump');

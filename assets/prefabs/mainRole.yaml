@@ -22,19 +22,19 @@ behaviours:
     properties:
       isSensor: 0
       tag: body
-      radius: 10
-      width: 90
-      height: 60
-      centerX: 0
-      centerY: 70
+      radius: 5
+      width: 40
+      height: 40
+      centerX: 40
+      centerY: 50
   - type: CapsuleCollider
     properties:
       isSensor: 0
       tag: feet
-      radius: 10
-      width: 80
-      height: 60
-      centerX: 0
+      radius: 5
+      width: 20
+      height: 40
+      centerX: 40
       centerY: 5
 children:
   - behaviours:
@@ -47,9 +47,9 @@ children:
           rotation: 0
       - type: AnimationRenderer
         properties:
-          source: ./assets/animations/avatar.jpg
-          config: ./assets/animations/avatar.yaml
-          action: down
+          source: ./assets/animations/chrac.png
+          config: ./assets/animations/chrac.yaml
+          action: leftidle
   - behaviours:
       - type: Transform
         properties:

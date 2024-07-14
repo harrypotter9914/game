@@ -2,10 +2,12 @@ images:
   - ./assets/images/icon.jpg
   - ./assets/images/MaoQi.png
   - ./assets/animations/avatar.jpg
+  - ./assets/animations/chrac.png
 texts:
   - ./assets/prefabs/block.yaml
   - ./assets/prefabs/mainRole.yaml
   - ./assets/prefabs/maoQi.yaml
   - ./assets/prefabs/wall.yaml
   - ./assets/animations/avatar.yaml
+  - ./assets/animations/chrac.yaml
 excels:

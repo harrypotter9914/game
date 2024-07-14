@@ -2,7 +2,6 @@ import { Behaviour, number, RigidBody, GameObject, PhysicsSystem, Transform, Col
 import { MainRolePrefabBinding } from "../bindings/MainRolePrefabBinding"; 
 import { b2Vec2 } from "@flyover/box2d"; 
 import { State, GroundState, AirState, WallState, CornerState, DoubleJumpedState } from "../behaviours/State";
-import { Camera } from "../../lib/mygameengine"; 
 
 export class Walkable extends Behaviour {
     @number()
@@ -21,7 +20,7 @@ export class Walkable extends Behaviour {
     public isOnWall = false;
     public airJumped = false; // 跟踪空中跳跃状态
     public mainRoleBinding: MainRolePrefabBinding | null = null;
-    public lastAction: string = 'right';
+    public lastAction: string = 'rightidle';
     public coyoteTime = 0.1; // 小跳跃时间
     public coyoteTimer = 0;
     public isMoving = false; // 跟踪是否正在移动
@@ -94,6 +93,7 @@ export class Walkable extends Behaviour {
             this.wallContactCount++;
             if (this.wallContactCount > 0) {
                 this.isOnWall = true;
+                console.log('on wall');
             }
         }
     }
@@ -120,12 +120,19 @@ export class Walkable extends Behaviour {
     }
 
     wallJump(rigid: RigidBody) {
-      const direction = this.lastAction === 'left' ? 1 : -1;
-      const horizontalSpeed = this.wallJumpForce * direction;
-      const verticalSpeed = this.jumpForce * 0.7;
-      rigid.b2RigidBody.SetLinearVelocity(new b2Vec2(horizontalSpeed, verticalSpeed));
-      console.log(`wall jump: (${horizontalSpeed}, ${verticalSpeed})`);
-  }
+        let direction: number;
+      
+        if (this.lastAction === 'leftrun' || this.lastAction === 'leftjump' || this.lastAction === 'leftidle') {
+          direction = 1;
+        } else if (this.lastAction === 'rightrun' || this.lastAction === 'rightjump' || this.lastAction === 'rightidle'){
+          direction = -1;
+        }
+
+        const horizontalSpeed = this.wallJumpForce * direction;
+        const verticalSpeed = this.jumpForce * 0.7;
+        rigid.b2RigidBody.SetLinearVelocity(new b2Vec2(horizontalSpeed, verticalSpeed));
+        console.log(`wall jump: (${horizontalSpeed}, ${verticalSpeed})`);
+      }
 
     onTick(duringTime: number) {
         this.currentState.update(duringTime);
@@ -137,9 +144,9 @@ export class Walkable extends Behaviour {
         let velocity = rigid.b2RigidBody.GetLinearVelocity();
 
         if (this.isMoving) {
-            if (this.lastAction === 'left') {
+            if (this.lastAction === 'leftrun') {
                 velocity = new b2Vec2(-this.speed, velocity.y);
-            } else if (this.lastAction === 'right') {
+            } else if (this.lastAction === 'rightrun') {
                 velocity = new b2Vec2(this.speed, velocity.y);
             }
         } else {

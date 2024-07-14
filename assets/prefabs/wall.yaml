@@ -15,22 +15,8 @@ behaviours:
   - type: BoxCollider
     properties:
       isSensor: 0
-      tag: ''
+      tag: 'block'
       width: 100
       height: 100
       centerX: 0
       centerY: 0
-children:
-  - behaviours:
-      - type: Transform
-        properties:
-          x: -500
-          y: -50
-          scaleX: 1
-          scaleY: 1
-          rotation: 0
-      - type: ShapeRectRenderer
-        properties:
-          width: 1000
-          height: 100
-          color: blue

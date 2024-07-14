@@ -1,0 +1,344 @@
+actions:
+  leftattack:
+    fps: 5
+    keyframes:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+  rightattack:
+    fps: 5
+    keyframes:
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+  leftsufferattack:
+    fps: 2
+    keyframes:
+      - 10
+      - 11
+  rightsufferattack:
+    fps: 2
+    keyframes:
+      - 12
+      - 13
+  leftdownattack:
+    fps: 7
+    keyframes:
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+  rightdownattack:
+    fps: 7
+    keyframes:
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 27
+  leftjump:
+    fps: 5
+    keyframes:
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+  rightjump:
+    fps: 5
+    keyframes:
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+  leftrun:
+    fps: 4
+    keyframes:
+      - 38
+      - 39
+      - 40
+      - 41
+  rightrun:
+    fps: 4
+    keyframes:
+      - 42
+      - 43
+      - 44
+      - 45
+  leftidle:
+    fps: 2
+    keyframes:
+      - 46
+      - 47
+  rightidle:
+    fps: 2
+    keyframes:
+      - 48
+      - 49
+  leftupattack:
+    fps: 2
+    keyframes:
+      - 50
+      - 51
+      - 52
+      - 53
+      - 54
+  rightupattack:
+    fps: 2
+    keyframes:
+      - 55
+      - 56
+      - 57
+      - 58
+      - 59
+spritesheet:
+  - x: 0
+    y: 0
+    width: 180
+    height: 140
+  - x: 180
+    y: 0
+    width: 180
+    height: 140
+  - x: 360
+    y: 0
+    width: 180
+    height: 140
+  - x: 540
+    y: 0
+    width: 180
+    height: 140
+  - x: 720
+    y: 0
+    width: 180
+    height: 140
+  - x: 0
+    y: 140
+    width: 180
+    height: 140
+  - x: 180
+    y: 140
+    width: 180
+    height: 140
+  - x: 360
+    y: 140
+    width: 180
+    height: 140
+  - x: 540
+    y: 140
+    width: 180
+    height: 140
+  - x: 720
+    y: 140
+    width: 180
+    height: 140
+  - x: 0
+    y: 280
+    width: 180
+    height: 140
+  - x: 180
+    y: 280
+    width: 180
+    height: 140
+  - x: 0
+    y: 420
+    width: 180
+    height: 140
+  - x: 180
+    y: 420
+    width: 180
+    height: 140
+  - x: 0
+    y: 560
+    width: 180
+    height: 140
+  - x: 180
+    y: 560
+    width: 180
+    height: 140
+  - x: 360
+    y: 560
+    width: 180
+    height: 140
+  - x: 540
+    y: 560
+    width: 180
+    height: 140
+  - x: 720
+    y: 560
+    width: 180
+    height: 140
+  - x: 900
+    y: 560
+    width: 180
+    height: 140
+  - x: 1080
+    y: 560
+    width: 180
+    height: 140
+  - x: 0
+    y: 700
+    width: 180
+    height: 140
+  - x: 180
+    y: 700
+    width: 180
+    height: 140
+  - x: 360
+    y: 700
+    width: 180
+    height: 140
+  - x: 540
+    y: 700
+    width: 180
+    height: 140
+  - x: 720
+    y: 700
+    width: 180
+    height: 140
+  - x: 900
+    y: 700
+    width: 180
+    height: 140
+  - x: 1080
+    y: 700
+    width: 180
+    height: 140
+  - x: 0
+    y: 840
+    width: 180
+    height: 140
+  - x: 180
+    y: 840
+    width: 180
+    height: 140
+  - x: 360
+    y: 840
+    width: 180
+    height: 140
+  - x: 540
+    y: 840
+    width: 180
+    height: 140
+  - x: 720
+    y: 840
+    width: 180
+    height: 140
+  - x: 0
+    y: 980
+    width: 180
+    height: 140
+  - x: 180
+    y: 980
+    width: 180
+    height: 140
+  - x: 360
+    y: 980
+    width: 180
+    height: 140
+  - x: 540
+    y: 980
+    width: 180
+    height: 140
+  - x: 720
+    y: 980
+    width: 180
+    height: 140
+  - x: 0
+    y: 1120
+    width: 180
+    height: 140
+  - x: 180
+    y: 1120
+    width: 180
+    height: 140
+  - x: 360
+    y: 1120
+    width: 180
+    height: 140
+  - x: 540
+    y: 1120
+    width: 180
+    height: 140
+  - x: 0
+    y: 1260
+    width: 180
+    height: 140
+  - x: 180
+    y: 1260
+    width: 180
+    height: 140
+  - x: 360
+    y: 1260
+    width: 180
+    height: 140
+  - x: 540
+    y: 1260
+    width: 180
+    height: 140
+  - x: 0
+    y: 1400
+    width: 180
+    height: 140
+  - x: 180
+    y: 1400
+    width: 180
+    height: 140
+  - x: 0
+    y: 1540
+    width: 180
+    height: 140
+  - x: 180
+    y: 1540
+    width: 180
+    height: 140
+  - x: 0
+    y: 1680
+    width: 180
+    height: 140
+  - x: 180
+    y: 1680
+    width: 180
+    height: 140
+  - x: 360
+    y: 1680
+    width: 180
+    height: 140
+  - x: 540
+    y: 1680
+    width: 180
+    height: 140
+  - x: 720
+    y: 1680
+    width: 180
+    height: 140
+  - x: 0
+    y: 1820
+    width: 180
+    height: 140
+  - x: 180
+    y: 1820
+    width: 180
+    height: 140
+  - x: 360
+    y: 1820
+    width: 180
+    height: 140
+  - x: 540
+    y: 1820
+    width: 180
+    height: 140
+  - x: 720
+    y: 1820
+    width: 180
+    height: 140
