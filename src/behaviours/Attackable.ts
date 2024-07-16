@@ -1,10 +1,18 @@
 import { Behaviour } from "../../lib/mygameengine";
 import { MainRolePrefabBinding } from "../bindings/MainRolePrefabBinding";
+import { Walkable } from "./Walkable";
+import { AirState, GroundState, WallState } from "./State";
 
 export class Attackable extends Behaviour {
     private attackPower: number = 10;
     private attackSpeed: number = 1;
     public mainRoleBinding: MainRolePrefabBinding | null = null;
+    private walkable: Walkable;
+
+    constructor(walkable: Walkable) {
+        super();
+        this.walkable = walkable;
+    }
 
     onStart() {
         this.mainRoleBinding = this.gameObject.getBehaviour(MainRolePrefabBinding);
@@ -17,29 +25,37 @@ export class Attackable extends Behaviour {
 
     handleKeyDown(event: KeyboardEvent) {
         if (event.code === 'KeyX') {
-            this.attack();
+            const upPressed = this.walkable.upArrowPressed;
+            const downPressed = this.walkable.downArrowPressed;
+
+            if (this.walkable.currentState instanceof WallState) {
+                // 墙上状态不能攻击
+                return;
+            }
+
+            if (downPressed && this.walkable.currentState instanceof AirState) {
+                // 空中下攻击
+                this.attack(this.walkable.lastAction.includes('left') ? 'leftdownattack' : 'rightdownattack');
+            } else if (upPressed) {
+                // 上攻击
+                this.attack(this.walkable.lastAction.includes('left') ? 'leftupattack' : 'rightupattack');
+            } else {
+                // 普通攻击
+                this.attack(this.walkable.lastAction.includes('left') ? 'leftattack' : 'rightattack');
+            }
         }
     }
 
-    // 攻击方法
-    attack() {
-        // 播放攻击动画逻辑
-        console.log("Attack with power:", this.attackPower);
-        this.playAttackAnimation();
-    }
-
-    // 播放攻击动画方法
-    playAttackAnimation() {
+    attack(action: string) {
         if (this.mainRoleBinding) {
-            this.mainRoleBinding.action = 'attack';
+            this.mainRoleBinding.action = action;
             setTimeout(() => {
-                this.mainRoleBinding.action = 'idle'; // 攻击结束后恢复到idle状态
+                this.mainRoleBinding.action = this.walkable.lastAction.includes('left') ? 'leftidle' : 'rightidle'; // 攻击结束后恢复到idle状态
             }, 500 / this.attackSpeed); // 根据攻击速度调整动画持续时间
         }
-        console.log("Playing attack animation.");
+        console.log(`Playing ${action} animation with power: ${this.attackPower}`);
     }
 
-    // 可以添加其他与攻击相关的方法，如设置攻击力和攻击速度
     setAttackPower(power: number) {
         this.attackPower = power;
     }

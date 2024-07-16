@@ -19,6 +19,12 @@ function handleMovement(event: KeyboardEvent, walkable: Walkable) {
           walkable.mainRoleBinding!.action = 'rightrun'; 
           walkable.isMoving = true;
           break;
+      case 'ArrowUp':
+          walkable.upArrowPressed = true;
+          break;
+      case 'ArrowDown':
+          walkable.downArrowPressed = true;
+          break;
   }
 }
 
@@ -31,6 +37,12 @@ function handleMovementKeyUp(event: KeyboardEvent, walkable: Walkable) {
       case 'ArrowRight':
           walkable.isMoving = false;
           walkable.mainRoleBinding!.action = 'rightidle';
+          break;
+      case 'ArrowUp':
+          walkable.upArrowPressed = false;
+          break;
+      case 'ArrowDown':
+          walkable.downArrowPressed = false;
           break;
   }
 }
@@ -129,7 +141,7 @@ export class AirState extends State {
             this.walkable.mainRoleBinding!.action = 'rightjump';
             this.walkable.lastAction = 'rightjump';
           }
-            this.walkable.jump(rigid, 0.7);
+            this.walkable.jump(rigid, 0.9);
             console.log('double jump');
             this.walkable.airJumped = true;
             this.walkable.changeState(new DoubleJumpedState(this.walkable));
@@ -161,24 +173,55 @@ export class WallState extends State {
 
   handleInput(event: KeyboardEvent) {
     const rigid = this.walkable.gameObject.getBehaviour(RigidBody);
-    handleMovement(event, this.walkable);
-    if (event.code === 'KeyC') {
-          console.log('wall jump');
-          this.walkable.wallJump(rigid);
-          this.walkable.changeState(new AirState(this.walkable));
+
+    if (event.type === 'keydown') {
+      if (event.code === 'ArrowLeft') {
+          this.walkable.leftArrowPressed = true;
+      } else if (event.code === 'ArrowRight') {
+          this.walkable.rightArrowPressed = true;
+      } else if (event.code === 'ArrowUp') {
+          this.walkable.upArrowPressed = true;
+      } else if (event.code === 'ArrowDown') {
+          this.walkable.downArrowPressed = true;
+      } else if (event.code === 'KeyC') {
+          // 按下C键时，检测左右箭头键的状态决定墙跳方向
+          if (this.walkable.leftArrowPressed || this.walkable.rightArrowPressed) {
+              console.log('wall jump');
+              this.walkable.wallJump(rigid);
+              this.walkable.changeState(new AirState(this.walkable));
+          }
       }
+  } else if (event.type === 'keyup') {
+      if (event.code === 'ArrowLeft') {
+          this.walkable.leftArrowPressed = false;
+      } else if (event.code === 'ArrowRight') {
+          this.walkable.rightArrowPressed = false;
+      } else if (event.code === 'ArrowUp') {
+          this.walkable.upArrowPressed = false;
+      } else if (event.code === 'ArrowDown') {
+          this.walkable.downArrowPressed = false;
+      }
+  }
+
+    handleMovement(event, this.walkable);
     }
 
   handleKeyUp(event: KeyboardEvent) {
+      // 处理键盘抬起事件
+      if (event.code === 'ArrowLeft') {
+        this.walkable.leftArrowPressed = false;
+    } else if (event.code === 'ArrowRight') {
+        this.walkable.rightArrowPressed = false;
+    } else if (event.code === 'ArrowUp') {
+        this.walkable.upArrowPressed = false;
+    } else if (event.code === 'ArrowDown') {
+        this.walkable.downArrowPressed = false;
+    }
   }
 
   update(duringTime: number) {
     const rigid = this.walkable.gameObject.getBehaviour(RigidBody);
-    let velocity = rigid.b2RigidBody.GetLinearVelocity();
 
-    // 在墙上时应用滑动速度
-    velocity = new b2Vec2(velocity.x, -this.walkable.wallSlideSpeed);
-    rigid.b2RigidBody.SetLinearVelocity(velocity);
 
     if (this.walkable.isGrounded === true && this.walkable.isOnWall === true) {
       this.walkable.changeState(new CornerState(this.walkable));
@@ -200,7 +243,7 @@ export class CornerState extends State {
     const rigid = this.walkable.gameObject.getBehaviour(RigidBody);
     handleMovement(event, this.walkable);
     if (event.code === 'KeyC') {
-      this.walkable.mainRoleBinding!.action = this.walkable.lastAction === 'leftrun' ? 'leftjump' : 'rightjump';
+        this.walkable.mainRoleBinding!.action = this.walkable.lastAction === 'leftrun' ? 'leftjump' : 'rightjump';
         this.walkable.jump(rigid);
         this.walkable.initialJump = false; // 禁用土狼时间
         console.log('jump');

@@ -1,7 +1,6 @@
-import { registerBehaviourClass, AnimationRenderer, BitmapRenderer, BoxCollider, Camera, CapsuleCollider, CircleCollider, EdgeCollider, PhysicsWorld, RigidBody, ShapeRectRenderer, TextRenderer, Transform, GameEngine } from "../lib/mygameengine";
+import { registerBehaviourClass, AnimationRenderer, Binding, BitmapRenderer, BoxCollider, Camera, CapsuleCollider, CircleCollider, EdgeCollider, PhysicsWorld, RigidBody, ShapeRectRenderer, TextRenderer, Transform, GameEngine } from "../lib/mygameengine";
 import { Attackable } from "./behaviours/Attackable";
 import { Walkable } from "./behaviours/Walkable";
-import { Binding } from "./bindings/Binding";
 import { BlockPrefabBinding } from "./bindings/BlockPrefabBinding";
 import { MainRolePrefabBinding } from "./bindings/MainRolePrefabBinding";
 import { MaoQiPrefabBinding } from "./bindings/MaoQiPrefabBinding";

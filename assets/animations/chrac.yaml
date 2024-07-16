@@ -1,6 +1,6 @@
 actions:
   leftattack:
-    fps: 5
+    fps: 10
     keyframes:
       - 0
       - 1
@@ -8,7 +8,7 @@ actions:
       - 3
       - 4
   rightattack:
-    fps: 5
+    fps: 10
     keyframes:
       - 5
       - 6
@@ -26,7 +26,7 @@ actions:
       - 12
       - 13
   leftdownattack:
-    fps: 7
+    fps: 15
     keyframes:
       - 14
       - 15
@@ -36,7 +36,7 @@ actions:
       - 19
       - 20
   rightdownattack:
-    fps: 7
+    fps: 15
     keyframes:
       - 21
       - 22
@@ -46,7 +46,7 @@ actions:
       - 26
       - 27
   leftjump:
-    fps: 5
+    fps: 4
     keyframes:
       - 28
       - 29
@@ -54,7 +54,7 @@ actions:
       - 31
       - 32
   rightjump:
-    fps: 5
+    fps: 4
     keyframes:
       - 33
       - 34
@@ -86,7 +86,7 @@ actions:
       - 48
       - 49
   leftupattack:
-    fps: 2
+    fps: 10
     keyframes:
       - 50
       - 51
@@ -94,7 +94,7 @@ actions:
       - 53
       - 54
   rightupattack:
-    fps: 2
+    fps: 10
     keyframes:
       - 55
       - 56

@@ -11,11 +11,11 @@ behaviours:
       x: 0
       y: 0
       type: 2
-      gravityScale: 1
+      gravityScale: 10
   - type: Walkable
     properties:
-      speed: 2
-      jumpForce: 8
+      speed: 10
+      jumpForce: 26
       wallJumpForce: 20
       wallSlideSpeed: 1
   - type: CapsuleCollider
@@ -36,6 +36,7 @@ behaviours:
       height: 40
       centerX: 40
       centerY: 5
+  - type: Attackable
 children:
   - behaviours:
       - type: Transform
@@ -61,3 +62,4 @@ children:
       - type: TextRenderer
         properties:
           text: Player
+          color: ''

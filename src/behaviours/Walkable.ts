@@ -2,6 +2,7 @@ import { Behaviour, number, RigidBody, GameObject, PhysicsSystem, Transform, Col
 import { MainRolePrefabBinding } from "../bindings/MainRolePrefabBinding"; 
 import { b2Vec2 } from "@flyover/box2d"; 
 import { State, GroundState, AirState, WallState, CornerState, DoubleJumpedState } from "../behaviours/State";
+import { Attackable } from "./Attackable";
 
 export class Walkable extends Behaviour {
     @number()
@@ -24,10 +25,15 @@ export class Walkable extends Behaviour {
     public coyoteTime = 0.1; // 小跳跃时间
     public coyoteTimer = 0;
     public isMoving = false; // 跟踪是否正在移动
-    private currentState: State;
+    public currentState: State;
     public initialJump = true; // 跟踪是否是初始跳跃
     private cameraTransform: Transform | null = null;
     private playerTransform: Transform | null = null;
+    private cameraZoomedOut = false; // 跟踪摄像机是否缩放
+    public leftArrowPressed: boolean = false;
+    public rightArrowPressed: boolean = false;
+    public upArrowPressed: boolean = false;
+    public downArrowPressed: boolean = false;
 
     private groundContactCount = 0; // 跟踪feet接触的数量
     private wallContactCount = 0; // 跟踪body接触的数量
@@ -70,14 +76,24 @@ export class Walkable extends Behaviour {
          if (playerObject) {
              this.playerTransform = playerObject.getBehaviour(Transform);
          }
+
+         // 添加 Attackable 行为
+        const attackable = new Attackable(this);
+        this.gameObject.addBehaviour(attackable);
     }
 
     handleKeyDown(event: KeyboardEvent) {
         this.currentState.handleInput(event);
+        if (event.key === 'z') { // 假设按下 'z' 键缩放摄像机
+            this.cameraZoomedOut = true;
+        }
     }
 
     handleKeyUp(event: KeyboardEvent) {
         this.currentState.handleKeyUp(event);
+        if (event.key === 'z') {
+            this.cameraZoomedOut = false;
+        }
     }
 
     handleCollisionEnter(other: RigidBody, otherCollider: Collider, self: RigidBody, selfCollider: Collider) {
@@ -120,12 +136,12 @@ export class Walkable extends Behaviour {
     }
 
     wallJump(rigid: RigidBody) {
-        let direction: number;
-      
-        if (this.lastAction === 'leftrun' || this.lastAction === 'leftjump' || this.lastAction === 'leftidle') {
-          direction = 1;
-        } else if (this.lastAction === 'rightrun' || this.lastAction === 'rightjump' || this.lastAction === 'rightidle'){
-          direction = -1;
+        let direction: number = 0; // 默认为0，如果没有按下方向键则不施加水平力
+
+        if (this.leftArrowPressed) {
+            direction = 1;
+        } else if (this.rightArrowPressed) {
+            direction = -1;
         }
 
         const horizontalSpeed = this.wallJumpForce * direction;
@@ -156,10 +172,19 @@ export class Walkable extends Behaviour {
 
         rigid.b2RigidBody.SetLinearVelocity(velocity);
 
+      
         // 更新相机位置
         if (this.cameraTransform && this.playerTransform) {
-            this.cameraTransform.x = this.playerTransform.x;
-            this.cameraTransform.y = this.playerTransform.y;
+            this.cameraTransform.x = this.lerp(this.cameraTransform.x, this.playerTransform.x, 0.1);
+            this.cameraTransform.y = this.lerp(this.cameraTransform.y, this.playerTransform.y, 0.1);
+
+            if (this.cameraZoomedOut) {
+                this.cameraTransform.scaleX = 100;
+                this.cameraTransform.scaleY = 100;
+            } else {
+                this.cameraTransform.scaleX = 1;
+                this.cameraTransform.scaleY = 1;
+            }
         }
     }
 
@@ -167,4 +192,9 @@ export class Walkable extends Behaviour {
         document.removeEventListener('keydown', this.handleKeyDown.bind(this));
         document.removeEventListener('keyup', this.handleKeyUp.bind(this));
     }
+
+    lerp(start: number, end: number, t: number): number {
+        return start + t * (end - start);
+    }
+
 }
