@@ -16,10 +16,13 @@ children:
           scaleY: 1
           rotation: 0
       - type: PhysicsWorld
+        properties:
+          gravityX: 0
+          gravityY: -10
+          debug: 1
     id: scene
     children:
-      - tag: "player"
-        behaviours: []
+      - behaviours: []
         id: mainRole
         prefab:
           type: MainRolePrefabBinding
@@ -28,19 +31,26 @@ children:
             action: rightidle
             x: 100
             y: 100
-      - tag: wall
-        behaviours: []
+      - behaviours: []
         prefab:
           type: WallPrefabBinding
           properties:
             x: 0
             y: 0
-  - tag: "ui"
-    behaviours:
+      - behaviours: []
+        id: enemy
+        prefab:
+          type: EnemyPrefabBinding
+          properties:
+            userName: enemy
+            action: rightpatrol
+            x: 1000
+            y: 100
+  - behaviours:
       - type: Transform
         properties:
           x: 0
-          y: 200
+          y: 500
           scaleX: 1
           scaleY: 1
           rotation: 0
@@ -55,3 +65,20 @@ children:
           rotation: 0
       - type: Camera
     id: camera
+    children:
+      - behaviours:
+          - type: Transform
+            properties:
+              x: -100
+              y: 0
+              scaleX: 1
+              scaleY: 1
+              rotation: 0
+      - behaviours:
+          - type: Transform
+            properties:
+              x: 0
+              y: 0
+              scaleX: 1
+              scaleY: 1
+              rotation: 0

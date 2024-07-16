@@ -3,11 +3,14 @@ images:
   - ./assets/images/MaoQi.png
   - ./assets/animations/avatar.jpg
   - ./assets/animations/chrac.png
+  - ./assets/animations/enemy1.png
 texts:
   - ./assets/prefabs/block.yaml
+  - ./assets/prefabs/enemy.yaml
   - ./assets/prefabs/mainRole.yaml
   - ./assets/prefabs/maoQi.yaml
   - ./assets/prefabs/wall.yaml
   - ./assets/animations/avatar.yaml
   - ./assets/animations/chrac.yaml
+  - ./assets/animations/enemy1.yaml
 excels:

@@ -63220,3 +63220,15 @@ behaviours:
       height: 100
       centerX: 2400
       centerY: 900
+children:
+  - behaviours:
+      - type: Transform
+        properties:
+          x: -500
+          y: 500
+          scaleX: 10
+          scaleY: 1
+          rotation: 0
+      - type: BitmapRenderer
+        properties: 
+          source: ./assets/images/icon.jpg

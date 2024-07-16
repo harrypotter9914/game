@@ -1,0 +1,176 @@
+actions:
+  leftattack:
+    fps: 10
+    keyframes:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+  rightattack:
+    fps: 10
+    keyframes:
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+  leftsufferattack:
+    fps: 10
+    keyframes:
+      - 10
+      - 11
+  rightsufferattack:
+    fps: 10
+    keyframes:
+      - 12
+      - 13
+  leftpatrol:
+    fps: 5
+    keyframes:
+      - 14
+      - 15
+      - 16
+      - 17
+  rightpatrol:
+    fps: 5
+    keyframes:
+      - 18
+      - 19
+      - 20
+      - 21
+  leftrun:
+    fps: 10
+    keyframes:
+      - 22
+      - 23
+      - 24
+      - 25
+  rightrun:
+    fps: 10
+    keyframes:
+      - 26
+      - 27
+      - 28
+      - 29
+spritesheet:
+  - x: 0
+    y: 0
+    width: 180
+    height: 140
+  - x: 180
+    y: 0
+    width: 180
+    height: 140
+  - x: 360
+    y: 0
+    width: 180
+    height: 140
+  - x: 540
+    y: 0
+    width: 180
+    height: 140
+  - x: 720
+    y: 0
+    width: 180
+    height: 140
+  - x: 0
+    y: 140
+    width: 180
+    height: 140
+  - x: 180
+    y: 140
+    width: 180
+    height: 140
+  - x: 360
+    y: 140
+    width: 180
+    height: 140
+  - x: 540
+    y: 140
+    width: 180
+    height: 140
+  - x: 720
+    y: 140
+    width: 180
+    height: 140
+  - x: 0
+    y: 280
+    width: 180
+    height: 140
+  - x: 180
+    y: 280
+    width: 180
+    height: 140
+  - x: 0
+    y: 420
+    width: 180
+    height: 140
+  - x: 180
+    y: 420
+    width: 180
+    height: 140
+  - x: 0
+    y: 560
+    width: 180
+    height: 140
+  - x: 180
+    y: 560
+    width: 180
+    height: 140
+  - x: 360
+    y: 560
+    width: 180
+    height: 140
+  - x: 540
+    y: 560
+    width: 180
+    height: 140
+  - x: 0
+    y: 700
+    width: 180
+    height: 140
+  - x: 180
+    y: 700
+    width: 180
+    height: 140
+  - x: 360
+    y: 700
+    width: 180
+    height: 140
+  - x: 540
+    y: 700
+    width: 180
+    height: 140
+  - x: 0
+    y: 840
+    width: 180
+    height: 140
+  - x: 180
+    y: 840
+    width: 180
+    height: 140
+  - x: 360
+    y: 840
+    width: 180
+    height: 140
+  - x: 540
+    y: 840
+    width: 180
+    height: 140
+  - x: 0
+    y: 980
+    width: 180
+    height: 140
+  - x: 180
+    y: 980
+    width: 180
+    height: 140
+  - x: 360
+    y: 980
+    width: 180
+    height: 140
+  - x: 540
+    y: 980
+    width: 180
+    height: 140
