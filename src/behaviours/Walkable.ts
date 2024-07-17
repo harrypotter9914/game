@@ -17,6 +17,7 @@ export class Walkable extends Behaviour {
     @number()
     wallSlideSpeed = 2; // 角色在墙上的滑动速度
 
+    private attackable: Attackable;
     public isGrounded = false;
     public isOnWall = false;
     public airJumped = false; // 跟踪空中跳跃状态
@@ -80,6 +81,7 @@ export class Walkable extends Behaviour {
          // 添加 Attackable 行为
         const attackable = new Attackable(this);
         this.gameObject.addBehaviour(attackable);
+        this.attackable = attackable;
     }
 
     handleKeyDown(event: KeyboardEvent) {

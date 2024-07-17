@@ -6,7 +6,31 @@ behaviours:
       scaleX: 1
       scaleY: 1
       rotation: 0
+  - type: GameManager
 children:
+  - behaviours:
+      - type: Transform
+        properties:
+          x: 0
+          y: 0
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+      - type: MainMenuStateMachine
+    id: mainmenu
+    children:
+      - behaviours:
+          - type: Transform
+            properties:
+              x: -1280
+              y: -720
+              scaleX: 1
+              scaleY: 1
+              rotation: 0
+          - type: BitmapRenderer
+            properties:
+              source: ./assets/images/nosellect.jpg
+        id: menuImage
   - behaviours:
       - type: Transform
         properties:
@@ -23,6 +47,12 @@ children:
     id: scene
     children:
       - behaviours: []
+        prefab:
+          type: WallPrefabBinding
+          properties:
+            x: 0
+            y: 0
+      - behaviours: []
         id: mainRole
         prefab:
           type: MainRolePrefabBinding
@@ -32,12 +62,6 @@ children:
             x: 100
             y: 100
       - behaviours: []
-        prefab:
-          type: WallPrefabBinding
-          properties:
-            x: 0
-            y: 0
-      - behaviours: []
         id: enemy
         prefab:
           type: EnemyPrefabBinding
@@ -46,6 +70,16 @@ children:
             action: rightpatrol
             x: 1000
             y: 100
+      - behaviours: []
+        id: maoQi
+        prefab:
+          type: MaoQiPrefabBinding
+          properties:
+            x: 0
+            y: 0
+            rotation: 0
+            scaleX: 1
+            scaleY: 1
   - behaviours:
       - type: Transform
         properties:

@@ -24,14 +24,6 @@ children:
   - behaviours:
       - type: Transform
         properties:
-          x: -50
-          y: -78
-          scaleX: 1
-          scaleY: 1
-          rotation: 0
-  - behaviours:
-      - type: Transform
-        properties:
           x: -40
           y: -45
           scaleX: 1

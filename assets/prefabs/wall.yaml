@@ -63224,11 +63224,11 @@ children:
   - behaviours:
       - type: Transform
         properties:
-          x: -500
-          y: 500
-          scaleX: 10
-          scaleY: 1
+          x: -53120
+          y: -8590
+          scaleX: 64.5
+          scaleY: 6.45
           rotation: 0
       - type: BitmapRenderer
         properties: 
-          source: ./assets/images/icon.jpg
+          source: ./assets/images/subviewport_export.png

@@ -1,6 +1,8 @@
 import { registerBehaviourClass, AnimationRenderer, Binding, BitmapRenderer, BoxCollider, Camera, CapsuleCollider, CircleCollider, EdgeCollider, PhysicsWorld, RigidBody, ShapeRectRenderer, TextRenderer, Transform, GameEngine } from "../lib/mygameengine";
 import { Attackable } from "./behaviours/Attackable";
 import { Enemy } from "./behaviours/Enemy";
+import { GameManager } from "./behaviours/GameManager";
+import { MainMenuStateMachine } from "./behaviours/MainMenuState";
 import { Walkable } from "./behaviours/Walkable";
 import { BlockPrefabBinding } from "./bindings/BlockPrefabBinding";
 import { EnemyPrefabBinding } from "./bindings/EnemyPrefabBinding";
@@ -22,6 +24,8 @@ registerBehaviourClass(TextRenderer);
 registerBehaviourClass(Transform);
 registerBehaviourClass(Attackable);
 registerBehaviourClass(Enemy);
+registerBehaviourClass(GameManager);
+registerBehaviourClass(MainMenuStateMachine);
 registerBehaviourClass(Walkable);
 registerBehaviourClass(Binding);
 registerBehaviourClass(BlockPrefabBinding);

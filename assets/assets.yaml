@@ -1,6 +1,10 @@
 images:
   - ./assets/images/icon.jpg
   - ./assets/images/MaoQi.png
+  - ./assets/images/nosellect.jpg
+  - ./assets/images/quitgame.jpg
+  - ./assets/images/startgame.jpg
+  - ./assets/images/subviewport_export.png
   - ./assets/animations/avatar.jpg
   - ./assets/animations/chrac.png
   - ./assets/animations/enemy1.png
