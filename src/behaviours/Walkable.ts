@@ -84,6 +84,10 @@ export class Walkable extends Behaviour {
         this.attackable = attackable;
     }
 
+    getLastAttackDirection(): string {
+        return this.attackable.lastAttackDirection;
+    }
+
     handleKeyDown(event: KeyboardEvent) {
         this.currentState.handleInput(event);
         if (event.key === 'z') { // 假设按下 'z' 键缩放摄像机
@@ -154,9 +158,6 @@ export class Walkable extends Behaviour {
 
     onTick(duringTime: number) {
         this.currentState.update(duringTime);
-
-        console.log(this.currentState.constructor.name);
-        console.log('isGrounded:', this.isGrounded, 'isOnWall:', this.isOnWall);
 
         const rigid = this.gameObject.getBehaviour(RigidBody);
         let velocity = rigid.b2RigidBody.GetLinearVelocity();

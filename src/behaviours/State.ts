@@ -155,7 +155,6 @@ export class AirState extends State {
 
   update(duringTime: number) {
     this.walkable.coyoteTimer -= duringTime;
-    console.log(this.walkable.coyoteTimer);
     if (this.walkable.isGrounded === true && this.walkable.isOnWall === false) {
         this.walkable.changeState(new GroundState(this.walkable));
     } else if (this.walkable.isOnWall === true && this.walkable.isGrounded === false) {

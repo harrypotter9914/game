@@ -7,6 +7,7 @@ behaviours:
       scaleY: 1
       rotation: 0
   - type: GameManager
+id: gameManager
 children:
   - behaviours:
       - type: Transform
@@ -52,8 +53,8 @@ children:
           properties:
             x: 0
             y: 0
+        id: wall
       - behaviours: []
-        id: mainRole
         prefab:
           type: MainRolePrefabBinding
           properties:
@@ -61,8 +62,8 @@ children:
             action: rightidle
             x: 100
             y: 100
+        id: mainRole    
       - behaviours: []
-        id: enemy
         prefab:
           type: EnemyPrefabBinding
           properties:
@@ -70,16 +71,17 @@ children:
             action: rightpatrol
             x: 1000
             y: 100
+        id: enemy
       - behaviours: []
-        id: maoQi
         prefab:
           type: MaoQiPrefabBinding
           properties:
-            x: 0
-            y: 0
+            x: 1000000
+            y: 1000000
             rotation: 0
             scaleX: 1
             scaleY: 1
+        id: maoQi
   - behaviours:
       - type: Transform
         properties:

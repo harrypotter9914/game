@@ -3,6 +3,7 @@ import { Collider } from "../../lib/mygameengine";
 import { b2Vec2 } from "@flyover/box2d";
 import { ChaseState, EnemyState, PatrolState } from "./EnemyState";
 import { EnemyPrefabBinding } from "../bindings/EnemyPrefabBinding";
+import { Walkable } from "./Walkable";
 
 export class Enemy extends Behaviour {
     @number()
@@ -14,6 +15,7 @@ export class Enemy extends Behaviour {
     private currentState: EnemyState;
     private playerTransform: Transform | null = null;
     public enemyBinding: EnemyPrefabBinding | null = null;
+    private player: Walkable | null = null; // 添加对玩家对象的引用
 
     onStart() {
         this.currentState = new PatrolState(this);
@@ -23,6 +25,7 @@ export class Enemy extends Behaviour {
         const playerObject = getGameObjectById('mainRole');
         if (playerObject) {
             this.playerTransform = playerObject.getBehaviour(Transform);
+            this.player = playerObject.getBehaviour(Walkable); // 获取玩家行为
         } else {
             console.warn("Player object not found");
         }
@@ -41,8 +44,14 @@ export class Enemy extends Behaviour {
 
     }
 
+    getPlayerLastAttackDirection(): string {
+        if (this.player) {
+            return this.player.getLastAttackDirection();
+        }
+        return 'right'; // 默认方向
+    }
+
     handleCollisionEnter(other: RigidBody, otherCollider: Collider, self: RigidBody, selfCollider: Collider) {
-        console.log("Collision detected between:", selfCollider.tag, "and", otherCollider.tag);
         if (this.currentState && typeof this.currentState.handleCollisionEnter === 'function') {
             this.currentState.handleCollisionEnter(other, otherCollider, self, selfCollider);
         }

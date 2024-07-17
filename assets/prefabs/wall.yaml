@@ -63224,10 +63224,10 @@ children:
   - behaviours:
       - type: Transform
         properties:
-          x: -53120
+          x: -123900
           y: -8590
-          scaleX: 64.5
-          scaleY: 6.45
+          scaleX: 30
+          scaleY: 3
           rotation: 0
       - type: BitmapRenderer
         properties: 

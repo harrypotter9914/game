@@ -1,4 +1,4 @@
-import { Behaviour, Transform } from "../../lib/mygameengine";
+import { Behaviour, Collider, RigidBody, Transform } from "../../lib/mygameengine";
 import { MainRolePrefabBinding } from "../bindings/MainRolePrefabBinding";
 import { Walkable } from "./Walkable";
 import { AirState, WallState, DoubleJumpedState } from "./State";
@@ -11,6 +11,7 @@ export class Attackable extends Behaviour {
     public mainRoleBinding: MainRolePrefabBinding | null = null;
     private walkable: Walkable;
     private maoQiInstance: MaoQiPrefabBinding | null = null;
+    public lastAttackDirection: string = 'right'; // 记录最后的攻击方向
 
     constructor(walkable: Walkable) {
         super();
@@ -31,6 +32,7 @@ export class Attackable extends Behaviour {
         if (event.code === 'KeyX') {
             const upPressed = this.walkable.upArrowPressed;
             const downPressed = this.walkable.downArrowPressed;
+            const rigid = this.walkable.gameObject.getBehaviour(RigidBody);
 
             if (this.walkable.currentState instanceof WallState) {
                 // 墙上状态不能攻击
@@ -40,12 +42,15 @@ export class Attackable extends Behaviour {
             if (downPressed && (this.walkable.currentState instanceof AirState || this.walkable.currentState instanceof DoubleJumpedState)) {
                 // 空中下攻击
                 this.attack(this.walkable.lastAction.includes('left') ? 'leftdownattack' : 'rightdownattack');
+                this.lastAttackDirection = this.walkable.lastAction.includes('left') ? 'left' : 'right'; // 更新最后攻击方向
             } else if (upPressed) {
                 // 上攻击
                 this.attack(this.walkable.lastAction.includes('left') ? 'leftupattack' : 'rightupattack');
+                this.lastAttackDirection = this.walkable.lastAction.includes('left') ? 'left' : 'right'; // 更新最后攻击方向
             } else {
                 // 普通攻击
                 this.attack(this.walkable.lastAction.includes('left') ? 'leftattack' : 'rightattack');
+                this.lastAttackDirection = this.walkable.lastAction.includes('left') ? 'left' : 'right'; // 更新最后攻击方向
             }
         }
     }

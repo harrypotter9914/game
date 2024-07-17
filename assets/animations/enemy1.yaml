@@ -16,12 +16,12 @@ actions:
       - 8
       - 9
   leftsufferattack:
-    fps: 10
+    fps: 2
     keyframes:
       - 10
       - 11
   rightsufferattack:
-    fps: 10
+    fps: 2
     keyframes:
       - 12
       - 13
