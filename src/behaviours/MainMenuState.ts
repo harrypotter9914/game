@@ -1,4 +1,4 @@
-import { Behaviour, getGameObjectById, GameObject } from "../../lib/mygameengine";
+import { Behaviour, getGameObjectById, GameObject, Transform } from "../../lib/mygameengine";
 import { GameManager } from "./GameManager";
 import { BitmapRenderer } from "../../lib/mygameengine";
 
@@ -11,16 +11,26 @@ enum MainMenuState {
 export class MainMenuStateMachine extends Behaviour {
     private currentState: MainMenuState = MainMenuState.None;
     private menuImage: GameObject | null = null;
+    private camera: GameObject | null = null;
+    private offsetX: number = -1280; // X 轴偏移量
+    private offsetY: number = -720; // Y 轴偏移量
 
     onStart() {
         // 获取菜单图片的 GameObject
         this.menuImage = getGameObjectById('menuImage');
 
+        // 获取摄像机对象
+        this.camera = getGameObjectById('camera');
+
         // 初始化状态
-        this.updateState(MainMenuState.None);
+        this.updateState(MainMenuState.StartGame);
 
         // 监听键盘事件
         document.addEventListener('keydown', this.handleKeyDown.bind(this));
+
+        // 设置图片位置
+        this.updateMenuImagePosition();
+
     }
 
     handleKeyDown(event: KeyboardEvent) {
@@ -38,18 +48,30 @@ export class MainMenuStateMachine extends Behaviour {
     }
 
     navigateUp() {
-        if (this.currentState === MainMenuState.QuitGame) {
-            this.updateState(MainMenuState.StartGame);
-        } else if (this.currentState === MainMenuState.StartGame) {
-            this.updateState(MainMenuState.None);
+        switch (this.currentState) {
+            case MainMenuState.QuitGame:
+                this.updateState(MainMenuState.StartGame);
+                break;
+            case MainMenuState.StartGame:
+                this.updateState(MainMenuState.None);
+                break;
+            case MainMenuState.None:
+                this.updateState(MainMenuState.QuitGame);
+                break;
         }
     }
 
     navigateDown() {
-        if (this.currentState === MainMenuState.None) {
-            this.updateState(MainMenuState.StartGame);
-        } else if (this.currentState === MainMenuState.StartGame) {
-            this.updateState(MainMenuState.QuitGame);
+        switch (this.currentState) {
+            case MainMenuState.None:
+                this.updateState(MainMenuState.StartGame);
+                break;
+            case MainMenuState.StartGame:
+                this.updateState(MainMenuState.QuitGame);
+                break;
+            case MainMenuState.QuitGame:
+                this.updateState(MainMenuState.None);
+                break;
         }
     }
 
@@ -87,6 +109,22 @@ export class MainMenuStateMachine extends Behaviour {
                 }
                 console.log(`Current State: ${MainMenuState[this.currentState]}, Source: ${bitmapRenderer.source}`);
             }
+        }
+    }
+
+    updateMenuImagePosition() {
+        if (this.menuImage && this.camera) {
+            const cameraTransform = this.camera.getBehaviour(Transform);
+            const menuImageTransform = this.menuImage.getBehaviour(Transform);
+            if (cameraTransform && menuImageTransform) {
+                menuImageTransform.x = cameraTransform.x + this.offsetX;
+                menuImageTransform.y = cameraTransform.y + this.offsetY;
+                console.log(`Menu image position updated to (${menuImageTransform.x}, ${menuImageTransform.y}) with offset (${this.offsetX}, ${this.offsetY})`);
+            } else {
+                console.error("Menu image or camera Transform not found");
+            }
+        } else {
+            console.error("Menu image or camera GameObject not found");
         }
     }
 

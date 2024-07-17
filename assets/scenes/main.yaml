@@ -23,8 +23,8 @@ children:
       - behaviours:
           - type: Transform
             properties:
-              x: -1280
-              y: -720
+              x: -1180
+              y: -620
               scaleX: 1
               scaleY: 1
               rotation: 0
@@ -105,16 +105,24 @@ children:
       - behaviours:
           - type: Transform
             properties:
-              x: -100
-              y: 0
-              scaleX: 1
-              scaleY: 1
+              x: -1300
+              y: -1000
+              scaleX: 3
+              scaleY: 3
               rotation: 0
+          - type: BitmapRenderer
+            properties:
+              source: ./assets/images/blood6.png
+        id: blood
       - behaviours:
           - type: Transform
             properties:
-              x: 0
-              y: 0
-              scaleX: 1
-              scaleY: 1
+              x: -1300
+              y: -1000
+              scaleX: 3
+              scaleY: 3
               rotation: 0
+          - type: BitmapRenderer
+            properties:
+              source: ./assets/images/blue3.png
+        id: blue

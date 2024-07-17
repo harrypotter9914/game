@@ -50,7 +50,6 @@ function handleMovementKeyUp(event: KeyboardEvent, walkable: Walkable) {
 }
 
 
-
 export abstract class State {
   protected walkable: Walkable;
 
@@ -67,34 +66,43 @@ export abstract class State {
 
 export class HurtState extends State {
   private animationDuration: number;
+  private impulseXmult: number;
 
   constructor(walkable: Walkable, animationDuration: number = 500) {
       super(walkable);
       this.animationDuration = animationDuration;
+      this.impulseXmult = 1;
   }
 
   enter() {
     console.log("Entering Hurt State");
     const rigidBody = this.walkable.gameObject.getBehaviour(RigidBody);
     const enemyAction = this.walkable.lastEnemyAction;
+    this.impulseXmult = 1; 
 
     console.log(`lastEnemyAction: ${enemyAction}`);
     console.log(`Position before impulse: ${rigidBody.b2RigidBody.GetPosition().x}, ${rigidBody.b2RigidBody.GetPosition().y}`);
 
-    let impulseX = 350;
+    let impulseX: number
+
+    // 根据当前动作调整冲量
+    if (this.walkable.lastAction === 'leftrun' || this.walkable.currentAction === 'rightrun') {
+      this.impulseXmult= 1; // 减少跑步状态下的冲量
+    } else if (this.walkable.lastAction === 'leftidle' || this.walkable.lastAction === 'rightidle') {
+      this.impulseXmult = 1
+    }
+
     if (enemyAction.includes('left')) {
         this.walkable.mainRoleBinding!.action = 'rightsufferattack';
         this.walkable.lastAction = 'rightsufferattack';
-        impulseX = -350;
+        impulseX = -350 * this.impulseXmult;
     } else {
         this.walkable.mainRoleBinding!.action = 'leftsufferattack';
         this.walkable.lastAction = 'leftsufferattack';
+        impulseX = 350 * this.impulseXmult;
     }
 
-    // 根据当前动作调整冲量
-    if (this.walkable.currentAction === 'leftrun' || this.walkable.currentAction === 'rightrun') {
-      impulseX *= 0.14; // 减少跑步状态下的冲量
-  }
+    
 
     console.log(`Applying impulse: ${impulseX}`);
     rigidBody.b2RigidBody.ApplyLinearImpulse(new b2Vec2(impulseX, 0), rigidBody.b2RigidBody.GetWorldCenter(), true);
