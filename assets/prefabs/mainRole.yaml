@@ -63,3 +63,25 @@ children:
         properties:
           text: Player
           color: ''
+  - behaviours:
+      - type: Transform
+        properties:
+          x: -900
+          y: -900
+          scaleX: 2
+          scaleY: 2
+          rotation: 0
+      - type: BitmapRenderer
+        properties:
+          source: ./assets/images/blue3.png
+  - behaviours:
+      - type: Transform
+        properties:
+          x: -50
+          y: -78
+          scaleX: 2
+          scaleY: 2
+          rotation: 0
+      - type: BitmapRenderer
+        properties:
+          source: ./assets/images/blood6.png

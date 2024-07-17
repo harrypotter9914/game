@@ -1,8 +1,10 @@
 import { Behaviour, number, RigidBody, GameObject, PhysicsSystem, Transform, Collider, getGameObjectById } from "../../lib/mygameengine";
 import { MainRolePrefabBinding } from "../bindings/MainRolePrefabBinding"; 
 import { b2Vec2 } from "@flyover/box2d"; 
-import { State, GroundState, AirState, WallState, CornerState, DoubleJumpedState } from "../behaviours/State";
+import { State, GroundState, AirState, WallState, CornerState, DoubleJumpedState, HurtState } from "../behaviours/State";
 import { Attackable } from "./Attackable";
+import { EnemyPrefabBinding } from "../bindings/EnemyPrefabBinding";
+import { Enemy } from "./Enemy";
 
 export class Walkable extends Behaviour {
     @number()
@@ -35,6 +37,9 @@ export class Walkable extends Behaviour {
     public rightArrowPressed: boolean = false;
     public upArrowPressed: boolean = false;
     public downArrowPressed: boolean = false;
+    public lastEnemyAction: string = ''; // 跟踪最后一次敌人的动作
+    public currentAction: string = 'idle'; // 跟踪当前动作
+    private hurtCooldown: boolean = false; // 跟踪受击冷却状态
 
     private groundContactCount = 0; // 跟踪feet接触的数量
     private wallContactCount = 0; // 跟踪body接触的数量
@@ -118,6 +123,16 @@ export class Walkable extends Behaviour {
                 console.log('on wall');
             }
         }
+        if ((selfCollider.tag === 'body' || selfCollider.tag === 'feet') && (otherCollider.tag === 'enemybody' || otherCollider.tag === 'enemyfeet')) {
+            if (!this.hurtCooldown) {
+                this.lastEnemyAction = other.gameObject.getBehaviour(EnemyPrefabBinding)?.action || '';
+                this.changeState(new HurtState(this));
+                this.hurtCooldown = true;
+                setTimeout(() => {
+                    this.hurtCooldown = false;
+                }, 1000); // 1秒冷却时间
+            }
+        }
     }
 
     handleCollisionExit(other: RigidBody, otherCollider: Collider, self: RigidBody, selfCollider: Collider) {
@@ -176,10 +191,10 @@ export class Walkable extends Behaviour {
         rigid.b2RigidBody.SetLinearVelocity(velocity);
 
       
-        // 更新相机位置
+        // 直接更新相机位置
         if (this.cameraTransform && this.playerTransform) {
-            this.cameraTransform.x = this.lerp(this.cameraTransform.x, this.playerTransform.x, 0.1);
-            this.cameraTransform.y = this.lerp(this.cameraTransform.y, this.playerTransform.y, 0.1);
+            this.cameraTransform.x = this.playerTransform.x;
+            this.cameraTransform.y = this.playerTransform.y;
 
             if (this.cameraZoomedOut) {
                 this.cameraTransform.scaleX = 100;

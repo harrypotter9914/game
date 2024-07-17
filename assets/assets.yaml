@@ -1,4 +1,15 @@
 images:
+  - ./assets/images/blood0.png
+  - ./assets/images/blood1.png
+  - ./assets/images/blood2.png
+  - ./assets/images/blood3.png
+  - ./assets/images/blood4.png
+  - ./assets/images/blood5.png
+  - ./assets/images/blood6.png
+  - ./assets/images/blue0.png
+  - ./assets/images/blue1.png
+  - ./assets/images/blue2.png
+  - ./assets/images/blue3.png
   - ./assets/images/icon.jpg
   - ./assets/images/MaoQi.png
   - ./assets/images/nosellect.jpg

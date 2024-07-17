@@ -15,7 +15,7 @@ behaviours:
   - type: CapsuleCollider
     properties:
       isSensor: 0
-      tag: body
+      tag: enemybody
       radius: 5
       width: 40
       height: 40
@@ -24,7 +24,7 @@ behaviours:
   - type: CapsuleCollider
     properties:
       isSensor: 0
-      tag: feet
+      tag: enemyfeet
       radius: 5
       width: 20
       height: 40
@@ -32,8 +32,8 @@ behaviours:
       centerY: 5
   - type: Enemy
     properties:
-      patrolSpeed: 1
-      chaseSpeed: 3
+      patrolSpeed: 2
+      chaseSpeed: 4
 children:
   - behaviours:
       - type: Transform

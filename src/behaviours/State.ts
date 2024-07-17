@@ -10,12 +10,14 @@ function handleMovement(event: KeyboardEvent, walkable: Walkable) {
       case 'ArrowLeft':
           rigid.b2RigidBody.SetLinearVelocity(new b2Vec2(-walkable.speed, rigid.b2RigidBody.GetLinearVelocity().y));
           walkable.lastAction = 'leftrun';
+          walkable.currentAction = 'leftrun';
           walkable.mainRoleBinding!.action = 'leftrun'; 
           walkable.isMoving = true;
           break;
       case 'ArrowRight':
           rigid.b2RigidBody.SetLinearVelocity(new b2Vec2(walkable.speed, rigid.b2RigidBody.GetLinearVelocity().y));
           walkable.lastAction = 'rightrun';
+          walkable.currentAction = 'rightrun';
           walkable.mainRoleBinding!.action = 'rightrun'; 
           walkable.isMoving = true;
           break;
@@ -61,6 +63,66 @@ export abstract class State {
   abstract handleKeyUp(event: KeyboardEvent): void;
   abstract update(duringTime: number): void;
   abstract exit(): void;
+}
+
+export class HurtState extends State {
+  private animationDuration: number;
+
+  constructor(walkable: Walkable, animationDuration: number = 500) {
+      super(walkable);
+      this.animationDuration = animationDuration;
+  }
+
+  enter() {
+    console.log("Entering Hurt State");
+    const rigidBody = this.walkable.gameObject.getBehaviour(RigidBody);
+    const enemyAction = this.walkable.lastEnemyAction;
+
+    console.log(`lastEnemyAction: ${enemyAction}`);
+    console.log(`Position before impulse: ${rigidBody.b2RigidBody.GetPosition().x}, ${rigidBody.b2RigidBody.GetPosition().y}`);
+
+    let impulseX = 350;
+    if (enemyAction.includes('left')) {
+        this.walkable.mainRoleBinding!.action = 'rightsufferattack';
+        this.walkable.lastAction = 'rightsufferattack';
+        impulseX = -350;
+    } else {
+        this.walkable.mainRoleBinding!.action = 'leftsufferattack';
+        this.walkable.lastAction = 'leftsufferattack';
+    }
+
+    // 根据当前动作调整冲量
+    if (this.walkable.currentAction === 'leftrun' || this.walkable.currentAction === 'rightrun') {
+      impulseX *= 0.14; // 减少跑步状态下的冲量
+  }
+
+    console.log(`Applying impulse: ${impulseX}`);
+    rigidBody.b2RigidBody.ApplyLinearImpulse(new b2Vec2(impulseX, 0), rigidBody.b2RigidBody.GetWorldCenter(), true);
+
+    console.log(`Position after impulse: ${rigidBody.b2RigidBody.GetPosition().x}, ${rigidBody.b2RigidBody.GetPosition().y}`);
+
+
+      // 设定定时器在动画结束后恢复到地面状态
+      setTimeout(() => {
+          this.walkable.changeState(new GroundState(this.walkable));
+      }, this.animationDuration);
+  }
+
+  handleInput(event: KeyboardEvent) {
+      // 在受击状态中不处理任何输入
+  }
+
+  handleKeyUp(event: KeyboardEvent) {
+      // 在受击状态中不处理任何输入
+  }
+
+  update(duringTime: number) {
+      // 在受击状态中不更新其他逻辑
+  }
+
+  exit() {
+      console.log("Exiting Hurt State");
+  }
 }
 
 export class GroundState extends State {

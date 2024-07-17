@@ -76,7 +76,7 @@ children:
         prefab:
           type: MaoQiPrefabBinding
           properties:
-            x: 1000000
+            x: -1000000
             y: 1000000
             rotation: 0
             scaleX: 1

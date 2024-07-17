@@ -2,6 +2,7 @@ import { Enemy } from "./Enemy";
 import { Collider, RigidBody, Transform } from "../../lib/mygameengine";
 import { b2Vec2 } from "@flyover/box2d";
 import { Attackable } from "./Attackable";
+import { Walkable } from "./Walkable";
 
 
 export abstract class EnemyState {
@@ -23,7 +24,7 @@ export abstract class EnemyState {
 export class HurtState extends EnemyState {
     private previousState: EnemyState;
     private hurtDirection: string;
-
+    
     constructor(enemy: Enemy, previousState: EnemyState, hurtDirection: string) {
         super(enemy);
         this.previousState = previousState;
@@ -42,7 +43,7 @@ export class HurtState extends EnemyState {
 
         // 向攻击方向击飞一段距离
         const rigidBody = this.enemy.gameObject.getBehaviour(RigidBody);
-        const force = this.hurtDirection === 'left' ? new b2Vec2(-50, 0) : new b2Vec2(50, 0);
+        const force = this.hurtDirection === 'left' ? new b2Vec2(-60, 0) : new b2Vec2(60, 0);
         rigidBody.b2RigidBody.ApplyLinearImpulse(force, rigidBody.b2RigidBody.GetWorldCenter(), true);
     }
 
@@ -102,13 +103,13 @@ export class PatrolState extends EnemyState {
     }
 
     handleCollisionEnter(other: RigidBody, otherCollider: Collider, self: RigidBody, selfCollider: Collider) {
-        if (selfCollider.tag === 'body' && otherCollider.tag === 'block') {
+        if (selfCollider.tag === 'enemybody' && otherCollider.tag === 'block') {
             this.patrolDirection *= -1; // 碰到墙壁时改变方向
             console.log("碰到墙壁，改变方向");
         }
 
         // 检查是否被攻击
-        if (selfCollider.tag === 'body' && otherCollider.tag === 'MaoQi') {
+        if (selfCollider.tag === 'enemybody' && otherCollider.tag === 'MaoQi') {
             const attackDirection = this.enemy.getPlayerLastAttackDirection(); // 假设有一个方法获取玩家上次攻击的方向
             this.enemy.changeState(new HurtState(this.enemy, this, attackDirection));
         }
@@ -167,7 +168,7 @@ export class ChaseState extends EnemyState {
 
     handleCollisionEnter(other: RigidBody, otherCollider: Collider, self: RigidBody, selfCollider: Collider) {
         // 检查是否被攻击
-        if (selfCollider.tag === 'body' && otherCollider.tag === 'MaoQi') {
+        if (selfCollider.tag === 'enemybody' && otherCollider.tag === 'MaoQi') {
             const attackDirection = this.enemy.getPlayerLastAttackDirection(); // 假设有一个方法获取玩家上次攻击的方向
             this.enemy.changeState(new HurtState(this.enemy, this, attackDirection));
         }
@@ -223,7 +224,7 @@ export class AttackState extends EnemyState {
 
     handleCollisionEnter(other: RigidBody, otherCollider: Collider, self: RigidBody, selfCollider: Collider) {
         // 检查是否被攻击
-        if (selfCollider.tag === 'body' && otherCollider.tag === 'MaoQi') {
+        if (selfCollider.tag === 'enemybody' && otherCollider.tag === 'MaoQi') {
             const attackDirection = this.enemy.getPlayerLastAttackDirection(); // 假设有一个方法获取玩家上次攻击的方向
             this.enemy.changeState(new HurtState(this.enemy, this, attackDirection));
         }
