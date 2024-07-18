@@ -5,6 +5,8 @@ import { State, GroundState, AirState, WallState, CornerState, DoubleJumpedState
 import { Attackable } from "./Attackable";
 import { EnemyPrefabBinding } from "../bindings/EnemyPrefabBinding";
 import { Enemy } from "./Enemy";
+import { HealthStateMachine } from "./HealthState";
+import { ManaStateMachine } from "./ManaState";
 
 export class Walkable extends Behaviour {
     @number()
@@ -40,6 +42,8 @@ export class Walkable extends Behaviour {
     public lastEnemyAction: string = ''; // 跟踪最后一次敌人的动作
     public currentAction: string = 'idle'; // 跟踪当前动作
     private hurtCooldown: boolean = false; // 跟踪受击冷却状态
+    private aKeyPressedStartTime: number = 0;
+    private isAKeyPressed: boolean = false;
 
     private groundContactCount = 0; // 跟踪feet接触的数量
     private wallContactCount = 0; // 跟踪body接触的数量
@@ -87,7 +91,18 @@ export class Walkable extends Behaviour {
         const attackable = new Attackable(this);
         this.gameObject.addBehaviour(attackable);
         this.attackable = attackable;
+
+        const player = getGameObjectById('mainRole');
+        if (player) {
+            player.addBehaviour(new HealthStateMachine());
+            player.addBehaviour(new ManaStateMachine());
+            console.log("HealthStateMachine and ManaStateMachine added to player");
+        } else {
+            console.error("Player GameObject not found");
+        }
+
     }
+
 
     getLastAttackDirection(): string {
         return this.attackable.lastAttackDirection;
@@ -95,6 +110,12 @@ export class Walkable extends Behaviour {
 
     handleKeyDown(event: KeyboardEvent) {
         this.currentState.handleInput(event);
+
+        if (event.key === 'a' && !this.isAKeyPressed) {
+            this.aKeyPressedStartTime = Date.now();
+            this.isAKeyPressed = true;
+        }
+        
         if (event.key === 'z') { // 假设按下 'z' 键缩放摄像机
             this.cameraZoomedOut = true;
         }
@@ -102,6 +123,18 @@ export class Walkable extends Behaviour {
 
     handleKeyUp(event: KeyboardEvent) {
         this.currentState.handleKeyUp(event);
+
+        if (event.key === 'a' && this.isAKeyPressed) {
+            const aKeyPressDuration = Date.now() - this.aKeyPressedStartTime;
+            if (aKeyPressDuration >= 1500) {
+                const manaStateMachine = this.gameObject.getBehaviour(ManaStateMachine);
+                if (manaStateMachine) {
+                    manaStateMachine.decreaseMana(1);
+                }
+            }
+            this.isAKeyPressed = false;
+        }
+        
         if (event.key === 'z') {
             this.cameraZoomedOut = false;
         }
@@ -113,7 +146,6 @@ export class Walkable extends Behaviour {
             if (this.groundContactCount > 0) {
                 this.isGrounded = true;
                 this.airJumped = false; // 重置空中跳跃状态
-                console.log('grounded');
             }
         }
         if (selfCollider.tag === 'body' && otherCollider.tag === 'block') {

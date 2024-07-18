@@ -1,6 +1,7 @@
 import { b2Vec2 } from "@flyover/box2d";
 import { RigidBody } from "../../lib/mygameengine";
 import { Walkable } from "./Walkable";
+import { HealthStateMachine } from "./HealthState";
 
 
 
@@ -66,43 +67,38 @@ export abstract class State {
 
 export class HurtState extends State {
   private animationDuration: number;
-  private impulseXmult: number;
+  private healthStateMachine: HealthStateMachine | null;
 
   constructor(walkable: Walkable, animationDuration: number = 500) {
       super(walkable);
       this.animationDuration = animationDuration;
-      this.impulseXmult = 1;
+      this.healthStateMachine = this.walkable.gameObject.getBehaviour(HealthStateMachine);
   }
 
   enter() {
+
+    // 减少血量
+    if (this.healthStateMachine) {
+      this.healthStateMachine.decreaseHealth(1);
+      console.log(`Health: ${this.healthStateMachine.currentHealth}`);
+    }
+
     console.log("Entering Hurt State");
     const rigidBody = this.walkable.gameObject.getBehaviour(RigidBody);
     const enemyAction = this.walkable.lastEnemyAction;
-    this.impulseXmult = 1; 
 
     console.log(`lastEnemyAction: ${enemyAction}`);
     console.log(`Position before impulse: ${rigidBody.b2RigidBody.GetPosition().x}, ${rigidBody.b2RigidBody.GetPosition().y}`);
 
     let impulseX: number
 
-    // 根据当前动作调整冲量
-    if (this.walkable.lastAction === 'leftrun' || this.walkable.currentAction === 'rightrun') {
-      this.impulseXmult= 1; // 减少跑步状态下的冲量
-    } else if (this.walkable.lastAction === 'leftidle' || this.walkable.lastAction === 'rightidle') {
-      this.impulseXmult = 1
-    }
-
     if (enemyAction.includes('left')) {
         this.walkable.mainRoleBinding!.action = 'rightsufferattack';
-        this.walkable.lastAction = 'rightsufferattack';
-        impulseX = -350 * this.impulseXmult;
+        impulseX = -350;
     } else {
         this.walkable.mainRoleBinding!.action = 'leftsufferattack';
-        this.walkable.lastAction = 'leftsufferattack';
-        impulseX = 350 * this.impulseXmult;
+        impulseX = 350;
     }
-
-    
 
     console.log(`Applying impulse: ${impulseX}`);
     rigidBody.b2RigidBody.ApplyLinearImpulse(new b2Vec2(impulseX, 0), rigidBody.b2RigidBody.GetWorldCenter(), true);
@@ -146,7 +142,7 @@ export class GroundState extends State {
         this.walkable.mainRoleBinding!.action = 'leftrun';
         this.walkable.lastAction = 'leftrun';
       }
-    } else {
+    } else if (this.walkable.lastAction === 'rightrun' || this.walkable.lastAction === 'rightjump') {
       this.walkable.mainRoleBinding!.action = 'rightidle';
       this.walkable.lastAction = 'rightidle';
       if (this.walkable.isMoving === true) {
@@ -164,7 +160,7 @@ export class GroundState extends State {
         if (this.walkable.lastAction === 'leftrun' || this.walkable.lastAction === 'leftidle') {
           this.walkable.mainRoleBinding!.action = 'leftjump';
           this.walkable.lastAction = 'leftjump';
-        } else {
+        } else if (this.walkable.lastAction === 'rightrun' || this.walkable.lastAction === 'rightidle') {
           this.walkable.mainRoleBinding!.action = 'rightjump';
           this.walkable.lastAction = 'rightjump';
         }
@@ -207,7 +203,7 @@ export class AirState extends State {
           if (this.walkable.lastAction === 'leftrun' || this.walkable.lastAction === 'leftjump') {
             this.walkable.mainRoleBinding!.action = 'leftjump';
             this.walkable.lastAction = 'leftjump';
-          } else {
+          } else if (this.walkable.lastAction === 'rightrun' || this.walkable.lastAction === 'rightjump') {
             this.walkable.mainRoleBinding!.action = 'rightjump';
             this.walkable.lastAction = 'rightjump';
           }

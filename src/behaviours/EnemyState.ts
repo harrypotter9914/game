@@ -146,8 +146,6 @@ export class ChaseState extends EnemyState {
             } else {
                 this.enemy.enemyBinding!.action = 'leftrun';
             }
-
-            console.log(`Chasing player: moving to (${moveX}, ${moveY})`);
         }
 
         // 检测是否进入攻击状态

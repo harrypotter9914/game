@@ -111,16 +111,6 @@ class Character {
         console.log("Discount disabled. Rate:", this.discountRate);
     }
 
-    // 攻击方法
-    attack() {
-        console.log("Attack with power:", this.attackPower);
-        this.playAttackAnimation();
-    }
-
-    playAttackAnimation() {
-        console.log("Playing attack animation.");
-    }
-
     // 添加道具
     addItem(item: Item) {
         item.applyEffect(this);

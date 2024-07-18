@@ -48,13 +48,14 @@ children:
     id: scene
     children:
       - behaviours: []
+        id: wall
         prefab:
           type: WallPrefabBinding
           properties:
             x: 0
             y: 0
-        id: wall
       - behaviours: []
+        id: mainRole
         prefab:
           type: MainRolePrefabBinding
           properties:
@@ -62,8 +63,8 @@ children:
             action: rightidle
             x: 100
             y: 100
-        id: mainRole    
       - behaviours: []
+        id: enemy
         prefab:
           type: EnemyPrefabBinding
           properties:
@@ -71,8 +72,8 @@ children:
             action: rightpatrol
             x: 1000
             y: 100
-        id: enemy
       - behaviours: []
+        id: maoQi
         prefab:
           type: MaoQiPrefabBinding
           properties:
@@ -81,7 +82,6 @@ children:
             rotation: 0
             scaleX: 1
             scaleY: 1
-        id: maoQi
   - behaviours:
       - type: Transform
         properties:

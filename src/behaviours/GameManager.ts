@@ -63,7 +63,7 @@ export class GameManager extends Behaviour {
   }
 
   handleKeyDown(event: KeyboardEvent) {
-    if (event.key === 'v') {
+    if (event.key === 'Escape') {
       this.switchScene('mainmenu');
     }
   }
