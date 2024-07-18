@@ -1,4 +1,4 @@
-import { registerBehaviourClass, AnimationRenderer, Binding, BitmapRenderer, BoxCollider, Camera, CapsuleCollider, CircleCollider, EdgeCollider, PhysicsWorld, RigidBody, ShapeRectRenderer, TextRenderer, Transform, GameEngine } from "../lib/mygameengine";
+import { registerBehaviourClass, AnimationRenderer, AudioBehaviour, Binding, BitmapRenderer, BoxCollider, Camera, CapsuleCollider, CircleCollider, EdgeCollider, PhysicsWorld, RigidBody, ShapeRectRenderer, TextRenderer, Transform, GameEngine } from "../lib/mygameengine";
 import { Attackable } from "./behaviours/Attackable";
 import { DiedMenuStateMachine } from "./behaviours/DiedMenuStateMachine";
 import { Enemy } from "./behaviours/Enemy";
@@ -14,6 +14,7 @@ import { MainRolePrefabBinding } from "./bindings/MainRolePrefabBinding";
 import { MaoQiPrefabBinding } from "./bindings/MaoQiPrefabBinding";
 import { WallPrefabBinding } from "./bindings/WallPrefabBinding";
 registerBehaviourClass(AnimationRenderer);
+registerBehaviourClass(AudioBehaviour);
 registerBehaviourClass(Binding);
 registerBehaviourClass(BitmapRenderer);
 registerBehaviourClass(BoxCollider);

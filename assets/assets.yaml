@@ -15,13 +15,31 @@ images:
   - ./assets/images/died3.png
   - ./assets/images/died4.png
   - ./assets/images/died5.png
+  - ./assets/images/flight.png
+  - ./assets/images/flighttext.png
+  - ./assets/images/fuwenselect.png
+  - ./assets/images/harvest.png
+  - ./assets/images/harvesttext.png
+  - ./assets/images/hoxi.png
   - ./assets/images/icon.jpg
   - ./assets/images/MaoQi.png
   - ./assets/images/map.png
+  - ./assets/images/moon.png
+  - ./assets/images/moontext.png
   - ./assets/images/nosellect.jpg
+  - ./assets/images/package.png
   - ./assets/images/quitgame.jpg
+  - ./assets/images/rings.png
+  - ./assets/images/ringstext.png
+  - ./assets/images/romance.png
+  - ./assets/images/romancetext.png
+  - ./assets/images/star.png
+  - ./assets/images/startext.png
   - ./assets/images/startgame.jpg
-  - ./assets/images/subviewport_export.png
+  - ./assets/images/sun.png
+  - ./assets/images/suntext.png
+  - ./assets/images/woman.png
+  - ./assets/images/womantext.png
   - ./assets/animations/avatar.jpg
   - ./assets/animations/chrac.png
   - ./assets/animations/enemy1.png
