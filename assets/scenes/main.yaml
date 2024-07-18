@@ -17,6 +17,29 @@ children:
           scaleX: 1
           scaleY: 1
           rotation: 0
+      - type: DiedMenuStateMachine
+    id: diedmenu
+    children:
+      - behaviours:
+          - type: Transform
+            properties:
+              x: -1180
+              y: -620
+              scaleX: 1.35
+              scaleY: 1.35
+              rotation: 0
+          - type: BitmapRenderer
+            properties:
+              source: ./assets/images/died1.png
+        id: diedmenuImage
+  - behaviours:
+      - type: Transform
+        properties:
+          x: 0
+          y: 0
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
       - type: MainMenuStateMachine
     id: mainmenu
     children:
@@ -44,7 +67,7 @@ children:
         properties:
           gravityX: 0
           gravityY: -10
-          debug: 1
+          debug: 0
     id: scene
     children:
       - behaviours: []

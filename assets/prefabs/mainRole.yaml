@@ -11,12 +11,12 @@ behaviours:
       x: 0
       y: 0
       type: 2
-      gravityScale: 10
+      gravityScale: 1
   - type: Walkable
     properties:
-      speed: 10
-      jumpForce: 26
-      wallJumpForce: 20
+      speed: 2
+      jumpForce: 8
+      wallJumpForce: 5
       wallSlideSpeed: 1
   - type: CapsuleCollider
     properties:

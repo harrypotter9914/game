@@ -81,7 +81,7 @@ export class HealthStateMachine extends Behaviour {
     handleDeath() {
         console.log("Player died");
         if (this.gameManager) {
-            this.gameManager.getBehaviour(GameManager).switchScene('mainmenu');
+            this.gameManager.getBehaviour(GameManager).switchScene('diedmenu');
         }
     }
 }

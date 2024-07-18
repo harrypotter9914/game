@@ -88,22 +88,18 @@ export class HurtState extends State {
     const enemyAction = this.walkable.lastEnemyAction;
 
     console.log(`lastEnemyAction: ${enemyAction}`);
-    console.log(`Position before impulse: ${rigidBody.b2RigidBody.GetPosition().x}, ${rigidBody.b2RigidBody.GetPosition().y}`);
+  
 
     let impulseX: number
 
     if (enemyAction.includes('left')) {
         this.walkable.mainRoleBinding!.action = 'rightsufferattack';
-        impulseX = -350;
+        impulseX = -250;
     } else {
         this.walkable.mainRoleBinding!.action = 'leftsufferattack';
-        impulseX = 350;
+        impulseX = 250;
     }
-
-    console.log(`Applying impulse: ${impulseX}`);
     rigidBody.b2RigidBody.ApplyLinearImpulse(new b2Vec2(impulseX, 0), rigidBody.b2RigidBody.GetWorldCenter(), true);
-
-    console.log(`Position after impulse: ${rigidBody.b2RigidBody.GetPosition().x}, ${rigidBody.b2RigidBody.GetPosition().y}`);
 
 
       // 设定定时器在动画结束后恢复到地面状态
@@ -207,7 +203,7 @@ export class AirState extends State {
             this.walkable.mainRoleBinding!.action = 'rightjump';
             this.walkable.lastAction = 'rightjump';
           }
-            this.walkable.jump(rigid, 0.9);
+            this.walkable.jump(rigid, 0.7);
             console.log('double jump');
             this.walkable.airJumped = true;
             this.walkable.changeState(new DoubleJumpedState(this.walkable));

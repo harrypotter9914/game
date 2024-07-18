@@ -32,8 +32,9 @@ behaviours:
       centerY: 5
   - type: Enemy
     properties:
-      patrolSpeed: 2
-      chaseSpeed: 4
+      patrolSpeed: 1
+      chaseSpeed: 1.5
+  - type: EnemyHealthStateMachine
 children:
   - behaviours:
       - type: Transform

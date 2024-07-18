@@ -63,7 +63,6 @@ export class Attackable extends Behaviour {
                 this.mainRoleBinding.action = this.walkable.lastAction.includes('left') ? 'leftidle' : 'rightidle'; // 攻击结束后恢复到idle状态
             }, 500 / this.attackSpeed); // 根据攻击速度调整动画持续时间
         }
-        console.log(`Playing ${action} animation with power: ${this.attackPower}`);
     }
 
 
@@ -86,7 +85,6 @@ export class Attackable extends Behaviour {
             return;
         }
 
-        console.log(`Player position: (${transform.x}, ${transform.y})`);
 
         let offsetX = 0;
         let offsetY = 0;
@@ -139,7 +137,7 @@ export class Attackable extends Behaviour {
         this.maoQiInstance.scaleX = scaleX; // 设置水平缩放比例
         this.maoQiInstance.scaleY = scaleY; // 设置垂直缩放比例
         
-        console.log(`Moved prefab to (${this.maoQiInstance.x}, ${this.maoQiInstance.y}) with offset (${offsetX}, ${offsetY}), rotation (${rotation}), scaleX (${scaleX}), and scaleY (${scaleY})`);
+    
 
         // 0.3秒后将预制体移回原来的位置
         setTimeout(() => {

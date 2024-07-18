@@ -1,7 +1,7 @@
 import { Behaviour, GameObject } from "../../lib/mygameengine";
 
 export class EnemyHealthStateMachine extends Behaviour {
-    private currentHealth: number = 3; // 初始血量为3点
+    public currentHealth: number = 3; // 初始血量为3点
     private maxHealth: number = 3; // 最大血量
     private enemy: GameObject | null = null;
 

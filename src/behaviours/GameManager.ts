@@ -1,4 +1,5 @@
 import { Behaviour, getGameObjectById, GameObject, Transform } from "../../lib/mygameengine";
+import { DiedMenuStateMachine } from "./DiedMenuStateMachine";
 
 export class GameManager extends Behaviour {
   private currentScene: GameObject | null = null;
@@ -14,6 +15,7 @@ export class GameManager extends Behaviour {
     this.scenes = {
       'mainmenu': getGameObjectById('mainmenu'),
       'scene': getGameObjectById('scene'),
+      'diedmenu': getGameObjectById('diedmenu'),
       // 添加更多场景...
     };
 
@@ -27,17 +29,17 @@ export class GameManager extends Behaviour {
     // 调试信息
     console.log("mainmenu scene:", this.scenes['mainmenu']);
     console.log("scene scene:", this.scenes['scene']);
+    console.log("diedmenu scene:", this.scenes['diedmenu']);
 
-
-   // 在下一帧禁用所有场景
-   requestAnimationFrame(() => {
-    this.deactivateAllScenes();
-
-    // 在下一帧启用mainmenu场景
+    // 在下一帧禁用所有场景
     requestAnimationFrame(() => {
-      this.switchScene('mainmenu');
+      this.deactivateAllScenes();
+
+      // 在下一帧启用mainmenu场景
+      requestAnimationFrame(() => {
+        this.switchScene('mainmenu');
+      });
     });
-  });
 
     // 监听键盘事件
     document.addEventListener('keydown', this.handleKeyDown.bind(this));
@@ -64,8 +66,8 @@ export class GameManager extends Behaviour {
 
   handleKeyDown(event: KeyboardEvent) {
     if (event.key === 'Escape') {
-      this.switchScene('mainmenu');
-    }
+      this.switchScene('diedmenu');
+    } 
   }
 
   switchScene(sceneId: string) {
@@ -96,7 +98,6 @@ export class GameManager extends Behaviour {
       console.error(`Scene with ID ${sceneId} not found`);
     }
   }
-
 
   onDestroy() {
     // 移除键盘事件监听器

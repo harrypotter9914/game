@@ -42,14 +42,13 @@ export class HurtState extends EnemyState {
 
         // 向攻击方向击飞一段距离
         const rigidBody = this.enemy.gameObject.getBehaviour(RigidBody);
-        const force = this.hurtDirection === 'left' ? new b2Vec2(-60, 0) : new b2Vec2(60, 0);
+        const force = this.hurtDirection === 'left' ? new b2Vec2(-30, 0) : new b2Vec2(30, 0);
         rigidBody.b2RigidBody.ApplyLinearImpulse(force, rigidBody.b2RigidBody.GetWorldCenter(), true);
 
         // 减少敌人的血量
         const healthStateMachine = this.enemy.gameObject.getBehaviour(EnemyHealthStateMachine);
-        if (healthStateMachine) {
-            healthStateMachine.decreaseHealth(1);
-        }
+        healthStateMachine.decreaseHealth(1);
+
     }
 
     update(duringTime: number) {

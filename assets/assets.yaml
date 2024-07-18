@@ -10,6 +10,11 @@ images:
   - ./assets/images/blue1.png
   - ./assets/images/blue2.png
   - ./assets/images/blue3.png
+  - ./assets/images/died1.png
+  - ./assets/images/died2.png
+  - ./assets/images/died3.png
+  - ./assets/images/died4.png
+  - ./assets/images/died5.png
   - ./assets/images/icon.jpg
   - ./assets/images/MaoQi.png
   - ./assets/images/map.png
