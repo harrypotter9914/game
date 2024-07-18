@@ -68,8 +68,32 @@ children:
           type: EnemyPrefabBinding
           properties:
             action: rightpatrol
-            x: 1000
-            y: 100
+            x: 2100
+            y: 500
+      - behaviours: []
+        id: enemy
+        prefab:
+          type: EnemyPrefabBinding
+          properties:
+            action: rightpatrol
+            x: 6400
+            y: 1800
+      - behaviours: []
+        id: enemy
+        prefab:
+          type: EnemyPrefabBinding
+          properties:
+            action: rightpatrol
+            x: 4000
+            y: 2200
+      - behaviours: []
+        id: enemy
+        prefab:
+          type: EnemyPrefabBinding
+          properties:
+            action: rightpatrol
+            x: 15900
+            y: -1100
       - behaviours: []
         id: maoQi
         prefab:

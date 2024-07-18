@@ -1,6 +1,7 @@
 import { registerBehaviourClass, AnimationRenderer, Binding, BitmapRenderer, BoxCollider, Camera, CapsuleCollider, CircleCollider, EdgeCollider, PhysicsWorld, RigidBody, ShapeRectRenderer, TextRenderer, Transform, GameEngine } from "../lib/mygameengine";
 import { Attackable } from "./behaviours/Attackable";
 import { Enemy } from "./behaviours/Enemy";
+import { EnemyHealthStateMachine } from "./behaviours/EnemyHealthStateMachine";
 import { GameManager } from "./behaviours/GameManager";
 import { HealthStateMachine } from "./behaviours/HealthState";
 import { MainMenuStateMachine } from "./behaviours/MainMenuState";
@@ -26,6 +27,7 @@ registerBehaviourClass(TextRenderer);
 registerBehaviourClass(Transform);
 registerBehaviourClass(Attackable);
 registerBehaviourClass(Enemy);
+registerBehaviourClass(EnemyHealthStateMachine);
 registerBehaviourClass(GameManager);
 registerBehaviourClass(HealthStateMachine);
 registerBehaviourClass(MainMenuStateMachine);
