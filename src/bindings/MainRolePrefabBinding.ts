@@ -9,11 +9,6 @@ import { binding, Binding, makeBinding, prefab } from "./Binding";
 
 @prefab("./assets/prefabs/mainRole.yaml")
 export class MainRolePrefabBinding extends Binding {
-  @string()
-  @binding((prefabRoot, value) => {
-    prefabRoot.children[1].getBehaviour(TextRenderer).text = value;
-  })
-  userName: string;
 
   @string()
   @binding((prefabRoot, value) => {

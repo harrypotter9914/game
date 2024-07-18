@@ -4,6 +4,7 @@ import { b2Vec2 } from "@flyover/box2d";
 import { ChaseState, EnemyState, PatrolState } from "./EnemyState";
 import { EnemyPrefabBinding } from "../bindings/EnemyPrefabBinding";
 import { Walkable } from "./Walkable";
+import { EnemyHealthStateMachine } from "./EnemyHealthStateMachine";
 
 export class Enemy extends Behaviour {
     @number()
@@ -20,6 +21,13 @@ export class Enemy extends Behaviour {
     onStart() {
         this.currentState = new PatrolState(this);
         this.currentState.enter();
+
+        const enemy = getGameObjectById('enemy');
+        if (enemy) {
+            enemy.addBehaviour(new EnemyHealthStateMachine());
+        } else {
+            console.error("Enemy GameObject not found");
+        }
 
         // 获取玩家对象的 Transform
         const playerObject = getGameObjectById('mainRole');

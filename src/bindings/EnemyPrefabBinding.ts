@@ -9,11 +9,6 @@ import {
   
   @prefab("./assets/prefabs/enemy.yaml")
   export class EnemyPrefabBinding extends Binding {
-    @string()
-    @binding((prefabRoot, value) => {
-      prefabRoot.children[1].getBehaviour(TextRenderer).text = value;
-    })
-    userName: string;
   
     @string()
     @binding((prefabRoot, value) => {

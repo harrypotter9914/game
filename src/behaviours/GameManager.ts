@@ -97,6 +97,7 @@ export class GameManager extends Behaviour {
     }
   }
 
+
   onDestroy() {
     // 移除键盘事件监听器
     document.removeEventListener('keydown', this.handleKeyDown.bind(this));

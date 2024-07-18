@@ -1,8 +1,7 @@
 import { Enemy } from "./Enemy";
 import { Collider, RigidBody, Transform } from "../../lib/mygameengine";
 import { b2Vec2 } from "@flyover/box2d";
-import { Attackable } from "./Attackable";
-import { Walkable } from "./Walkable";
+import { EnemyHealthStateMachine } from "./EnemyHealthStateMachine"; // 引入血量状态机
 
 
 export abstract class EnemyState {
@@ -45,6 +44,12 @@ export class HurtState extends EnemyState {
         const rigidBody = this.enemy.gameObject.getBehaviour(RigidBody);
         const force = this.hurtDirection === 'left' ? new b2Vec2(-60, 0) : new b2Vec2(60, 0);
         rigidBody.b2RigidBody.ApplyLinearImpulse(force, rigidBody.b2RigidBody.GetWorldCenter(), true);
+
+        // 减少敌人的血量
+        const healthStateMachine = this.enemy.gameObject.getBehaviour(EnemyHealthStateMachine);
+        if (healthStateMachine) {
+            healthStateMachine.decreaseHealth(1);
+        }
     }
 
     update(duringTime: number) {
