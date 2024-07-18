@@ -2,7 +2,7 @@ import { b2Vec2 } from "@flyover/box2d";
 import { RigidBody } from "../../lib/mygameengine";
 import { Walkable } from "./Walkable";
 import { HealthStateMachine } from "./HealthState";
-
+import { AudioBehaviour, AudioSystem } from "../../lib/mygameengine";
 
 
 function handleMovement(event: KeyboardEvent, walkable: Walkable) {
@@ -68,11 +68,17 @@ export abstract class State {
 export class HurtState extends State {
   private animationDuration: number;
   private healthStateMachine: HealthStateMachine | null;
+  private damageAudio: AudioBehaviour | null = null;
 
   constructor(walkable: Walkable, animationDuration: number = 500) {
       super(walkable);
       this.animationDuration = animationDuration;
       this.healthStateMachine = this.walkable.gameObject.getBehaviour(HealthStateMachine);
+      // 初始化音频行为
+      this.damageAudio = new AudioBehaviour();
+      this.damageAudio.source = "./assets/audio/21_orc_damage_1.wav"; 
+      this.damageAudio.setLoop(false); // 设置不循环播放
+      this.damageAudio.setVolume(1);
   }
 
   enter() {
@@ -89,15 +95,18 @@ export class HurtState extends State {
 
     console.log(`lastEnemyAction: ${enemyAction}`);
   
+    if (this.damageAudio) {
+      this.damageAudio.play();
+  }
 
     let impulseX: number
 
     if (enemyAction.includes('left')) {
         this.walkable.mainRoleBinding!.action = 'rightsufferattack';
-        impulseX = -250;
+        impulseX = -150;
     } else {
         this.walkable.mainRoleBinding!.action = 'leftsufferattack';
-        impulseX = 250;
+        impulseX = 150;
     }
     rigidBody.b2RigidBody.ApplyLinearImpulse(new b2Vec2(impulseX, 0), rigidBody.b2RigidBody.GetWorldCenter(), true);
 

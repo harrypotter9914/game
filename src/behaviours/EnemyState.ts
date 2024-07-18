@@ -2,7 +2,7 @@ import { Enemy } from "./Enemy";
 import { Collider, RigidBody, Transform } from "../../lib/mygameengine";
 import { b2Vec2 } from "@flyover/box2d";
 import { EnemyHealthStateMachine } from "./EnemyHealthStateMachine"; // 引入血量状态机
-
+import { AudioBehaviour, AudioSystem } from "../../lib/mygameengine";
 
 export abstract class EnemyState {
     protected enemy: Enemy;
@@ -23,11 +23,20 @@ export abstract class EnemyState {
 export class HurtState extends EnemyState {
     private previousState: EnemyState;
     private hurtDirection: string;
+    private damageAudio: AudioBehaviour | null = null;
+    private attackAudio: AudioBehaviour | null = null;
+
+
     
     constructor(enemy: Enemy, previousState: EnemyState, hurtDirection: string) {
         super(enemy);
         this.previousState = previousState;
         this.hurtDirection = hurtDirection;
+        // 初始化音频行为
+        this.damageAudio = new AudioBehaviour();
+        this.damageAudio.source = "./assets/audio/21_orc_damage_1.wav"; 
+        this.damageAudio.setLoop(false); // 设置不循环播放
+        this.damageAudio.setVolume(1);
     }
 
     enter() {
@@ -38,6 +47,10 @@ export class HurtState extends EnemyState {
             this.enemy.enemyBinding!.action = 'rightsufferattack';
         } else {
             this.enemy.enemyBinding!.action = 'leftsufferattack';
+        }
+
+        if (this.damageAudio) {
+            this.damageAudio.play();
         }
 
         // 向攻击方向击飞一段距离
@@ -194,6 +207,11 @@ export class ChaseState extends EnemyState {
 
 
 export class AttackState extends EnemyState {
+
+    constructor(enemy: Enemy) {
+        super(enemy);
+    }
+
     enter() {
         console.log("Entering Attack State");
     }

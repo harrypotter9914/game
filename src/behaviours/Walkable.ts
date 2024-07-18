@@ -7,6 +7,7 @@ import { EnemyPrefabBinding } from "../bindings/EnemyPrefabBinding";
 import { Enemy } from "./Enemy";
 import { HealthStateMachine } from "./HealthState";
 import { ManaStateMachine } from "./ManaState";
+import { AudioBehaviour, AudioSystem } from "../../lib/mygameengine";
 
 export class Walkable extends Behaviour {
     @number()
@@ -44,6 +45,9 @@ export class Walkable extends Behaviour {
     private hurtCooldown: boolean = false; // 跟踪受击冷却状态
     private aKeyPressedStartTime: number = 0;
     private isAKeyPressed: boolean = false;
+    private jumpAudio: AudioBehaviour | null = null;
+    private bgmusic1: AudioBehaviour | null = null;
+
 
     private groundContactCount = 0; // 跟踪feet接触的数量
     private wallContactCount = 0; // 跟踪body接触的数量
@@ -51,6 +55,18 @@ export class Walkable extends Behaviour {
     constructor() {
         super();
         this.currentState = new GroundState(this); // 初始状态为地面状态
+
+        // 初始化音频行为
+        this.jumpAudio = new AudioBehaviour();
+        this.jumpAudio.source = "./assets/audio/12_human_jump_1.wav"; // 设置跳跃音频的路径
+        this.jumpAudio.setLoop(false); // 设置不循环播放
+        this.jumpAudio.setVolume(1);
+
+        // 初始化音频行为
+        this.bgmusic1 = new AudioBehaviour();
+        this.bgmusic1.source = "./assets/audio/tower.wav"; // 设置跳跃音频的路径
+        this.bgmusic1.setLoop(true); // 设置不循环播放
+        this.bgmusic1.setVolume(0.5); // 设置音量，范围是 0.0 到 1.0
     }
 
     changeState(newState: State) {
@@ -91,6 +107,10 @@ export class Walkable extends Behaviour {
         const attackable = new Attackable(this);
         this.gameObject.addBehaviour(attackable);
         this.attackable = attackable;
+
+        if (this.gameObject.active === true) {
+            this.bgmusic1.play();
+        } 
 
         const player = getGameObjectById('mainRole');
         if (player) {
@@ -134,7 +154,7 @@ export class Walkable extends Behaviour {
             }
             this.isAKeyPressed = false;
         }
-        
+
         if (event.key === 'z') {
             this.cameraZoomedOut = false;
         }
@@ -185,6 +205,9 @@ export class Walkable extends Behaviour {
 
 
     jump(rigid: RigidBody, multiplier: number = 1) {
+        if (this.jumpAudio) {
+            this.jumpAudio.play();
+        }
         rigid.b2RigidBody.SetLinearVelocity(new b2Vec2(rigid.b2RigidBody.GetLinearVelocity().x, this.jumpForce * multiplier));
     }
 
@@ -199,12 +222,19 @@ export class Walkable extends Behaviour {
 
         const horizontalSpeed = this.wallJumpForce * direction;
         const verticalSpeed = this.jumpForce * 0.7;
+        if (this.jumpAudio) {
+            this.jumpAudio.play();
+        }
         rigid.b2RigidBody.SetLinearVelocity(new b2Vec2(horizontalSpeed, verticalSpeed));
         console.log(`wall jump: (${horizontalSpeed}, ${verticalSpeed})`);
       }
 
     onTick(duringTime: number) {
         this.currentState.update(duringTime);
+
+        if(this.gameObject.active === false) {
+            this.bgmusic1.stop();
+        }
 
         const rigid = this.gameObject.getBehaviour(RigidBody);
         let velocity = rigid.b2RigidBody.GetLinearVelocity();

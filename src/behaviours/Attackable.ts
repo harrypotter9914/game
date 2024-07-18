@@ -4,6 +4,7 @@ import { Walkable } from "./Walkable";
 import { AirState, WallState, DoubleJumpedState } from "./State";
 import { getGameObjectById } from "../../lib/mygameengine";
 import { MaoQiPrefabBinding } from "../bindings/MaoQiPrefabBinding";
+import { AudioBehaviour, AudioSystem } from "../../lib/mygameengine";
 
 export class Attackable extends Behaviour {
     private attackPower: number = 10;
@@ -12,10 +13,16 @@ export class Attackable extends Behaviour {
     private walkable: Walkable;
     private maoQiInstance: MaoQiPrefabBinding | null = null;
     public lastAttackDirection: string = 'right'; // 记录最后的攻击方向
+    private attackAudio: AudioBehaviour | null = null;
 
     constructor(walkable: Walkable) {
         super();
         this.walkable = walkable;
+        // 初始化音频行为
+        this.attackAudio = new AudioBehaviour();
+        this.attackAudio.source = "./assets/audio/07_human_atk_sword_2.wav"; 
+        this.attackAudio.setLoop(false); // 设置不循环播放
+        this.attackAudio.setVolume(1);
     }
 
     onStart() {
@@ -59,6 +66,9 @@ export class Attackable extends Behaviour {
         if (this.mainRoleBinding) {
             this.mainRoleBinding.action = action;
             this.movePrefab(action); // 移动剑气预制体
+            if (this.attackAudio) {
+                this.attackAudio.play();
+            }
             setTimeout(() => {
                 this.mainRoleBinding.action = this.walkable.lastAction.includes('left') ? 'leftidle' : 'rightidle'; // 攻击结束后恢复到idle状态
             }, 500 / this.attackSpeed); // 根据攻击速度调整动画持续时间
@@ -150,6 +160,11 @@ export class Attackable extends Behaviour {
         }, 40);
     }
 
+    onTick(duringTime: number) {
+        if(this.gameObject.active === false) {
+            this.attackAudio.stop();
+        }
+    }
 
     setAttackPower(power: number) {
         this.attackPower = power;

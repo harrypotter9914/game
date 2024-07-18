@@ -1,6 +1,7 @@
 import { Behaviour, getGameObjectById, GameObject, Transform } from "../../lib/mygameengine";
 import { GameManager } from "./GameManager";
 import { BitmapRenderer } from "../../lib/mygameengine";
+import { AudioBehaviour, AudioSystem } from "../../lib/mygameengine";
 
 enum MainMenuState {
     None,
@@ -14,8 +15,16 @@ export class MainMenuStateMachine extends Behaviour {
     private camera: GameObject | null = null;
     private offsetX: number = -1280; // X 轴偏移量
     private offsetY: number = -720; // Y 轴偏移量
+    private bgmusic3: AudioBehaviour | null = null;
+
 
     onStart() {
+
+        // 初始化音频行为
+        this.bgmusic3 = new AudioBehaviour();
+        this.bgmusic3.source = "./assets/audio/mainscreen.wav"; // 设置跳跃音频的路径
+        this.bgmusic3.setLoop(true); // 设置不循环播放
+        this.bgmusic3.setVolume(0.5); // 设置音量，范围是 0.0 到 1.0
         // 获取菜单图片的 GameObject
         this.menuImage = getGameObjectById('menuImage');
 
@@ -30,6 +39,10 @@ export class MainMenuStateMachine extends Behaviour {
 
         // 设置图片位置
         this.updateMenuImagePosition();
+
+        if (this.gameObject.active === true) {
+            this.bgmusic3.play();
+        } 
 
     }
 
@@ -125,6 +138,14 @@ export class MainMenuStateMachine extends Behaviour {
             }
         } else {
             console.error("Menu image or camera GameObject not found");
+        }
+    }
+
+    onUpdate() {
+        if (this.gameObject.active === false) {
+            // 移除键盘事件监听器
+            this.bgmusic3.stop();
+            this.onDestroy();
         }
     }
 

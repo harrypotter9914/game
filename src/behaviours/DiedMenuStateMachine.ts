@@ -1,5 +1,6 @@
 import { Behaviour, getGameObjectById, GameObject, Transform, BitmapRenderer } from "../../lib/mygameengine";
 import { GameManager } from "./GameManager";
+import { AudioBehaviour, AudioSystem } from "../../lib/mygameengine";
 
 enum DiedMenuState {
     Image1,
@@ -24,9 +25,15 @@ export class DiedMenuStateMachine extends Behaviour {
     ];
     private changeInterval: number = 3000; // 图片切换间隔（毫秒）
     private changeTimer: number | null = null;
+    private bgmusic2: AudioBehaviour | null = null;
 
 
     onStart() {
+        // 初始化音频行为
+        this.bgmusic2 = new AudioBehaviour();
+        this.bgmusic2.source = "./assets/audio/dead.wav"; // 设置跳跃音频的路径
+        this.bgmusic2.setLoop(true); // 设置不循环播放
+        this.bgmusic2.setVolume(0.5); // 设置音量，范围是 0.0 到 1.0
         // 获取菜单图片的 GameObject
         this.menuImage = getGameObjectById('diedmenuImage');
 
@@ -44,12 +51,17 @@ export class DiedMenuStateMachine extends Behaviour {
 
         // 开始图片切换计时器
         this.startImageChangeTimer();
+
+        if (this.gameObject.active === true) {
+            this.bgmusic2.play();
+        } 
     }
 
 
     onUpdate() {
         if (!this.gameObject.active) {
             // 移除键盘事件监听器
+            this.bgmusic2.stop();
             document.removeEventListener('keydown', this.handleKeyDown.bind(this));
             this.onDestroy();
         }
