@@ -40,6 +40,29 @@ children:
           scaleX: 1
           scaleY: 1
           rotation: 0
+      - type: PauseMenuStateMachine
+    id: pausemenu
+    children:
+      - behaviours:
+          - type: Transform
+            properties:
+              x: -1180
+              y: -620
+              scaleX: 1.35
+              scaleY: 1.35
+              rotation: 0
+          - type: BitmapRenderer
+            properties:
+              source: ./assets/images/nos.png
+        id: pauseMenuImage
+  - behaviours:
+      - type: Transform
+        properties:
+          x: 0
+          y: 0
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
       - type: MainMenuStateMachine
     id: mainmenu
     children:
@@ -55,6 +78,18 @@ children:
             properties:
               source: ./assets/images/nosellect.jpg
         id: menuImage
+      - behaviours:
+          - type: Transform
+            properties:
+              x: -1180
+              y: -600
+              scaleX: 1.36
+              scaleY: 1.36
+              rotation: 0
+          - type: BitmapRenderer
+            properties:
+              source: ./assets/images/startpage.png
+        id: menuImage1
   - behaviours:
       - type: Transform
         properties:
@@ -77,12 +112,480 @@ children:
           properties:
             x: 0
             y: 0
+      - behaviours:
+          - type: Transform
+            properties:
+              x: -1300
+              y: 100
+              scaleX: 0.3
+              scaleY: 0.3
+              rotation: 0
+          - type: RigidBody
+            properties:
+              x: -1300
+              y: 100
+              type: 0
+              gravityScale: 1
+          - type: BoxCollider
+            properties:
+              isSensor: 1
+              tag: hoxi 4.23 travellers
+              width: 40
+              height: 40
+              centerX: 13
+              centerY: -13
+          - type: BitmapRenderer
+            properties:
+              source: ./assets/images/hoxi.png
+        id: hoxi 4.23 travellers
+      - behaviours:
+          - type: Transform
+            properties:
+              x: -1100
+              y: 100
+              scaleX: 0.3
+              scaleY: 0.3
+              rotation: 0
+          - type: RigidBody
+            properties:
+              x: -1100
+              y: 100
+              type: 0
+              gravityScale: 1
+          - type: BoxCollider
+            properties:
+              isSensor: 1
+              tag: hoxi Sword
+              width: 40
+              height: 40
+              centerX: 13
+              centerY: -13
+          - type: BitmapRenderer
+            properties:
+              source: ./assets/images/hoxi.png
+        id: hoxi Sword
+      - behaviours:
+          - type: Transform
+            properties:
+              x: 4800
+              y: 200
+              scaleX: 0.3
+              scaleY: 0.3
+              rotation: 0
+          - type: RigidBody
+            properties:
+              x: 4800
+              y: 200
+              type: 0
+              gravityScale: 1
+          - type: BoxCollider
+            properties:
+              isSensor: 1
+              tag: hoxi Flight
+              width: 40
+              height: 40
+              centerX: 13
+              centerY: -13
+          - type: BitmapRenderer
+            properties:
+              source: ./assets/images/hoxi.png
+        id: hoxi Flight
+      - behaviours:
+          - type: Transform
+            properties:
+              x: 6500
+              y: -1300
+              scaleX: 0.3
+              scaleY: 0.3
+              rotation: 0
+          - type: RigidBody
+            properties:
+              x: 6500
+              y: -1300
+              type: 0
+              gravityScale: 1
+          - type: BoxCollider
+            properties:
+              isSensor: 1
+              tag: hoxi 4.24 travellers
+              width: 40
+              height: 40
+              centerX: 13
+              centerY: -13
+          - type: BitmapRenderer
+            properties:
+              source: ./assets/images/hoxi.png
+        id: hoxi 4.24 travellers
+      - behaviours:
+          - type: Transform
+            properties:
+              x: 8900
+              y: 1800
+              scaleX: 0.3
+              scaleY: 0.3
+              rotation: 0
+          - type: RigidBody
+            properties:
+              x: 8900
+              y: 1800
+              type: 0
+              gravityScale: 1
+          - type: BoxCollider
+            properties:
+              isSensor: 1
+              tag: hoxi 6.14 builders
+              width: 40
+              height: 40
+              centerX: 13
+              centerY: -13
+          - type: BitmapRenderer
+            properties:
+              source: ./assets/images/hoxi.png
+        id: hoxi 6.14 builders
+      - behaviours:
+          - type: Transform
+            properties:
+              x: 6200
+              y: 1300
+              scaleX: 0.3
+              scaleY: 0.3
+              rotation: 0
+          - type: RigidBody
+            properties:
+              x: 6200
+              y: 1300
+              type: 0
+              gravityScale: 1
+          - type: BoxCollider
+            properties:
+              isSensor: 1
+              tag: hoxi Harvest
+              width: 40
+              height: 40
+              centerX: 13
+              centerY: -13
+          - type: BitmapRenderer
+            properties:
+              source: ./assets/images/hoxi.png
+        id: hoxi Harvest
+      - behaviours:
+          - type: Transform
+            properties:
+              x: 5100
+              y: 2500
+              scaleX: 0.3
+              scaleY: 0.3
+              rotation: 0
+          - type: RigidBody
+            properties:
+              x: 5100
+              y: 2500
+              type: 0
+              gravityScale: 1
+          - type: BoxCollider
+            properties:
+              isSensor: 1
+              tag: hoxi Sun
+              width: 40
+              height: 40
+              centerX: 13
+              centerY: -13
+          - type: BitmapRenderer
+            properties:
+              source: ./assets/images/hoxi.png
+        id: hoxi Sun
+      - behaviours:
+          - type: Transform
+            properties:
+              x: 12700
+              y: 2600
+              scaleX: 0.3
+              scaleY: 0.3
+              rotation: 0
+          - type: RigidBody
+            properties:
+              x: 12700
+              y: 2600
+              type: 0
+              gravityScale: 1
+          - type: BoxCollider
+            properties:
+              isSensor: 1
+              tag: hoxi Moon
+              width: 40
+              height: 40
+              centerX: 13
+              centerY: -13
+          - type: BitmapRenderer
+            properties:
+              source: ./assets/images/hoxi.png
+        id: hoxi Moon
+      - behaviours:
+          - type: Transform
+            properties:
+              x: 15600
+              y: 3300
+              scaleX: 0.3
+              scaleY: 0.3
+              rotation: 0
+          - type: RigidBody
+            properties:
+              x: 15600
+              y: 3300
+              type: 0
+              gravityScale: 1
+          - type: BoxCollider
+            properties:
+              isSensor: 1
+              tag: hoxi rings
+              width: 40
+              height: 40
+              centerX: 13
+              centerY: -13
+          - type: BitmapRenderer
+            properties:
+              source: ./assets/images/hoxi.png
+        id: hoxi rings
+      - behaviours:
+          - type: Transform
+            properties:
+              x: 15500
+              y: 2400
+              scaleX: 0.3
+              scaleY: 0.3
+              rotation: 0
+          - type: RigidBody
+            properties:
+              x: 15500
+              y: 2400
+              type: 0
+              gravityScale: 1
+          - type: BoxCollider
+            properties:
+              isSensor: 1
+              tag: hoxi 8.30 builders
+              width: 40
+              height: 40
+              centerX: 13
+              centerY: -13
+          - type: BitmapRenderer
+            properties:
+              source: ./assets/images/hoxi.png
+        id: hoxi 8.30 builders
+      - behaviours:
+          - type: Transform
+            properties:
+              x: 12300
+              y: 100
+              scaleX: 0.3
+              scaleY: 0.3
+              rotation: 0
+          - type: RigidBody
+            properties:
+              x: 12300
+              y: 100
+              type: 0
+              gravityScale: 1
+          - type: BoxCollider
+            properties:
+              isSensor: 1
+              tag: hoxi Star
+              width: 40
+              height: 40
+              centerX: 13
+              centerY: -13
+          - type: BitmapRenderer
+            properties:
+              source: ./assets/images/hoxi.png
+        id: hoxi Star
+      - behaviours:
+          - type: Transform
+            properties:
+              x: 11400
+              y: -1100
+              scaleX: 0.3
+              scaleY: 0.3
+              rotation: 0
+          - type: RigidBody
+            properties:
+              x: 11400
+              y: -1100
+              type: 0
+              gravityScale: 1
+          - type: BoxCollider
+            properties:
+              isSensor: 1
+              tag: hoxi Romance
+              width: 40
+              height: 40
+              centerX: 13
+              centerY: -13
+          - type: BitmapRenderer
+            properties:
+              source: ./assets/images/hoxi.png
+        id: hoxi Romance
+      - behaviours:
+          - type: Transform
+            properties:
+              x: 11000
+              y: -1500
+              scaleX: 0.3
+              scaleY: 0.3
+              rotation: 0
+          - type: RigidBody
+            properties:
+              x: 11000
+              y: -1500
+              type: 0
+              gravityScale: 1
+          - type: BoxCollider
+            properties:
+              isSensor: 1
+              tag: hoxi Woman
+              width: 40
+              height: 40
+              centerX: 13
+              centerY: -13
+          - type: BitmapRenderer
+            properties:
+              source: ./assets/images/hoxi.png
+        id: hoxi Woman
+      - behaviours:
+          - type: Transform
+            properties:
+              x: 8400
+              y: -2300
+              scaleX: 0.3
+              scaleY: 0.3
+              rotation: 0
+          - type: RigidBody
+            properties:
+              x: 8400
+              y: -2300
+              type: 0
+              gravityScale: 1
+          - type: BoxCollider
+            properties:
+              isSensor: 1
+              tag: hoxi 10.1 builders
+              width: 40
+              height: 40
+              centerX: 13
+              centerY: -13
+          - type: BitmapRenderer
+            properties:
+              source: ./assets/images/hoxi.png
+        id: hoxi 10.1 builders
+      - behaviours:
+          - type: Transform
+            properties:
+              x: 16200
+              y: -100
+              scaleX: 0.3
+              scaleY: 0.3
+              rotation: 0
+          - type: RigidBody
+            properties:
+              x: 16200
+              y: -100
+              type: 0
+              gravityScale: 1
+          - type: BoxCollider
+            properties:
+              isSensor: 1
+              tag: hoxi 12.12 builders
+              width: 40
+              height: 40
+              centerX: 13
+              centerY: -13
+          - type: BitmapRenderer
+            properties:
+              source: ./assets/images/hoxi.png
+        id: hoxi 12.12 builders
+      - behaviours:
+          - type: Transform
+            properties:
+              x: 16600
+              y: -100
+              scaleX: 0.3
+              scaleY: 0.3
+              rotation: 0
+          - type: RigidBody
+            properties:
+              x: 16600
+              y: -100
+              type: 0
+              gravityScale: 1
+          - type: BoxCollider
+            properties:
+              isSensor: 1
+              tag: hoxi 4.25 travellers
+              width: 40
+              height: 40
+              centerX: 13
+              centerY: -13
+          - type: BitmapRenderer
+            properties:
+              source: ./assets/images/hoxi.png
+        id: hoxi 4.25 travellers
+      - behaviours:
+          - type: Transform
+            properties:
+              x: 19500
+              y: -1000
+              scaleX: 0.3
+              scaleY: 0.3
+              rotation: 0
+          - type: RigidBody
+            properties:
+              x: 19500
+              y: -1000
+              type: 0
+              gravityScale: 1
+          - type: BoxCollider
+            properties:
+              isSensor: 1
+              tag: hoxi 4.28 travellers
+              width: 40
+              height: 40
+              centerX: 13
+              centerY: -13
+          - type: BitmapRenderer
+            properties:
+              source: ./assets/images/hoxi.png
+        id: hoxi 4.28 travellers
+      - behaviours:
+          - type: Transform
+            properties:
+              x: 23100
+              y: -1500
+              scaleX: 0.3
+              scaleY: 0.3
+              rotation: 0
+          - type: RigidBody
+            properties:
+              x: 23100
+              y: -1500
+              type: 0
+              gravityScale: 1
+          - type: BoxCollider
+            properties:
+              isSensor: 1
+              tag: hoxi 4.30 travellers
+              width: 40
+              height: 40
+              centerX: 13
+              centerY: -13
+          - type: BitmapRenderer
+            properties:
+              source: ./assets/images/hoxi.png
+        id: hoxi 4.30 travellers
       - behaviours: []
         id: mainRole
         prefab:
           type: MainRolePrefabBinding
           properties:
-            action: rightidle
+            action: leftdead
             x: 100
             y: 100
       - behaviours: []
@@ -127,6 +630,18 @@ children:
             rotation: 0
             scaleX: 1
             scaleY: 1
+      - behaviours:
+          - type: Transform
+            properties:
+              x: -120000
+              y: -800
+              scaleX: 1
+              scaleY: 1
+              rotation: 0
+          - type: BitmapRenderer
+            properties:
+              source: ./assets/images/hoxi 4.23 travellers.png
+        id: iconDisplay
   - behaviours:
       - type: Transform
         properties:
@@ -141,8 +656,8 @@ children:
         properties:
           x: 0
           y: 0
-          scaleX: 1
-          scaleY: 1
+          scaleX: 0.1
+          scaleY: 0.1
           rotation: 0
       - type: Camera
     id: camera
@@ -150,8 +665,8 @@ children:
       - behaviours:
           - type: Transform
             properties:
-              x: -1300
-              y: -1000
+              x: -2100
+              y: -1500
               scaleX: 3
               scaleY: 3
               rotation: 0
@@ -162,8 +677,8 @@ children:
       - behaviours:
           - type: Transform
             properties:
-              x: -1300
-              y: -1000
+              x: -2100
+              y: -1500
               scaleX: 3
               scaleY: 3
               rotation: 0

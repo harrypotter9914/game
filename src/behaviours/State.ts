@@ -135,11 +135,17 @@ export class HurtState extends State {
 }
 
 export class GroundState extends State {
+  private healthStateMachine: HealthStateMachine | null;
   enter() {
     this.walkable.airJumped = false; // 重置空中跳跃状态
     this.walkable.coyoteTimer = this.walkable.coyoteTime; // 重置土狼时间
     this.walkable.initialJump = true; // 重置初始跳跃状态
-
+    this.healthStateMachine = this.walkable.gameObject.getBehaviour(HealthStateMachine);
+    if (this.healthStateMachine.isdead === true && this.walkable.lastAction.includes('left')) {
+      this.walkable.mainRoleBinding!.action = 'leftdead';
+    } else if (this.healthStateMachine.isdead === true && this.walkable.lastAction.includes('right')) {
+      this.walkable.mainRoleBinding!.action = 'rightdead';
+    }
     if (this.walkable.lastAction === 'leftrun' || this.walkable.lastAction === 'leftjump') {
       this.walkable.mainRoleBinding!.action = 'leftidle';
       this.walkable.lastAction = 'leftidle';

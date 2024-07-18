@@ -8,6 +8,7 @@ import { Enemy } from "./Enemy";
 import { HealthStateMachine } from "./HealthState";
 import { ManaStateMachine } from "./ManaState";
 import { AudioBehaviour, AudioSystem } from "../../lib/mygameengine";
+import { StarCollisionHandler } from "./StarCollisionHandler";
 
 export class Walkable extends Behaviour {
     @number()
@@ -47,7 +48,9 @@ export class Walkable extends Behaviour {
     private isAKeyPressed: boolean = false;
     private jumpAudio: AudioBehaviour | null = null;
     private bgmusic1: AudioBehaviour | null = null;
-
+    public startag: string = '';
+    public offsetX: number = 550; // X轴偏移量
+    public offsetY: number = 150; // Y轴偏移量
 
     private groundContactCount = 0; // 跟踪feet接触的数量
     private wallContactCount = 0; // 跟踪body接触的数量
@@ -65,7 +68,7 @@ export class Walkable extends Behaviour {
         // 初始化音频行为
         this.bgmusic1 = new AudioBehaviour();
         this.bgmusic1.source = "./assets/audio/tower.wav"; // 设置跳跃音频的路径
-        this.bgmusic1.setLoop(true); // 设置不循环播放
+        this.bgmusic1.setLoop(true); // 设置循环播放
         this.bgmusic1.setVolume(0.5); // 设置音量，范围是 0.0 到 1.0
     }
 
@@ -103,6 +106,7 @@ export class Walkable extends Behaviour {
              this.playerTransform = playerObject.getBehaviour(Transform);
          }
 
+
          // 添加 Attackable 行为
         const attackable = new Attackable(this);
         this.gameObject.addBehaviour(attackable);
@@ -110,12 +114,16 @@ export class Walkable extends Behaviour {
 
         if (this.gameObject.active === true) {
             this.bgmusic1.play();
+            this.cameraTransform.scaleX = 0.6;
+            this.cameraTransform.scaleY = 0.6;
         } 
+
 
         const player = getGameObjectById('mainRole');
         if (player) {
             player.addBehaviour(new HealthStateMachine());
             player.addBehaviour(new ManaStateMachine());
+            player.addBehaviour(new StarCollisionHandler());
             console.log("HealthStateMachine and ManaStateMachine added to player");
         } else {
             console.error("Player GameObject not found");
@@ -134,6 +142,11 @@ export class Walkable extends Behaviour {
         if (event.key === 'a' && !this.isAKeyPressed) {
             this.aKeyPressedStartTime = Date.now();
             this.isAKeyPressed = true;
+            if (this.lastAction.includes('left')) {
+                this.mainRoleBinding.action = 'leftheal';
+                } else if (this.lastAction.includes('right')) {
+                this.mainRoleBinding.action = 'rightheal';
+                }
         }
         
         if (event.key === 'z') { // 假设按下 'z' 键缩放摄像机
@@ -175,6 +188,15 @@ export class Walkable extends Behaviour {
                 console.log('on wall');
             }
         }
+
+        if ((selfCollider.tag === 'feet' || selfCollider.tag === 'body') && otherCollider.tag.includes('hoxi')) {
+            const starCollisionHandler = this.gameObject.getBehaviour(StarCollisionHandler);
+            if (starCollisionHandler) {
+                starCollisionHandler.setInteractingStar(other.gameObject); // 设置交互的星星对象
+                this.startag = other.gameObject.tag;
+            }
+        }
+
         if ((selfCollider.tag === 'body' || selfCollider.tag === 'feet') && (otherCollider.tag === 'enemybody' || otherCollider.tag === 'enemyfeet')) {
             if (!this.hurtCooldown) {
                 this.lastEnemyAction = other.gameObject.getBehaviour(EnemyPrefabBinding)?.action || '';
@@ -234,6 +256,8 @@ export class Walkable extends Behaviour {
 
         if(this.gameObject.active === false) {
             this.bgmusic1.stop();
+            this.cameraTransform.scaleX = 1;
+            this.cameraTransform.scaleY = 1;
         }
 
         const rigid = this.gameObject.getBehaviour(RigidBody);
@@ -255,16 +279,8 @@ export class Walkable extends Behaviour {
       
         // 直接更新相机位置
         if (this.cameraTransform && this.playerTransform) {
-            this.cameraTransform.x = this.playerTransform.x;
-            this.cameraTransform.y = this.playerTransform.y;
-
-            if (this.cameraZoomedOut) {
-                this.cameraTransform.scaleX = 100;
-                this.cameraTransform.scaleY = 100;
-            } else {
-                this.cameraTransform.scaleX = 1;
-                this.cameraTransform.scaleY = 1;
-            }
+            this.cameraTransform.x = this.playerTransform.x + this.offsetX;
+            this.cameraTransform.y = this.playerTransform.y + this.offsetY;
         }
     }
 

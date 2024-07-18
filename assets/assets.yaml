@@ -10,22 +10,43 @@ images:
   - ./assets/images/blue1.png
   - ./assets/images/blue2.png
   - ./assets/images/blue3.png
+  - ./assets/images/continue.png
   - ./assets/images/died1.png
   - ./assets/images/died2.png
   - ./assets/images/died3.png
   - ./assets/images/died4.png
   - ./assets/images/died5.png
+  - ./assets/images/exit.png
   - ./assets/images/flight.png
   - ./assets/images/flighttext.png
   - ./assets/images/fuwenselect.png
   - ./assets/images/harvest.png
   - ./assets/images/harvesttext.png
+  - ./assets/images/hoxi 10.1 builders.png
+  - ./assets/images/hoxi 12.12 builders.png
+  - ./assets/images/hoxi 4.23 travellers.png
+  - ./assets/images/hoxi 4.24 travellers.png
+  - ./assets/images/hoxi 4.25 travellers.png
+  - ./assets/images/hoxi 4.28 travellers.png
+  - ./assets/images/hoxi 4.30 travellers.png
+  - ./assets/images/hoxi 6.14 builders.png
+  - ./assets/images/hoxi 8.30 builders.png
+  - ./assets/images/hoxi Flight.png
+  - ./assets/images/hoxi Harvest.png
+  - ./assets/images/hoxi Moon.png
+  - ./assets/images/hoxi rings.png
+  - ./assets/images/hoxi Romance.png
+  - ./assets/images/hoxi Star.png
+  - ./assets/images/hoxi Sun.png
+  - ./assets/images/hoxi Sword.png
+  - ./assets/images/hoxi Woman.png
   - ./assets/images/hoxi.png
   - ./assets/images/icon.jpg
   - ./assets/images/MaoQi.png
   - ./assets/images/map.png
   - ./assets/images/moon.png
   - ./assets/images/moontext.png
+  - ./assets/images/nos.png
   - ./assets/images/nosellect.jpg
   - ./assets/images/package.png
   - ./assets/images/quitgame.jpg
@@ -36,8 +57,10 @@ images:
   - ./assets/images/star.png
   - ./assets/images/startext.png
   - ./assets/images/startgame.jpg
+  - ./assets/images/startpage.png
   - ./assets/images/sun.png
   - ./assets/images/suntext.png
+  - ./assets/images/wide.png
   - ./assets/images/woman.png
   - ./assets/images/womantext.png
   - ./assets/animations/avatar.jpg

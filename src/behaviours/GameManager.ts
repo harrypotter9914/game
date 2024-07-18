@@ -7,6 +7,7 @@ export class GameManager extends Behaviour {
   private blood: GameObject | null = null;
   private blue: GameObject | null = null;
   private camera: GameObject | null = null;
+  private iconDisplay: GameObject | null = null;
 
   onStart() {
     console.log("Initializing scenes...");
@@ -16,12 +17,14 @@ export class GameManager extends Behaviour {
       'mainmenu': getGameObjectById('mainmenu'),
       'scene': getGameObjectById('scene'),
       'diedmenu': getGameObjectById('diedmenu'),
+      'pausemenu': getGameObjectById('pausemenu'),  // 新场景
       // 添加更多场景...
     };
 
     // 初始化 blood 和 blue 对象
     this.blood = getGameObjectById('blood');
     this.blue = getGameObjectById('blue');
+    this.iconDisplay = getGameObjectById('iconDisplay');
 
     // 初始化 camera 对象
     this.camera = getGameObjectById('camera');
@@ -30,6 +33,7 @@ export class GameManager extends Behaviour {
     console.log("mainmenu scene:", this.scenes['mainmenu']);
     console.log("scene scene:", this.scenes['scene']);
     console.log("diedmenu scene:", this.scenes['diedmenu']);
+    console.log("pausemenu scene:", this.scenes['pausemenu']);  // 新场景
 
     // 在下一帧禁用所有场景
     requestAnimationFrame(() => {
@@ -62,11 +66,15 @@ export class GameManager extends Behaviour {
     if (this.blue) {
       this.blue.active = false;
     }
+
+    if (this.iconDisplay) {
+      this.iconDisplay.active = false;
+    }
   }
 
   handleKeyDown(event: KeyboardEvent) {
     if (event.key === 'Escape') {
-      this.switchScene('diedmenu');
+      this.switchScene('pausemenu');
     } 
   }
 
@@ -79,6 +87,7 @@ export class GameManager extends Behaviour {
       if (this.currentScene.id === 'scene') {
         if (this.blood) this.blood.active = false;
         if (this.blue) this.blue.active = false;
+        if (this.iconDisplay) this.iconDisplay.active = false;
       }
     }
 
@@ -93,6 +102,7 @@ export class GameManager extends Behaviour {
       if (sceneId === 'scene') {
         if (this.blood) this.blood.active = true;
         if (this.blue) this.blue.active = true;
+        if (this.iconDisplay) this.iconDisplay.active = true;
       } 
     } else {
       console.error(`Scene with ID ${sceneId} not found`);

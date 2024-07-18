@@ -1,15 +1,15 @@
 import { Behaviour, GameObject } from "../../lib/mygameengine";
-import { Enemy } from "./Enemy";
-import { EnemyPrefabBinding } from "../bindings/EnemyPrefabBinding"; 
+import { Enemy6 } from "./Enemy6";
+import { Enemy6PrefabBinding } from "../bindings/Enemy6PrefabBinding"; 
 
-export class EnemyHealthStateMachine extends Behaviour {
+export class Enemy6HealthStateMachine extends Behaviour {
     public currentHealth: number = 3; // 初始血量为3点
     private maxHealth: number = 3; // 最大血量
-    private enemy: GameObject | null = null;
+    private enemy6: GameObject | null = null;
 
     onStart() {
         // 获取敌人对象
-        this.enemy = this.gameObject;
+        this.enemy6 = this.gameObject;
     }
 
     setHealth(health: number) {
@@ -31,19 +31,19 @@ export class EnemyHealthStateMachine extends Behaviour {
     }
 
     handleDeath() {
-        console.log("Enemy died");
+        console.log("Enemy6 died");
 
         // 播放死亡动画
-        if (this.enemy) {
-            const enemyPrefabBinding = this.enemy.getBehaviour(EnemyPrefabBinding);
-            if (enemyPrefabBinding) {
-                enemyPrefabBinding.action = 'leftdead'; // 假设这是播放死亡动画的方法
+        if (this.enemy6) {
+            const enemy6PrefabBinding = this.enemy6.getBehaviour(Enemy6PrefabBinding);
+            if (enemy6PrefabBinding) {
+                enemy6PrefabBinding.action = 'leftdead'; // 假设这是播放死亡动画的方法
             }
         }
 
         setTimeout(() => {
-        if (this.enemy) {
-            this.enemy.active = false; 
+        if (this.enemy6) {
+            this.enemy6.active = false; 
             }
         }, 500);
     }

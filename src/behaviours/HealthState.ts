@@ -1,5 +1,7 @@
 import { Behaviour, getGameObjectById, GameObject, Transform, BitmapRenderer } from "../../lib/mygameengine";
+import { EnemyPrefabBinding } from "../bindings/EnemyPrefabBinding";
 import { GameManager } from "./GameManager";
+import { Walkable } from "./Walkable";
 
 export class HealthStateMachine extends Behaviour {
     public currentHealth: number = 6; // 初始血量为6格
@@ -7,7 +9,11 @@ export class HealthStateMachine extends Behaviour {
     private specialMaxHealth: number = 7; // 特殊情况下的最大血量
     private blood: GameObject | null = null;
     private gameManager: GameObject | null = null;
+    private walkable: Walkable
+    private enemyattactaction: string = 'right';
+    public isdead: boolean = false;
 
+    
     onStart() {
         // 获取 blood 对象
         this.blood = getGameObjectById('blood');
@@ -23,8 +29,15 @@ export class HealthStateMachine extends Behaviour {
             return;
         }
 
+        // 获取 Walkable 对象
+        const player = getGameObjectById('mainRole');
+        if (player) {
+            this.walkable = player.getBehaviour(Walkable);
+        }
+
         // 初始化血量图片
         this.updateHealthImage();
+
     }
 
     updateHealthImage() {
@@ -53,6 +66,7 @@ export class HealthStateMachine extends Behaviour {
         this.updateHealthImage();
 
         if (this.currentHealth <= 0) {
+            this.isdead = true;
             this.handleDeath();
         }
     }
@@ -79,9 +93,10 @@ export class HealthStateMachine extends Behaviour {
 
 
     handleDeath() {
-        console.log("Player died");
-        if (this.gameManager) {
-            this.gameManager.getBehaviour(GameManager).switchScene('diedmenu');
-        }
+        setTimeout(() => {
+            if (this.gameManager) {
+                this.gameManager.getBehaviour(GameManager).switchScene('diedmenu');
+            }
+        }, 1000);
     }
 }

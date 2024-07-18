@@ -63,12 +63,10 @@ export class ManaStateMachine extends Behaviour {
         if (this.isDecreasingMana || this.currentMana <= 0 || this.healthStateMachine?.isHealthFull()) return;
 
         this.isDecreasingMana = true;
-        setTimeout(() => {
             if (this.currentMana > 0 && this.healthStateMachine && !this.healthStateMachine.isHealthFull()) {
                 this.healthStateMachine.increaseHealth(1);
             }
             this.setMana(this.currentMana - amount);
             this.isDecreasingMana = false;
-        }, 1500); // 长按 1.5 秒
     }
 }

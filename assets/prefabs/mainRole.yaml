@@ -37,6 +37,8 @@ behaviours:
       centerX: 40
       centerY: 5
   - type: Attackable
+  - type: StarCollisionHandler
+  - type: HealthStateMachine
 children:
   - behaviours:
       - type: Transform
@@ -50,7 +52,7 @@ children:
         properties:
           source: ./assets/animations/chrac.png
           config: ./assets/animations/chrac.yaml
-          action: leftidle
+          action: leftdead
   - behaviours:
       - type: Transform
         properties:

@@ -1,5 +1,5 @@
 actions:
-  leftattack:
+  action1:
     fps: 10
     keyframes:
       - 0
@@ -7,7 +7,7 @@ actions:
       - 2
       - 3
       - 4
-  rightattack:
+  action2:
     fps: 10
     keyframes:
       - 5
@@ -15,56 +15,56 @@ actions:
       - 7
       - 8
       - 9
-  leftsufferattack:
-    fps: 2
+  action3:
+    fps: 10
     keyframes:
       - 10
       - 11
-  rightsufferattack:
-    fps: 2
+  action4:
+    fps: 10
     keyframes:
       - 12
       - 13
-  leftpatrol:
-    fps: 5
+  action5:
+    fps: 10
     keyframes:
       - 14
       - 15
       - 16
       - 17
-  rightpatrol:
-    fps: 5
-    keyframes:
       - 18
+  action6:
+    fps: 10
+    keyframes:
       - 19
       - 20
       - 21
-  leftrun:
-    fps: 10
-    keyframes:
       - 22
       - 23
-      - 24
-      - 25
-  rightrun:
+  action7:
     fps: 10
     keyframes:
+      - 24
+      - 25
       - 26
       - 27
+  action8:
+    fps: 10
+    keyframes:
       - 28
       - 29
-  leftdead:
-    fps: 2
-    keyframes:
       - 30
       - 31
+  action9:
+    fps: 10
+    keyframes:
       - 32
       - 33
       - 34
-  rightdead:
-    fps: 2
-    keyframes:
       - 35
+  action10:
+    fps: 10
+    keyframes:
       - 36
       - 37
       - 38
@@ -142,6 +142,10 @@ spritesheet:
     y: 560
     width: 180
     height: 140
+  - x: 720
+    y: 560
+    width: 180
+    height: 140
   - x: 0
     y: 700
     width: 180
@@ -156,77 +160,29 @@ spritesheet:
     height: 140
   - x: 540
     y: 700
-    width: 180
-    height: 140
-  - x: 0
-    y: 840
-    width: 180
-    height: 140
-  - x: 180
-    y: 840
-    width: 180
-    height: 140
-  - x: 360
-    y: 840
-    width: 180
-    height: 140
-  - x: 540
-    y: 840
-    width: 180
-    height: 140
-  - x: 0
-    y: 980
-    width: 180
-    height: 140
-  - x: 180
-    y: 980
-    width: 180
-    height: 140
-  - x: 360
-    y: 980
-    width: 180
-    height: 140
-  - x: 540
-    y: 980
-    width: 180
-    height: 140
-  - x: 0
-    y: 1120
-    width: 180
-    height: 140
-  - x: 180
-    y: 1120
-    width: 180
-    height: 140
-  - x: 360
-    y: 1120
-    width: 180
-    height: 140
-  - x: 540
-    y: 1120
     width: 180
     height: 140
   - x: 720
-    y: 1120
+    y: 700
     width: 180
     height: 140
   - x: 0
-    y: 1260
+    y: 840
     width: 180
     height: 140
   - x: 180
-    y: 1260
+    y: 840
     width: 180
     height: 140
   - x: 360
-    y: 1260
+    y: 840
     width: 180
     height: 140
   - x: 540
-    y: 1260
+    y: 840
     width: 180
     height: 140
   - x: 720
-    y: 1260
+    y: 840
     width: 180
     height: 140

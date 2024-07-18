@@ -1,106 +1,134 @@
 actions:
-  leftattack:
-    fps: 10
+  rightheal:
+    fps: 2
     keyframes:
       - 0
       - 1
       - 2
+  leftheal:
+    fps: 2
+    keyframes:
       - 3
       - 4
-  rightattack:
+      - 5
+  leftattack:
     fps: 10
     keyframes:
-      - 5
       - 6
       - 7
       - 8
       - 9
+      - 10
+  rightattack:
+    fps: 10
+    keyframes:
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
   leftsufferattack:
     fps: 2
     keyframes:
-      - 10
-      - 11
+      - 16
+      - 17
   rightsufferattack:
     fps: 2
     keyframes:
-      - 12
-      - 13
+      - 18
+      - 19
   leftdownattack:
     fps: 15
     keyframes:
-      - 14
-      - 15
-      - 16
-      - 17
-      - 18
-      - 19
       - 20
-  rightdownattack:
-    fps: 15
-    keyframes:
       - 21
       - 22
       - 23
       - 24
       - 25
       - 26
-      - 27
-  leftjump:
-    fps: 4
+  rightdownattack:
+    fps: 15
     keyframes:
+      - 27
       - 28
       - 29
       - 30
       - 31
       - 32
-  rightjump:
+      - 33
+  leftjump:
     fps: 4
     keyframes:
-      - 33
       - 34
       - 35
       - 36
       - 37
-  leftrun:
+      - 38
+  rightjump:
     fps: 4
     keyframes:
-      - 38
       - 39
       - 40
       - 41
+      - 42
+      - 43
+  leftrun:
+    fps: 4
+    keyframes:
+      - 44
+      - 45
+      - 46
+      - 47
   rightrun:
     fps: 4
     keyframes:
-      - 42
-      - 43
-      - 44
-      - 45
+      - 48
+      - 49
+      - 50
+      - 51
   leftidle:
     fps: 2
     keyframes:
-      - 46
-      - 47
+      - 52
+      - 53
   rightidle:
     fps: 2
     keyframes:
-      - 48
-      - 49
+      - 54
+      - 55
   leftupattack:
     fps: 10
     keyframes:
-      - 50
-      - 51
-      - 52
-      - 53
-      - 54
-  rightupattack:
-    fps: 10
-    keyframes:
-      - 55
       - 56
       - 57
       - 58
       - 59
+      - 60
+  rightupattack:
+    fps: 10
+    keyframes:
+      - 61
+      - 62
+      - 63
+      - 64
+      - 65
+  rightdead:
+    fps: 10
+    keyframes:
+      - 66
+      - 67
+      - 68
+      - 69
+      - 70
+  leftdead:
+    fps: 10
+    keyframes:
+      - 71
+      - 72
+      - 73
+      - 74
+      - 75
 spritesheet:
   - x: 0
     y: 0
@@ -114,14 +142,6 @@ spritesheet:
     y: 0
     width: 180
     height: 140
-  - x: 540
-    y: 0
-    width: 180
-    height: 140
-  - x: 720
-    y: 0
-    width: 180
-    height: 140
   - x: 0
     y: 140
     width: 180
@@ -131,14 +151,6 @@ spritesheet:
     width: 180
     height: 140
   - x: 360
-    y: 140
-    width: 180
-    height: 140
-  - x: 540
-    y: 140
-    width: 180
-    height: 140
-  - x: 720
     y: 140
     width: 180
     height: 140
@@ -150,6 +162,18 @@ spritesheet:
     y: 280
     width: 180
     height: 140
+  - x: 360
+    y: 280
+    width: 180
+    height: 140
+  - x: 540
+    y: 280
+    width: 180
+    height: 140
+  - x: 720
+    y: 280
+    width: 180
+    height: 140
   - x: 0
     y: 420
     width: 180
@@ -158,6 +182,18 @@ spritesheet:
     y: 420
     width: 180
     height: 140
+  - x: 360
+    y: 420
+    width: 180
+    height: 140
+  - x: 540
+    y: 420
+    width: 180
+    height: 140
+  - x: 720
+    y: 420
+    width: 180
+    height: 140
   - x: 0
     y: 560
     width: 180
@@ -166,123 +202,107 @@ spritesheet:
     y: 560
     width: 180
     height: 140
+  - x: 0
+    y: 700
+    width: 180
+    height: 140
+  - x: 180
+    y: 700
+    width: 180
+    height: 140
+  - x: 0
+    y: 840
+    width: 180
+    height: 140
+  - x: 180
+    y: 840
+    width: 180
+    height: 140
   - x: 360
-    y: 560
+    y: 840
     width: 180
     height: 140
   - x: 540
-    y: 560
+    y: 840
     width: 180
     height: 140
   - x: 720
-    y: 560
+    y: 840
     width: 180
     height: 140
   - x: 900
-    y: 560
+    y: 840
     width: 180
     height: 140
   - x: 1080
-    y: 560
+    y: 840
     width: 180
     height: 140
   - x: 0
-    y: 700
+    y: 980
     width: 180
     height: 140
   - x: 180
-    y: 700
+    y: 980
     width: 180
     height: 140
   - x: 360
-    y: 700
+    y: 980
     width: 180
     height: 140
   - x: 540
-    y: 700
+    y: 980
     width: 180
     height: 140
   - x: 720
-    y: 700
+    y: 980
     width: 180
     height: 140
   - x: 900
-    y: 700
+    y: 980
     width: 180
     height: 140
   - x: 1080
-    y: 700
+    y: 980
     width: 180
     height: 140
   - x: 0
-    y: 840
+    y: 1120
     width: 180
     height: 140
   - x: 180
-    y: 840
+    y: 1120
     width: 180
     height: 140
   - x: 360
-    y: 840
+    y: 1120
     width: 180
     height: 140
   - x: 540
-    y: 840
+    y: 1120
     width: 180
     height: 140
   - x: 720
-    y: 840
+    y: 1120
     width: 180
     height: 140
   - x: 0
-    y: 980
+    y: 1260
     width: 180
     height: 140
   - x: 180
-    y: 980
+    y: 1260
     width: 180
     height: 140
   - x: 360
-    y: 980
+    y: 1260
     width: 180
     height: 140
   - x: 540
-    y: 980
+    y: 1260
     width: 180
     height: 140
   - x: 720
-    y: 980
-    width: 180
-    height: 140
-  - x: 0
-    y: 1120
-    width: 180
-    height: 140
-  - x: 180
-    y: 1120
-    width: 180
-    height: 140
-  - x: 360
-    y: 1120
-    width: 180
-    height: 140
-  - x: 540
-    y: 1120
-    width: 180
-    height: 140
-  - x: 0
-    y: 1260
-    width: 180
-    height: 140
-  - x: 180
-    y: 1260
-    width: 180
-    height: 140
-  - x: 360
-    y: 1260
-    width: 180
-    height: 140
-  - x: 540
     y: 1260
     width: 180
     height: 140
@@ -294,6 +314,14 @@ spritesheet:
     y: 1400
     width: 180
     height: 140
+  - x: 360
+    y: 1400
+    width: 180
+    height: 140
+  - x: 540
+    y: 1400
+    width: 180
+    height: 140
   - x: 0
     y: 1540
     width: 180
@@ -302,23 +330,19 @@ spritesheet:
     y: 1540
     width: 180
     height: 140
+  - x: 360
+    y: 1540
+    width: 180
+    height: 140
+  - x: 540
+    y: 1540
+    width: 180
+    height: 140
   - x: 0
     y: 1680
     width: 180
     height: 140
   - x: 180
-    y: 1680
-    width: 180
-    height: 140
-  - x: 360
-    y: 1680
-    width: 180
-    height: 140
-  - x: 540
-    y: 1680
-    width: 180
-    height: 140
-  - x: 720
     y: 1680
     width: 180
     height: 140
@@ -330,15 +354,83 @@ spritesheet:
     y: 1820
     width: 180
     height: 140
+  - x: 0
+    y: 1960
+    width: 180
+    height: 140
+  - x: 180
+    y: 1960
+    width: 180
+    height: 140
   - x: 360
-    y: 1820
+    y: 1960
     width: 180
     height: 140
   - x: 540
-    y: 1820
+    y: 1960
     width: 180
     height: 140
   - x: 720
-    y: 1820
+    y: 1960
+    width: 180
+    height: 140
+  - x: 0
+    y: 2100
+    width: 180
+    height: 140
+  - x: 180
+    y: 2100
+    width: 180
+    height: 140
+  - x: 360
+    y: 2100
+    width: 180
+    height: 140
+  - x: 540
+    y: 2100
+    width: 180
+    height: 140
+  - x: 720
+    y: 2100
+    width: 180
+    height: 140
+  - x: 0
+    y: 2240
+    width: 180
+    height: 140
+  - x: 180
+    y: 2240
+    width: 180
+    height: 140
+  - x: 360
+    y: 2240
+    width: 180
+    height: 140
+  - x: 540
+    y: 2240
+    width: 180
+    height: 140
+  - x: 720
+    y: 2240
+    width: 180
+    height: 140
+  - x: 0
+    y: 2380
+    width: 180
+    height: 140
+  - x: 180
+    y: 2380
+    width: 180
+    height: 140
+  - x: 360
+    y: 2380
+    width: 180
+    height: 140
+  - x: 540
+    y: 2380
+    width: 180
+    height: 140
+  - x: 720
+    y: 2380
     width: 180
     height: 140

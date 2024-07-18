@@ -12,6 +12,7 @@ enum MainMenuState {
 export class MainMenuStateMachine extends Behaviour {
     private currentState: MainMenuState = MainMenuState.None;
     private menuImage: GameObject | null = null;
+    private startPageImage: GameObject | null = null;
     private camera: GameObject | null = null;
     private offsetX: number = -1280; // X 轴偏移量
     private offsetY: number = -720; // Y 轴偏移量
@@ -27,6 +28,7 @@ export class MainMenuStateMachine extends Behaviour {
         this.bgmusic3.setVolume(0.5); // 设置音量，范围是 0.0 到 1.0
         // 获取菜单图片的 GameObject
         this.menuImage = getGameObjectById('menuImage');
+        this.startPageImage = getGameObjectById('menuImage1');
 
         // 获取摄像机对象
         this.camera = getGameObjectById('camera');
@@ -40,10 +42,16 @@ export class MainMenuStateMachine extends Behaviour {
         // 设置图片位置
         this.updateMenuImagePosition();
 
-        if (this.gameObject.active === true) {
-            this.bgmusic3.play();
-        } 
-
+        // 等待500毫秒后禁用startPageImage
+        setTimeout(() => {
+            if (this.startPageImage) {
+                this.startPageImage.active = false;
+            }
+            // 播放背景音乐
+            if (this.gameObject.active === true && this.bgmusic3) {
+                this.bgmusic3.play();
+            }
+        }, 7000);
     }
 
     handleKeyDown(event: KeyboardEvent) {
@@ -138,6 +146,20 @@ export class MainMenuStateMachine extends Behaviour {
             }
         } else {
             console.error("Menu image or camera GameObject not found");
+        }
+        
+        if (this.startPageImage && this.camera) {
+            const cameraTransform = this.camera.getBehaviour(Transform);
+            const startPageImageTransform = this.startPageImage.getBehaviour(Transform);
+            if (cameraTransform && startPageImageTransform) {
+                startPageImageTransform.x = cameraTransform.x + this.offsetX;
+                startPageImageTransform.y = cameraTransform.y + this.offsetY;
+                console.log(`Start page image position updated to (${startPageImageTransform.x}, ${startPageImageTransform.y}) with offset (${this.offsetX}, ${this.offsetY})`);
+            } else {
+                console.error("Start page image or camera Transform not found");
+            }
+        } else {
+            console.error("Start page image or camera GameObject not found");
         }
     }
 
