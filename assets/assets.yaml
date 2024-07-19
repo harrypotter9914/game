@@ -49,6 +49,15 @@ images:
   - ./assets/images/nos.png
   - ./assets/images/nosellect.jpg
   - ./assets/images/package.png
+  - ./assets/images/package1.jpg
+  - ./assets/images/package2.jpg
+  - ./assets/images/package3.jpg
+  - ./assets/images/package4.jpg
+  - ./assets/images/package5.jpg
+  - ./assets/images/package6.jpg
+  - ./assets/images/package7.jpg
+  - ./assets/images/package8.jpg
+  - ./assets/images/packagefull.jpg
   - ./assets/images/quitgame.jpg
   - ./assets/images/rings.png
   - ./assets/images/ringstext.png
@@ -64,15 +73,33 @@ images:
   - ./assets/images/woman.png
   - ./assets/images/womantext.png
   - ./assets/animations/avatar.jpg
+  - ./assets/animations/boss1.png
+  - ./assets/animations/boss2.png
+  - ./assets/animations/bossfinal.png
   - ./assets/animations/chrac.png
   - ./assets/animations/enemy1.png
+  - ./assets/animations/enemy2.png
+  - ./assets/animations/enemy3.png
+  - ./assets/animations/enemy4.png
 texts:
   - ./assets/prefabs/block.yaml
   - ./assets/prefabs/enemy.yaml
+  - ./assets/prefabs/enemy1.yaml
+  - ./assets/prefabs/enemy2.yaml
+  - ./assets/prefabs/enemy3.yaml
+  - ./assets/prefabs/enemy4.yaml
+  - ./assets/prefabs/enemy5.yaml
+  - ./assets/prefabs/enemy6.yaml
   - ./assets/prefabs/mainRole.yaml
   - ./assets/prefabs/maoQi.yaml
   - ./assets/prefabs/wall.yaml
   - ./assets/animations/avatar.yaml
+  - ./assets/animations/boss1.yaml
+  - ./assets/animations/boss2.yaml
+  - ./assets/animations/bossfinal.yaml
   - ./assets/animations/chrac.yaml
   - ./assets/animations/enemy1.yaml
+  - ./assets/animations/enemy2.yaml
+  - ./assets/animations/enemy3.yaml
+  - ./assets/animations/enemy4.yaml
 excels:
