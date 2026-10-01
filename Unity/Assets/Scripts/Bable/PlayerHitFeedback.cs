@@ -6,12 +6,12 @@ namespace Bable {
         HealthComponent health; float started=-100, strength=1;
         static PlayerHitFeedback instance;
         public int HitCount {get;private set;}
-        public float FlashAlpha=>Visible?Mathf.Max(0,1-(Time.time-started)/.14f)*.18f*GameSettings.Current.flash:0;
+        public float FlashAlpha=>Visible?Mathf.Max(0,1-(Time.time-started)/.18f)*.29f*GameSettings.Current.flash:0;
         bool Visible=>Time.timeScale>0&&!TowerLoading.Busy&&health!=null;
         public static Vector3 CameraOffset {
             get {if(instance==null||!instance.Visible)return Vector3.zero;float t=Time.time-instance.started;
-                if(t<0||t>.24f)return Vector3.zero;
-                float a=.085f*GameSettings.Current.shake*instance.strength*Mathf.Pow(1-t/.24f,2);
+                if(t<0||t>.3f)return Vector3.zero;
+                float a=.15f*GameSettings.Current.shake*instance.strength*Mathf.Pow(1-t/.3f,2);
                 return new Vector3(Mathf.Sin(t*125)*a,Mathf.Cos(t*91)*a*.6f,0);}
         }
         void Awake(){instance=this;health=GetComponent<HealthComponent>();health.Damaged+=OnDamage;}

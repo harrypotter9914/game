@@ -7,4 +7,5 @@
 - For every update, build both players and run `tools/Test-Players.ps1` plus targeted checks for changed behavior. Always isolate automated saves with `-bableSaveRoot`; never overwrite the player's real save.
 - Track Unity Assets INCLUDING `.meta`, Packages and ProjectSettings. Use Git LFS for binary assets. Do not commit Library, Temp, builds, downloaded model runtimes, account/session information, secret keys, local recordings or `reference/` archives.
 - Keep dependencies portable and version-pinned. Do not add machine-specific `file:` package dependencies.
+- Presentation supports arbitrary window aspect ratios: full-bleed title/pause/death art, uniformly fitted UI controls, no forced 16:9 letterbox. Settings page markers are independent of pointer hover and keyboard/controller navigation focus. Switch input presentation on actual input.
 - Report actual test and upload results, including limitations. Passing practice checks does not replace campaign traversal and story integration testing.

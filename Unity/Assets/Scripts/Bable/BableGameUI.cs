@@ -74,6 +74,7 @@ namespace Bable
         void Update()
         {
             if(loadingScene||TowerLoading.Busy||canvas==null)return;
+            UpdateSettingsDevice();
             if(HandleMenuBack())return;
             if(IsTitleScene){
                 if(Mode=="main"&&Bable.GameInput.Down(Bable.GameAction.Submit)&&EventSystem.current.currentSelectedGameObject==null)Begin();
@@ -118,33 +119,36 @@ namespace Bable
         void Panel(string mode, string title, string art = null)
         {
             if (overlay != null) {overlay.gameObject.SetActive(false);Destroy(overlay.gameObject);}
+            EventSystem.current?.SetSelectedGameObject(null);
             Mode = mode;if(flow!=null)flow.SetPaused(true);SyncGameplayHud();
             overlay = Rect(canvas.transform, mode, Vector2.zero, new Vector2(1600,900));
+            overlay.anchorMin=Vector2.zero;overlay.anchorMax=Vector2.one;overlay.offsetMin=overlay.offsetMax=Vector2.zero;
             var menuCanvas=overlay.gameObject.AddComponent<Canvas>();menuCanvas.overrideSorting=true;menuCanvas.sortingOrder=MenuOrder(mode);overlay.gameObject.AddComponent<GraphicRaycaster>();
             var shade = overlay.gameObject.AddComponent<Image>(); shade.color = new Color(.025f,.021f,.035f,mode=="pause"?.28f:.96f);
-            if (art != null) Picture(overlay, art, Vector2.zero, new Vector2(1600,900));
+            if (art != null) {
+                var background=Picture(overlay, art, Vector2.zero, new Vector2(1600,900));
+                if(mode=="main"||mode=="pause"||mode=="death"||mode=="runes")background.gameObject.AddComponent<FullBleedMenuArt>().Fit();
+            }
             var titleLabel=Label(overlay, title, new Vector2(0,292), new Vector2(1300,100), 54);titleLabel.font=MenuTypography.Sdf;titleLabel.enableAutoSizing=true;titleLabel.fontSizeMin=28;titleLabel.fontSizeMax=54;
         }
         public void MainMenu()
         {
             if(!IsTitleScene){Load("MainMenu");return;}
-            Panel("main", "", "NewArt/Release51/MenuTitle"); BableAudio.Music("mainscreen");
-            Label(overlay,"BABEL",new Vector2(-440,285),new Vector2(620,100),76);
-            Label(overlay,"THE HOLLOW PILGRIM",new Vector2(-440,205),new Vector2(620,40),24);
+            Panel("main", "", "NewArt/Release53/MenuTitle"); BableAudio.Music("mainscreen");
+            Picture(overlay,"NewArt/Release53/BabelLogo",new Vector2(-425,225),new Vector2(600,290));
             if(BuildFlavor.Practice){
-                Label(overlay,"PRACTICE EDITION",new Vector2(-440,125),new Vector2(620,40),27);
-                Button(overlay,"TRIALS OF THE GUARDIANS",new Vector2(-440,35),Practice,560,62);
-                Button(overlay,"RUNE & COMBAT LAB",new Vector2(-440,-65),OpenLab,560,62);
-                Button(overlay,"SETTINGS",new Vector2(-440,-165),OpenSettings,560,62);
-                Button(overlay,"QUIT GAME",new Vector2(-440,-265),Quit,560,62);
+                Label(overlay,"PRACTICE EDITION",new Vector2(-425,60),new Vector2(620,40),23);
+                Button(overlay,"TRIALS OF THE GUARDIANS",new Vector2(-425,-25),Practice,560,62);
+                Button(overlay,"RUNE & COMBAT LAB",new Vector2(-425,-115),OpenLab,560,62);
+                Button(overlay,"SETTINGS",new Vector2(-425,-205),OpenSettings,560,62);
+                Button(overlay,"QUIT GAME",new Vector2(-425,-295),Quit,560,62);
                 return;
             }
             bool saved=CampaignStore.HasSave;
-            if(saved)Button(overlay,"CONTINUE JOURNEY",new Vector2(-440,105),ContinueJourney,500,62);
-            Button(overlay,"NEW JOURNEY",new Vector2(-440,20),Begin,500,62);
-            Button(overlay,"SETTINGS",new Vector2(-440,-95),OpenSettings,500,62);
-            Button(overlay,"QUIT GAME",new Vector2(-440,-210),Quit,500,62);
-            Label(overlay,CampaignStore.Status,new Vector2(-440,-325),new Vector2(650,65),18);
+            string[] captions=saved?new[]{"CONTINUE JOURNEY","NEW JOURNEY","SETTINGS","QUIT GAME"}:new[]{"NEW JOURNEY","SETTINGS","QUIT GAME"};
+            UnityEngine.Events.UnityAction[] actions=saved?new UnityEngine.Events.UnityAction[]{ContinueJourney,Begin,OpenSettings,Quit}:new UnityEngine.Events.UnityAction[]{Begin,OpenSettings,Quit};
+            for(int i=0;i<captions.Length;i++)Button(overlay,captions[i],new Vector2(-425,(saved?35:0)-i*100),actions[i],520,62);
+            Label(overlay,CampaignStore.Status,new Vector2(-425,-365),new Vector2(650,48),18);
         }
         void ContinueJourney(){if(CampaignStore.RequestContinue())Load("Gameplay_Main");else MainMenu();}
         public void Begin()
@@ -171,8 +175,8 @@ namespace Bable
         }
         public void Pause()
         {
-            Panel("pause","PAUSED","NewArt/Release51/MenuPause");
-            MenuBacking(new Vector2(0,-15),new Vector2(1120,720));
+            Panel("pause","PAUSED","NewArt/Release53/MenuPause");
+
             OriginalButton("CONTINUE",new Vector2(-260,220),Resume,"nos",new Rect(.218f,.642f,.31f,.134f),true);
             Button(overlay,"MAIN MENU",new Vector2(260,220),MainMenu,420,65);
             Button(overlay,"CHECKPOINT",new Vector2(-260,105),Respawn,420,65);
@@ -187,7 +191,7 @@ namespace Bable
             Button(overlay,"SETTINGS",new Vector2(260,CampaignStore.IsPractice?-125:-10),OpenSettings,420,65);
             OriginalButton("EXIT",new Vector2(0,CampaignStore.IsPractice?-255:-140),Quit,"nos",new Rect(.221f,.49f,.146f,.132f),true);
         }
-        public void Death() { Panel("death","", "NewArt/Release51/MenuDeath"); BableAudio.Music("dead");Label(overlay,"THE FLAME ENDURES",new Vector2(385,200),new Vector2(680,80),42);Button(overlay,"RISE AT THE CHECKPOINT",new Vector2(385,40),Respawn,590,70);Button(overlay,"SETTINGS",new Vector2(385,-65),OpenSettings,590,70);Button(overlay,"MAIN MENU",new Vector2(385,-170),MainMenu,590,70);Button(overlay,"EXIT",new Vector2(385,-275),Quit,590,70); }
+        public void Death() { Panel("death","", "NewArt/Release53/MenuDeath"); BableAudio.Music("dead");Label(overlay,"THE FLAME ENDURES",new Vector2(385,200),new Vector2(680,80),42);Button(overlay,"RISE AT THE CHECKPOINT",new Vector2(385,40),Respawn,590,70);Button(overlay,"SETTINGS",new Vector2(385,-65),OpenSettings,590,70);Button(overlay,"MAIN MENU",new Vector2(385,-170),MainMenu,590,70);Button(overlay,"EXIT",new Vector2(385,-275),Quit,590,70); }
         public void Respawn() { TowerLoading.Respawn(); BableAudio.Music("tower"); }
         public void Victory() { Panel("victory","THE TOWER FALLS SILENT"); BableAudio.Music("end"); Label(overlay,"Nero's reign has ended.\nBeyond the tower, a new dawn waits.",new Vector2(0,60),new Vector2(1100,160),32); Button(overlay,"BEGIN AGAIN",new Vector2(0,-200),Restart);Button(overlay,"MAIN MENU",new Vector2(0,-290),MainMenu,320,52); }
         void Restart() { if(CampaignStore.IsPractice){Load(SceneManager.GetActiveScene().name);return;}MainMenu(); }
@@ -260,7 +264,7 @@ namespace Bable
         }
         public void Runes()
         {
-            Panel("runes","","NewArt/Release51/Panel");
+            Panel("runes","","NewArt/Release53/RuneBackground");
             overlay.gameObject.AddComponent<RuneRepositoryView>().Build(session.RuneInventory,Resume);
         }
         static Sprite Sprite(string name) => Resources.Load<Sprite>(name.StartsWith("NewArt/")?"Bable/"+name:"Bable/images/" + name);

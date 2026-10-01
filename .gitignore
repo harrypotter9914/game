@@ -26,6 +26,8 @@ reference/*.zip
 !/tools/Test-Players.ps1
 /docs/*
 !/docs/Release-0.52.md
+!/docs/Release-0.53.md
+!/docs/Art-0.53.json
 Unity/Assets/_Recovery/
 Unity/Assets/_Recovery.meta
 Unity/.vs/

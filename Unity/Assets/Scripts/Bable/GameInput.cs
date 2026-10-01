@@ -9,10 +9,14 @@ using UnityEngine.InputSystem.UI;
 using UnityEngine.UI;
 namespace Bable {
  public enum GameAction { Left,Right,Up,Down,Jump,Attack,Shockwave,Heal,Dash,Interact,Runes,Map,Recall,Pause,Back,Submit }
+ public enum MenuInputSource { Pointer, Keyboard, Gamepad }
  [DefaultExecutionOrder(-1000)]
  public sealed class GameInput:MonoBehaviour {
   static GameInput instance;static float suppressUntil;static InputActionMap map;static InputActionRebindingExtensions.RebindingOperation rebind;
-  public static bool UsingGamepad {get;private set;}
+  public static MenuInputSource Source {get;private set;}=MenuInputSource.Pointer;
+  public static bool UsingGamepad => Source==MenuInputSource.Gamepad;
+  public static bool NavigationActive => Source!=MenuInputSource.Pointer;
+  public static void UsePointer(){Source=MenuInputSource.Pointer;}
   public static void ConsumeTransition(){suppressUntil=Time.unscaledTime+.16f;}
   public static bool Rebinding=>rebind!=null;
   public static string Message {get;private set;}="";
@@ -27,9 +31,9 @@ namespace Bable {
   public static readonly GameAction[] Remappable={GameAction.Left,GameAction.Right,GameAction.Up,GameAction.Down,GameAction.Jump,GameAction.Attack,GameAction.Shockwave,GameAction.Heal,GameAction.Dash,GameAction.Interact,GameAction.Runes,GameAction.Map,GameAction.Recall};
   static readonly string[] keys={"leftArrow","rightArrow","upArrow","downArrow","space","x","z","a","leftShift","e","tab","m","g","escape","q","enter"};
   static readonly string[] pads={"leftStick/left","leftStick/right","leftStick/up","leftStick/down","buttonSouth","buttonWest","buttonNorth","leftShoulder","rightShoulder","buttonEast","rightTrigger","leftTrigger","select","start","buttonEast","buttonSouth"};
-  [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]static void Reset(){map?.Dispose();map=null;instance=null;rebind=null;suppressUntil=0;UsingGamepad=false;Message="";}
+  [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]static void Reset(){map?.Dispose();map=null;instance=null;rebind=null;suppressUntil=0;Source=MenuInputSource.Pointer;Message="";}
   [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]static void Boot(){Ensure();var g=new GameObject("Unified input and menu navigation");DontDestroyOnLoad(g);instance=g.AddComponent<GameInput>();InputSystem.onDeviceChange+=DeviceChanged;}
-  static void Ensure(){if(map!=null)return;map=new InputActionMap("Babel");foreach(GameAction action in Enum.GetValues(typeof(GameAction))){var a=map.AddAction(action.ToString(),InputActionType.Button);a.AddBinding("<Keyboard>/"+keys[(int)action]);a.AddBinding("<Gamepad>/"+pads[(int)action]);if((int)action<4)a.AddBinding("<Gamepad>/dpad/"+action.ToString().ToLowerInvariant());a.performed+=c=>{if(c.control.device is Gamepad)UsingGamepad=true;else if(c.control.device is Keyboard)UsingGamepad=false;};}map["Jump"].AddBinding("<Keyboard>/c");map["Shockwave"].AddBinding("<Keyboard>/v");map["Dash"].AddBinding("<Keyboard>/rightShift");try{ReloadBindings();}catch(Exception e){Debug.LogWarning("Input bindings reset: "+e.Message);}map.Enable();}
+  static void Ensure(){if(map!=null)return;map=new InputActionMap("Babel");foreach(GameAction action in Enum.GetValues(typeof(GameAction))){var a=map.AddAction(action.ToString(),InputActionType.Button);a.AddBinding("<Keyboard>/"+keys[(int)action]);a.AddBinding("<Gamepad>/"+pads[(int)action]);if((int)action<4)a.AddBinding("<Gamepad>/dpad/"+action.ToString().ToLowerInvariant());a.performed+=c=>{if(c.control.device is Gamepad)Source=MenuInputSource.Gamepad;else if(c.control.device is Keyboard)Source=MenuInputSource.Keyboard;else if(c.control.device is Mouse)UsePointer();};}map["Jump"].AddBinding("<Keyboard>/c");map["Shockwave"].AddBinding("<Keyboard>/v");map["Dash"].AddBinding("<Keyboard>/rightShift");try{ReloadBindings();}catch(Exception e){Debug.LogWarning("Input bindings reset: "+e.Message);}map.Enable();}
   public static InputAction Action(GameAction action){Ensure();return map[action.ToString()];}
   public static bool Held(GameAction action)=>Time.unscaledTime>=suppressUntil&&!Rebinding&&Action(action).IsPressed();
   public static bool Down(GameAction action){
@@ -45,8 +49,8 @@ namespace Bable {
   public static string KeyHint(GameAction action,bool pad)=>Action(action).GetBindingDisplayString(pad?1:0);
   public static void Rebind(GameAction action,bool pad,Action completed){
    if(Rebinding)return;var a=Action(action);int index=pad?1:0;string old=a.bindings[index].overridePath;
-   a.Disable();Message="Press a "+(pad?"controller button":"key or mouse button")+". Escape cancels.";
-   rebind=a.PerformInteractiveRebinding(index).WithControlsHavingToMatchPath(pad?"<Gamepad>":"<Keyboard>").WithExpectedControlType("Button").WithCancelingThrough("<Keyboard>/escape").OnCancel(op=>{Message="Binding unchanged.";Finish();completed?.Invoke();}).OnComplete(op=>{
+   a.Disable();Message="Press a "+(pad?"controller button":"key or mouse button")+(pad?". B / East or Escape cancels.":". Escape cancels.");
+   rebind=a.PerformInteractiveRebinding(index).WithControlsHavingToMatchPath(pad?"<Gamepad>":"<Keyboard>").WithExpectedControlType("Button").WithCancelingThrough(pad?"<Gamepad>/buttonEast":"<Keyboard>/escape").OnCancel(op=>{Message="Binding unchanged.";Finish();completed?.Invoke();}).OnComplete(op=>{
     string path=a.bindings[index].effectivePath;var conflict=Remappable.FirstOrDefault(other=>other!=action&&Action(other).bindings.Any(b=>b.effectivePath==path));
     bool duplicate=Remappable.Any(other=>other!=action&&Action(other).bindings.Any(b=>b.effectivePath==path));
     if(duplicate||path=="<Keyboard>/escape"||path=="<Keyboard>/q"||path=="<Keyboard>/enter"||path=="<Gamepad>/start"){if(old==null)a.RemoveBindingOverride(index);else a.ApplyBindingOverride(index,old);Message=duplicate?"Already assigned to "+conflict+".":"Escape is reserved for menus.";}
@@ -60,16 +64,18 @@ namespace Bable {
   static void DeviceChanged(InputDevice device,InputDeviceChange change){if(device is Gamepad&&(change==InputDeviceChange.Disconnected||change==InputDeviceChange.Removed)&&UsingGamepad){Message="Controller disconnected. Reconnect or use the keyboard.";if(BableGameUI.Instance!=null&&BableGameUI.Instance.Ready&&!TowerLoading.Busy&&BableGameUI.Instance.Mode=="play"&&Babel.Runtime.Core.GameSession.Instance?.IsPaused!=true)BableGameUI.Instance.Pause();}}
   float nextMove;Vector2 lastMove;
   void Update(){
-   if(Mouse.current!=null&&(Mouse.current.delta.ReadValue().sqrMagnitude>2||Mouse.current.leftButton.wasPressedThisFrame))UsingGamepad=false;
+   if(Mouse.current!=null&&(Mouse.current.delta.ReadValue().sqrMagnitude>2||Mouse.current.leftButton.wasPressedThisFrame))UsePointer();
    var es=EventSystem.current;if(es==null)return;
    var old=es.GetComponent<StandaloneInputModule>();if(old!=null){old.enabled=false;Destroy(old);}
    var module=es.GetComponent<InputSystemUIInputModule>();if(module==null){module=es.gameObject.AddComponent<InputSystemUIInputModule>();module.AssignDefaultActions();}
    es.sendNavigationEvents=false;
-   if(Rebinding||TowerLoading.Busy)return;
+   if(Rebinding){if(Keyboard.current?.escapeKey.wasPressedThisFrame==true)CancelRebind();return;}
+   if(TowerLoading.Busy)return;
    if(FindFirstObjectByType<RuneRepositoryView>()!=null||FindFirstObjectByType<Babel.Runtime.Shop.ShopMenuController>()?.IsOpen==true)return;
    var ui=BableGameUI.Instance;if(ui==null||ui.Mode=="play"||ui.Mode=="prologue")return;
+   if(!NavigationActive){if(es.currentSelectedGameObject!=null)es.SetSelectedGameObject(null);lastMove=Vector2.zero;return;}
    var current=es.currentSelectedGameObject;
-   if(current==null||!current.activeInHierarchy||current.GetComponent<Selectable>()?.IsInteractable()==false){var first=FindObjectsByType<Button>(FindObjectsSortMode.None).Where(b=>b.IsActive()&&b.IsInteractable()).OrderByDescending(b=>b.transform.position.y).ThenBy(b=>b.transform.position.x).FirstOrDefault();if(first!=null)es.SetSelectedGameObject(first.gameObject);current=es.currentSelectedGameObject;}
+   if(current==null||!current.activeInHierarchy||current.GetComponent<Selectable>()?.IsInteractable()==false){var first=FindObjectsByType<Button>(FindObjectsSortMode.None).Where(b=>b.IsActive()&&b.IsInteractable()).OrderByDescending(b=>b.GetComponent<ManuscriptMenuButton>()?.ActiveTab==true).ThenByDescending(b=>b.transform.position.y).ThenBy(b=>b.transform.position.x).FirstOrDefault();if(first!=null)es.SetSelectedGameObject(first.gameObject);current=es.currentSelectedGameObject;}
    if(current==null)return;
    Vector2 move=new Vector2((Held(GameAction.Right)?1:0)-(Held(GameAction.Left)?1:0),(Held(GameAction.Up)?1:0)-(Held(GameAction.Down)?1:0));
    if(move!=Vector2.zero&&(move!=lastMove||Time.unscaledTime>=nextMove)){

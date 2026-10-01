@@ -6,6 +6,8 @@ using UnityEngine.EventSystems;
 namespace Bable {
  public sealed partial class BableGameUI {
   Action cancelMenu;string settingsOrigin;int settingsPage;bool controllerBindings;int controlsPage;
+  bool lastControlsPad;
+  TMPro.TMP_Text settingsInputHint;
   bool displayPending;SettingsData displayBefore;float displayDeadline;TMPro.TMP_Text displayCountdown;
   bool HandleMenuBack(){
    if(displayPending&&Time.unscaledTime>=displayDeadline){RevertDisplay();return true;}
@@ -27,16 +29,17 @@ namespace Bable {
    Label(overlay,text,new Vector2(0,50),new Vector2(1000,220),27);
    Button(overlay,"RETURN",new Vector2(0,-180),()=>back(),460,65);
   }
-  public void OpenSettings(){settingsOrigin=Mode;settingsPage=0;SettingsPanel();}
+  public void OpenSettings(){settingsOrigin=Mode;settingsPage=0;controllerBindings=GameInput.UsingGamepad;lastControlsPad=GameInput.UsingGamepad;SettingsPanel();}
   void SettingsBack(){
    if(GameInput.Rebinding){GameInput.CancelRebind();return;}
    GameSettings.Save();
    if(settingsOrigin=="main")MainMenu();else if(settingsOrigin=="death")Death();else Pause();
   }
   public void SettingsPanel(){
+   lastControlsPad=GameInput.UsingGamepad;
    Panel("settings","SETTINGS","NewArt/Release51/Panel");cancelMenu=SettingsBack;
    string[] pages={"SOUND","DISPLAY & COMFORT","CONTROLS"};
-   for(int i=0;i<3;i++){int n=i;Button(overlay,(settingsPage==i?"• ":"")+pages[i],new Vector2(-450+i*450,230),()=>{settingsPage=n;SettingsPanel();},420,58);}
+   for(int i=0;i<3;i++){int n=i;Button(overlay,pages[i],new Vector2(-450+i*450,230),()=>{settingsPage=n;SettingsPanel();},420,58);overlay.Find(pages[i]).GetComponent<ManuscriptMenuButton>().ActiveTab=settingsPage==i;}
    var c=GameSettings.Current;
    if(settingsPage==0){
     Setting("MASTER",110,()=>Percent(c.master),d=>c.master=Step(c.master,d));
@@ -46,7 +49,7 @@ namespace Bable {
     Label(overlay,"Volumes are saved independently.",new Vector2(0,-220),new Vector2(1000,50),22);
    } else if(settingsPage==1){
     Setting("SCREEN MODE",135,()=>c.fullscreen?"FULLSCREEN":"WINDOWED",d=>PreviewDisplay(()=>c.fullscreen=!c.fullscreen),false);
-    Setting("WINDOW SIZE",65,()=>c.width+" × "+c.height,d=>PreviewDisplay(()=>{int[] widths={960,1280,1600,1920,2560};int i=Array.IndexOf(widths,c.width);i=(Mathf.Max(0,i)+d+widths.Length)%widths.Length;c.width=widths[i];c.height=c.width*9/16;}),false);
+    Setting("WINDOW SIZE",65,()=>c.width+" × "+c.height,d=>PreviewDisplay(()=>{var sizes=new[]{new Vector2Int(960,540),new Vector2Int(1024,768),new Vector2Int(1280,720),new Vector2Int(1280,800),new Vector2Int(1600,900),new Vector2Int(1920,1080),new Vector2Int(2560,1080)};int i=Array.IndexOf(sizes,new Vector2Int(c.width,c.height));i=(Mathf.Max(0,i)+d+sizes.Length)%sizes.Length;c.width=sizes[i].x;c.height=sizes[i].y;}),false);
     Setting("VERTICAL SYNC",-5,()=>c.vsync?"ON":"OFF",d=>c.vsync=!c.vsync);
     Setting("CAMERA SHAKE",-75,()=>Percent(c.shake),d=>c.shake=Step(c.shake,d,.25f));
     Setting("DAMAGE FLASH",-145,()=>Percent(c.flash),d=>c.flash=Step(c.flash,d,.25f));
@@ -57,12 +60,13 @@ namespace Bable {
     for(int i=controlsPage*7;i<Mathf.Min(GameInput.Remappable.Length,controlsPage*7+7);i++){
      var action=GameInput.Remappable[i];int row=i%7;
      Button(overlay,action.ToString().ToUpperInvariant()+"   ·   "+GameInput.KeyHint(action,controllerBindings),new Vector2(0,85-row*49),()=>StartRebind(action),900,44);
+     overlay.GetChild(overlay.childCount-1).name="Binding "+action;
     }
     Label(overlay,GameInput.Message,new Vector2(0,-270),new Vector2(1100,44),19);
    }
    Button(overlay,"RESTORE DEFAULTS",new Vector2(-320,-318),()=>Confirm("RESTORE DEFAULTS?","Reset this settings page to its original values.",ResetSettingsPage,SettingsPanel),520,60);
    Button(overlay,"RETURN",new Vector2(320,-318),SettingsBack,520,60);
-   Label(overlay,GameSettings.Error.Length>0?GameSettings.Error:"Select with mouse or directions · Confirm: "+GameInput.Hint(GameAction.Submit)+" · Back: "+GameInput.Hint(GameAction.Back),new Vector2(0,-398),new Vector2(1300,32),16);
+   settingsInputHint=Label(overlay,"",new Vector2(0,-398),new Vector2(1300,32),16);RefreshSettingsHint();
   }
   static string Percent(float value)=>Mathf.RoundToInt(value*100)+"%";
   static float Step(float value,int direction,float step=.1f)=>Mathf.Clamp01(Mathf.Round((value+direction*step)/step)*step);
@@ -77,10 +81,26 @@ namespace Bable {
    Button(overlay,"+",new Vector2(585,y),()=>update(1),100,52);
   }
   void StartRebind(GameAction action){
-   GameInput.Rebind(action,controllerBindings,SettingsPanel);
+   GameInput.Rebind(action,controllerBindings,()=>{controllerBindings=GameInput.UsingGamepad;SettingsPanel();FocusBinding(action);});
    Panel("settings","ASSIGN "+action.ToString().ToUpperInvariant(),"NewArt/Release51/Panel");
    Label(overlay,GameInput.Message,new Vector2(0,50),new Vector2(1150,120),30);
    Button(overlay,"CANCEL",new Vector2(0,-170),GameInput.CancelRebind,430,60);
+  }
+  void FocusBinding(GameAction action){
+   if(GameInput.NavigationActive){var row=overlay.Find("Binding "+action);if(row!=null)EventSystem.current?.SetSelectedGameObject(row.gameObject);}
+  }
+  void UpdateSettingsDevice(){
+   RefreshSettingsHint();
+   if(Mode=="settings"&&settingsPage==2&&!GameInput.Rebinding&&lastControlsPad!=GameInput.UsingGamepad){
+    string selected=EventSystem.current?.currentSelectedGameObject?.name;
+    controllerBindings=GameInput.UsingGamepad;SettingsPanel();
+    var row=selected==null?null:overlay.Find(selected);if(GameInput.NavigationActive&&row!=null)EventSystem.current?.SetSelectedGameObject(row.gameObject);
+   }
+  }
+  void RefreshSettingsHint(){
+   if(settingsInputHint==null)return;
+   string select=GameInput.UsingGamepad?"Stick / D-pad: select and adjust":GameInput.NavigationActive?"Directions: select and adjust":"Mouse: select and click";
+   settingsInputHint.text=GameSettings.Error.Length>0?GameSettings.Error:select+" · Confirm: "+GameInput.Hint(GameAction.Submit)+" · Back: "+GameInput.Hint(GameAction.Back);
   }
   void ResetSettingsPage(){
    var c=GameSettings.Current;

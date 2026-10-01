@@ -201,6 +201,7 @@ namespace Babel.Runtime.Runes
 
         private void ConfirmSelection()
         {
+            if(!Bable.RuneAttunement.CanChange){ScreenMessagePresenter.ShowCenter("Return to an altar to change runes.");return;}
             if (inventory == null)
             {
                 return;
