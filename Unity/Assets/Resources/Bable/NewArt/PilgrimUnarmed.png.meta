@@ -1,0 +1,1077 @@
+fileFormatVersion: 2
+guid: 17f717cf501bde147a41d99cc46b88cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5668344061041831120
+    second: PilgrimUnarmed_0
+  - first:
+      213: 3117558123762650159
+    second: PilgrimUnarmed_1
+  - first:
+      213: 4577501446468844507
+    second: PilgrimUnarmed_2
+  - first:
+      213: -1337530933372572777
+    second: PilgrimUnarmed_3
+  - first:
+      213: -5061862663443789321
+    second: PilgrimUnarmed_4
+  - first:
+      213: -5531218173986246401
+    second: PilgrimUnarmed_5
+  - first:
+      213: -7714067893323864338
+    second: PilgrimUnarmed_6
+  - first:
+      213: -7554606032069432474
+    second: PilgrimUnarmed_7
+  - first:
+      213: 3328781144546236492
+    second: PilgrimUnarmed_8
+  - first:
+      213: 7520537125805491793
+    second: PilgrimUnarmed_9
+  - first:
+      213: 331298189309672850
+    second: PilgrimUnarmed_10
+  - first:
+      213: 3048478348778200265
+    second: PilgrimUnarmed_11
+  - first:
+      213: -1636622890280103174
+    second: PilgrimUnarmed_12
+  - first:
+      213: -1659263627254606363
+    second: PilgrimUnarmed_13
+  - first:
+      213: 4741306609006454905
+    second: PilgrimUnarmed_14
+  - first:
+      213: 6211422891919865886
+    second: PilgrimUnarmed_15
+  - first:
+      213: 1919391196950222657
+    second: PilgrimUnarmed_16
+  - first:
+      213: 4816939213987065713
+    second: PilgrimUnarmed_17
+  - first:
+      213: -7678153154989430260
+    second: PilgrimUnarmed_18
+  - first:
+      213: -6241745337830126538
+    second: PilgrimUnarmed_19
+  - first:
+      213: -8174714674441323698
+    second: PilgrimUnarmed_20
+  - first:
+      213: -254198846229223631
+    second: PilgrimUnarmed_21
+  - first:
+      213: 5104988627506457176
+    second: PilgrimUnarmed_22
+  - first:
+      213: -4942168151975231962
+    second: PilgrimUnarmed_23
+  - first:
+      213: 4630608152905740572
+    second: PilgrimUnarmed_24
+  - first:
+      213: 1341470621354918163
+    second: PilgrimUnarmed_25
+  - first:
+      213: -5269598212257346833
+    second: PilgrimUnarmed_26
+  - first:
+      213: 3070996495740602257
+    second: PilgrimUnarmed_27
+  - first:
+      213: 649254120360955862
+    second: PilgrimUnarmed_28
+  - first:
+      213: -2183080463532833167
+    second: PilgrimUnarmed_29
+  - first:
+      213: 3386785725494733892
+    second: PilgrimUnarmed_30
+  - first:
+      213: -409887220672271839
+    second: PilgrimUnarmed_31
+  - first:
+      213: -9033355845336413408
+    second: Unarmed_00
+  - first:
+      213: 131517219174145032
+    second: Unarmed_01
+  - first:
+      213: -6579663134877550806
+    second: Unarmed_02
+  - first:
+      213: -4502098024498935085
+    second: Unarmed_03
+  - first:
+      213: 8721502686095931040
+    second: Unarmed_04
+  - first:
+      213: 5637176065041758781
+    second: Unarmed_05
+  - first:
+      213: 105071756065622482
+    second: Unarmed_06
+  - first:
+      213: 5202465135309847383
+    second: Unarmed_07
+  - first:
+      213: 4094541642765001694
+    second: Unarmed_08
+  - first:
+      213: 6195462784702967454
+    second: Unarmed_09
+  - first:
+      213: 8887462331235535045
+    second: Unarmed_10
+  - first:
+      213: 3958423280998228680
+    second: Unarmed_11
+  - first:
+      213: -5439975267398339801
+    second: Unarmed_12
+  - first:
+      213: 1578337911032589401
+    second: Unarmed_13
+  - first:
+      213: -6680636872147382941
+    second: Unarmed_14
+  - first:
+      213: 2454261692808927249
+    second: Unarmed_15
+  - first:
+      213: -8149097594357816209
+    second: Unarmed_16
+  - first:
+      213: 3627131477176359966
+    second: Unarmed_17
+  - first:
+      213: 1914951624819905348
+    second: Unarmed_18
+  - first:
+      213: 3483213868741236978
+    second: Unarmed_19
+  - first:
+      213: -6753866443838671249
+    second: Unarmed_20
+  - first:
+      213: -5434491563898577779
+    second: Unarmed_21
+  - first:
+      213: 3765755741364722876
+    second: Unarmed_22
+  - first:
+      213: 4374354031545555300
+    second: Unarmed_23
+  - first:
+      213: 5927152381661636276
+    second: Unarmed_24
+  - first:
+      213: 5716567994015084577
+    second: Unarmed_25
+  - first:
+      213: -6152057754851915380
+    second: Unarmed_26
+  - first:
+      213: -6094735356168066553
+    second: Unarmed_27
+  - first:
+      213: -931884872486510408
+    second: Unarmed_28
+  - first:
+      213: 8110652182348112863
+    second: Unarmed_29
+  - first:
+      213: -2170867558561460100
+    second: Unarmed_30
+  - first:
+      213: -6520266899844010487
+    second: Unarmed_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 116
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Unarmed_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 864
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b460d28b213a280800000000000000
+      internalID: -9033355845336413408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_01
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 864
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80cd8bac63e33d100800000000000000
+      internalID: 131517219174145032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_02
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 864
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27f3e74d3750b4a0800000000000000
+      internalID: -6579663134877550806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_03
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 864
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dac0c923b55581c0800000000000000
+      internalID: -4502098024498935085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_04
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 864
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6fc580c70090970800000000000000
+      internalID: 8721502686095931040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_05
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 864
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3af52d93c54b3e40800000000000000
+      internalID: 5637176065041758781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_06
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 864
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9c738943a457100800000000000000
+      internalID: 105071756065622482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_07
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 864
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b7f7a0a7ed23840800000000000000
+      internalID: 5202465135309847383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_08
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed36d072eebb2d830800000000000000
+      internalID: 4094541642765001694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_09
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e6f55e394baf550800000000000000
+      internalID: 6195462784702967454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 576
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c885f707eb965b70800000000000000
+      internalID: 8887462331235535045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_11
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 576
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2298e50052fe630800000000000000
+      internalID: 3958423280998228680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_12
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 576
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723bfc701535184b0800000000000000
+      internalID: -5439975267398339801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_13
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 576
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c21aab7f167e510800000000000000
+      internalID: 1578337911032589401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_14
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 576
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d474a092c9943a0800000000000000
+      internalID: -6680636872147382941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_15
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 576
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11899b1a10a4f0220800000000000000
+      internalID: 2454261692808927249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64ef48e9e698ee80800000000000000
+      internalID: -8149097594357816209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c1cb27cd8265230800000000000000
+      internalID: 3627131477176359966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_18
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 288
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443927f5b56439a10800000000000000
+      internalID: 1914951624819905348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_19
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 288
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8190b0f8cd65030800000000000000
+      internalID: 3483213868741236978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_20
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 288
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66b09ab0427542a0800000000000000
+      internalID: -6753866443838671249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_21
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 288
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8cd7fe37bec494b0800000000000000
+      internalID: -5434491563898577779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_22
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 288
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc9eea15e6a24430800000000000000
+      internalID: 3765755741364722876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_23
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 288
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469121cb0d3d4bc30800000000000000
+      internalID: 4374354031545555300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b66d8e00b9714250800000000000000
+      internalID: 5927152381661636276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120f2a98d44555f40800000000000000
+      internalID: 5716567994015084577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_26
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c894d5421108f9aa0800000000000000
+      internalID: -6152057754851915380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_27
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70aa69f1c762b6ba0800000000000000
+      internalID: -6094735356168066553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_28
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0a1e355a74113f0800000000000000
+      internalID: -931884872486510408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_29
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd32b911033de8070800000000000000
+      internalID: 8110652182348112863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_30
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70568d05778fd1e0800000000000000
+      internalID: -2170867558561460100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_31
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 320
+        height: 288
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e6f0aeccb5385a0800000000000000
+      internalID: -6520266899844010487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PilgrimUnarmed_0: 5668344061041831120
+      PilgrimUnarmed_1: 3117558123762650159
+      PilgrimUnarmed_10: 331298189309672850
+      PilgrimUnarmed_11: 3048478348778200265
+      PilgrimUnarmed_12: -1636622890280103174
+      PilgrimUnarmed_13: -1659263627254606363
+      PilgrimUnarmed_14: 4741306609006454905
+      PilgrimUnarmed_15: 6211422891919865886
+      PilgrimUnarmed_16: 1919391196950222657
+      PilgrimUnarmed_17: 4816939213987065713
+      PilgrimUnarmed_18: -7678153154989430260
+      PilgrimUnarmed_19: -6241745337830126538
+      PilgrimUnarmed_2: 4577501446468844507
+      PilgrimUnarmed_20: -8174714674441323698
+      PilgrimUnarmed_21: -254198846229223631
+      PilgrimUnarmed_22: 5104988627506457176
+      PilgrimUnarmed_23: -4942168151975231962
+      PilgrimUnarmed_24: 4630608152905740572
+      PilgrimUnarmed_25: 1341470621354918163
+      PilgrimUnarmed_26: -5269598212257346833
+      PilgrimUnarmed_27: 3070996495740602257
+      PilgrimUnarmed_28: 649254120360955862
+      PilgrimUnarmed_29: -2183080463532833167
+      PilgrimUnarmed_3: -1337530933372572777
+      PilgrimUnarmed_30: 3386785725494733892
+      PilgrimUnarmed_31: -409887220672271839
+      PilgrimUnarmed_4: -5061862663443789321
+      PilgrimUnarmed_5: -5531218173986246401
+      PilgrimUnarmed_6: -7714067893323864338
+      PilgrimUnarmed_7: -7554606032069432474
+      PilgrimUnarmed_8: 3328781144546236492
+      PilgrimUnarmed_9: 7520537125805491793
+      Unarmed_00: -9033355845336413408
+      Unarmed_01: 131517219174145032
+      Unarmed_02: -6579663134877550806
+      Unarmed_03: -4502098024498935085
+      Unarmed_04: 8721502686095931040
+      Unarmed_05: 5637176065041758781
+      Unarmed_06: 105071756065622482
+      Unarmed_07: 5202465135309847383
+      Unarmed_08: 4094541642765001694
+      Unarmed_09: 6195462784702967454
+      Unarmed_10: 8887462331235535045
+      Unarmed_11: 3958423280998228680
+      Unarmed_12: -5439975267398339801
+      Unarmed_13: 1578337911032589401
+      Unarmed_14: -6680636872147382941
+      Unarmed_15: 2454261692808927249
+      Unarmed_16: -8149097594357816209
+      Unarmed_17: 3627131477176359966
+      Unarmed_18: 1914951624819905348
+      Unarmed_19: 3483213868741236978
+      Unarmed_20: -6753866443838671249
+      Unarmed_21: -5434491563898577779
+      Unarmed_22: 3765755741364722876
+      Unarmed_23: 4374354031545555300
+      Unarmed_24: 5927152381661636276
+      Unarmed_25: 5716567994015084577
+      Unarmed_26: -6152057754851915380
+      Unarmed_27: -6094735356168066553
+      Unarmed_28: -931884872486510408
+      Unarmed_29: 8110652182348112863
+      Unarmed_30: -2170867558561460100
+      Unarmed_31: -6520266899844010487
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

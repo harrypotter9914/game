@@ -1,0 +1,537 @@
+fileFormatVersion: 2
+guid: e0aef117c4339c8458074f1ce46a6826
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1820761295377980696
+    second: ShieldGuard_0
+  - first:
+      213: -5199093714003712727
+    second: ShieldGuard_00
+  - first:
+      213: 7730470580903122864
+    second: ShieldGuard_01
+  - first:
+      213: 5160678918570924497
+    second: ShieldGuard_02
+  - first:
+      213: -6024449598066432649
+    second: ShieldGuard_03
+  - first:
+      213: -4687061036719765707
+    second: ShieldGuard_04
+  - first:
+      213: -4245576837586780969
+    second: ShieldGuard_05
+  - first:
+      213: -9218428885948990722
+    second: ShieldGuard_06
+  - first:
+      213: 9034708281972453886
+    second: ShieldGuard_07
+  - first:
+      213: 6885162697183442436
+    second: ShieldGuard_08
+  - first:
+      213: -556575353790046893
+    second: ShieldGuard_09
+  - first:
+      213: -2236331177449167481
+    second: ShieldGuard_10
+  - first:
+      213: -8005783090639435025
+    second: ShieldGuard_11
+  - first:
+      213: 6433167815119506778
+    second: ShieldGuard_12
+  - first:
+      213: -4074962870545947874
+    second: ShieldGuard_13
+  - first:
+      213: 1629251398704019149
+    second: ShieldGuard_14
+  - first:
+      213: 7835255112134021163
+    second: ShieldGuard_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ShieldGuard_00
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1122
+        width: 192
+        height: 220
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925a7d620db19d7b0800000000000000
+      internalID: -5199093714003712727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_01
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1122
+        width: 187
+        height: 221
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b796591906284b60800000000000000
+      internalID: 7730470580903122864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_02
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1122
+        width: 183
+        height: 220
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9544d422a6e9740800000000000000
+      internalID: 5160678918570924497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_03
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1122
+        width: 183
+        height: 221
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775610c620bd46ca0800000000000000
+      internalID: -6024449598066432649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_04
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 818
+        width: 193
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5378eb9f1d634feb0800000000000000
+      internalID: -4687061036719765707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_05
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 818
+        width: 195
+        height: 228
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc73093c5ea415c0800000000000000
+      internalID: -4245576837586780969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_06
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 818
+        width: 195
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa7fc105cf811080800000000000000
+      internalID: -9218428885948990722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_07
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 818
+        width: 188
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef17f34805bb16d70800000000000000
+      internalID: 9034708281972453886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_08
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 473
+        width: 210
+        height: 286
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406b3627ef20d8f50800000000000000
+      internalID: 6885162697183442436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_09
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 472
+        width: 185
+        height: 260
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d5b922aa5a648f0800000000000000
+      internalID: -556575353790046893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_10
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 472
+        width: 320
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785e20884a4f6f0e0800000000000000
+      internalID: -2236331177449167481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_11
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 470
+        width: 245
+        height: 227
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea8b9d02beb5e090800000000000000
+      internalID: -8005783090639435025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_12
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 158
+        width: 198
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d8ca02b04374950800000000000000
+      internalID: 6433167815119506778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_13
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 160
+        width: 226
+        height: 190
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13e33cfbd2d277c0800000000000000
+      internalID: -4074962870545947874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_14
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 159
+        width: 276
+        height: 142
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6bf85d3834c9610800000000000000
+      internalID: 1629251398704019149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_15
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 151
+        width: 301
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20df43f20b6cbc60800000000000000
+      internalID: 7835255112134021163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ShieldGuard_0: -1820761295377980696
+      ShieldGuard_00: -5199093714003712727
+      ShieldGuard_01: 7730470580903122864
+      ShieldGuard_02: 5160678918570924497
+      ShieldGuard_03: -6024449598066432649
+      ShieldGuard_04: -4687061036719765707
+      ShieldGuard_05: -4245576837586780969
+      ShieldGuard_06: -9218428885948990722
+      ShieldGuard_07: 9034708281972453886
+      ShieldGuard_08: 6885162697183442436
+      ShieldGuard_09: -556575353790046893
+      ShieldGuard_10: -2236331177449167481
+      ShieldGuard_11: -8005783090639435025
+      ShieldGuard_12: 6433167815119506778
+      ShieldGuard_13: -4074962870545947874
+      ShieldGuard_14: 1629251398704019149
+      ShieldGuard_15: 7835255112134021163
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

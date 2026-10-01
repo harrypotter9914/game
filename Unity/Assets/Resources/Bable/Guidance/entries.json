@@ -1,0 +1,175 @@
+{
+  "entries": [
+    {
+      "id": "seek_blade",
+      "title": "A Refuge at the Gate",
+      "text": "You came to Babel fleeing famine and plague. A voice still calls above the bells. Seek the star on the high ledge to the left; a blade awaits there.",
+      "controls": "ARROWS  Move     SPACE / C  Jump     G  Recall your path",
+      "stage": 0
+    },
+    {
+      "id": "blade",
+      "title": "The First Oath",
+      "text": "The first guardian holds the secret of Shockwave. Follow the road east into the tower; your blade is only the beginning.",
+      "controls": "X  Strike     G  Recall your path"
+    },
+    {
+      "id": "forest_gate",
+      "title": "The Unwelcoming City",
+      "text": "No palms welcome the Hollow to this city of stone. Carry your hope through the forest passage and enter the keep.",
+      "controls": "Continue right toward the tower",
+      "stage": 1,
+      "x": 143,
+      "y": -8,
+      "width": 12,
+      "height": 18
+    },
+    {
+      "id": "bridge",
+      "title": "The Builders' Burden",
+      "text": "This bridge carried stone toward a heaven its builders never reached. Its tired joints groan beneath your feet.",
+      "controls": "Watch the crossing ahead",
+      "stage": 1,
+      "x": 180,
+      "y": 12,
+      "width": 12,
+      "height": 8
+    },
+    {
+      "id": "fallen",
+      "title": "Beneath the Prophecy",
+      "text": "The bridge is gone, but your vow remains. Turn left through the lower halls: a heavy tread guards the power to break stone.",
+      "controls": "Seek the first guardian to the left",
+      "stage": 1
+    },
+    {
+      "id": "sealed_east",
+      "title": "Stone That Remembers",
+      "text": "These fractured stones will not yield to an ordinary blade. Seek the first guardian in the lower halls to the left.",
+      "controls": "Return after learning Shockwave",
+      "stage": 1,
+      "x": 190,
+      "y": -49,
+      "width": 9,
+      "height": 16
+    },
+    {
+      "id": "shock_approach",
+      "title": "The Weight of Judgment",
+      "text": "A heavy blade scrapes the chamber floor. Its keeper holds the secret of Shockwave; face him before seeking the eastern passages.",
+      "controls": "The first guardian waits ahead",
+      "stage": 1,
+      "x": 101,
+      "y": -61,
+      "width": 10,
+      "height": 24
+    },
+    {
+      "id": "shockwave",
+      "title": "The Prophecy Unsealed",
+      "text": "Move freely during the blast; its direction stays locked. It breaks successive layers of fractured stone. Return east: the buried warden guards Wall Jump.",
+      "controls": "ARROWS  Aim | Z  Cast | 1 Spirit | 2.5 seconds"
+    },
+    {
+      "id": "breakable",
+      "title": "A Fracture in the Oath",
+      "text": "The old masonry bears a wound. A sustained Shockwave breaks successive layers of cracked stone. Ordinary masonry stops the blast.",
+      "controls": "ARROWS  Aim     Z  Shatter a layer",
+      "stage": 2,
+      "x": 190,
+      "y": -49,
+      "width": 14,
+      "height": 16
+    },
+    {
+      "id": "burrow_approach",
+      "title": "A Voice Under Stone",
+      "text": "Something moves beneath the roots. The buried rebel holds the secret of Wall Jump. Follow the lower passage into his broad chamber.",
+      "controls": "Watch the shadow beneath your feet",
+      "stage": 2,
+      "x": 245,
+      "y": -64,
+      "width": 14,
+      "height": 21
+    },
+    {
+      "id": "walljump",
+      "title": "The Profaned Court",
+      "text": "Wall Jump is yours. Leave the court where forgiveness was sold. Climb the vine-bound passages above and right; the winged preacher guards Double Jump.",
+      "controls": "Press toward a wall, then SPACE / C to leap away"
+    },
+    {
+      "id": "upward_seal",
+      "title": "The Memory Above",
+      "text": "A star waits above the broken stone. Aim Shockwave upward to open the alcove, then use the walls to reach it.",
+      "controls": "UP + Z  Break the seal above",
+      "stage": 3,
+      "x": 303,
+      "y": -57,
+      "width": 12,
+      "height": 9
+    },
+    {
+      "id": "aerial_approach",
+      "title": "Borrowed Wings",
+      "text": "The judge above calls the ground a prison. His secret is Double Jump; make his arrogance your road upward.",
+      "controls": "The next guardian waits in the chamber ahead",
+      "stage": 3,
+      "x": 306,
+      "y": -43,
+      "width": 10,
+      "height": 18
+    },
+    {
+      "id": "doublejump",
+      "title": "A Sermon Answered",
+      "text": "Double Jump is yours. Mercy belongs to those below as well as those above. Ascend the eastern keep; the host of the empty table guards Crystal Dash.",
+      "controls": "SPACE / C again while airborne  Double Jump"
+    },
+    {
+      "id": "crystal_approach",
+      "title": "A Gilded Promise",
+      "text": "Gold cannot buy a way out of Babel. The sentinel ahead holds the secret of Crystal Dash, the last art you need for the ascent.",
+      "controls": "Enter the upper guardian's chamber",
+      "stage": 4,
+      "x": 351,
+      "y": 25,
+      "width": 12,
+      "height": 29
+    },
+    {
+      "id": "dash",
+      "title": "The Last Place at the Table",
+      "text": "Crystal Dash is yours. Livia refused a feast bought with her people's hunger. Climb toward the high central crown and the master who keeps her captive.",
+      "controls": "ARROWS  Aim     Hold SHIFT for 0.7 seconds to Dash"
+    },
+    {
+      "id": "crown_approach",
+      "title": "The Refused Sacrifice",
+      "text": "Nero demands that one life redeem his broken heaven. Find him in the high central hall. Beyond his throne lies the passage to Livia.",
+      "controls": "Face the master in the high central hall",
+      "stage": 5,
+      "x": 151,
+      "y": 66,
+      "width": 78,
+      "height": 10
+    },
+    {
+      "id": "dawn",
+      "title": "A Promise Freely Kept",
+      "text": "The tyrant has fallen; his promise no longer binds the princess. Take the open western passage left. Livia waits beneath a sky that belongs to everyone.",
+      "controls": "Leave the final chamber through its left exit"
+    },
+    {
+      "id": "victory_seal",
+      "title": "The Fallen Guardian's Seal",
+      "text": "The guardian's fall has awakened this fractured seal. Use your new Shockwave to break it, then return east through the lower halls.",
+      "controls": "ARROWS  Aim     Z  Shockwave · 1 Spirit",
+      "stage": 2,
+      "x": 64,
+      "y": -61,
+      "width": 13,
+      "height": 9
+    }
+  ]
+}

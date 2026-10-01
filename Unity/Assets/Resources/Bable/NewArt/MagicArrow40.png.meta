@@ -1,0 +1,2223 @@
+fileFormatVersion: 2
+guid: 30211c6ad7586c94dbd9138b656f240d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 195783039129171101
+    second: MagicArrow40_0
+  - first:
+      213: -196012777281201600
+    second: MagicArrow40_1
+  - first:
+      213: 6350709507070269132
+    second: MagicArrow40_2
+  - first:
+      213: 1328119938436098976
+    second: MagicArrow40_3
+  - first:
+      213: 1710389974890039095
+    second: MagicArrow40_4
+  - first:
+      213: 797791489007344521
+    second: MagicArrow40_5
+  - first:
+      213: 734319717313554267
+    second: MagicArrow40_6
+  - first:
+      213: -7076254580900058242
+    second: MagicArrow40_7
+  - first:
+      213: -1552361905795086139
+    second: MagicArrow40_8
+  - first:
+      213: 4306293809315504982
+    second: MagicArrow40_9
+  - first:
+      213: -4932671019759706321
+    second: MagicArrow40_10
+  - first:
+      213: -6743382955517017901
+    second: MagicArrow40_11
+  - first:
+      213: 9143784399070936848
+    second: MagicArrow40_12
+  - first:
+      213: -3562863223850986096
+    second: MagicArrow40_13
+  - first:
+      213: 334889939327006162
+    second: MagicArrow40_14
+  - first:
+      213: -7464504987711940237
+    second: MagicArrow40_15
+  - first:
+      213: -7033243383572402634
+    second: MagicArrow40_16
+  - first:
+      213: -8766331862232961396
+    second: MagicArrow40_17
+  - first:
+      213: -6790749652816586985
+    second: MagicArrow40_18
+  - first:
+      213: -6778467496130289634
+    second: MagicArrow40_19
+  - first:
+      213: 4358395293742039221
+    second: MagicArrow40_20
+  - first:
+      213: -1034342303576996859
+    second: MagicArrow40_21
+  - first:
+      213: 6090588192186826149
+    second: MagicArrow40_22
+  - first:
+      213: 7223470924188226321
+    second: MagicArrow40_23
+  - first:
+      213: -6042832109500717876
+    second: MagicArrow40_24
+  - first:
+      213: 7947301590484907631
+    second: MagicArrow40_25
+  - first:
+      213: -3957905290531750797
+    second: MagicArrow40_26
+  - first:
+      213: 4450928588109101712
+    second: MagicArrow40_27
+  - first:
+      213: 1732040795246320375
+    second: MagicArrow40_28
+  - first:
+      213: 8519115898147210212
+    second: MagicArrow40_29
+  - first:
+      213: 7202944879034463084
+    second: MagicArrow40_30
+  - first:
+      213: 4061064413493671864
+    second: MagicArrow40_31
+  - first:
+      213: -4076567178364604299
+    second: MagicArrow40_32
+  - first:
+      213: -1968939281039160798
+    second: MagicArrow40_33
+  - first:
+      213: -2712568581131031067
+    second: MagicArrow40_34
+  - first:
+      213: -8621801896653416903
+    second: MagicArrow40_35
+  - first:
+      213: 8127593599464616291
+    second: MagicArrow40_36
+  - first:
+      213: 2538545127009572921
+    second: MagicArrow40_37
+  - first:
+      213: -1340491878882244510
+    second: MagicArrow40_38
+  - first:
+      213: -5276390741972730377
+    second: MagicArrow40_39
+  - first:
+      213: -215787957832206644
+    second: MagicArrow40_40
+  - first:
+      213: 7408356082148964373
+    second: MagicArrow40_41
+  - first:
+      213: 5564155865440504473
+    second: MagicArrow40_42
+  - first:
+      213: 4115679064893793882
+    second: MagicArrow40_43
+  - first:
+      213: 9072336903335099030
+    second: MagicArrow40_44
+  - first:
+      213: -8731765019410651090
+    second: MagicArrow40_45
+  - first:
+      213: -5263836872972045800
+    second: MagicArrow40_46
+  - first:
+      213: 1601211186015132990
+    second: MagicArrow40_47
+  - first:
+      213: -3276040306555857994
+    second: MagicArrow40_48
+  - first:
+      213: 5120897554267813906
+    second: MagicArrow40_49
+  - first:
+      213: 7347425736361940676
+    second: MagicArrow40_50
+  - first:
+      213: 4824315223389119730
+    second: MagicArrow40_51
+  - first:
+      213: -9108392279999424537
+    second: MagicArrow40_52
+  - first:
+      213: 3813648953270260323
+    second: MagicArrow40_53
+  - first:
+      213: 4618036801285120335
+    second: MagicArrow40_54
+  - first:
+      213: 2174104940039178984
+    second: MagicArrow40_55
+  - first:
+      213: 5100670759041196837
+    second: MagicArrow40_56
+  - first:
+      213: -5335211683724152106
+    second: MagicArrow40_57
+  - first:
+      213: -4070839326080515724
+    second: MagicArrow40_58
+  - first:
+      213: -9041958775355268499
+    second: MagicArrow40_59
+  - first:
+      213: -164409329247217597
+    second: MagicArrow40_60
+  - first:
+      213: 5202048780685590730
+    second: MagicArrow40_61
+  - first:
+      213: 5018894850685078028
+    second: MagicArrow40_62
+  - first:
+      213: 480917096174260684
+    second: MagicArrow40_63
+  - first:
+      213: 21578827142135999
+    second: MagicArrow40_64
+  - first:
+      213: -8287872373645701106
+    second: MagicArrow40_65
+  - first:
+      213: -451159664686320099
+    second: MagicArrow40_66
+  - first:
+      213: -7951216134553680785
+    second: MagicArrow40_67
+  - first:
+      213: -8762981516897839649
+    second: MagicArrow40_68
+  - first:
+      213: -2391008038113872961
+    second: MagicArrow40_69
+  - first:
+      213: -4710831602403575333
+    second: MagicArrow40_70
+  - first:
+      213: -7668526205577308012
+    second: MagicArrow40_71
+  - first:
+      213: 1223450088771631471
+    second: MagicArrow40_72
+  - first:
+      213: 768123293255084996
+    second: MagicArrow40_73
+  - first:
+      213: -6621068737077920328
+    second: MagicArrow40_74
+  - first:
+      213: -687210256743429597
+    second: MagicArrow40_75
+  - first:
+      213: 8642321679255780569
+    second: MagicArrow40_76
+  - first:
+      213: 4642099205944034835
+    second: MagicArrow40_77
+  - first:
+      213: 8164836395220288762
+    second: MagicArrow40_78
+  - first:
+      213: -7115672023630009013
+    second: MagicArrow40_79
+  - first:
+      213: 553683425548111883
+    second: MagicArrow40_80
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.96, y: 0.5}
+  spritePixelsToUnits: 1357.5
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MagicArrow40_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 23
+        width: 2122
+        height: 665
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94375403af87b200800000000000000
+      internalID: 195783039129171101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_1
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 611
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a57b6ea6f974df0800000000000000
+      internalID: -196012777281201600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_2
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 592
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc69e9036a0422850800000000000000
+      internalID: 6350709507070269132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_3
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 585
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0abe89d1c0e6e6210800000000000000
+      internalID: 1328119938436098976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_4
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 585
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737c5b0ce968cb710800000000000000
+      internalID: 1710389974890039095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_5
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 586
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98bdc13e123521b00800000000000000
+      internalID: 797791489007344521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_6
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 583
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b572a0e64e3d03a00800000000000000
+      internalID: 734319717313554267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_7
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 544
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ba83543f71ccd90800000000000000
+      internalID: -7076254580900058242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_8
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 546
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c84c3a4217e47ae0800000000000000
+      internalID: -1552361905795086139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_9
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 546
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653e6b2676703cb30800000000000000
+      internalID: 4306293809315504982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_10
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 548
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2fdb5987d1ab8bb0800000000000000
+      internalID: -4932671019759706321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_11
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 530
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d00cff0ee0ba62a0800000000000000
+      internalID: -6743382955517017901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_12
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 532
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01fb161177f35ee70800000000000000
+      internalID: 9143784399070936848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_13
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 538
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0951f0756ca2e8ec0800000000000000
+      internalID: -3562863223850986096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_14
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 532
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5307020a4c5a400800000000000000
+      internalID: 334889939327006162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_15
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 530
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3795c472340c86890800000000000000
+      internalID: -7464504987711940237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_16
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 514
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63eec470866e46e90800000000000000
+      internalID: -7033243383572402634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_17
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 468
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e6a680e9bb75680800000000000000
+      internalID: -8766331862232961396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_18
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 459
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71792417b2962c1a0800000000000000
+      internalID: -6790749652816586985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_19
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 508
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e106f93e9bb0ee1a0800000000000000
+      internalID: -6778467496130289634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_20
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 506
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b08a3a8d612c7c30800000000000000
+      internalID: 4358395293742039221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_21
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 497
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5044223b72745a1f0800000000000000
+      internalID: -1034342303576996859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_22
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 498
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5adfb7401bd168450800000000000000
+      internalID: 6090588192186826149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 231
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1131a91b88cee3460800000000000000
+      internalID: 7223470924188226321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_24
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 229
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4a2e3763c832ca0800000000000000
+      internalID: -6042832109500717876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_25
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 230
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66ffbf90bc7a4e60800000000000000
+      internalID: 7947301590484907631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_26
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 182
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c373fab12b219c0800000000000000
+      internalID: -3957905290531750797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_27
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 162
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09abfd608ffd4cd30800000000000000
+      internalID: 4450928588109101712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_28
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 162
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa54213de1790810800000000000000
+      internalID: 1732040795246320375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_29
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 166
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3827de5caf93670800000000000000
+      internalID: 8519115898147210212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_30
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 182
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c637193643006f360800000000000000
+      internalID: 7202944879034463084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_31
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 178
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b73540519ccb5830800000000000000
+      internalID: 4061064413493671864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_32
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 189
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570bf86ffbf1d67c0800000000000000
+      internalID: -4076567178364604299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_33
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 147
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a0951e72ceca4e0800000000000000
+      internalID: -1968939281039160798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_34
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 160
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edaccc4f350b5ad0800000000000000
+      internalID: -2712568581131031067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_35
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 168
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9361f22fad4395880800000000000000
+      internalID: -8621801896653416903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_36
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 166
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361b3de11530bc070800000000000000
+      internalID: 8127593599464616291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_37
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 176
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93854bdd759ba3320800000000000000
+      internalID: 2538545127009572921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_38
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 179
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2688de60dbd956de0800000000000000
+      internalID: -1340491878882244510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_39
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 162
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd3e80639e76c6b0800000000000000
+      internalID: -5276390741972730377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_40
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 176
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6ba92eefd510df0800000000000000
+      internalID: -215787957832206644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_41
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 176
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518f7160b94cfc660800000000000000
+      internalID: 7408356082148964373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_42
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 168
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99acc7a874ad73d40800000000000000
+      internalID: 5564155865440504473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_43
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 152
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56a180cd44dd1930800000000000000
+      internalID: 4115679064893793882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_44
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 136
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ab4f5a85a67ed70800000000000000
+      internalID: 9072336903335099030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_45
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 162
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28a8db4af982d680800000000000000
+      internalID: -8731765019410651090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_46
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 160
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812f5e6c04813f6b0800000000000000
+      internalID: -5263836872972045800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_47
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 130
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d50d01715a83610800000000000000
+      internalID: 1601211186015132990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_48
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 120
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b350e9c2ba2982d0800000000000000
+      internalID: -3276040306555857994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_49
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 128
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218bc45a135111740800000000000000
+      internalID: 5120897554267813906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_50
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 144
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c69a6567cc47f560800000000000000
+      internalID: 7347425736361940676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_51
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 131
+        width: 9
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f42e96a22963f240800000000000000
+      internalID: 4824315223389119730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_52
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 134
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e759bbca7d789180800000000000000
+      internalID: -9108392279999424537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_53
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 144
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362d6b5748dcce430800000000000000
+      internalID: 3813648953270260323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_54
+      rect:
+        serializedVersion: 2
+        x: 2081
+        y: 144
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41e74cd000961040800000000000000
+      internalID: 4618036801285120335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_55
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 128
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea057f8ce8fb2e10800000000000000
+      internalID: 2174104940039178984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_56
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 128
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5236fd4e70939c640800000000000000
+      internalID: 5100670759041196837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_57
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 128
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2bb16ad3585f5b0800000000000000
+      internalID: -5335211683724152106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_58
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 127
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471c74f73397187c0800000000000000
+      internalID: -4070839326080515724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_59
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 112
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6229317662848280800000000000000
+      internalID: -9041958775355268499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_60
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 118
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348957c0696e7bdf0800000000000000
+      internalID: -164409329247217597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_61
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 114
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac0c40dedc3613840800000000000000
+      internalID: 5202048780685590730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_62
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 95
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a0f148642b6a540800000000000000
+      internalID: 5018894850685078028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_63
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 114
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc111eb0d8f8ca600800000000000000
+      internalID: 480917096174260684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_64
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 112
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb00a7634d9ac4000800000000000000
+      internalID: 21578827142135999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_65
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 95
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e001319bcff8bfc80800000000000000
+      internalID: -8287872373645701106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_66
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 96
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d163361eca82db9f0800000000000000
+      internalID: -451159664686320099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_67
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 93
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64c29f8d0b97a190800000000000000
+      internalID: -7951216134553680785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_68
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 101
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd59df71db2a36680800000000000000
+      internalID: -8762981516897839649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_69
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 99
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb37e118bde61ded0800000000000000
+      internalID: -2391008038113872961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_70
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 98
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9fc0edd93cf9eb0800000000000000
+      internalID: -4710831602403575333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_71
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 96
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4985acdab0ce39590800000000000000
+      internalID: -7668526205577308012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_72
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 99
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6937a5af519af010800000000000000
+      internalID: 1223450088771631471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_73
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 79
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb2c26c01ce8aa00800000000000000
+      internalID: 768123293255084996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_74
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 63
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bdb605401d3d14a0800000000000000
+      internalID: -6621068737077920328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_75
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 79
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a8dc899e98676f0800000000000000
+      internalID: -687210256743429597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_76
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 81
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dcb2be37c1bfe770800000000000000
+      internalID: 8642321679255780569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_77
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 47
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316ca6602ac0c6040800000000000000
+      internalID: 4642099205944034835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_78
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 48
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4494a31735f4170800000000000000
+      internalID: 8164836395220288762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_79
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 63
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d2955befd004d90800000000000000
+      internalID: -7115672023630009013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagicArrow40_80
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 33
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0011d954241fa700800000000000000
+      internalID: 553683425548111883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MagicArrow40_0: 195783039129171101
+      MagicArrow40_1: -196012777281201600
+      MagicArrow40_10: -4932671019759706321
+      MagicArrow40_11: -6743382955517017901
+      MagicArrow40_12: 9143784399070936848
+      MagicArrow40_13: -3562863223850986096
+      MagicArrow40_14: 334889939327006162
+      MagicArrow40_15: -7464504987711940237
+      MagicArrow40_16: -7033243383572402634
+      MagicArrow40_17: -8766331862232961396
+      MagicArrow40_18: -6790749652816586985
+      MagicArrow40_19: -6778467496130289634
+      MagicArrow40_2: 6350709507070269132
+      MagicArrow40_20: 4358395293742039221
+      MagicArrow40_21: -1034342303576996859
+      MagicArrow40_22: 6090588192186826149
+      MagicArrow40_23: 7223470924188226321
+      MagicArrow40_24: -6042832109500717876
+      MagicArrow40_25: 7947301590484907631
+      MagicArrow40_26: -3957905290531750797
+      MagicArrow40_27: 4450928588109101712
+      MagicArrow40_28: 1732040795246320375
+      MagicArrow40_29: 8519115898147210212
+      MagicArrow40_3: 1328119938436098976
+      MagicArrow40_30: 7202944879034463084
+      MagicArrow40_31: 4061064413493671864
+      MagicArrow40_32: -4076567178364604299
+      MagicArrow40_33: -1968939281039160798
+      MagicArrow40_34: -2712568581131031067
+      MagicArrow40_35: -8621801896653416903
+      MagicArrow40_36: 8127593599464616291
+      MagicArrow40_37: 2538545127009572921
+      MagicArrow40_38: -1340491878882244510
+      MagicArrow40_39: -5276390741972730377
+      MagicArrow40_4: 1710389974890039095
+      MagicArrow40_40: -215787957832206644
+      MagicArrow40_41: 7408356082148964373
+      MagicArrow40_42: 5564155865440504473
+      MagicArrow40_43: 4115679064893793882
+      MagicArrow40_44: 9072336903335099030
+      MagicArrow40_45: -8731765019410651090
+      MagicArrow40_46: -5263836872972045800
+      MagicArrow40_47: 1601211186015132990
+      MagicArrow40_48: -3276040306555857994
+      MagicArrow40_49: 5120897554267813906
+      MagicArrow40_5: 797791489007344521
+      MagicArrow40_50: 7347425736361940676
+      MagicArrow40_51: 4824315223389119730
+      MagicArrow40_52: -9108392279999424537
+      MagicArrow40_53: 3813648953270260323
+      MagicArrow40_54: 4618036801285120335
+      MagicArrow40_55: 2174104940039178984
+      MagicArrow40_56: 5100670759041196837
+      MagicArrow40_57: -5335211683724152106
+      MagicArrow40_58: -4070839326080515724
+      MagicArrow40_59: -9041958775355268499
+      MagicArrow40_6: 734319717313554267
+      MagicArrow40_60: -164409329247217597
+      MagicArrow40_61: 5202048780685590730
+      MagicArrow40_62: 5018894850685078028
+      MagicArrow40_63: 480917096174260684
+      MagicArrow40_64: 21578827142135999
+      MagicArrow40_65: -8287872373645701106
+      MagicArrow40_66: -451159664686320099
+      MagicArrow40_67: -7951216134553680785
+      MagicArrow40_68: -8762981516897839649
+      MagicArrow40_69: -2391008038113872961
+      MagicArrow40_7: -7076254580900058242
+      MagicArrow40_70: -4710831602403575333
+      MagicArrow40_71: -7668526205577308012
+      MagicArrow40_72: 1223450088771631471
+      MagicArrow40_73: 768123293255084996
+      MagicArrow40_74: -6621068737077920328
+      MagicArrow40_75: -687210256743429597
+      MagicArrow40_76: 8642321679255780569
+      MagicArrow40_77: 4642099205944034835
+      MagicArrow40_78: 8164836395220288762
+      MagicArrow40_79: -7115672023630009013
+      MagicArrow40_8: -1552361905795086139
+      MagicArrow40_80: 553683425548111883
+      MagicArrow40_9: 4306293809315504982
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

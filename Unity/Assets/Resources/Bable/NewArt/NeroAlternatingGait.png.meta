@@ -1,0 +1,597 @@
+fileFormatVersion: 2
+guid: a93a8cac00eecad4280ae6e1a86c565a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6527282201620351366
+    second: NeroAlternatingGait_0
+  - first:
+      213: 6684508536317282040
+    second: NeroAlternatingGait_1
+  - first:
+      213: -4851784569109277243
+    second: NeroAlternatingGait_2
+  - first:
+      213: -2553187378065921576
+    second: NeroAlternatingGait_3
+  - first:
+      213: 8002987430248661142
+    second: NeroAlternatingGait_4
+  - first:
+      213: -8705779914627684406
+    second: NeroAlternatingGait_5
+  - first:
+      213: -5926174526475234808
+    second: NeroAlternatingGait_6
+  - first:
+      213: 9116941068300763676
+    second: NeroAlternatingGait_7
+  - first:
+      213: -1652736153257223390
+    second: NeroAlternatingGait_8
+  - first:
+      213: -3724564826507725162
+    second: NeroAlternatingGait_9
+  - first:
+      213: -9175387371940042000
+    second: NeroAlternatingGait_10
+  - first:
+      213: 6978230303532791536
+    second: NeroAlternatingGait_11
+  - first:
+      213: -6061779443567365436
+    second: NeroAlternatingGait_12
+  - first:
+      213: 3745920302793792930
+    second: NeroAlternatingGait_13
+  - first:
+      213: -1432965655826149978
+    second: NeroAlternatingGait_14
+  - first:
+      213: -7760423246582649839
+    second: NeroAlternatingGait_15
+  - first:
+      213: 8382167602992297637
+    second: NeroGait_00
+  - first:
+      213: 8147392425861482114
+    second: NeroGait_01
+  - first:
+      213: 3156528044881507537
+    second: NeroGait_02
+  - first:
+      213: 3512132939370718336
+    second: NeroGait_03
+  - first:
+      213: 8425184324226000323
+    second: NeroGait_04
+  - first:
+      213: 7689504847424527372
+    second: NeroGait_05
+  - first:
+      213: 6141736887367604040
+    second: NeroGait_06
+  - first:
+      213: -2179046143515286173
+    second: NeroGait_07
+  - first:
+      213: -5561638318039012745
+    second: NeroGait_08
+  - first:
+      213: 7833176806423361598
+    second: NeroGait_09
+  - first:
+      213: 9137500895707375199
+    second: NeroGait_10
+  - first:
+      213: 8443381756872334123
+    second: NeroGait_11
+  - first:
+      213: -6717009730020329988
+    second: NeroGait_12
+  - first:
+      213: -6456866790467773805
+    second: NeroGait_13
+  - first:
+      213: -911612114063536041
+    second: NeroGait_14
+  - first:
+      213: 2837561810684370590
+    second: NeroGait_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 98.98477
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NeroGait_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 254
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046511628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6b4283601735470800000000000000
+      internalID: 8382167602992297637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroGait_01
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 0
+        width: 254
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046511628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2868e2d9e3a511170800000000000000
+      internalID: 8147392425861482114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroGait_02
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 0
+        width: 254
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046511628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d478b6688d3ecb20800000000000000
+      internalID: 3156528044881507537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroGait_03
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 0
+        width: 254
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046511628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084e32fdc4a9db030800000000000000
+      internalID: 3512132939370718336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroGait_04
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 0
+        width: 254
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046511628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c52eac11844ce470800000000000000
+      internalID: 8425184324226000323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroGait_05
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 0
+        width: 254
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046511628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c12610beb96ba60800000000000000
+      internalID: 7689504847424527372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroGait_06
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 0
+        width: 254
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046511628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8479573a825db3550800000000000000
+      internalID: 6141736887367604040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroGait_07
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 0
+        width: 254
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046511628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365269ad31972c1e0800000000000000
+      internalID: -2179046143515286173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroGait_08
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 0
+        width: 254
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046511628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a6514aa6711d2b0800000000000000
+      internalID: -5561638318039012745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroGait_09
+      rect:
+        serializedVersion: 2
+        x: 2286
+        y: 0
+        width: 254
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046511628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3871b1bdc805bc60800000000000000
+      internalID: 7833176806423361598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroGait_10
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 0
+        width: 254
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046511628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56a37fe6aceece70800000000000000
+      internalID: 9137500895707375199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroGait_11
+      rect:
+        serializedVersion: 2
+        x: 2794
+        y: 0
+        width: 254
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046511628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b936119faec2570800000000000000
+      internalID: 8443381756872334123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroGait_12
+      rect:
+        serializedVersion: 2
+        x: 3048
+        y: 0
+        width: 254
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046511628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5bb412d3368c2a0800000000000000
+      internalID: -6717009730020329988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroGait_13
+      rect:
+        serializedVersion: 2
+        x: 3302
+        y: 0
+        width: 254
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046511628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ad6203dd99466a0800000000000000
+      internalID: -6456866790467773805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroGait_14
+      rect:
+        serializedVersion: 2
+        x: 3556
+        y: 0
+        width: 254
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046511628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750dc48bc9d4953f0800000000000000
+      internalID: -911612114063536041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroGait_15
+      rect:
+        serializedVersion: 2
+        x: 3810
+        y: 0
+        width: 254
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046511628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e5e0ace6b016720800000000000000
+      internalID: 2837561810684370590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NeroAlternatingGait_0: 6527282201620351366
+      NeroAlternatingGait_1: 6684508536317282040
+      NeroAlternatingGait_10: -9175387371940042000
+      NeroAlternatingGait_11: 6978230303532791536
+      NeroAlternatingGait_12: -6061779443567365436
+      NeroAlternatingGait_13: 3745920302793792930
+      NeroAlternatingGait_14: -1432965655826149978
+      NeroAlternatingGait_15: -7760423246582649839
+      NeroAlternatingGait_2: -4851784569109277243
+      NeroAlternatingGait_3: -2553187378065921576
+      NeroAlternatingGait_4: 8002987430248661142
+      NeroAlternatingGait_5: -8705779914627684406
+      NeroAlternatingGait_6: -5926174526475234808
+      NeroAlternatingGait_7: 9116941068300763676
+      NeroAlternatingGait_8: -1652736153257223390
+      NeroAlternatingGait_9: -3724564826507725162
+      NeroGait_00: 8382167602992297637
+      NeroGait_01: 8147392425861482114
+      NeroGait_02: 3156528044881507537
+      NeroGait_03: 3512132939370718336
+      NeroGait_04: 8425184324226000323
+      NeroGait_05: 7689504847424527372
+      NeroGait_06: 6141736887367604040
+      NeroGait_07: -2179046143515286173
+      NeroGait_08: -5561638318039012745
+      NeroGait_09: 7833176806423361598
+      NeroGait_10: 9137500895707375199
+      NeroGait_11: 8443381756872334123
+      NeroGait_12: -6717009730020329988
+      NeroGait_13: -6456866790467773805
+      NeroGait_14: -911612114063536041
+      NeroGait_15: 2837561810684370590
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

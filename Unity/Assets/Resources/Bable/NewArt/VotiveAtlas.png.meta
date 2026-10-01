@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 2a6acb43ce0a7ca4181218b1a346638f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6700742830859743655
+    second: VotiveAtlas_0
+  - first:
+      213: 6831570714101416835
+    second: VotiveAtlas_1
+  - first:
+      213: -3379514636574022224
+    second: VotiveAtlas_2
+  - first:
+      213: -1601894350774322222
+    second: VotiveAtlas_3
+  - first:
+      213: -1916231100717921428
+    second: VotiveAtlas_4
+  - first:
+      213: 168094143322953037
+    second: VotiveAtlas_5
+  - first:
+      213: -219829541628577168
+    second: VotiveAtlas_6
+  - first:
+      213: -2722659078900687486
+    second: VotiveAtlas_7
+  - first:
+      213: -5608495161334955535
+    second: VotiveAtlas_8
+  - first:
+      213: 8667144880598323044
+    second: VotiveAtlas_9
+  - first:
+      213: -4997991692032660191
+    second: VotiveAtlas_10
+  - first:
+      213: -1728091451356028172
+    second: VotiveAtlas_11
+  - first:
+      213: -6791453400184304907
+    second: VotiveAtlas_12
+  - first:
+      213: 18741454340636060
+    second: VotiveAtlas_13
+  - first:
+      213: 7536899232751443561
+    second: VotiveAtlas_14
+  - first:
+      213: 4325041710044071477
+    second: VotiveAtlas_15
+  - first:
+      213: 4066850675613943343
+    second: VotiveAtlas_16
+  - first:
+      213: -3403866502471502129
+    second: VotiveAtlas_17
+  - first:
+      213: 8483903891391057472
+    second: VotiveAtlas_18
+  - first:
+      213: 6478350439233733109
+    second: VotiveAtlas_19
+  - first:
+      213: -6214223084276976005
+    second: VotiveAtlas_20
+  - first:
+      213: -7728451836548690432
+    second: VotiveAtlas_21
+  - first:
+      213: -2418195651531273312
+    second: VotiveAtlas_22
+  - first:
+      213: 5915697920549791983
+    second: VotiveAtlas_23
+  - first:
+      213: 8585430370213394435
+    second: VotiveAtlas_24
+  - first:
+      213: -535938951727912621
+    second: VotiveAtlas_25
+  - first:
+      213: 1404438323791076900
+    second: VotiveAtlas_26
+  - first:
+      213: -2500341913528760461
+    second: VotiveAtlas_27
+  - first:
+      213: -7839713214146394229
+    second: VotiveAtlas_28
+  - first:
+      213: -6305847064730962872
+    second: VotiveAtlas_29
+  - first:
+      213: -3962305258137151907
+    second: VotiveAtlas_30
+  - first:
+      213: 8145745145896733986
+    second: VotiveAtlas_31
+  - first:
+      213: -3367269086535554531
+    second: VotiveAtlas_32
+  - first:
+      213: -6643708725076295896
+    second: VotiveAtlas_33
+  - first:
+      213: -8606766124373718706
+    second: VotiveAtlas_34
+  - first:
+      213: -4124906735294780656
+    second: VotiveAtlas_35
+  - first:
+      213: 6085217711930873336
+    second: VotiveAtlas_36
+  - first:
+      213: -4686795872493567301
+    second: VotiveAtlas_37
+  - first:
+      213: 4173537733444192210
+    second: VotiveAtlas_38
+  - first:
+      213: -3681256423943749180
+    second: VotiveAtlas_39
+  - first:
+      213: 4472577012976709198
+    second: VotiveAtlas_40
+  - first:
+      213: 3802920619593814206
+    second: VotiveAtlas_41
+  - first:
+      213: -6592746345365999663
+    second: VotiveAtlas_42
+  - first:
+      213: -4702185035257301028
+    second: VotiveAtlas_43
+  - first:
+      213: 3331788369779470813
+    second: VotiveAtlas_44
+  - first:
+      213: 8154712019618035833
+    second: VotiveAtlas_45
+  - first:
+      213: 3569102699510654183
+    second: VotiveAtlas_46
+  - first:
+      213: 2586234451107813920
+    second: VotiveAtlas_47
+  - first:
+      213: -4914463666060473412
+    second: VotiveAtlas_48
+  - first:
+      213: 4630040796801288386
+    second: VotiveAtlas_49
+  - first:
+      213: -1483260073587691905
+    second: VotiveAtlas_50
+  - first:
+      213: 662026860196211057
+    second: VotiveAtlas_51
+  - first:
+      213: -3418499532861685828
+    second: VotiveAtlas_52
+  - first:
+      213: -1634290904423234365
+    second: VotiveAtlas_53
+  - first:
+      213: 291392585383225212
+    second: VotiveAtlas_54
+  - first:
+      213: -1708182389878807463
+    second: VotiveAtlas_55
+  - first:
+      213: 277230975579911442
+    second: VotiveAtlas_56
+  - first:
+      213: -3309860093984254584
+    second: VotiveAtlas_57
+  - first:
+      213: 2428227146172179253
+    second: VotiveAtlas_58
+  - first:
+      213: 2786298845694916065
+    second: VotiveAtlas_59
+  - first:
+      213: 8124169509689497227
+    second: VotiveAtlas_60
+  - first:
+      213: 2853845082094771456
+    second: VotiveAtlas_61
+  - first:
+      213: 1946795738973691964
+    second: VotiveAtlas_62
+  - first:
+      213: 1421545437456015344
+    second: VotiveAtlas_63
+  - first:
+      213: 2288916048892064267
+    second: VotiveAtlas_64
+  - first:
+      213: 4896269632664092440
+    second: VotiveAtlas_65
+  - first:
+      213: 6735832684917068823
+    second: VotiveAtlas_66
+  - first:
+      213: 968449673183443560
+    second: VotiveAtlas_67
+  - first:
+      213: 8671025770233934009
+    second: VotiveAtlas_68
+  - first:
+      213: 6836889337545699542
+    second: VotiveAtlas_69
+  - first:
+      213: -6296172997618076121
+    second: VotiveAtlas_70
+  - first:
+      213: -2510544551243820357
+    second: VotiveAtlas_71
+  - first:
+      213: -8008607676781226310
+    second: VotiveAtlas_72
+  - first:
+      213: 2396884998798104198
+    second: VotiveAtlas_73
+  - first:
+      213: 4123684612950535644
+    second: VotiveAtlas_74
+  - first:
+      213: -5594634655248297314
+    second: VotiveAtlas_75
+  - first:
+      213: -4426786028659606190
+    second: VotiveAtlas_76
+  - first:
+      213: 182792878056135036
+    second: VotiveAtlas_77
+  - first:
+      213: -8922866025259808699
+    second: VotiveAtlas_78
+  - first:
+      213: -2913277521981031399
+    second: VotiveAtlas_79
+  - first:
+      213: 419951658167028107
+    second: VotiveAtlas_80
+  - first:
+      213: 7566287932545744615
+    second: VotiveAtlas_81
+  - first:
+      213: 5345417349383329295
+    second: VotiveAtlas_82
+  - first:
+      213: 6476406221937324234
+    second: VotiveAtlas_83
+  - first:
+      213: 2434181853426844096
+    second: VotiveAtlas_84
+  - first:
+      213: 8908410943303299877
+    second: VotiveAtlas_85
+  - first:
+      213: -4569764096407975024
+    second: VotiveAtlas_86
+  - first:
+      213: -9112336307885431029
+    second: VotiveAtlas_87
+  - first:
+      213: 6108444988913051397
+    second: VotiveAtlas_88
+  - first:
+      213: 5804487864671442776
+    second: VotiveAtlas_89
+  - first:
+      213: -2623424262645664616
+    second: VotiveAtlas_90
+  - first:
+      213: -8174933167609518766
+    second: VotiveAtlas_91
+  - first:
+      213: 1256250767954287545
+    second: VotiveAtlas_92
+  - first:
+      213: -412618851501139449
+    second: VotiveAtlas_93
+  - first:
+      213: 7928857243838091784
+    second: VotiveAtlas_94
+  - first:
+      213: -2315468172153824410
+    second: VotiveAtlas_95
+  - first:
+      213: -1287882252375964106
+    second: VotiveAtlas_96
+  - first:
+      213: -6841425904188013926
+    second: VotiveAtlas_97
+  - first:
+      213: -1756394519017423983
+    second: VotiveAtlas_98
+  - first:
+      213: 5069311524577946179
+    second: VotiveAtlas_99
+  - first:
+      213: 7681730060564431914
+    second: VotiveAtlas_100
+  - first:
+      213: -7874984785691138735
+    second: VotiveAtlas_101
+  - first:
+      213: 675580219215780665
+    second: VotiveAtlas_102
+  - first:
+      213: 3947669986007430983
+    second: VotiveAtlas_103
+  - first:
+      213: -5642334697767687250
+    second: Votive_00
+  - first:
+      213: 5788989126130772727
+    second: Votive_01
+  - first:
+      213: 505550780821892533
+    second: Votive_02
+  - first:
+      213: -3816241553010685976
+    second: Votive_03
+  - first:
+      213: 8576697312389797498
+    second: Votive_04
+  - first:
+      213: -2721905838976695811
+    second: Votive_05
+  - first:
+      213: -1485713310432143730
+    second: Votive_06
+  - first:
+      213: 3621987888782976766
+    second: Votive_07
+  - first:
+      213: -9133210067221881584
+    second: Votive_08
+  - first:
+      213: 6223169405706964354
+    second: Votive_09
+  - first:
+      213: 5868799570220817456
+    second: Votive_10
+  - first:
+      213: -6484661097383734947
+    second: Votive_11
+  - first:
+      213: -3133199603567162635
+    second: Votive_12
+  - first:
+      213: 8411670597542580143
+    second: Votive_13
+  - first:
+      213: -3010820052084241099
+    second: Votive_14
+  - first:
+      213: -2160738839924736347
+    second: Votive_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Votive_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 916.5
+        width: 321.75
+        height: 305.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab22bb9c7662b1b0800000000000000
+      internalID: -5642334697767687250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Votive_01
+      rect:
+        serializedVersion: 2
+        x: 321.75
+        y: 916.5
+        width: 321.75
+        height: 305.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7faaf9750fe965050800000000000000
+      internalID: 5788989126130772727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Votive_02
+      rect:
+        serializedVersion: 2
+        x: 643.5
+        y: 916.5
+        width: 321.75
+        height: 305.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd6fc2b1c3140700800000000000000
+      internalID: 505550780821892533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Votive_03
+      rect:
+        serializedVersion: 2
+        x: 965.25
+        y: 916.5
+        width: 321.75
+        height: 305.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e786bfd68cf90bc0800000000000000
+      internalID: -3816241553010685976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Votive_04
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 611
+        width: 321.75
+        height: 305.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a769a0ba3cc860770800000000000000
+      internalID: 8576697312389797498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Votive_05
+      rect:
+        serializedVersion: 2
+        x: 321.75
+        y: 611
+        width: 321.75
+        height: 305.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df18bbb8f09d93ad0800000000000000
+      internalID: -2721905838976695811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Votive_06
+      rect:
+        serializedVersion: 2
+        x: 643.5
+        y: 611
+        width: 321.75
+        height: 305.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e865f95ad9fa16be0800000000000000
+      internalID: -1485713310432143730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Votive_07
+      rect:
+        serializedVersion: 2
+        x: 965.25
+        y: 611
+        width: 321.75
+        height: 305.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef62da37bc2e34230800000000000000
+      internalID: 3621987888782976766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Votive_08
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 305.5
+        width: 321.75
+        height: 305.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01dd73c65d1504180800000000000000
+      internalID: -9133210067221881584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Votive_09
+      rect:
+        serializedVersion: 2
+        x: 321.75
+        y: 305.5
+        width: 321.75
+        height: 305.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d0e3c4a932d5650800000000000000
+      internalID: 6223169405706964354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Votive_10
+      rect:
+        serializedVersion: 2
+        x: 643.5
+        y: 305.5
+        width: 321.75
+        height: 305.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c1af86d1a227150800000000000000
+      internalID: 5868799570220817456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Votive_11
+      rect:
+        serializedVersion: 2
+        x: 965.25
+        y: 305.5
+        width: 321.75
+        height: 305.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51d5a1d61bd106a0800000000000000
+      internalID: -6484661097383734947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Votive_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 321.75
+        height: 305.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa0cfa9f83a484d0800000000000000
+      internalID: -3133199603567162635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Votive_13
+      rect:
+        serializedVersion: 2
+        x: 321.75
+        y: 0
+        width: 321.75
+        height: 305.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf8f1e67d14cb470800000000000000
+      internalID: 8411670597542580143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Votive_14
+      rect:
+        serializedVersion: 2
+        x: 643.5
+        y: 0
+        width: 321.75
+        height: 305.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d45e85d1b6736d0800000000000000
+      internalID: -3010820052084241099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Votive_15
+      rect:
+        serializedVersion: 2
+        x: 965.25
+        y: 0
+        width: 321.75
+        height: 305.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae75e129738302e0800000000000000
+      internalID: -2160738839924736347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      VotiveAtlas_0: -6700742830859743655
+      VotiveAtlas_1: 6831570714101416835
+      VotiveAtlas_10: -4997991692032660191
+      VotiveAtlas_100: 7681730060564431914
+      VotiveAtlas_101: -7874984785691138735
+      VotiveAtlas_102: 675580219215780665
+      VotiveAtlas_103: 3947669986007430983
+      VotiveAtlas_11: -1728091451356028172
+      VotiveAtlas_12: -6791453400184304907
+      VotiveAtlas_13: 18741454340636060
+      VotiveAtlas_14: 7536899232751443561
+      VotiveAtlas_15: 4325041710044071477
+      VotiveAtlas_16: 4066850675613943343
+      VotiveAtlas_17: -3403866502471502129
+      VotiveAtlas_18: 8483903891391057472
+      VotiveAtlas_19: 6478350439233733109
+      VotiveAtlas_2: -3379514636574022224
+      VotiveAtlas_20: -6214223084276976005
+      VotiveAtlas_21: -7728451836548690432
+      VotiveAtlas_22: -2418195651531273312
+      VotiveAtlas_23: 5915697920549791983
+      VotiveAtlas_24: 8585430370213394435
+      VotiveAtlas_25: -535938951727912621
+      VotiveAtlas_26: 1404438323791076900
+      VotiveAtlas_27: -2500341913528760461
+      VotiveAtlas_28: -7839713214146394229
+      VotiveAtlas_29: -6305847064730962872
+      VotiveAtlas_3: -1601894350774322222
+      VotiveAtlas_30: -3962305258137151907
+      VotiveAtlas_31: 8145745145896733986
+      VotiveAtlas_32: -3367269086535554531
+      VotiveAtlas_33: -6643708725076295896
+      VotiveAtlas_34: -8606766124373718706
+      VotiveAtlas_35: -4124906735294780656
+      VotiveAtlas_36: 6085217711930873336
+      VotiveAtlas_37: -4686795872493567301
+      VotiveAtlas_38: 4173537733444192210
+      VotiveAtlas_39: -3681256423943749180
+      VotiveAtlas_4: -1916231100717921428
+      VotiveAtlas_40: 4472577012976709198
+      VotiveAtlas_41: 3802920619593814206
+      VotiveAtlas_42: -6592746345365999663
+      VotiveAtlas_43: -4702185035257301028
+      VotiveAtlas_44: 3331788369779470813
+      VotiveAtlas_45: 8154712019618035833
+      VotiveAtlas_46: 3569102699510654183
+      VotiveAtlas_47: 2586234451107813920
+      VotiveAtlas_48: -4914463666060473412
+      VotiveAtlas_49: 4630040796801288386
+      VotiveAtlas_5: 168094143322953037
+      VotiveAtlas_50: -1483260073587691905
+      VotiveAtlas_51: 662026860196211057
+      VotiveAtlas_52: -3418499532861685828
+      VotiveAtlas_53: -1634290904423234365
+      VotiveAtlas_54: 291392585383225212
+      VotiveAtlas_55: -1708182389878807463
+      VotiveAtlas_56: 277230975579911442
+      VotiveAtlas_57: -3309860093984254584
+      VotiveAtlas_58: 2428227146172179253
+      VotiveAtlas_59: 2786298845694916065
+      VotiveAtlas_6: -219829541628577168
+      VotiveAtlas_60: 8124169509689497227
+      VotiveAtlas_61: 2853845082094771456
+      VotiveAtlas_62: 1946795738973691964
+      VotiveAtlas_63: 1421545437456015344
+      VotiveAtlas_64: 2288916048892064267
+      VotiveAtlas_65: 4896269632664092440
+      VotiveAtlas_66: 6735832684917068823
+      VotiveAtlas_67: 968449673183443560
+      VotiveAtlas_68: 8671025770233934009
+      VotiveAtlas_69: 6836889337545699542
+      VotiveAtlas_7: -2722659078900687486
+      VotiveAtlas_70: -6296172997618076121
+      VotiveAtlas_71: -2510544551243820357
+      VotiveAtlas_72: -8008607676781226310
+      VotiveAtlas_73: 2396884998798104198
+      VotiveAtlas_74: 4123684612950535644
+      VotiveAtlas_75: -5594634655248297314
+      VotiveAtlas_76: -4426786028659606190
+      VotiveAtlas_77: 182792878056135036
+      VotiveAtlas_78: -8922866025259808699
+      VotiveAtlas_79: -2913277521981031399
+      VotiveAtlas_8: -5608495161334955535
+      VotiveAtlas_80: 419951658167028107
+      VotiveAtlas_81: 7566287932545744615
+      VotiveAtlas_82: 5345417349383329295
+      VotiveAtlas_83: 6476406221937324234
+      VotiveAtlas_84: 2434181853426844096
+      VotiveAtlas_85: 8908410943303299877
+      VotiveAtlas_86: -4569764096407975024
+      VotiveAtlas_87: -9112336307885431029
+      VotiveAtlas_88: 6108444988913051397
+      VotiveAtlas_89: 5804487864671442776
+      VotiveAtlas_9: 8667144880598323044
+      VotiveAtlas_90: -2623424262645664616
+      VotiveAtlas_91: -8174933167609518766
+      VotiveAtlas_92: 1256250767954287545
+      VotiveAtlas_93: -412618851501139449
+      VotiveAtlas_94: 7928857243838091784
+      VotiveAtlas_95: -2315468172153824410
+      VotiveAtlas_96: -1287882252375964106
+      VotiveAtlas_97: -6841425904188013926
+      VotiveAtlas_98: -1756394519017423983
+      VotiveAtlas_99: 5069311524577946179
+      Votive_00: -5642334697767687250
+      Votive_01: 5788989126130772727
+      Votive_02: 505550780821892533
+      Votive_03: -3816241553010685976
+      Votive_04: 8576697312389797498
+      Votive_05: -2721905838976695811
+      Votive_06: -1485713310432143730
+      Votive_07: 3621987888782976766
+      Votive_08: -9133210067221881584
+      Votive_09: 6223169405706964354
+      Votive_10: 5868799570220817456
+      Votive_11: -6484661097383734947
+      Votive_12: -3133199603567162635
+      Votive_13: 8411670597542580143
+      Votive_14: -3010820052084241099
+      Votive_15: -2160738839924736347
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

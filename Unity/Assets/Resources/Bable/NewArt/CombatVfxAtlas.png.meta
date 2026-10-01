@@ -1,0 +1,537 @@
+fileFormatVersion: 2
+guid: 64a18592b891736489971a3cc264c55d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6182869645825017341
+    second: CombatVfxAtlas_0
+  - first:
+      213: -8194868876266563330
+    second: CombatVfx_00
+  - first:
+      213: 5610968415427769491
+    second: CombatVfx_01
+  - first:
+      213: 3103053881382234897
+    second: CombatVfx_02
+  - first:
+      213: 8552453071407257797
+    second: CombatVfx_03
+  - first:
+      213: 2215705730688630611
+    second: CombatVfx_04
+  - first:
+      213: -1115045754500797122
+    second: CombatVfx_05
+  - first:
+      213: -8589678758272333343
+    second: CombatVfx_06
+  - first:
+      213: -1583910756568741759
+    second: CombatVfx_07
+  - first:
+      213: -2858170031354336423
+    second: CombatVfx_08
+  - first:
+      213: -8609508221975909405
+    second: CombatVfx_09
+  - first:
+      213: 5197096089155587409
+    second: CombatVfx_10
+  - first:
+      213: 3663492595351335330
+    second: CombatVfx_11
+  - first:
+      213: 3864484079918251621
+    second: CombatVfx_12
+  - first:
+      213: 1788678001547237179
+    second: CombatVfx_13
+  - first:
+      213: -4744648508330197389
+    second: CombatVfx_14
+  - first:
+      213: 8102189095298647795
+    second: CombatVfx_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CombatVfx_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 864
+        width: 313
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef81a31ec2af54e80800000000000000
+      internalID: -8194868876266563330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CombatVfx_01
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 864
+        width: 314
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394328fab0a2edd40800000000000000
+      internalID: 5610968415427769491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CombatVfx_02
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 864
+        width: 313
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b6fae7013401b20800000000000000
+      internalID: 3103053881382234897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CombatVfx_03
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 864
+        width: 314
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c89d6f61ca60b670800000000000000
+      internalID: 8552453071407257797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CombatVfx_04
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 634
+        width: 313
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f3e7c6f94cfbe10800000000000000
+      internalID: 2215705730688630611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CombatVfx_05
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 634
+        width: 314
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d2ca64bcf8680f0800000000000000
+      internalID: -1115045754500797122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CombatVfx_06
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 634
+        width: 313
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9857eeda45bc880800000000000000
+      internalID: -8589678758272333343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CombatVfx_07
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 634
+        width: 314
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188ccce0f81d40ae0800000000000000
+      internalID: -1583910756568741759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CombatVfx_08
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 296
+        width: 313
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b257def7db558d0800000000000000
+      internalID: -2858170031354336423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CombatVfx_09
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 296
+        width: 314
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb225223e1e48880800000000000000
+      internalID: -8609508221975909405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CombatVfx_10
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 296
+        width: 313
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15dc0b19b5bcf1840800000000000000
+      internalID: 5197096089155587409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CombatVfx_11
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 296
+        width: 314
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1b03ffa1757d230800000000000000
+      internalID: 3663492595351335330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CombatVfx_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 313
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56efda7bbc761a530800000000000000
+      internalID: 3864484079918251621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CombatVfx_13
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 0
+        width: 314
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3757c36a29a2d810800000000000000
+      internalID: 1788678001547237179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CombatVfx_14
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 0
+        width: 313
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e34e4e15f972eb0800000000000000
+      internalID: -4744648508330197389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CombatVfx_15
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 0
+        width: 314
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6c1501e02c07070800000000000000
+      internalID: 8102189095298647795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CombatVfxAtlas_0: -6182869645825017341
+      CombatVfx_00: -8194868876266563330
+      CombatVfx_01: 5610968415427769491
+      CombatVfx_02: 3103053881382234897
+      CombatVfx_03: 8552453071407257797
+      CombatVfx_04: 2215705730688630611
+      CombatVfx_05: -1115045754500797122
+      CombatVfx_06: -8589678758272333343
+      CombatVfx_07: -1583910756568741759
+      CombatVfx_08: -2858170031354336423
+      CombatVfx_09: -8609508221975909405
+      CombatVfx_10: 5197096089155587409
+      CombatVfx_11: 3663492595351335330
+      CombatVfx_12: 3864484079918251621
+      CombatVfx_13: 1788678001547237179
+      CombatVfx_14: -4744648508330197389
+      CombatVfx_15: 8102189095298647795
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

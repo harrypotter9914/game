@@ -1,0 +1,837 @@
+fileFormatVersion: 2
+guid: 76edf3de3c49a2d4aa4fbab4bffe3b4f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 887594623211942266
+    second: ShieldGuardGait34_run_0
+  - first:
+      213: -6181186756301506258
+    second: ShieldGuardGait34_run_1
+  - first:
+      213: 2650959707616087302
+    second: ShieldGuardGait34_run_2
+  - first:
+      213: -6458239181225377343
+    second: ShieldGuardGait34_run_3
+  - first:
+      213: -857067892952536733
+    second: ShieldGuardGait34_run_4
+  - first:
+      213: 4306347438629132410
+    second: ShieldGuardGait34_run_5
+  - first:
+      213: -6733539108760123892
+    second: ShieldGuardGait34_run_6
+  - first:
+      213: -6750815971973918169
+    second: ShieldGuardGait34_run_7
+  - first:
+      213: 3516416916117395960
+    second: ShieldGuardGait34_run_8
+  - first:
+      213: 8431376256965212832
+    second: ShieldGuardGait34_run_9
+  - first:
+      213: -4423391611654376200
+    second: ShieldGuardGait34_run_10
+  - first:
+      213: -5314497785624600619
+    second: ShieldGuardGait34_run_11
+  - first:
+      213: 1355420858251198929
+    second: ShieldGuardGait34_run_12
+  - first:
+      213: 106669729756008423
+    second: ShieldGuardGait34_run_13
+  - first:
+      213: -197495432951554214
+    second: ShieldGuardGait34_run_14
+  - first:
+      213: -2265426945417272553
+    second: ShieldGuardGait34_run_15
+  - first:
+      213: -3767783328882155491
+    second: ShieldGuardGait34_run_16
+  - first:
+      213: -2028584525291860628
+    second: ShieldGuardGait34_run_17
+  - first:
+      213: -6341972631982552209
+    second: ShieldGuardGait34_run_18
+  - first:
+      213: -5387826282832234428
+    second: ShieldGuardGait34_run_19
+  - first:
+      213: -7825791992855424071
+    second: ShieldGuardGait34_run_20
+  - first:
+      213: -7237065785314174998
+    second: ShieldGuardGait34_run_21
+  - first:
+      213: 1056585639371999005
+    second: ShieldGuardGait34_run_22
+  - first:
+      213: -853008105753577613
+    second: ShieldGuardGait34_run_23
+  - first:
+      213: 7092204329376894606
+    second: ShieldGuard_run_00
+  - first:
+      213: -4140459254856112011
+    second: ShieldGuard_run_01
+  - first:
+      213: 1036094626668865474
+    second: ShieldGuard_run_02
+  - first:
+      213: 961672367940768283
+    second: ShieldGuard_run_03
+  - first:
+      213: -972124921375907821
+    second: ShieldGuard_run_04
+  - first:
+      213: 3296613094272550197
+    second: ShieldGuard_run_05
+  - first:
+      213: -7600086189196428101
+    second: ShieldGuard_run_06
+  - first:
+      213: -5784704283104079900
+    second: ShieldGuard_run_07
+  - first:
+      213: -3808262555985417456
+    second: ShieldGuard_run_08
+  - first:
+      213: -5884573624555998500
+    second: ShieldGuard_run_09
+  - first:
+      213: 2314939238175801209
+    second: ShieldGuard_run_10
+  - first:
+      213: -2343695752975926056
+    second: ShieldGuard_run_11
+  - first:
+      213: -8367220372224308508
+    second: ShieldGuard_run_12
+  - first:
+      213: -3346180893873021072
+    second: ShieldGuard_run_13
+  - first:
+      213: -9038451767553959962
+    second: ShieldGuard_run_14
+  - first:
+      213: -4834701862518637410
+    second: ShieldGuard_run_15
+  - first:
+      213: -1168774589019123855
+    second: ShieldGuard_run_16
+  - first:
+      213: 1448716330489413802
+    second: ShieldGuard_run_17
+  - first:
+      213: 1006035155632897883
+    second: ShieldGuard_run_18
+  - first:
+      213: -6591097970999008311
+    second: ShieldGuard_run_19
+  - first:
+      213: -7800417936833184140
+    second: ShieldGuard_run_20
+  - first:
+      213: -164495602636371800
+    second: ShieldGuard_run_21
+  - first:
+      213: 6454491380589697354
+    second: ShieldGuard_run_22
+  - first:
+      213: 8806728424581201223
+    second: ShieldGuard_run_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ShieldGuard_run_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e4ffee2429c6260800000000000000
+      internalID: 7092204329376894606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_run_01
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578a25bae322a86c0800000000000000
+      internalID: -4140459254856112011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_run_02
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7e940d292f06e00800000000000000
+      internalID: 1036094626668865474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_run_03
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b121b696ceb885d00800000000000000
+      internalID: 961672367940768283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_run_04
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310a518d8815282f0800000000000000
+      internalID: -972124921375907821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_run_05
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535440e942cefbd20800000000000000
+      internalID: 3296613094272550197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_run_06
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc389eb0e1178690800000000000000
+      internalID: -7600086189196428101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_run_07
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef86ea6a1a98bfa0800000000000000
+      internalID: -5784704283104079900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_run_08
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b6113e165562bc0800000000000000
+      internalID: -3808262555985417456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_run_09
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2f4bd577bc55ea0800000000000000
+      internalID: -5884573624555998500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_run_10
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ff418d8f0502020800000000000000
+      internalID: 2314939238175801209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_run_11
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc374e4125897fd0800000000000000
+      internalID: -2343695752975926056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_run_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea88242769a1eb80800000000000000
+      internalID: -8367220372224308508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_run_13
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07fdf72b43aff81d0800000000000000
+      internalID: -3346180893873021072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_run_14
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7d1735108f09280800000000000000
+      internalID: -9038451767553959962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_run_15
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c38a97540b7ecb0800000000000000
+      internalID: -4834701862518637410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_run_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f030724bda7cfe0800000000000000
+      internalID: -1168774589019123855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_run_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa00123b3dfda1410800000000000000
+      internalID: 1448716330489413802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_run_18
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fbd03d4a726fd00800000000000000
+      internalID: 1006035155632897883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_run_19
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c36ec60157b784a0800000000000000
+      internalID: -6591097970999008311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_run_20
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ef87ff6395fb390800000000000000
+      internalID: -7800417936833184140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_run_21
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8ceb5fe1897bdf0800000000000000
+      internalID: -164495602636371800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_run_22
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a499ed996b5f29950800000000000000
+      internalID: 6454491380589697354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuard_run_23
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d7f7497d8c73a70800000000000000
+      internalID: 8806728424581201223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ShieldGuardGait34_run_0: 887594623211942266
+      ShieldGuardGait34_run_1: -6181186756301506258
+      ShieldGuardGait34_run_10: -4423391611654376200
+      ShieldGuardGait34_run_11: -5314497785624600619
+      ShieldGuardGait34_run_12: 1355420858251198929
+      ShieldGuardGait34_run_13: 106669729756008423
+      ShieldGuardGait34_run_14: -197495432951554214
+      ShieldGuardGait34_run_15: -2265426945417272553
+      ShieldGuardGait34_run_16: -3767783328882155491
+      ShieldGuardGait34_run_17: -2028584525291860628
+      ShieldGuardGait34_run_18: -6341972631982552209
+      ShieldGuardGait34_run_19: -5387826282832234428
+      ShieldGuardGait34_run_2: 2650959707616087302
+      ShieldGuardGait34_run_20: -7825791992855424071
+      ShieldGuardGait34_run_21: -7237065785314174998
+      ShieldGuardGait34_run_22: 1056585639371999005
+      ShieldGuardGait34_run_23: -853008105753577613
+      ShieldGuardGait34_run_3: -6458239181225377343
+      ShieldGuardGait34_run_4: -857067892952536733
+      ShieldGuardGait34_run_5: 4306347438629132410
+      ShieldGuardGait34_run_6: -6733539108760123892
+      ShieldGuardGait34_run_7: -6750815971973918169
+      ShieldGuardGait34_run_8: 3516416916117395960
+      ShieldGuardGait34_run_9: 8431376256965212832
+      ShieldGuard_run_00: 7092204329376894606
+      ShieldGuard_run_01: -4140459254856112011
+      ShieldGuard_run_02: 1036094626668865474
+      ShieldGuard_run_03: 961672367940768283
+      ShieldGuard_run_04: -972124921375907821
+      ShieldGuard_run_05: 3296613094272550197
+      ShieldGuard_run_06: -7600086189196428101
+      ShieldGuard_run_07: -5784704283104079900
+      ShieldGuard_run_08: -3808262555985417456
+      ShieldGuard_run_09: -5884573624555998500
+      ShieldGuard_run_10: 2314939238175801209
+      ShieldGuard_run_11: -2343695752975926056
+      ShieldGuard_run_12: -8367220372224308508
+      ShieldGuard_run_13: -3346180893873021072
+      ShieldGuard_run_14: -9038451767553959962
+      ShieldGuard_run_15: -4834701862518637410
+      ShieldGuard_run_16: -1168774589019123855
+      ShieldGuard_run_17: 1448716330489413802
+      ShieldGuard_run_18: 1006035155632897883
+      ShieldGuard_run_19: -6591097970999008311
+      ShieldGuard_run_20: -7800417936833184140
+      ShieldGuard_run_21: -164495602636371800
+      ShieldGuard_run_22: 6454491380589697354
+      ShieldGuard_run_23: 8806728424581201223
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

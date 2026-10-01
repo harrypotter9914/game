@@ -1,0 +1,597 @@
+fileFormatVersion: 2
+guid: fbcd519b5e6347041a2fd8687d0dfc61
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 438561085130824692
+    second: SkyJudicatorAlternatingGait_0
+  - first:
+      213: 1730817752536849977
+    second: SkyJudicatorAlternatingGait_1
+  - first:
+      213: -7754096323218216542
+    second: SkyJudicatorAlternatingGait_2
+  - first:
+      213: -2381442447963563048
+    second: SkyJudicatorAlternatingGait_3
+  - first:
+      213: -8894361934498429945
+    second: SkyJudicatorAlternatingGait_4
+  - first:
+      213: 6649655313594472024
+    second: SkyJudicatorAlternatingGait_5
+  - first:
+      213: 4619436626349797211
+    second: SkyJudicatorAlternatingGait_6
+  - first:
+      213: 2038720432769649165
+    second: SkyJudicatorAlternatingGait_7
+  - first:
+      213: 3138544477632130360
+    second: SkyJudicatorAlternatingGait_8
+  - first:
+      213: -211926132090844688
+    second: SkyJudicatorAlternatingGait_9
+  - first:
+      213: -8477239211691300738
+    second: SkyJudicatorAlternatingGait_10
+  - first:
+      213: -4951956894641508320
+    second: SkyJudicatorAlternatingGait_11
+  - first:
+      213: -9027380631523364407
+    second: SkyJudicatorAlternatingGait_12
+  - first:
+      213: -978102202595849148
+    second: SkyJudicatorAlternatingGait_13
+  - first:
+      213: 7184132575756827166
+    second: SkyJudicatorAlternatingGait_14
+  - first:
+      213: 3391424255422382010
+    second: SkyJudicatorAlternatingGait_15
+  - first:
+      213: 4867734413782213884
+    second: SkyJudicatorGait_00
+  - first:
+      213: -2981477484146978691
+    second: SkyJudicatorGait_01
+  - first:
+      213: -5785755145332396013
+    second: SkyJudicatorGait_02
+  - first:
+      213: -8254998518332878477
+    second: SkyJudicatorGait_03
+  - first:
+      213: -312524435509689805
+    second: SkyJudicatorGait_04
+  - first:
+      213: -8248302850772140383
+    second: SkyJudicatorGait_05
+  - first:
+      213: 7069308671100977104
+    second: SkyJudicatorGait_06
+  - first:
+      213: 93276791241596609
+    second: SkyJudicatorGait_07
+  - first:
+      213: 2039967074572185098
+    second: SkyJudicatorGait_08
+  - first:
+      213: -1498344704376704642
+    second: SkyJudicatorGait_09
+  - first:
+      213: -347237619920531182
+    second: SkyJudicatorGait_10
+  - first:
+      213: -2583819207246563246
+    second: SkyJudicatorGait_11
+  - first:
+      213: -9077135225400217556
+    second: SkyJudicatorGait_12
+  - first:
+      213: -3273111499156054817
+    second: SkyJudicatorGait_13
+  - first:
+      213: 4523547710067416183
+    second: SkyJudicatorGait_14
+  - first:
+      213: 8631770097079508742
+    second: SkyJudicatorGait_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 87.89474
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SkyJudicatorGait_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 235
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0.053475935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4ee62b8aaad8340800000000000000
+      internalID: 4867734413782213884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyJudicatorGait_01
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 0
+        width: 235
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0.053475935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d701893560aaf96d0800000000000000
+      internalID: -2981477484146978691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyJudicatorGait_02
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 0
+        width: 235
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0.053475935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310f21d795ed4bfa0800000000000000
+      internalID: -5785755145332396013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyJudicatorGait_03
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 0
+        width: 235
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0.053475935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371946d959a507d80800000000000000
+      internalID: -8254998518332878477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyJudicatorGait_04
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 0
+        width: 235
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0.053475935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332c0d58ea0b9abf0800000000000000
+      internalID: -312524435509689805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyJudicatorGait_05
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 0
+        width: 235
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0.053475935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae72e33244288d80800000000000000
+      internalID: -8248302850772140383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyJudicatorGait_06
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 0
+        width: 235
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0.053475935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dfff8418ca3b1260800000000000000
+      internalID: 7069308671100977104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyJudicatorGait_07
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 0
+        width: 235
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0.053475935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce5eb75fb26b4100800000000000000
+      internalID: 93276791241596609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyJudicatorGait_08
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 0
+        width: 235
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0.053475935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e2e510f3b6f4c10800000000000000
+      internalID: 2039967074572185098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyJudicatorGait_09
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 0
+        width: 235
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0.053475935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71f9801e6fc43be0800000000000000
+      internalID: -1498344704376704642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyJudicatorGait_10
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 0
+        width: 235
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0.053475935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2111cf3793d5e2bf0800000000000000
+      internalID: -347237619920531182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyJudicatorGait_11
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 0
+        width: 235
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0.053475935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258bc34ee1e642cd0800000000000000
+      internalID: -2583819207246563246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyJudicatorGait_12
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 0
+        width: 235
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0.053475935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20b5dfea99870280800000000000000
+      internalID: -9077135225400217556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyJudicatorGait_13
+      rect:
+        serializedVersion: 2
+        x: 3055
+        y: 0
+        width: 235
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0.053475935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc9e86ee629392d0800000000000000
+      internalID: -3273111499156054817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyJudicatorGait_14
+      rect:
+        serializedVersion: 2
+        x: 3290
+        y: 0
+        width: 235
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0.053475935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c991fecaed6ce30800000000000000
+      internalID: 4523547710067416183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyJudicatorGait_15
+      rect:
+        serializedVersion: 2
+        x: 3525
+        y: 0
+        width: 235
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0.053475935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f53439b253ac770800000000000000
+      internalID: 8631770097079508742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SkyJudicatorAlternatingGait_0: 438561085130824692
+      SkyJudicatorAlternatingGait_1: 1730817752536849977
+      SkyJudicatorAlternatingGait_10: -8477239211691300738
+      SkyJudicatorAlternatingGait_11: -4951956894641508320
+      SkyJudicatorAlternatingGait_12: -9027380631523364407
+      SkyJudicatorAlternatingGait_13: -978102202595849148
+      SkyJudicatorAlternatingGait_14: 7184132575756827166
+      SkyJudicatorAlternatingGait_15: 3391424255422382010
+      SkyJudicatorAlternatingGait_2: -7754096323218216542
+      SkyJudicatorAlternatingGait_3: -2381442447963563048
+      SkyJudicatorAlternatingGait_4: -8894361934498429945
+      SkyJudicatorAlternatingGait_5: 6649655313594472024
+      SkyJudicatorAlternatingGait_6: 4619436626349797211
+      SkyJudicatorAlternatingGait_7: 2038720432769649165
+      SkyJudicatorAlternatingGait_8: 3138544477632130360
+      SkyJudicatorAlternatingGait_9: -211926132090844688
+      SkyJudicatorGait_00: 4867734413782213884
+      SkyJudicatorGait_01: -2981477484146978691
+      SkyJudicatorGait_02: -5785755145332396013
+      SkyJudicatorGait_03: -8254998518332878477
+      SkyJudicatorGait_04: -312524435509689805
+      SkyJudicatorGait_05: -8248302850772140383
+      SkyJudicatorGait_06: 7069308671100977104
+      SkyJudicatorGait_07: 93276791241596609
+      SkyJudicatorGait_08: 2039967074572185098
+      SkyJudicatorGait_09: -1498344704376704642
+      SkyJudicatorGait_10: -347237619920531182
+      SkyJudicatorGait_11: -2583819207246563246
+      SkyJudicatorGait_12: -9077135225400217556
+      SkyJudicatorGait_13: -3273111499156054817
+      SkyJudicatorGait_14: 4523547710067416183
+      SkyJudicatorGait_15: 8631770097079508742
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

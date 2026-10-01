@@ -1,0 +1,469 @@
+fileFormatVersion: 2
+guid: 4dfb5c0dd8de3e140b5988210100e95d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1403204592882299850
+    second: PilgrimUnarmed30_0
+  - first:
+      213: -6972099858156774675
+    second: PilgrimUnarmed30_1
+  - first:
+      213: 6938137782829729477
+    second: PilgrimUnarmed30_2
+  - first:
+      213: 7626286506084178822
+    second: PilgrimUnarmed30_3
+  - first:
+      213: -8696702419245929579
+    second: PilgrimUnarmed30_4
+  - first:
+      213: -1364147398918618375
+    second: PilgrimUnarmed30_5
+  - first:
+      213: -5003975233940362236
+    second: PilgrimUnarmed30_6
+  - first:
+      213: -6663752353513136553
+    second: PilgrimUnarmed30_7
+  - first:
+      213: -4561209129629837562
+    second: PilgrimUnarmed30_8
+  - first:
+      213: -7128164175804031999
+    second: PilgrimUnarmed30_9
+  - first:
+      213: 6230792139820988618
+    second: PilgrimUnarmed30_10
+  - first:
+      213: 5958072699583526231
+    second: PilgrimUnarmed30_11
+  - first:
+      213: 8435947210577193715
+    second: PilgrimUnarmed30_00
+  - first:
+      213: -241084465019041042
+    second: PilgrimUnarmed30_01
+  - first:
+      213: 3175296087470592030
+    second: PilgrimUnarmed30_02
+  - first:
+      213: -3598629153230819465
+    second: PilgrimUnarmed30_03
+  - first:
+      213: 6904893351358545468
+    second: PilgrimUnarmed30_04
+  - first:
+      213: 4149277595425993413
+    second: PilgrimUnarmed30_05
+  - first:
+      213: 3074673341450362038
+    second: PilgrimUnarmed30_06
+  - first:
+      213: -7328548247463875895
+    second: PilgrimUnarmed30_07
+  - first:
+      213: 2988732244012022180
+    second: PilgrimUnarmed30_08
+  - first:
+      213: -4164445760455864442
+    second: PilgrimUnarmed30_09
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 102
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PilgrimUnarmed30_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3faa66eda41821570800000000000000
+      internalID: 8435947210577193715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimUnarmed30_01
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeacca5d4fe77acf0800000000000000
+      internalID: -241084465019041042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimUnarmed30_02
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e105f56d7fae01c20800000000000000
+      internalID: 3175296087470592030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimUnarmed30_03
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77fef4bf9d91f0ec0800000000000000
+      internalID: -3598629153230819465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimUnarmed30_04
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ebeab5beb13df50800000000000000
+      internalID: 6904893351358545468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimUnarmed30_05
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c27add3df1359930800000000000000
+      internalID: 4149277595425993413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimUnarmed30_06
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc138d1d1f6baa20800000000000000
+      internalID: 3074673341450362038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimUnarmed30_07
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9caaa9e7234cb4a90800000000000000
+      internalID: -7328548247463875895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimUnarmed30_08
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9b715142c1a7920800000000000000
+      internalID: 2988732244012022180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimUnarmed30_09
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f85a125aae436c0800000000000000
+      internalID: -4164445760455864442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimUnarmed30_10
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac873536078387650800000000000000
+      internalID: 6230792139820988618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimUnarmed30_11
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755f0a49d835fa250800000000000000
+      internalID: 5958072699583526231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PilgrimUnarmed30_0: -1403204592882299850
+      PilgrimUnarmed30_00: 8435947210577193715
+      PilgrimUnarmed30_01: -241084465019041042
+      PilgrimUnarmed30_02: 3175296087470592030
+      PilgrimUnarmed30_03: -3598629153230819465
+      PilgrimUnarmed30_04: 6904893351358545468
+      PilgrimUnarmed30_05: 4149277595425993413
+      PilgrimUnarmed30_06: 3074673341450362038
+      PilgrimUnarmed30_07: -7328548247463875895
+      PilgrimUnarmed30_08: 2988732244012022180
+      PilgrimUnarmed30_09: -4164445760455864442
+      PilgrimUnarmed30_1: -6972099858156774675
+      PilgrimUnarmed30_10: 6230792139820988618
+      PilgrimUnarmed30_11: 5958072699583526231
+      PilgrimUnarmed30_2: 6938137782829729477
+      PilgrimUnarmed30_3: 7626286506084178822
+      PilgrimUnarmed30_4: -8696702419245929579
+      PilgrimUnarmed30_5: -1364147398918618375
+      PilgrimUnarmed30_6: -5003975233940362236
+      PilgrimUnarmed30_7: -6663752353513136553
+      PilgrimUnarmed30_8: -4561209129629837562
+      PilgrimUnarmed30_9: -7128164175804031999
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

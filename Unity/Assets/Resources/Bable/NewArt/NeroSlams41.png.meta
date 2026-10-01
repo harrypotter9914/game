@@ -1,0 +1,389 @@
+fileFormatVersion: 2
+guid: b48be60eeec7b704fa65027d44251fa0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2865862413751962278
+    second: NeroSlams41_0
+  - first:
+      213: 7291228309393491316
+    second: NeroSlams41_1
+  - first:
+      213: 1765436621897295130
+    second: NeroSlams41_2
+  - first:
+      213: -8127174123439172165
+    second: NeroSlams41_3
+  - first:
+      213: 3605090249672416319
+    second: NeroSlams41_4
+  - first:
+      213: 4338395002366781746
+    second: NeroSlams41_5
+  - first:
+      213: 1654779056340423767
+    second: NeroSlams41_6
+  - first:
+      213: 4880171552769683007
+    second: NeroSlams41_7
+  - first:
+      213: 7349723748852309627
+    second: NeroSlams41_8
+  - first:
+      213: 4213064680221599852
+    second: NeroSlams41_9
+  - first:
+      213: 5047449371114985682
+    second: NeroSlams41_10
+  - first:
+      213: 5808101968498629153
+    second: NeroSlams41_11
+  - first:
+      213: -1566838545536733162
+    second: NeroSlams41_12
+  - first:
+      213: -294374419376173607
+    second: NeroSlams41_13
+  - first:
+      213: -7867561442899350467
+    second: NeroSlams41_14
+  - first:
+      213: 6207739130635339931
+    second: NeroSlams41_15
+  - first:
+      213: -4467962857883288242
+    second: NeroSlams41_00
+  - first:
+      213: 3897537556945173823
+    second: NeroSlams41_01
+  - first:
+      213: 8679638468851485148
+    second: NeroSlams41_02
+  - first:
+      213: -1875577306403094688
+    second: NeroSlams41_03
+  - first:
+      213: -547950566782340573
+    second: NeroSlams41_04
+  - first:
+      213: 8199031742869429405
+    second: NeroSlams41_05
+  - first:
+      213: 203950413237717993
+    second: NeroSlams41_06
+  - first:
+      213: 7647944594993490709
+    second: NeroSlams41_07
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 140
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NeroSlams41_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 421
+        width: 445
+        height: 466
+      alignment: 9
+      pivot: {x: 0.49831462, y: 0.055793993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d3a3af37b9ef1c0800000000000000
+      internalID: -4467962857883288242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroSlams41_01
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 421
+        width: 417
+        height: 466
+      alignment: 9
+      pivot: {x: 0.52817744, y: 0.055793993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3df57c02c5d61630800000000000000
+      internalID: 3897537556945173823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroSlams41_02
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 421
+        width: 466
+        height: 466
+      alignment: 9
+      pivot: {x: 0.52950644, y: 0.055793993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd945b26335447870800000000000000
+      internalID: 8679638468851485148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroSlams41_03
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 421
+        width: 446
+        height: 466
+      alignment: 9
+      pivot: {x: 0.50280267, y: 0.055793993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f3f07806c98f5e0800000000000000
+      internalID: -1875577306403094688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroSlams41_04
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 436
+        height: 421
+      alignment: 9
+      pivot: {x: 0.5086009, y: 0.11401425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322f678dcd94568f0800000000000000
+      internalID: -547950566782340573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroSlams41_05
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 0
+        width: 431
+        height: 421
+      alignment: 9
+      pivot: {x: 0.53190255, y: 0.11401425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c52e70eefc8c170800000000000000
+      internalID: 8199031742869429405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroSlams41_06
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 0
+        width: 457
+        height: 421
+      alignment: 9
+      pivot: {x: 0.5289934, y: 0.11401425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb04dcf1d394d200800000000000000
+      internalID: 203950413237717993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroSlams41_07
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 0
+        width: 450
+        height: 421
+      alignment: 9
+      pivot: {x: 0.50722224, y: 0.11401425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ba47ea615f22a60800000000000000
+      internalID: 7647944594993490709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NeroSlams41_0: 2865862413751962278
+      NeroSlams41_00: -4467962857883288242
+      NeroSlams41_01: 3897537556945173823
+      NeroSlams41_02: 8679638468851485148
+      NeroSlams41_03: -1875577306403094688
+      NeroSlams41_04: -547950566782340573
+      NeroSlams41_05: 8199031742869429405
+      NeroSlams41_06: 203950413237717993
+      NeroSlams41_07: 7647944594993490709
+      NeroSlams41_1: 7291228309393491316
+      NeroSlams41_10: 5047449371114985682
+      NeroSlams41_11: 5808101968498629153
+      NeroSlams41_12: -1566838545536733162
+      NeroSlams41_13: -294374419376173607
+      NeroSlams41_14: -7867561442899350467
+      NeroSlams41_15: 6207739130635339931
+      NeroSlams41_2: 1765436621897295130
+      NeroSlams41_3: -8127174123439172165
+      NeroSlams41_4: 3605090249672416319
+      NeroSlams41_5: 4338395002366781746
+      NeroSlams41_6: 1654779056340423767
+      NeroSlams41_7: 4880171552769683007
+      NeroSlams41_8: 7349723748852309627
+      NeroSlams41_9: 4213064680221599852
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

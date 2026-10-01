@@ -1,0 +1,573 @@
+fileFormatVersion: 2
+guid: fea499379adba3c4ebc85ec211e8157b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5350303395487846195
+    second: RangedGuardPatrol30_0
+  - first:
+      213: 7523228982555362187
+    second: RangedGuardPatrol30_1
+  - first:
+      213: -2909041307147751398
+    second: RangedGuardPatrol30_2
+  - first:
+      213: -5227374264930764691
+    second: RangedGuardPatrol30_3
+  - first:
+      213: 6851124181785538265
+    second: RangedGuardPatrol30_4
+  - first:
+      213: -3792963738852695495
+    second: RangedGuardPatrol30_5
+  - first:
+      213: -2747678795550852527
+    second: RangedGuardPatrol30_6
+  - first:
+      213: -8902624858445150871
+    second: RangedGuardPatrol30_7
+  - first:
+      213: -6877331884595987359
+    second: RangedGuardPatrol30_8
+  - first:
+      213: 5697519103870639695
+    second: RangedGuardPatrol30_9
+  - first:
+      213: -216320631198582889
+    second: RangedGuardPatrol30_10
+  - first:
+      213: -5083014076216161301
+    second: RangedGuardPatrol30_11
+  - first:
+      213: 269591865422327279
+    second: RangedGuardPatrol30_12
+  - first:
+      213: -7182137014717454385
+    second: RangedGuardPatrol30_13
+  - first:
+      213: 4107144817294432234
+    second: RangedGuardPatrol30_14
+  - first:
+      213: -8544782632678431238
+    second: RangedGuardPatrol30_15
+  - first:
+      213: -5694245017475959635
+    second: RangedGuardPatrol30_00
+  - first:
+      213: 8919967101602223518
+    second: RangedGuardPatrol30_01
+  - first:
+      213: 8158463827732579622
+    second: RangedGuardPatrol30_02
+  - first:
+      213: 7898839912617083825
+    second: RangedGuardPatrol30_03
+  - first:
+      213: 71344012150840686
+    second: RangedGuardPatrol30_04
+  - first:
+      213: -4746287830610494394
+    second: RangedGuardPatrol30_05
+  - first:
+      213: 595561160948823710
+    second: RangedGuardPatrol30_06
+  - first:
+      213: -3977745467978278722
+    second: RangedGuardPatrol30_07
+  - first:
+      213: -4246668674275317947
+    second: RangedGuardPatrol30_08
+  - first:
+      213: 80119492089111820
+    second: RangedGuardPatrol30_09
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 73.1405
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RangedGuardPatrol30_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4be45735af9f0b0800000000000000
+      internalID: -5694245017475959635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardPatrol30_01
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95db23a1d61acb70800000000000000
+      internalID: 8919967101602223518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardPatrol30_02
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625cfdc30afa83170800000000000000
+      internalID: 8158463827732579622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardPatrol30_03
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b30839fc015e9d60800000000000000
+      internalID: 7898839912617083825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardPatrol30_04
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d1a1540077df000800000000000000
+      internalID: 71344012150840686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardPatrol30_05
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64cb3be6d5cc12eb0800000000000000
+      internalID: -4746287830610494394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardPatrol30_06
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96bf5078bbd34800800000000000000
+      internalID: 595561160948823710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardPatrol30_07
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb81c3662953cc8c0800000000000000
+      internalID: -3977745467978278722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardPatrol30_08
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5476a0f275dc015c0800000000000000
+      internalID: -4246668674275317947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardPatrol30_09
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c056e89e044ac1100800000000000000
+      internalID: 80119492089111820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardPatrol30_10
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797f1d338897ffcf0800000000000000
+      internalID: -216320631198582889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardPatrol30_11
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb43dee0a18579b0800000000000000
+      internalID: -5083014076216161301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardPatrol30_12
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed25dc8f58cdb300800000000000000
+      internalID: 269591865422327279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardPatrol30_13
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7e49d007ce35c90800000000000000
+      internalID: -7182137014717454385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardPatrol30_14
+      rect:
+        serializedVersion: 2
+        x: 2716
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7dbe363728ff830800000000000000
+      internalID: 4107144817294432234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardPatrol30_15
+      rect:
+        serializedVersion: 2
+        x: 2910
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af56640c775da6980800000000000000
+      internalID: -8544782632678431238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RangedGuardPatrol30_0: 5350303395487846195
+      RangedGuardPatrol30_00: -5694245017475959635
+      RangedGuardPatrol30_01: 8919967101602223518
+      RangedGuardPatrol30_02: 8158463827732579622
+      RangedGuardPatrol30_03: 7898839912617083825
+      RangedGuardPatrol30_04: 71344012150840686
+      RangedGuardPatrol30_05: -4746287830610494394
+      RangedGuardPatrol30_06: 595561160948823710
+      RangedGuardPatrol30_07: -3977745467978278722
+      RangedGuardPatrol30_08: -4246668674275317947
+      RangedGuardPatrol30_09: 80119492089111820
+      RangedGuardPatrol30_1: 7523228982555362187
+      RangedGuardPatrol30_10: -216320631198582889
+      RangedGuardPatrol30_11: -5083014076216161301
+      RangedGuardPatrol30_12: 269591865422327279
+      RangedGuardPatrol30_13: -7182137014717454385
+      RangedGuardPatrol30_14: 4107144817294432234
+      RangedGuardPatrol30_15: -8544782632678431238
+      RangedGuardPatrol30_2: -2909041307147751398
+      RangedGuardPatrol30_3: -5227374264930764691
+      RangedGuardPatrol30_4: 6851124181785538265
+      RangedGuardPatrol30_5: -3792963738852695495
+      RangedGuardPatrol30_6: -2747678795550852527
+      RangedGuardPatrol30_7: -8902624858445150871
+      RangedGuardPatrol30_8: -6877331884595987359
+      RangedGuardPatrol30_9: 5697519103870639695
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

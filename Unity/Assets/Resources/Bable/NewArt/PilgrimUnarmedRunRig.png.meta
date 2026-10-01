@@ -1,0 +1,405 @@
+fileFormatVersion: 2
+guid: bf16b6c8c907cdc42ab37b0d030f427f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4681775186053347537
+    second: PilgrimUnarmedRunRig_0
+  - first:
+      213: 345962320838666933
+    second: PilgrimUnarmedRunRig_1
+  - first:
+      213: -1851695009913358543
+    second: PilgrimUnarmedRunRig_2
+  - first:
+      213: -7895232320326593090
+    second: PilgrimUnarmedRunRig_3
+  - first:
+      213: -5067037959284860193
+    second: PilgrimUnarmedRunRig_4
+  - first:
+      213: -1552932787228669657
+    second: PilgrimUnarmedRunRig_5
+  - first:
+      213: -1710385228110701225
+    second: PilgrimUnarmedRunRig_6
+  - first:
+      213: 2068820026430156069
+    second: PilgrimUnarmedRunRig_7
+  - first:
+      213: -8917482409738475277
+    second: PilgrimUnarmedRunRig_8
+  - first:
+      213: 7591764844320168190
+    second: PilgrimUnarmedRunRig_9
+  - first:
+      213: 4437789502290914313
+    second: PilgrimUnarmedRunRig_10
+  - first:
+      213: 2598276776933601820
+    second: PilgrimUnarmedRunRig_11
+  - first:
+      213: 4542521031614236489
+    second: PilgrimUnarmedRunRig_12
+  - first:
+      213: -324734270134074136
+    second: PilgrimUnarmedRunRig_13
+  - first:
+      213: -5371888208796502598
+    second: PilgrimUnarmedRunRig_14
+  - first:
+      213: 8320564753317642392
+    second: PilgrimUnarmedRunRig_15
+  - first:
+      213: 6231434538957953736
+    second: PilgrimUnarmedRunRig_16
+  - first:
+      213: 5395908658152191588
+    second: PilgrimUnarmedRunRig_17
+  - first:
+      213: -6987409587887124203
+    second: PilgrimUnarmedRunRig_18
+  - first:
+      213: 8722685133776897298
+    second: PilgrimUnarmedRunRig_19
+  - first:
+      213: 4595927823728669675
+    second: PilgrimUnarmedRunRig_20
+  - first:
+      213: 1597112770009718942
+    second: PilgrimUnarmedRunRig_21
+  - first:
+      213: 3646222706168552241
+    second: PilgrimUnarmedRunRig_22
+  - first:
+      213: -3421099056005474096
+    second: PilgrimUnarmedRunRig_23
+  - first:
+      213: 8913333902818542333
+    second: PilgrimUnarmedRunRig_24
+  - first:
+      213: -3479338128334750231
+    second: PilgrimUnarmedRunRig_25
+  - first:
+      213: 6843577762535238353
+    second: PilgrimUnarmedRunRig_26
+  - first:
+      213: -4244598137490463842
+    second: PilgrimUnarmedRunRig_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 132
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PilgrimUnarmedRunRig_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8b2f20ab109f040800000000000000
+      internalID: 4681775186053347537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimUnarmedRunRig_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba2247d5ea1dc400800000000000000
+      internalID: 345962320838666933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimUnarmedRunRig_2
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13730cdf2357d46e0800000000000000
+      internalID: -1851695009913358543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimUnarmedRunRig_3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb510cf09008e6290800000000000000
+      internalID: -7895232320326593090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimUnarmedRunRig_4
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdad76582d34ea9b0800000000000000
+      internalID: -5067037959284860193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimUnarmedRunRig_5
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7298d299bdfd27ae0800000000000000
+      internalID: -1552932787228669657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimUnarmedRunRig_6
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75dd26172bd7348e0800000000000000
+      internalID: -1710385228110701225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimUnarmedRunRig_7
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d659b5adce5bc10800000000000000
+      internalID: 2068820026430156069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PilgrimUnarmedRunRig_0: 4681775186053347537
+      PilgrimUnarmedRunRig_1: 345962320838666933
+      PilgrimUnarmedRunRig_10: 4437789502290914313
+      PilgrimUnarmedRunRig_11: 2598276776933601820
+      PilgrimUnarmedRunRig_12: 4542521031614236489
+      PilgrimUnarmedRunRig_13: -324734270134074136
+      PilgrimUnarmedRunRig_14: -5371888208796502598
+      PilgrimUnarmedRunRig_15: 8320564753317642392
+      PilgrimUnarmedRunRig_16: 6231434538957953736
+      PilgrimUnarmedRunRig_17: 5395908658152191588
+      PilgrimUnarmedRunRig_18: -6987409587887124203
+      PilgrimUnarmedRunRig_19: 8722685133776897298
+      PilgrimUnarmedRunRig_2: -1851695009913358543
+      PilgrimUnarmedRunRig_20: 4595927823728669675
+      PilgrimUnarmedRunRig_21: 1597112770009718942
+      PilgrimUnarmedRunRig_22: 3646222706168552241
+      PilgrimUnarmedRunRig_23: -3421099056005474096
+      PilgrimUnarmedRunRig_24: 8913333902818542333
+      PilgrimUnarmedRunRig_25: -3479338128334750231
+      PilgrimUnarmedRunRig_26: 6843577762535238353
+      PilgrimUnarmedRunRig_27: -4244598137490463842
+      PilgrimUnarmedRunRig_3: -7895232320326593090
+      PilgrimUnarmedRunRig_4: -5067037959284860193
+      PilgrimUnarmedRunRig_5: -1552932787228669657
+      PilgrimUnarmedRunRig_6: -1710385228110701225
+      PilgrimUnarmedRunRig_7: 2068820026430156069
+      PilgrimUnarmedRunRig_8: -8917482409738475277
+      PilgrimUnarmedRunRig_9: 7591764844320168190
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

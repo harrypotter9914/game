@@ -1,0 +1,46 @@
+{
+  "pages": [
+    {
+      "heading": "CONSIDER YOUR ORIGINS",
+      "text": "You were not made to live as brutes, but to follow virtue and knowledge.\n— Dante Alighieri, Inferno",
+      "art": "NewArt/Prologue01",
+      "seconds": 10
+    },
+    {
+      "heading": "MESSINA · THE FIFTEENTH CENTURY",
+      "text": "In a Sicily darkened by famine and plague, the roads fill with those who have lost their homes. Among them walks one whom the faithful call Hollow.",
+      "art": "NewArt/Prologue02",
+      "seconds": 12
+    },
+    {
+      "heading": "A SHELTER ABOVE SUFFERING",
+      "text": "Beyond the forest stands Babel. Its builders once believed that stone could lift them beyond disaster. Their first letters praised Nero as a savior.",
+      "art": "NewArt/Prologue03",
+      "seconds": 12
+    },
+    {
+      "heading": "WHEN FAITH BECAME A THRONE",
+      "text": "But the tower was never high enough. Nero's prayers hardened into commands. He demanded longer toil, deeper obedience—and finally the worship that heaven had denied him.",
+      "art": "NewArt/Prologue04",
+      "seconds": 14
+    },
+    {
+      "heading": "THE VOICE ABOVE THE BELLS",
+      "text": "Princess Livia entered the tower with a promise of refuge for her people. Nero made her his captive: a living pledge that nobody would abandon his heaven.",
+      "art": "NewArt/Prologue05",
+      "seconds": 13
+    },
+    {
+      "heading": "THE HOLLOW PILGRIM",
+      "text": "You came seeking shelter, not a crown. Yet beyond the ruined gate, a woman's voice survives the bells. To leave her here would be to become another stone in Nero's tower.",
+      "art": "NewArt/Prologue06",
+      "seconds": 14
+    },
+    {
+      "heading": "ENTER BABEL",
+      "text": "At the threshold, an old warning asks you to abandon hope. Carry it inside instead. Find a blade. Follow the voices. Bring Livia back to the world below.",
+      "art": "NewArt/Prologue07",
+      "seconds": 12
+    }
+  ]
+}

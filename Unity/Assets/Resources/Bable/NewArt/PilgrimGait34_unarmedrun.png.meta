@@ -1,0 +1,837 @@
+fileFormatVersion: 2
+guid: fb24b3461468767499ce3216c4454e0e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5883916782052857006
+    second: PilgrimGait34_unarmedrun_0
+  - first:
+      213: -2969249175829464569
+    second: PilgrimGait34_unarmedrun_1
+  - first:
+      213: -7816509347169785812
+    second: PilgrimGait34_unarmedrun_2
+  - first:
+      213: -4232089790267752288
+    second: PilgrimGait34_unarmedrun_3
+  - first:
+      213: -3042665811803046288
+    second: PilgrimGait34_unarmedrun_4
+  - first:
+      213: -3469493812414223692
+    second: PilgrimGait34_unarmedrun_5
+  - first:
+      213: -3007880110283562579
+    second: PilgrimGait34_unarmedrun_6
+  - first:
+      213: 7880459981603444694
+    second: PilgrimGait34_unarmedrun_7
+  - first:
+      213: -2296438352951114857
+    second: PilgrimGait34_unarmedrun_8
+  - first:
+      213: 8434740405210979305
+    second: PilgrimGait34_unarmedrun_9
+  - first:
+      213: -8561959336657678591
+    second: PilgrimGait34_unarmedrun_10
+  - first:
+      213: -7929875086394974311
+    second: PilgrimGait34_unarmedrun_11
+  - first:
+      213: 82593311332588144
+    second: PilgrimGait34_unarmedrun_12
+  - first:
+      213: 5817910099975065353
+    second: PilgrimGait34_unarmedrun_13
+  - first:
+      213: 3016616229037462159
+    second: PilgrimGait34_unarmedrun_14
+  - first:
+      213: -5447403819847117407
+    second: PilgrimGait34_unarmedrun_15
+  - first:
+      213: 3968543041216468509
+    second: PilgrimGait34_unarmedrun_16
+  - first:
+      213: 3243324275310998967
+    second: PilgrimGait34_unarmedrun_17
+  - first:
+      213: 7204664117989279792
+    second: PilgrimGait34_unarmedrun_18
+  - first:
+      213: 5648508349158137130
+    second: PilgrimGait34_unarmedrun_19
+  - first:
+      213: 8418322551290303948
+    second: PilgrimGait34_unarmedrun_20
+  - first:
+      213: 6551826992489214566
+    second: PilgrimGait34_unarmedrun_21
+  - first:
+      213: -1270334986137306791
+    second: PilgrimGait34_unarmedrun_22
+  - first:
+      213: -2002491778773355286
+    second: PilgrimGait34_unarmedrun_23
+  - first:
+      213: -6824832653432211748
+    second: Pilgrim_unarmedrun_00
+  - first:
+      213: 8429209355010471439
+    second: Pilgrim_unarmedrun_01
+  - first:
+      213: -8168523551598404788
+    second: Pilgrim_unarmedrun_02
+  - first:
+      213: -4150814448127483606
+    second: Pilgrim_unarmedrun_03
+  - first:
+      213: -6798050060650917586
+    second: Pilgrim_unarmedrun_04
+  - first:
+      213: 8961886394886350568
+    second: Pilgrim_unarmedrun_05
+  - first:
+      213: -5463756483692964967
+    second: Pilgrim_unarmedrun_06
+  - first:
+      213: -9050223316403400357
+    second: Pilgrim_unarmedrun_07
+  - first:
+      213: -4200248795182113212
+    second: Pilgrim_unarmedrun_08
+  - first:
+      213: 1963488570191077440
+    second: Pilgrim_unarmedrun_09
+  - first:
+      213: -5541453919243349358
+    second: Pilgrim_unarmedrun_10
+  - first:
+      213: 2445216769454147338
+    second: Pilgrim_unarmedrun_11
+  - first:
+      213: 978582826313772727
+    second: Pilgrim_unarmedrun_12
+  - first:
+      213: 4148284969054329890
+    second: Pilgrim_unarmedrun_13
+  - first:
+      213: 529575432076407167
+    second: Pilgrim_unarmedrun_14
+  - first:
+      213: 6884369071088947358
+    second: Pilgrim_unarmedrun_15
+  - first:
+      213: 2976317366821065526
+    second: Pilgrim_unarmedrun_16
+  - first:
+      213: -7436063254485035209
+    second: Pilgrim_unarmedrun_17
+  - first:
+      213: -398262445687236875
+    second: Pilgrim_unarmedrun_18
+  - first:
+      213: -4644416450954847806
+    second: Pilgrim_unarmedrun_19
+  - first:
+      213: -2428990145943947839
+    second: Pilgrim_unarmedrun_20
+  - first:
+      213: -1795965501349982587
+    second: Pilgrim_unarmedrun_21
+  - first:
+      213: 5560240428636273898
+    second: Pilgrim_unarmedrun_22
+  - first:
+      213: 3146096533152826845
+    second: Pilgrim_unarmedrun_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pilgrim_unarmedrun_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6bfa87cd25941a0800000000000000
+      internalID: -6824832653432211748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim_unarmedrun_01
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f067cce9f319af470800000000000000
+      internalID: 8429209355010471439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim_unarmedrun_02
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b9097cb1393ae80800000000000000
+      internalID: -8168523551598404788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim_unarmedrun_03
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a216dca50485566c0800000000000000
+      internalID: -4150814448127483606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim_unarmedrun_04
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e215499cc7978a1a0800000000000000
+      internalID: -6798050060650917586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim_unarmedrun_05
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e66b9ca1340f5c70800000000000000
+      internalID: 8961886394886350568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim_unarmedrun_06
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9935e322d66dc24b0800000000000000
+      internalID: -5463756483692964967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim_unarmedrun_07
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5151d708d5276280800000000000000
+      internalID: -9050223316403400357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim_unarmedrun_08
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e58e289f7b5b5c0800000000000000
+      internalID: -4200248795182113212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim_unarmedrun_09
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04067ca9376bf3b10800000000000000
+      internalID: 1963488570191077440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim_unarmedrun_10
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292dd44350dc813b0800000000000000
+      internalID: -5541453919243349358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim_unarmedrun_11
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07842e42b72fe120800000000000000
+      internalID: 2445216769454147338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim_unarmedrun_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7beeab155ef949d00800000000000000
+      internalID: 978582826313772727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim_unarmedrun_13
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c5397633ba19930800000000000000
+      internalID: 4148284969054329890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim_unarmedrun_14
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7130b6bc0e695700800000000000000
+      internalID: 529575432076407167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim_unarmedrun_15
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9051f8f1313a8f50800000000000000
+      internalID: 6884369071088947358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim_unarmedrun_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633123c30e00e4920800000000000000
+      internalID: 2976317366821065526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim_unarmedrun_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73795153edbcdc890800000000000000
+      internalID: -7436063254485035209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim_unarmedrun_18
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f61f6d6a66197af0800000000000000
+      internalID: -398262445687236875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim_unarmedrun_19
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c91bd358d7bb8fb0800000000000000
+      internalID: -4644416450954847806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim_unarmedrun_20
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c53614e45e7a4ed0800000000000000
+      internalID: -2428990145943947839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim_unarmedrun_21
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e8d2754e27317e0800000000000000
+      internalID: -1795965501349982587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim_unarmedrun_22
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec71aed531f92d40800000000000000
+      internalID: 5560240428636273898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim_unarmedrun_23
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd589afc02e29ab20800000000000000
+      internalID: 3146096533152826845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PilgrimGait34_unarmedrun_0: -5883916782052857006
+      PilgrimGait34_unarmedrun_1: -2969249175829464569
+      PilgrimGait34_unarmedrun_10: -8561959336657678591
+      PilgrimGait34_unarmedrun_11: -7929875086394974311
+      PilgrimGait34_unarmedrun_12: 82593311332588144
+      PilgrimGait34_unarmedrun_13: 5817910099975065353
+      PilgrimGait34_unarmedrun_14: 3016616229037462159
+      PilgrimGait34_unarmedrun_15: -5447403819847117407
+      PilgrimGait34_unarmedrun_16: 3968543041216468509
+      PilgrimGait34_unarmedrun_17: 3243324275310998967
+      PilgrimGait34_unarmedrun_18: 7204664117989279792
+      PilgrimGait34_unarmedrun_19: 5648508349158137130
+      PilgrimGait34_unarmedrun_2: -7816509347169785812
+      PilgrimGait34_unarmedrun_20: 8418322551290303948
+      PilgrimGait34_unarmedrun_21: 6551826992489214566
+      PilgrimGait34_unarmedrun_22: -1270334986137306791
+      PilgrimGait34_unarmedrun_23: -2002491778773355286
+      PilgrimGait34_unarmedrun_3: -4232089790267752288
+      PilgrimGait34_unarmedrun_4: -3042665811803046288
+      PilgrimGait34_unarmedrun_5: -3469493812414223692
+      PilgrimGait34_unarmedrun_6: -3007880110283562579
+      PilgrimGait34_unarmedrun_7: 7880459981603444694
+      PilgrimGait34_unarmedrun_8: -2296438352951114857
+      PilgrimGait34_unarmedrun_9: 8434740405210979305
+      Pilgrim_unarmedrun_00: -6824832653432211748
+      Pilgrim_unarmedrun_01: 8429209355010471439
+      Pilgrim_unarmedrun_02: -8168523551598404788
+      Pilgrim_unarmedrun_03: -4150814448127483606
+      Pilgrim_unarmedrun_04: -6798050060650917586
+      Pilgrim_unarmedrun_05: 8961886394886350568
+      Pilgrim_unarmedrun_06: -5463756483692964967
+      Pilgrim_unarmedrun_07: -9050223316403400357
+      Pilgrim_unarmedrun_08: -4200248795182113212
+      Pilgrim_unarmedrun_09: 1963488570191077440
+      Pilgrim_unarmedrun_10: -5541453919243349358
+      Pilgrim_unarmedrun_11: 2445216769454147338
+      Pilgrim_unarmedrun_12: 978582826313772727
+      Pilgrim_unarmedrun_13: 4148284969054329890
+      Pilgrim_unarmedrun_14: 529575432076407167
+      Pilgrim_unarmedrun_15: 6884369071088947358
+      Pilgrim_unarmedrun_16: 2976317366821065526
+      Pilgrim_unarmedrun_17: -7436063254485035209
+      Pilgrim_unarmedrun_18: -398262445687236875
+      Pilgrim_unarmedrun_19: -4644416450954847806
+      Pilgrim_unarmedrun_20: -2428990145943947839
+      Pilgrim_unarmedrun_21: -1795965501349982587
+      Pilgrim_unarmedrun_22: 5560240428636273898
+      Pilgrim_unarmedrun_23: 3146096533152826845
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

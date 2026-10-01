@@ -1,0 +1,509 @@
+fileFormatVersion: 2
+guid: 0e4f76503ade09f40bc93d75f97b839d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8132931772228000960
+    second: SkyAttacks41_0
+  - first:
+      213: -2564484895486610375
+    second: SkyAttacks41_1
+  - first:
+      213: -3790966528349752987
+    second: SkyAttacks41_2
+  - first:
+      213: -132172762064950718
+    second: SkyAttacks41_3
+  - first:
+      213: 3916474926736402580
+    second: SkyAttacks41_4
+  - first:
+      213: -388613342003522653
+    second: SkyAttacks41_5
+  - first:
+      213: -8695685670226998816
+    second: SkyAttacks41_6
+  - first:
+      213: 2944362202181563527
+    second: SkyAttacks41_7
+  - first:
+      213: 2944328235674429381
+    second: SkyAttacks41_8
+  - first:
+      213: -8442822083898078871
+    second: SkyAttacks41_9
+  - first:
+      213: 3911310804080209811
+    second: SkyAttacks41_10
+  - first:
+      213: 3455229660432489785
+    second: SkyAttacks41_11
+  - first:
+      213: -5213619890947628901
+    second: SkyAttacks41_12
+  - first:
+      213: -2601470440885984863
+    second: SkyAttacks41_13
+  - first:
+      213: -5649986908131049228
+    second: SkyAttacks41_14
+  - first:
+      213: 3545454087912910263
+    second: SkyAttacks41_15
+  - first:
+      213: -7177569662554246014
+    second: SkyAttacks41_16
+  - first:
+      213: 997023265977312463
+    second: SkyAttacks41_17
+  - first:
+      213: -6309651699574625783
+    second: SkyAttacks41_18
+  - first:
+      213: -6041882025081350496
+    second: SkyAttacks41_19
+  - first:
+      213: -3611171172151859423
+    second: SkyAttacks41_20
+  - first:
+      213: 1023846233272926599
+    second: SkyAttacks41_21
+  - first:
+      213: -8793976037362588475
+    second: SkyAttacks41_00
+  - first:
+      213: -4748037536556553120
+    second: SkyAttacks41_01
+  - first:
+      213: 7578624845067255702
+    second: SkyAttacks41_02
+  - first:
+      213: -4061925038175830328
+    second: SkyAttacks41_03
+  - first:
+      213: -1534153869195102310
+    second: SkyAttacks41_04
+  - first:
+      213: 7327701760157091663
+    second: SkyAttacks41_05
+  - first:
+      213: -3981865182149975620
+    second: SkyAttacks41_06
+  - first:
+      213: -5197749477790253756
+    second: SkyAttacks41_07
+  - first:
+      213: -8697592177436854403
+    second: SkyAttacks41_08
+  - first:
+      213: -2521940835517310486
+    second: SkyAttacks41_09
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 127
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SkyAttacks41_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 659
+        width: 375
+        height: 427
+      alignment: 9
+      pivot: {x: 0.48266667, y: 0.091334894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4a4b1f26585f580800000000000000
+      internalID: -8793976037362588475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyAttacks41_01
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 659
+        width: 353
+        height: 427
+      alignment: 9
+      pivot: {x: 0.47592068, y: 0.091334894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c635544059b1eb0800000000000000
+      internalID: -4748037536556553120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyAttacks41_02
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 659
+        width: 380
+        height: 427
+      alignment: 9
+      pivot: {x: 0.46578947, y: 0.091334894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ffe20b42fac2960800000000000000
+      internalID: 7578624845067255702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyAttacks41_03
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 659
+        width: 340
+        height: 427
+      alignment: 9
+      pivot: {x: 0.46764705, y: 0.091334894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ceb343e2b421a7c0800000000000000
+      internalID: -4061925038175830328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyAttacks41_04
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 347
+        width: 362
+        height: 312
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97b5db2f2795bae0800000000000000
+      internalID: -1534153869195102310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyAttacks41_05
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 347
+        width: 345
+        height: 312
+      alignment: 9
+      pivot: {x: 0.5246377, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f470b225de931b560800000000000000
+      internalID: 7327701760157091663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyAttacks41_06
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 347
+        width: 406
+        height: 312
+      alignment: 9
+      pivot: {x: 0.48768473, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb16472b6b29db8c0800000000000000
+      internalID: -3981865182149975620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyAttacks41_07
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 347
+        width: 335
+        height: 312
+      alignment: 9
+      pivot: {x: 0.45970148, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44df6d88362edd7b0800000000000000
+      internalID: -5197749477790253756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyAttacks41_08
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 357
+        height: 347
+      alignment: 9
+      pivot: {x: 0.50700283, y: 0.16138329}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77f8a61ff1fb4780800000000000000
+      internalID: -8697592177436854403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyAttacks41_09
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 0
+        width: 372
+        height: 347
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16138329}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae950720c24400dd0800000000000000
+      internalID: -2521940835517310486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyAttacks41_10
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 0
+        width: 369
+        height: 347
+      alignment: 9
+      pivot: {x: 0.47696477, y: 0.16138329}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f295b0474c74630800000000000000
+      internalID: 3911310804080209811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyAttacks41_11
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 0
+        width: 350
+        height: 347
+      alignment: 9
+      pivot: {x: 0.48285714, y: 0.16138329}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93dd87fc11173ff20800000000000000
+      internalID: 3455229660432489785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SkyAttacks41_0: -8132931772228000960
+      SkyAttacks41_00: -8793976037362588475
+      SkyAttacks41_01: -4748037536556553120
+      SkyAttacks41_02: 7578624845067255702
+      SkyAttacks41_03: -4061925038175830328
+      SkyAttacks41_04: -1534153869195102310
+      SkyAttacks41_05: 7327701760157091663
+      SkyAttacks41_06: -3981865182149975620
+      SkyAttacks41_07: -5197749477790253756
+      SkyAttacks41_08: -8697592177436854403
+      SkyAttacks41_09: -2521940835517310486
+      SkyAttacks41_1: -2564484895486610375
+      SkyAttacks41_10: 3911310804080209811
+      SkyAttacks41_11: 3455229660432489785
+      SkyAttacks41_12: -5213619890947628901
+      SkyAttacks41_13: -2601470440885984863
+      SkyAttacks41_14: -5649986908131049228
+      SkyAttacks41_15: 3545454087912910263
+      SkyAttacks41_16: -7177569662554246014
+      SkyAttacks41_17: 997023265977312463
+      SkyAttacks41_18: -6309651699574625783
+      SkyAttacks41_19: -6041882025081350496
+      SkyAttacks41_2: -3790966528349752987
+      SkyAttacks41_20: -3611171172151859423
+      SkyAttacks41_21: 1023846233272926599
+      SkyAttacks41_3: -132172762064950718
+      SkyAttacks41_4: 3916474926736402580
+      SkyAttacks41_5: -388613342003522653
+      SkyAttacks41_6: -8695685670226998816
+      SkyAttacks41_7: 2944362202181563527
+      SkyAttacks41_8: 2944328235674429381
+      SkyAttacks41_9: -8442822083898078871
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

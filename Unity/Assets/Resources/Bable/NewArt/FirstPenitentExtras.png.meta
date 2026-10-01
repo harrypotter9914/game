@@ -1,0 +1,333 @@
+fileFormatVersion: 2
+guid: 4a44a9806f268cd4991210b741f268a9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4219747550436684042
+    second: FirstPenitentExtras_0
+  - first:
+      213: 5444204755446781506
+    second: FirstPenitentExtras_1
+  - first:
+      213: -4730772491216918802
+    second: FirstPenitentExtras_2
+  - first:
+      213: -5854942193794469400
+    second: FirstPenitentExtras_3
+  - first:
+      213: -6112981497408309428
+    second: FirstPenitentExtras_4
+  - first:
+      213: -560066605907499228
+    second: FirstPenitentExtras_5
+  - first:
+      213: -2161507566186465586
+    second: FirstPenitentExtras_6
+  - first:
+      213: -6467524847399343734
+    second: FirstPenitentExtras_7
+  - first:
+      213: 8276127041100211970
+    second: FirstPenitentExtras_8
+  - first:
+      213: -513159763532369320
+    second: FirstPenitentExtras_9
+  - first:
+      213: -1729677035180661744
+    second: FirstPenitentExtras_10
+  - first:
+      213: 6527980416395156594
+    second: FirstPenitentExtras_11
+  - first:
+      213: -4835604550669097522
+    second: FirstPenitentExtras_12
+  - first:
+      213: 4714850514740535848
+    second: FirstPenitentExtras_13
+  - first:
+      213: -2606455948586168980
+    second: FirstPenitentExtras_14
+  - first:
+      213: 2442173347390572862
+    second: FirstPenitentExtras_15
+  - first:
+      213: -1476816339642363992
+    second: FirstPenitentExtras_16
+  - first:
+      213: -6236331251680901827
+    second: FirstPenitentExtras_17
+  - first:
+      213: 2577297784103476738
+    second: FirstPenitentExtras_18
+  - first:
+      213: 5579842484946286338
+    second: FirstPenitentExtras_19
+  - first:
+      213: -6509210542662421839
+    second: FirstPenitentExtras_20
+  - first:
+      213: 3705186773078487104
+    second: FirstPenitentExtras_21
+  - first:
+      213: -5616018849239249677
+    second: FirstPenitentExtras_22
+  - first:
+      213: 3539216448143856320
+    second: FirstPenitentExtras_23
+  - first:
+      213: 1210387432513130521
+    second: FirstPenitentExtras_24
+  - first:
+      213: -1036871796437227075
+    second: FirstPenitentExtras_25
+  - first:
+      213: -5986273899697549310
+    second: FirstPenitentExtras_26
+  - first:
+      213: -3183293696109024720
+    second: FirstPenitentExtras_27
+  - first:
+      213: -4641751390794575618
+    second: FirstPenitentExtras_00
+  - first:
+      213: 8176389279991254826
+    second: FirstPenitentExtras_01
+  - first:
+      213: -4262541806813322641
+    second: FirstPenitentExtras_02
+  - first:
+      213: -2866134096310967337
+    second: FirstPenitentExtras_03
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 196.60194
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FirstPenitentExtras_00
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 150
+        width: 511
+        height: 398
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0930004bf259fb0800000000000000
+      internalID: -4641751390794575618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirstPenitentExtras_01
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 150
+        width: 524
+        height: 393
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2fc033dabe587170800000000000000
+      internalID: 8176389279991254826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirstPenitentExtras_02
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 150
+        width: 509
+        height: 377
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62e3a48fc868d4c0800000000000000
+      internalID: -4262541806813322641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirstPenitentExtras_03
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 150
+        width: 466
+        height: 405
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3efbe89327938d0800000000000000
+      internalID: -2866134096310967337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FirstPenitentExtras_0: 4219747550436684042
+      FirstPenitentExtras_00: -4641751390794575618
+      FirstPenitentExtras_01: 8176389279991254826
+      FirstPenitentExtras_02: -4262541806813322641
+      FirstPenitentExtras_03: -2866134096310967337
+      FirstPenitentExtras_1: 5444204755446781506
+      FirstPenitentExtras_10: -1729677035180661744
+      FirstPenitentExtras_11: 6527980416395156594
+      FirstPenitentExtras_12: -4835604550669097522
+      FirstPenitentExtras_13: 4714850514740535848
+      FirstPenitentExtras_14: -2606455948586168980
+      FirstPenitentExtras_15: 2442173347390572862
+      FirstPenitentExtras_16: -1476816339642363992
+      FirstPenitentExtras_17: -6236331251680901827
+      FirstPenitentExtras_18: 2577297784103476738
+      FirstPenitentExtras_19: 5579842484946286338
+      FirstPenitentExtras_2: -4730772491216918802
+      FirstPenitentExtras_20: -6509210542662421839
+      FirstPenitentExtras_21: 3705186773078487104
+      FirstPenitentExtras_22: -5616018849239249677
+      FirstPenitentExtras_23: 3539216448143856320
+      FirstPenitentExtras_24: 1210387432513130521
+      FirstPenitentExtras_25: -1036871796437227075
+      FirstPenitentExtras_26: -5986273899697549310
+      FirstPenitentExtras_27: -3183293696109024720
+      FirstPenitentExtras_3: -5854942193794469400
+      FirstPenitentExtras_4: -6112981497408309428
+      FirstPenitentExtras_5: -560066605907499228
+      FirstPenitentExtras_6: -2161507566186465586
+      FirstPenitentExtras_7: -6467524847399343734
+      FirstPenitentExtras_8: 8276127041100211970
+      FirstPenitentExtras_9: -513159763532369320
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

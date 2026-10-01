@@ -1,0 +1,51 @@
+behaviours:
+  - type: Transform
+    properties:
+      x: 0
+      y: 0
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+  - type: RigidBody
+    properties:
+      x: 0
+      y: 0
+      type: 2
+      gravityScale: 10
+  - type: CapsuleCollider
+    properties:
+      isSensor: 0
+      tag: enemybody
+      radius: 5
+      width: 40
+      height: 40
+      centerX: 40
+      centerY: 50
+  - type: CapsuleCollider
+    properties:
+      isSensor: 0
+      tag: enemyfeet
+      width: 20
+      height: 40
+      radius: 5
+      centerX: 40
+      centerY: 5
+  - type: Enemy
+    properties:
+      patrolSpeed: 1.2
+      chaseSpeed: 2.2
+  - type: EnemyHealthStateMachine
+children:
+  - behaviours:
+      - type: Transform
+        properties:
+          x: -50
+          y: -110
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+      - type: AnimationRenderer
+        properties:
+          source: ./assets/animations/enemy1.png
+          config: ./assets/animations/enemy1.yaml
+          action: rightpatrol

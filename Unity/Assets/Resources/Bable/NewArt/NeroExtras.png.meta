@@ -1,0 +1,433 @@
+fileFormatVersion: 2
+guid: edc12cab60aff8a4a9b11c279105c301
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7259816008271524783
+    second: NeroExtras_0
+  - first:
+      213: -8790615232917201111
+    second: NeroExtras_00
+  - first:
+      213: -9205084228961515780
+    second: NeroExtras_01
+  - first:
+      213: 4901262597814440510
+    second: NeroExtras_02
+  - first:
+      213: -3845092582113823538
+    second: NeroExtras_03
+  - first:
+      213: -4469995833033701259
+    second: NeroExtras_04
+  - first:
+      213: -1685260356402932926
+    second: NeroExtras_05
+  - first:
+      213: 4209777950251808990
+    second: NeroExtras_06
+  - first:
+      213: -4920648306045086203
+    second: NeroExtras_07
+  - first:
+      213: 5104360869068809704
+    second: NeroExtras_08
+  - first:
+      213: -5686467635249224968
+    second: NeroExtras_09
+  - first:
+      213: -606697414171283410
+    second: NeroExtras_10
+  - first:
+      213: -7299768557768703203
+    second: NeroExtras_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 127.918785
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NeroExtras_00
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1032
+        width: 228
+        height: 237
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f15d43506710680800000000000000
+      internalID: -8790615232917201111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroExtras_01
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1032
+        width: 237
+        height: 200
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6c2351aa8f04080800000000000000
+      internalID: -9205084228961515780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroExtras_02
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1032
+        width: 222
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3253ad5d58c40440800000000000000
+      internalID: 4901262597814440510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroExtras_03
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1032
+        width: 234
+        height: 252
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4bd923bac73aac0800000000000000
+      internalID: -3845092582113823538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroExtras_04
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 614
+        width: 250
+        height: 223
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578cc80197267f1c0800000000000000
+      internalID: -4469995833033701259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroExtras_05
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 614
+        width: 250
+        height: 201
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2431e8e72a0cc98e0800000000000000
+      internalID: -1685260356402932926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroExtras_06
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 614
+        width: 228
+        height: 202
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8f70ccdb22c6a30800000000000000
+      internalID: 4209777950251808990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroExtras_07
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 614
+        width: 238
+        height: 201
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5061e85bf6856bbb0800000000000000
+      internalID: -4920648306045086203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroExtras_08
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 158
+        width: 240
+        height: 186
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e520469a2556d640800000000000000
+      internalID: 5104360869068809704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroExtras_09
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 163
+        width: 224
+        height: 253
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2e63e50db9511b0800000000000000
+      internalID: -5686467635249224968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroExtras_10
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 163
+        width: 243
+        height: 294
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e203c2e8ae39497f0800000000000000
+      internalID: -606697414171283410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeroExtras_11
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 163
+        width: 262
+        height: 328
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1381ab2c2302ba90800000000000000
+      internalID: -7299768557768703203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NeroExtras_0: 7259816008271524783
+      NeroExtras_00: -8790615232917201111
+      NeroExtras_01: -9205084228961515780
+      NeroExtras_02: 4901262597814440510
+      NeroExtras_03: -3845092582113823538
+      NeroExtras_04: -4469995833033701259
+      NeroExtras_05: -1685260356402932926
+      NeroExtras_06: 4209777950251808990
+      NeroExtras_07: -4920648306045086203
+      NeroExtras_08: 5104360869068809704
+      NeroExtras_09: -5686467635249224968
+      NeroExtras_10: -606697414171283410
+      NeroExtras_11: -7299768557768703203
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

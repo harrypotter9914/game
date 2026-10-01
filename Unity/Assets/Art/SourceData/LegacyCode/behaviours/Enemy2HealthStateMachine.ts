@@ -1,0 +1,50 @@
+import { Behaviour, GameObject } from "../../lib/mygameengine";
+import { Enemy2 } from "./Enemy2";
+import { Enemy2PrefabBinding } from "../bindings/Enemy2PrefabBinding"; 
+
+export class Enemy2HealthStateMachine extends Behaviour {
+    public currentHealth: number = 4; // 初始血量为3点
+    private maxHealth: number = 4; // 最大血量
+    private enemy2: GameObject | null = null;
+
+    onStart() {
+        // 获取敌人对象
+        this.enemy2 = this.gameObject;
+    }
+
+    setHealth(health: number) {
+        if (health < 0) {
+            this.currentHealth = 0;
+        } else if (health > this.maxHealth) {
+            this.currentHealth = this.maxHealth;
+        } else {
+            this.currentHealth = health;
+        }
+
+        if (this.currentHealth <= 0) {
+            this.handleDeath();
+        }
+    }
+
+    decreaseHealth(amount: number) {
+        this.setHealth(this.currentHealth - amount);
+    }
+
+    handleDeath() {
+        console.log("Enemy2 died");
+
+        // 播放死亡动画
+        if (this.enemy2) {
+            const enemy2PrefabBinding = this.enemy2.getBehaviour(Enemy2PrefabBinding);
+            if (enemy2PrefabBinding) {
+                enemy2PrefabBinding.action = 'leftdead'; // 假设这是播放死亡动画的方法
+            }
+        }
+
+        setTimeout(() => {
+        if (this.enemy2) {
+            this.enemy2.active = false; 
+            }
+        }, 500);
+    }
+}

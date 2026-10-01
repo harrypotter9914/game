@@ -1,0 +1,573 @@
+fileFormatVersion: 2
+guid: f855ea7a36cb2da4b9d2a1057b86a365
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 132725890150840265
+    second: GiantGuardPatrol30_0
+  - first:
+      213: 4292737492482395837
+    second: GiantGuardPatrol30_1
+  - first:
+      213: -5309634180717682667
+    second: GiantGuardPatrol30_2
+  - first:
+      213: 8553440410135693565
+    second: GiantGuardPatrol30_3
+  - first:
+      213: 8913028389768515456
+    second: GiantGuardPatrol30_4
+  - first:
+      213: -4860213919713054783
+    second: GiantGuardPatrol30_5
+  - first:
+      213: -5996815060522048893
+    second: GiantGuardPatrol30_6
+  - first:
+      213: -4898623686249132215
+    second: GiantGuardPatrol30_7
+  - first:
+      213: -1416303424367003067
+    second: GiantGuardPatrol30_8
+  - first:
+      213: 5009323879272975784
+    second: GiantGuardPatrol30_9
+  - first:
+      213: -1158518675683106920
+    second: GiantGuardPatrol30_10
+  - first:
+      213: 1704605530394349729
+    second: GiantGuardPatrol30_11
+  - first:
+      213: 8463577078011314009
+    second: GiantGuardPatrol30_12
+  - first:
+      213: -7439192017244328871
+    second: GiantGuardPatrol30_13
+  - first:
+      213: 5547314292731420747
+    second: GiantGuardPatrol30_14
+  - first:
+      213: -8988491794298581244
+    second: GiantGuardPatrol30_15
+  - first:
+      213: -446566600745370331
+    second: GiantGuardPatrol30_00
+  - first:
+      213: -1492764914453751348
+    second: GiantGuardPatrol30_01
+  - first:
+      213: -8823344648069963816
+    second: GiantGuardPatrol30_02
+  - first:
+      213: -5494884547231152911
+    second: GiantGuardPatrol30_03
+  - first:
+      213: 6123391735512606907
+    second: GiantGuardPatrol30_04
+  - first:
+      213: -9169276993176469279
+    second: GiantGuardPatrol30_05
+  - first:
+      213: -4062729057606726376
+    second: GiantGuardPatrol30_06
+  - first:
+      213: 2479269560981471192
+    second: GiantGuardPatrol30_07
+  - first:
+      213: -4436789122806270818
+    second: GiantGuardPatrol30_08
+  - first:
+      213: 3411802265261596782
+    second: GiantGuardPatrol30_09
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 72.92419
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GiantGuardPatrol30_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52db40aea0a7dc9f0800000000000000
+      internalID: -446566600745370331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardPatrol30_01
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc951d42832a84be0800000000000000
+      internalID: -1492764914453751348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardPatrol30_02
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df12f86ace2d8580800000000000000
+      internalID: -8823344648069963816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardPatrol30_03
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f401801e9f3eb3b0800000000000000
+      internalID: -5494884547231152911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardPatrol30_04
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8aacf1758aaf450800000000000000
+      internalID: 6123391735512606907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardPatrol30_05
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e00e86d72f20c080800000000000000
+      internalID: -9169276993176469279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardPatrol30_06
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d81b682794e97c0800000000000000
+      internalID: -4062729057606726376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardPatrol30_07
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df3dbca782286220800000000000000
+      internalID: 2479269560981471192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardPatrol30_08
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94b0d7cccb5d62c0800000000000000
+      internalID: -4436789122806270818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardPatrol30_09
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e606ac07518295f20800000000000000
+      internalID: 3411802265261596782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardPatrol30_10
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f904e076d1cefe0800000000000000
+      internalID: -1158518675683106920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardPatrol30_11
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a05251d2b9f7a710800000000000000
+      internalID: 1704605530394349729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardPatrol30_12
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95fb000b28aa47570800000000000000
+      internalID: 8463577078011314009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardPatrol30_13
+      rect:
+        serializedVersion: 2
+        x: 3042
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95cea3c564ea2c890800000000000000
+      internalID: -7439192017244328871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardPatrol30_14
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4024b355f40cfc40800000000000000
+      internalID: 5547314292731420747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardPatrol30_15
+      rect:
+        serializedVersion: 2
+        x: 3510
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40fc15e0656724380800000000000000
+      internalID: -8988491794298581244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GiantGuardPatrol30_0: 132725890150840265
+      GiantGuardPatrol30_00: -446566600745370331
+      GiantGuardPatrol30_01: -1492764914453751348
+      GiantGuardPatrol30_02: -8823344648069963816
+      GiantGuardPatrol30_03: -5494884547231152911
+      GiantGuardPatrol30_04: 6123391735512606907
+      GiantGuardPatrol30_05: -9169276993176469279
+      GiantGuardPatrol30_06: -4062729057606726376
+      GiantGuardPatrol30_07: 2479269560981471192
+      GiantGuardPatrol30_08: -4436789122806270818
+      GiantGuardPatrol30_09: 3411802265261596782
+      GiantGuardPatrol30_1: 4292737492482395837
+      GiantGuardPatrol30_10: -1158518675683106920
+      GiantGuardPatrol30_11: 1704605530394349729
+      GiantGuardPatrol30_12: 8463577078011314009
+      GiantGuardPatrol30_13: -7439192017244328871
+      GiantGuardPatrol30_14: 5547314292731420747
+      GiantGuardPatrol30_15: -8988491794298581244
+      GiantGuardPatrol30_2: -5309634180717682667
+      GiantGuardPatrol30_3: 8553440410135693565
+      GiantGuardPatrol30_4: 8913028389768515456
+      GiantGuardPatrol30_5: -4860213919713054783
+      GiantGuardPatrol30_6: -5996815060522048893
+      GiantGuardPatrol30_7: -4898623686249132215
+      GiantGuardPatrol30_8: -1416303424367003067
+      GiantGuardPatrol30_9: 5009323879272975784
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

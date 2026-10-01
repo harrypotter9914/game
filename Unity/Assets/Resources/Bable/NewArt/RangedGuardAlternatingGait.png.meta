@@ -1,0 +1,597 @@
+fileFormatVersion: 2
+guid: 2172e7ab05f3c4d4c96e32d38efb0048
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9060956412590084467
+    second: RangedGuardAlternatingGait_0
+  - first:
+      213: -6150706123912746548
+    second: RangedGuardAlternatingGait_1
+  - first:
+      213: 5606501492013971908
+    second: RangedGuardAlternatingGait_2
+  - first:
+      213: -1432339236577612734
+    second: RangedGuardAlternatingGait_3
+  - first:
+      213: 8400506927946322815
+    second: RangedGuardAlternatingGait_4
+  - first:
+      213: -383938001552915985
+    second: RangedGuardAlternatingGait_5
+  - first:
+      213: 8570996295906200952
+    second: RangedGuardAlternatingGait_6
+  - first:
+      213: 8487627250083924027
+    second: RangedGuardAlternatingGait_7
+  - first:
+      213: -5990936922287518002
+    second: RangedGuardAlternatingGait_8
+  - first:
+      213: -937847716679247208
+    second: RangedGuardAlternatingGait_9
+  - first:
+      213: -6557031607784788508
+    second: RangedGuardAlternatingGait_10
+  - first:
+      213: 8778761043038672117
+    second: RangedGuardAlternatingGait_11
+  - first:
+      213: -7419520936275662474
+    second: RangedGuardAlternatingGait_12
+  - first:
+      213: -2132134723123488563
+    second: RangedGuardAlternatingGait_13
+  - first:
+      213: -4471730082018327085
+    second: RangedGuardAlternatingGait_14
+  - first:
+      213: -1967628934977017931
+    second: RangedGuardAlternatingGait_15
+  - first:
+      213: -8448206648403603354
+    second: RangedGuardGait_00
+  - first:
+      213: -7505225512998946561
+    second: RangedGuardGait_01
+  - first:
+      213: -4465357239408709746
+    second: RangedGuardGait_02
+  - first:
+      213: 1151419004734540722
+    second: RangedGuardGait_03
+  - first:
+      213: 7283806724677091067
+    second: RangedGuardGait_04
+  - first:
+      213: 3824638464375061457
+    second: RangedGuardGait_05
+  - first:
+      213: -6383627025119434433
+    second: RangedGuardGait_06
+  - first:
+      213: -808368501626953789
+    second: RangedGuardGait_07
+  - first:
+      213: 100246465882483327
+    second: RangedGuardGait_08
+  - first:
+      213: -6315066126281108512
+    second: RangedGuardGait_09
+  - first:
+      213: -7048234101145213521
+    second: RangedGuardGait_10
+  - first:
+      213: 4788184894177068048
+    second: RangedGuardGait_11
+  - first:
+      213: 3336523563454406216
+    second: RangedGuardGait_12
+  - first:
+      213: 4302563733173705620
+    second: RangedGuardGait_13
+  - first:
+      213: 1701601323681545841
+    second: RangedGuardGait_14
+  - first:
+      213: 6687467001519143197
+    second: RangedGuardGait_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 73.1405
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RangedGuardGait_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6605fc450d0f1ca80800000000000000
+      internalID: -8448206648403603354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardGait_01
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff8bf7a092518d790800000000000000
+      internalID: -7505225512998946561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardGait_02
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f23ddcf3dd702c0800000000000000
+      internalID: -4465357239408709746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardGait_03
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb06dcfb79aaff00800000000000000
+      internalID: 1151419004734540722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardGait_04
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfebaf4ff97451560800000000000000
+      internalID: 7283806724677091067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardGait_05
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbfe576b68d31530800000000000000
+      internalID: 3824638464375061457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardGait_06
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f392c25ea0dc867a0800000000000000
+      internalID: -6383627025119434433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardGait_07
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf19e4712918c4f0800000000000000
+      internalID: -808368501626953789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardGait_08
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ae9ec21a5246100800000000000000
+      internalID: 100246465882483327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardGait_09
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e399e911d06c58a0800000000000000
+      internalID: -6315066126281108512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardGait_10
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5e17b9d64af2e90800000000000000
+      internalID: -7048234101145213521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardGait_11
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014c058dacc037240800000000000000
+      internalID: 4788184894177068048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardGait_12
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e9b68d086bd4e20800000000000000
+      internalID: 3336523563454406216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardGait_13
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b1c4b5be6c5bb30800000000000000
+      internalID: 4302563733173705620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardGait_14
+      rect:
+        serializedVersion: 2
+        x: 2716
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e7f5f636d4d9710800000000000000
+      internalID: 1701601323681545841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuardGait_15
+      rect:
+        serializedVersion: 2
+        x: 2910
+        y: 0
+        width: 194
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05076142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19f1b06ec7aecc50800000000000000
+      internalID: 6687467001519143197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RangedGuardAlternatingGait_0: 9060956412590084467
+      RangedGuardAlternatingGait_1: -6150706123912746548
+      RangedGuardAlternatingGait_10: -6557031607784788508
+      RangedGuardAlternatingGait_11: 8778761043038672117
+      RangedGuardAlternatingGait_12: -7419520936275662474
+      RangedGuardAlternatingGait_13: -2132134723123488563
+      RangedGuardAlternatingGait_14: -4471730082018327085
+      RangedGuardAlternatingGait_15: -1967628934977017931
+      RangedGuardAlternatingGait_2: 5606501492013971908
+      RangedGuardAlternatingGait_3: -1432339236577612734
+      RangedGuardAlternatingGait_4: 8400506927946322815
+      RangedGuardAlternatingGait_5: -383938001552915985
+      RangedGuardAlternatingGait_6: 8570996295906200952
+      RangedGuardAlternatingGait_7: 8487627250083924027
+      RangedGuardAlternatingGait_8: -5990936922287518002
+      RangedGuardAlternatingGait_9: -937847716679247208
+      RangedGuardGait_00: -8448206648403603354
+      RangedGuardGait_01: -7505225512998946561
+      RangedGuardGait_02: -4465357239408709746
+      RangedGuardGait_03: 1151419004734540722
+      RangedGuardGait_04: 7283806724677091067
+      RangedGuardGait_05: 3824638464375061457
+      RangedGuardGait_06: -6383627025119434433
+      RangedGuardGait_07: -808368501626953789
+      RangedGuardGait_08: 100246465882483327
+      RangedGuardGait_09: -6315066126281108512
+      RangedGuardGait_10: -7048234101145213521
+      RangedGuardGait_11: 4788184894177068048
+      RangedGuardGait_12: 3336523563454406216
+      RangedGuardGait_13: 4302563733173705620
+      RangedGuardGait_14: 1701601323681545841
+      RangedGuardGait_15: 6687467001519143197
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

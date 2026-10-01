@@ -1,0 +1,745 @@
+fileFormatVersion: 2
+guid: e4c5ba9cd2d432a4094bf0703aa39b35
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2879894789017120161
+    second: BuriedOne_0
+  - first:
+      213: 232071169729699914
+    second: BuriedOne_00
+  - first:
+      213: -2988363280144946869
+    second: BuriedOne_01
+  - first:
+      213: -8282650088536725441
+    second: BuriedOne_02
+  - first:
+      213: -7856687224224208294
+    second: BuriedOne_03
+  - first:
+      213: 3279936631558866733
+    second: BuriedOne_04
+  - first:
+      213: 1376042489566186783
+    second: BuriedOne_05
+  - first:
+      213: 674556414616751524
+    second: BuriedOne_06
+  - first:
+      213: 4299771819185006903
+    second: BuriedOne_07
+  - first:
+      213: 5429724318908986538
+    second: BuriedOne_08
+  - first:
+      213: 8334968678883115493
+    second: BuriedOne_09
+  - first:
+      213: 4835489128756964304
+    second: BuriedOne_10
+  - first:
+      213: -7002198334927639846
+    second: BuriedOne_11
+  - first:
+      213: 824304545415041851
+    second: BuriedOne_12
+  - first:
+      213: -2251207857696689994
+    second: BuriedOne_13
+  - first:
+      213: -5915075988223965589
+    second: BuriedOne_14
+  - first:
+      213: 7232135276740359414
+    second: BuriedOne_15
+  - first:
+      213: -4965389716829788645
+    second: BuriedOne_16
+  - first:
+      213: -9220428706668349103
+    second: BuriedOne_17
+  - first:
+      213: -1395880859512019320
+    second: BuriedOne_18
+  - first:
+      213: -2613337597050499026
+    second: BuriedOne_19
+  - first:
+      213: 1870615264690680732
+    second: BuriedOne_20
+  - first:
+      213: -5106195184762377838
+    second: BuriedOne_21
+  - first:
+      213: 6107287685547228533
+    second: BuriedOne_22
+  - first:
+      213: 6032534830209424230
+    second: BuriedOne_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BuriedOne_00
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1153
+        width: 199
+        height: 202
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a402952df7b783300800000000000000
+      internalID: 232071169729699914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOne_01
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1153
+        width: 194
+        height: 203
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49a3230e633786d0800000000000000
+      internalID: -2988363280144946869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOne_02
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1153
+        width: 188
+        height: 203
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3829e9b0ad1e0d80800000000000000
+      internalID: -8282650088536725441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOne_03
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1153
+        width: 198
+        height: 200
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a24c8989077f290800000000000000
+      internalID: -7856687224224208294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOne_04
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 933
+        width: 210
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d278bd11dfca48d20800000000000000
+      internalID: 3279936631558866733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOne_05
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 932
+        width: 228
+        height: 175
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1dcf6a8a5fa81310800000000000000
+      internalID: 1376042489566186783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOne_06
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 932
+        width: 220
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad41323c718c5900800000000000000
+      internalID: 674556414616751524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOne_07
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 932
+        width: 209
+        height: 172
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739e1c930bbdbab30800000000000000
+      internalID: 4299771819185006903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOne_08
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 717
+        width: 193
+        height: 180
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4bed800814a5b40800000000000000
+      internalID: 5429724318908986538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOne_09
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 716
+        width: 196
+        height: 145
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1c5d65ad1cba370800000000000000
+      internalID: 8334968678883115493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOne_10
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 718
+        width: 232
+        height: 127
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db62da3ebb1b1340800000000000000
+      internalID: 4835489128756964304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOne_11
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 717
+        width: 222
+        height: 82
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada6ecfa6b133de90800000000000000
+      internalID: -7002198334927639846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOne_12
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 508
+        width: 209
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b331430ed94807b00800000000000000
+      internalID: 824304545415041851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOne_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 507
+        width: 228
+        height: 119
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0bb6e716a12c0e0800000000000000
+      internalID: -2251207857696689994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOne_14
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 505
+        width: 236
+        height: 159
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66c7766abd69eda0800000000000000
+      internalID: -5915075988223965589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOne_15
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 504
+        width: 206
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f43ea977b4bd5460800000000000000
+      internalID: 7232135276740359414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOne_16
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 290
+        width: 183
+        height: 174
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16abfc3c54671bb0800000000000000
+      internalID: -4965389716829788645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOne_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 290
+        width: 299
+        height: 173
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 159f73671f47a0080800000000000000
+      internalID: -9220428706668349103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOne_18
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 290
+        width: 284
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886e40401c5d0ace0800000000000000
+      internalID: -1395880859512019320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOne_19
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 289
+        width: 207
+        height: 169
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20d1a13d4f8bbbd0800000000000000
+      internalID: -2613337597050499026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOne_20
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 64
+        width: 175
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93bf4b1ca2c5f910800000000000000
+      internalID: 1870615264690680732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOne_21
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 64
+        width: 231
+        height: 148
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299ad6288862329b0800000000000000
+      internalID: -5106195184762377838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOne_22
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 61
+        width: 238
+        height: 119
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57df82ecac171c450800000000000000
+      internalID: 6107287685547228533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOne_23
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 60
+        width: 275
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66bddc1677ed7b350800000000000000
+      internalID: 6032534830209424230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BuriedOne_0: 2879894789017120161
+      BuriedOne_00: 232071169729699914
+      BuriedOne_01: -2988363280144946869
+      BuriedOne_02: -8282650088536725441
+      BuriedOne_03: -7856687224224208294
+      BuriedOne_04: 3279936631558866733
+      BuriedOne_05: 1376042489566186783
+      BuriedOne_06: 674556414616751524
+      BuriedOne_07: 4299771819185006903
+      BuriedOne_08: 5429724318908986538
+      BuriedOne_09: 8334968678883115493
+      BuriedOne_10: 4835489128756964304
+      BuriedOne_11: -7002198334927639846
+      BuriedOne_12: 824304545415041851
+      BuriedOne_13: -2251207857696689994
+      BuriedOne_14: -5915075988223965589
+      BuriedOne_15: 7232135276740359414
+      BuriedOne_16: -4965389716829788645
+      BuriedOne_17: -9220428706668349103
+      BuriedOne_18: -1395880859512019320
+      BuriedOne_19: -2613337597050499026
+      BuriedOne_20: 1870615264690680732
+      BuriedOne_21: -5106195184762377838
+      BuriedOne_22: 6107287685547228533
+      BuriedOne_23: 6032534830209424230
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

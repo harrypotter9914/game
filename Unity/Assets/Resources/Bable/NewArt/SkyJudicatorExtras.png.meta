@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: f09cd2aafef4b5848848f0374a4adbc6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -372681195163313901
+    second: SkyJudicatorExtras_0
+  - first:
+      213: 1246517908781877105
+    second: SkyJudicatorExtras_1
+  - first:
+      213: 4352166120979837450
+    second: SkyJudicatorExtras_2
+  - first:
+      213: 4375818519714768164
+    second: SkyJudicatorExtras_3
+  - first:
+      213: -827575766115294028
+    second: SkyJudicatorExtras_4
+  - first:
+      213: 7548784776743845818
+    second: SkyJudicatorExtras_5
+  - first:
+      213: 107168674095461156
+    second: SkyJudicatorExtras_6
+  - first:
+      213: 756568911411695851
+    second: SkyJudicatorExtras_7
+  - first:
+      213: 1468127551695832247
+    second: SkyJudicatorExtras_8
+  - first:
+      213: 1020529121068828004
+    second: SkyJudicatorExtras_9
+  - first:
+      213: -6510198304047128343
+    second: SkyJudicatorExtras_10
+  - first:
+      213: -5189421599627335014
+    second: SkyJudicatorExtras_11
+  - first:
+      213: 6836305216326679737
+    second: SkyJudicatorExtras_12
+  - first:
+      213: 7257439692012142523
+    second: SkyJudicatorExtras_13
+  - first:
+      213: -1612432718919231589
+    second: SkyJudicatorExtras_14
+  - first:
+      213: 2286002011436235454
+    second: SkyJudicatorExtras_15
+  - first:
+      213: -642145084945642247
+    second: SkyJudicatorExtras_16
+  - first:
+      213: 2320856023697826468
+    second: SkyJudicatorExtras_00
+  - first:
+      213: 5580606693951115052
+    second: SkyJudicatorExtras_01
+  - first:
+      213: -3690508607721824536
+    second: SkyJudicatorExtras_02
+  - first:
+      213: 214164322844924008
+    second: SkyJudicatorExtras_03
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 196.8421
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SkyJudicatorExtras_00
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 168
+        width: 442
+        height: 374
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2a553d146553020800000000000000
+      internalID: 2320856023697826468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyJudicatorExtras_01
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 168
+        width: 463
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f8f18883c427d40800000000000000
+      internalID: 5580606693951115052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyJudicatorExtras_02
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 168
+        width: 437
+        height: 354
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee183479fda8ccc0800000000000000
+      internalID: -3690508607721824536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyJudicatorExtras_03
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 168
+        width: 436
+        height: 374
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868dbb2215dd8f200800000000000000
+      internalID: 214164322844924008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SkyJudicatorExtras_0: -372681195163313901
+      SkyJudicatorExtras_00: 2320856023697826468
+      SkyJudicatorExtras_01: 5580606693951115052
+      SkyJudicatorExtras_02: -3690508607721824536
+      SkyJudicatorExtras_03: 214164322844924008
+      SkyJudicatorExtras_1: 1246517908781877105
+      SkyJudicatorExtras_10: -6510198304047128343
+      SkyJudicatorExtras_11: -5189421599627335014
+      SkyJudicatorExtras_12: 6836305216326679737
+      SkyJudicatorExtras_13: 7257439692012142523
+      SkyJudicatorExtras_14: -1612432718919231589
+      SkyJudicatorExtras_15: 2286002011436235454
+      SkyJudicatorExtras_16: -642145084945642247
+      SkyJudicatorExtras_2: 4352166120979837450
+      SkyJudicatorExtras_3: 4375818519714768164
+      SkyJudicatorExtras_4: -827575766115294028
+      SkyJudicatorExtras_5: 7548784776743845818
+      SkyJudicatorExtras_6: 107168674095461156
+      SkyJudicatorExtras_7: 756568911411695851
+      SkyJudicatorExtras_8: 1468127551695832247
+      SkyJudicatorExtras_9: 1020529121068828004
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

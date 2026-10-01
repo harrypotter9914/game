@@ -1,0 +1,241 @@
+actions:
+  leftattack:
+    fps: 10
+    keyframes: [0, 1, 2, 3, 4, 5, 6, 7]
+  rightattack:
+    fps: 10
+    keyframes: [8, 9, 10, 11, 12, 13, 14, 15]
+  leftsufferattack:
+    fps: 10
+    keyframes: [16, 17, 18, 19, 20]
+  rightsufferattack:
+    fps: 10
+    keyframes: [21, 22, 23, 24, 25]
+  leftpatrol:
+    fps: 10
+    keyframes: [26, 27, 28, 29, 30, 31]
+  rightpatrol:
+    fps: 10
+    keyframes: [32, 33, 34, 35, 36, 37]
+  leftrun:
+    fps: 10
+    keyframes: [38, 39, 40, 41]
+  rightrun:
+    fps: 10
+    keyframes: [42, 43, 44, 45]
+  action9:
+    fps: 10
+    keyframes: [46, 47, 48, 49]
+  action10:
+    fps: 10
+    keyframes: [50, 51, 52, 53]
+  action11:
+    fps: 10
+    keyframes: [54, 55, 56, 57]
+  action12:
+    fps: 10
+    keyframes: [58, 59, 60, 61]
+  action13:
+    fps: 10
+    keyframes: [62, 63, 64, 65]
+spritesheet:
+  - x: 0
+    y: 0
+    width: 360
+    height: 280
+  - x: 360
+    y: 0
+    width: 360
+    height: 280
+  - x: 720
+    y: 0
+    width: 360
+    height: 280
+  - x: 1080
+    y: 0
+    width: 360
+    height: 280
+  - x: 1440
+    y: 0
+    width: 360
+    height: 280
+  - x: 1800
+    y: 0
+    width: 360
+    height: 280
+  - x: 2160
+    y: 0
+    width: 360
+    height: 280
+  - x: 2520
+    y: 0
+    width: 360
+    height: 280
+  - x: 0
+    y: 280
+    width: 360
+    height: 280
+  - x: 360
+    y: 280
+    width: 360
+    height: 280
+  - x: 720
+    y: 280
+    width: 360
+    height: 280
+  - x: 1080
+    y: 280
+    width: 360
+    height: 280
+  - x: 1440
+    y: 280
+    width: 360
+    height: 280
+  - x: 1800
+    y: 280
+    width: 360
+    height: 280
+  - x: 0
+    y: 560
+    width: 360
+    height: 280
+  - x: 360
+    y: 560
+    width: 360
+    height: 280
+  - x: 720
+    y: 560
+    width: 360
+    height: 280
+  - x: 1080
+    y: 560
+    width: 360
+    height: 280
+  - x: 1440
+    y: 560
+    width: 360
+    height: 280
+  - x: 1800
+    y: 560
+    width: 360
+    height: 280
+  - x: 0
+    y: 840
+    width: 360
+    height: 280
+  - x: 360
+    y: 840
+    width: 360
+    height: 280
+  - x: 720
+    y: 840
+    width: 360
+    height: 280
+  - x: 1080
+    y: 840
+    width: 360
+    height: 280
+  - x: 1440
+    y: 840
+    width: 360
+    height: 280
+  - x: 1800
+    y: 840
+    width: 360
+    height: 280
+  - x: 0
+    y: 1120
+    width: 360
+    height: 280
+  - x: 360
+    y: 1120
+    width: 360
+    height: 280
+  - x: 720
+    y: 1120
+    width: 360
+    height: 280
+  - x: 1080
+    y: 1120
+    width: 360
+    height: 280
+  - x: 1440
+    y: 1120
+    width: 360
+    height: 280
+  - x: 1800
+    y: 1120
+    width: 360
+    height: 280
+  - x: 0
+    y: 1400
+    width: 360
+    height: 280
+  - x: 360
+    y: 1400
+    width: 360
+    height: 280
+  - x: 720
+    y: 1400
+    width: 360
+    height: 280
+  - x: 1080
+    y: 1400
+    width: 360
+    height: 280
+  - x: 1440
+    y: 1400
+    width: 360
+    height: 280
+  - x: 1800
+    y: 1400
+    width: 360
+    height: 280
+  - x: 0
+    y: 1680
+    width: 360
+    height: 280
+  - x: 360
+    y: 1680
+    width: 360
+    height: 280
+  - x: 720
+    y: 1680
+    width: 360
+    height: 280
+  - x: 1080
+    y: 1680
+    width: 360
+    height: 280
+  - x: 1440
+    y: 1680
+    width: 360
+    height: 280
+  - x: 1800
+    y: 1680
+    width: 360
+    height: 280
+  - x: 0
+    y: 1960
+    width: 360
+    height: 280
+  - x: 360
+    y: 1960
+    width: 360
+    height: 280
+  - x: 720
+    y: 1960
+    width: 360
+    height: 280
+  - x: 1080
+    y: 1960
+    width: 360
+    height: 280
+  - x: 1440
+    y: 1960
+    width: 360
+    height: 280
+  - x: 1800
+    y: 1960
+    width: 360
+    height: 280

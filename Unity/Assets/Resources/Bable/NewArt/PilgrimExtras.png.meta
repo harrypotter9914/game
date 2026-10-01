@@ -1,0 +1,849 @@
+fileFormatVersion: 2
+guid: f0912ac942af9a04595815226cedf7ae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4876601640358128670
+    second: PilgrimExtras_0
+  - first:
+      213: 4280649282530869565
+    second: PilgrimExtras_00
+  - first:
+      213: -2403188453496691050
+    second: PilgrimExtras_01
+  - first:
+      213: -9033522993145902914
+    second: PilgrimExtras_02
+  - first:
+      213: -2867853796762060535
+    second: PilgrimExtras_03
+  - first:
+      213: 4956201889625533372
+    second: PilgrimExtras_04
+  - first:
+      213: 5060409225473023919
+    second: PilgrimExtras_05
+  - first:
+      213: -3282538945640408673
+    second: PilgrimExtras_06
+  - first:
+      213: -8216614758597578915
+    second: PilgrimExtras_07
+  - first:
+      213: -5581323304683984730
+    second: PilgrimExtras_08
+  - first:
+      213: -5856621255428000892
+    second: PilgrimExtras_09
+  - first:
+      213: -6599209500139396892
+    second: PilgrimExtras_10
+  - first:
+      213: -3548245307486446373
+    second: PilgrimExtras_11
+  - first:
+      213: -3049631849723824186
+    second: PilgrimExtras_12
+  - first:
+      213: 6471441940381747089
+    second: PilgrimExtras_13
+  - first:
+      213: -5465382676305138494
+    second: PilgrimExtras_14
+  - first:
+      213: -4534774986483806793
+    second: PilgrimExtras_15
+  - first:
+      213: 8835614017059518786
+    second: PilgrimExtras_16
+  - first:
+      213: -7059567885677186598
+    second: PilgrimExtras_17
+  - first:
+      213: 8949622570808894075
+    second: PilgrimExtras_18
+  - first:
+      213: -5923127698783649057
+    second: PilgrimExtras_19
+  - first:
+      213: -7985644179095286114
+    second: PilgrimExtras_20
+  - first:
+      213: -6066823984277849286
+    second: PilgrimExtras_21
+  - first:
+      213: -5371766495137686895
+    second: PilgrimExtras_22
+  - first:
+      213: 3048687545521715059
+    second: PilgrimExtras_23
+  - first:
+      213: 4913027480893866855
+    second: PilgrimExtras_24
+  - first:
+      213: -2380507707122033222
+    second: PilgrimExtras_25
+  - first:
+      213: 8330896284352521813
+    second: PilgrimExtras_26
+  - first:
+      213: 302967130121174829
+    second: PilgrimExtras_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 101.82927
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PilgrimExtras_00
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1451
+        width: 202
+        height: 167
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d318845b7dbe76b30800000000000000
+      internalID: 4280649282530869565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_01
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1451
+        width: 220
+        height: 159
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 696620d85d826aed0800000000000000
+      internalID: -2403188453496691050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_02
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1451
+        width: 212
+        height: 143
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb8073b03ba72a280800000000000000
+      internalID: -9033522993145902914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_03
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1451
+        width: 195
+        height: 167
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909fd389a265338d0800000000000000
+      internalID: -2867853796762060535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_04
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1227
+        width: 206
+        height: 183
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbbef3a0c57f7c440800000000000000
+      internalID: 4956201889625533372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_05
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1216
+        width: 184
+        height: 188
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafdd6e116f2a3640800000000000000
+      internalID: 5060409225473023919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_06
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1194
+        width: 151
+        height: 213
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99d7b778341272d0800000000000000
+      internalID: -3282538945640408673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_07
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1181
+        width: 142
+        height: 226
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f2f891968b8fd80800000000000000
+      internalID: -8216614758597578915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_08
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1002
+        width: 175
+        height: 175
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8a3b786082b82b0800000000000000
+      internalID: -5581323304683984730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_09
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1002
+        width: 179
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48336367ff919bea0800000000000000
+      internalID: -5856621255428000892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_10
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1002
+        width: 199
+        height: 147
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0eec97ce5ea64a0800000000000000
+      internalID: -6599209500139396892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_11
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 1002
+        width: 196
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdcd25731b912cec0800000000000000
+      internalID: -3548245307486446373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_12
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 711
+        width: 184
+        height: 226
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c77e758df78da5d0800000000000000
+      internalID: -3049631849723824186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 711
+        width: 187
+        height: 237
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197c409582e2fc950800000000000000
+      internalID: 6471441940381747089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_14
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 711
+        width: 231
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc2249a96f0724b0800000000000000
+      internalID: -5465382676305138494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_15
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 711
+        width: 221
+        height: 227
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd4e421d2e3111c0800000000000000
+      internalID: -4534774986483806793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_16
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 567
+        width: 162
+        height: 144
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2497b4ba2286e9a70800000000000000
+      internalID: 8835614017059518786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_17
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 567
+        width: 183
+        height: 144
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1b4724960670e90800000000000000
+      internalID: -7059567885677186598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_18
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 564
+        width: 198
+        height: 147
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72e1ee9f42733c70800000000000000
+      internalID: 8949622570808894075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_19
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 564
+        width: 190
+        height: 147
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd249b27db2dccda0800000000000000
+      internalID: -5923127698783649057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_20
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 345
+        width: 226
+        height: 145
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e0c5acdea4d2190800000000000000
+      internalID: -7985644179095286114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_21
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 345
+        width: 237
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b7c4ecabf4ecba0800000000000000
+      internalID: -6066823984277849286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_22
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 343
+        width: 237
+        height: 145
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a19f065d6a375b0800000000000000
+      internalID: -5371766495137686895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_23
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 341
+        width: 227
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377baf58b2d1f4a20800000000000000
+      internalID: 3048687545521715059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_24
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 60
+        width: 207
+        height: 173
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763496aa6749e2440800000000000000
+      internalID: 4913027480893866855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_25
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 61
+        width: 204
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd59e35adcb6fed0800000000000000
+      internalID: -2380507707122033222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_26
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 60
+        width: 242
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5562479180a4d9370800000000000000
+      internalID: 8330896284352521813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimExtras_27
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 60
+        width: 227
+        height: 200
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ffd79effa543400800000000000000
+      internalID: 302967130121174829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PilgrimExtras_0: -4876601640358128670
+      PilgrimExtras_00: 4280649282530869565
+      PilgrimExtras_01: -2403188453496691050
+      PilgrimExtras_02: -9033522993145902914
+      PilgrimExtras_03: -2867853796762060535
+      PilgrimExtras_04: 4956201889625533372
+      PilgrimExtras_05: 5060409225473023919
+      PilgrimExtras_06: -3282538945640408673
+      PilgrimExtras_07: -8216614758597578915
+      PilgrimExtras_08: -5581323304683984730
+      PilgrimExtras_09: -5856621255428000892
+      PilgrimExtras_10: -6599209500139396892
+      PilgrimExtras_11: -3548245307486446373
+      PilgrimExtras_12: -3049631849723824186
+      PilgrimExtras_13: 6471441940381747089
+      PilgrimExtras_14: -5465382676305138494
+      PilgrimExtras_15: -4534774986483806793
+      PilgrimExtras_16: 8835614017059518786
+      PilgrimExtras_17: -7059567885677186598
+      PilgrimExtras_18: 8949622570808894075
+      PilgrimExtras_19: -5923127698783649057
+      PilgrimExtras_20: -7985644179095286114
+      PilgrimExtras_21: -6066823984277849286
+      PilgrimExtras_22: -5371766495137686895
+      PilgrimExtras_23: 3048687545521715059
+      PilgrimExtras_24: 4913027480893866855
+      PilgrimExtras_25: -2380507707122033222
+      PilgrimExtras_26: 8330896284352521813
+      PilgrimExtras_27: 302967130121174829
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

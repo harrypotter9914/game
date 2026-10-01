@@ -1,0 +1,51 @@
+behaviours:
+  - type: Transform
+    properties:
+      x: 0
+      y: 0
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+  - type: RigidBody
+    properties:
+      x: 0
+      y: 0
+      type: 2
+      gravityScale: 6
+  - type: CapsuleCollider
+    properties:
+      isSensor: 0
+      tag: enemybody
+      radius: 10
+      width: 120
+      height: 120
+      centerX: 90
+      centerY: 110
+  - type: CapsuleCollider
+    properties:
+      isSensor: 0
+      tag: enemyfeet
+      width: 50
+      height: 20
+      radius: 5
+      centerX: 90
+      centerY: 10
+  - type: Enemy6
+    properties:
+      patrolSpeed: 1.2
+      chaseSpeed: 2.6
+  - type: Enemy6HealthStateMachine
+children:
+  - behaviours:
+      - type: Transform
+        properties:
+          x: -120
+          y: -220
+          scaleX: 0.75
+          scaleY: 0.75
+          rotation: 0
+      - type: AnimationRenderer
+        properties:
+          source: ./assets/animations/bossfinal.png
+          config: ./assets/animations/bossfinal.yaml
+          action: rightpatrol

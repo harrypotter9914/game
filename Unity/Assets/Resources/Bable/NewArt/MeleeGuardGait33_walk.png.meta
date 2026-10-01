@@ -1,0 +1,837 @@
+fileFormatVersion: 2
+guid: 06e825cbf3a85224e9d99f0a7af6ec8c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1643345622633101988
+    second: MeleeGuardGait33_walk_0
+  - first:
+      213: -5530595337498595351
+    second: MeleeGuardGait33_walk_1
+  - first:
+      213: -5263637601954913688
+    second: MeleeGuardGait33_walk_2
+  - first:
+      213: 5001131139374962422
+    second: MeleeGuardGait33_walk_3
+  - first:
+      213: -5941493444344491243
+    second: MeleeGuardGait33_walk_4
+  - first:
+      213: 8172680422267105047
+    second: MeleeGuardGait33_walk_5
+  - first:
+      213: 4517548880974552708
+    second: MeleeGuardGait33_walk_6
+  - first:
+      213: -4781917664108633392
+    second: MeleeGuardGait33_walk_7
+  - first:
+      213: 6375250419689031411
+    second: MeleeGuardGait33_walk_8
+  - first:
+      213: 1878492378934448950
+    second: MeleeGuardGait33_walk_9
+  - first:
+      213: -3259127003554746253
+    second: MeleeGuardGait33_walk_10
+  - first:
+      213: -5218756939309467445
+    second: MeleeGuardGait33_walk_11
+  - first:
+      213: 7363972159040678139
+    second: MeleeGuardGait33_walk_12
+  - first:
+      213: -2751151205873347788
+    second: MeleeGuardGait33_walk_13
+  - first:
+      213: -3180034602555858811
+    second: MeleeGuardGait33_walk_14
+  - first:
+      213: 4773349398445741407
+    second: MeleeGuardGait33_walk_15
+  - first:
+      213: -7510314131178768194
+    second: MeleeGuardGait33_walk_16
+  - first:
+      213: 4484335733550411199
+    second: MeleeGuardGait33_walk_17
+  - first:
+      213: 2960836816512578994
+    second: MeleeGuardGait33_walk_18
+  - first:
+      213: -3257715600468769572
+    second: MeleeGuardGait33_walk_19
+  - first:
+      213: -270350080983852725
+    second: MeleeGuardGait33_walk_20
+  - first:
+      213: 7035393312492863667
+    second: MeleeGuardGait33_walk_21
+  - first:
+      213: 7911407328217938969
+    second: MeleeGuardGait33_walk_22
+  - first:
+      213: 1473486127970437067
+    second: MeleeGuardGait33_walk_23
+  - first:
+      213: 2667221582198940209
+    second: MeleeGuard_walk_00
+  - first:
+      213: -1085471931413719451
+    second: MeleeGuard_walk_01
+  - first:
+      213: 7668744359968946158
+    second: MeleeGuard_walk_02
+  - first:
+      213: 7822538967506796355
+    second: MeleeGuard_walk_03
+  - first:
+      213: -3893749234870828038
+    second: MeleeGuard_walk_04
+  - first:
+      213: -8051854735820680884
+    second: MeleeGuard_walk_05
+  - first:
+      213: -1979583720054090769
+    second: MeleeGuard_walk_06
+  - first:
+      213: 4546524365467918458
+    second: MeleeGuard_walk_07
+  - first:
+      213: 7807640947367871255
+    second: MeleeGuard_walk_08
+  - first:
+      213: 5757653013842235184
+    second: MeleeGuard_walk_09
+  - first:
+      213: 2734343534469930429
+    second: MeleeGuard_walk_10
+  - first:
+      213: -3684221658562928842
+    second: MeleeGuard_walk_11
+  - first:
+      213: 7583688133712877751
+    second: MeleeGuard_walk_12
+  - first:
+      213: 341581112031374179
+    second: MeleeGuard_walk_13
+  - first:
+      213: 6633869060637316494
+    second: MeleeGuard_walk_14
+  - first:
+      213: 5899944742775407262
+    second: MeleeGuard_walk_15
+  - first:
+      213: -8647097396260765144
+    second: MeleeGuard_walk_16
+  - first:
+      213: -1894786394056923524
+    second: MeleeGuard_walk_17
+  - first:
+      213: -3158337550750756970
+    second: MeleeGuard_walk_18
+  - first:
+      213: 114693872053997247
+    second: MeleeGuard_walk_19
+  - first:
+      213: -1968782292422476662
+    second: MeleeGuard_walk_20
+  - first:
+      213: 6942201325387306953
+    second: MeleeGuard_walk_21
+  - first:
+      213: 291200400662768337
+    second: MeleeGuard_walk_22
+  - first:
+      213: 2662974150680455452
+    second: MeleeGuard_walk_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MeleeGuard_walk_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1322930c5efd30520800000000000000
+      internalID: 2667221582198940209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_walk_01
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5669d6a8701afe0f0800000000000000
+      internalID: -1085471931413719451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_walk_02
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7ba395d5adc6a60800000000000000
+      internalID: 7668744359968946158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_walk_03
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34fb4efcebd3f8c60800000000000000
+      internalID: 7822538967506796355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_walk_04
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3431b63bf96f9c0800000000000000
+      internalID: -3893749234870828038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_walk_05
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c419c5047c0124090800000000000000
+      internalID: -8051854735820680884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_walk_06
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3970b481b1784e0800000000000000
+      internalID: -1979583720054090769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_walk_07
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70af5662df781f30800000000000000
+      internalID: 4546524365467918458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_walk_08
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71308a133105a5c60800000000000000
+      internalID: 7807640947367871255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_walk_09
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f060629ea47ef40800000000000000
+      internalID: 5757653013842235184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_walk_10
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd57f915f652f520800000000000000
+      internalID: 2734343534469930429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_walk_11
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f5e8fdbe30fdcc0800000000000000
+      internalID: -3684221658562928842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_walk_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b81d417d2cae3960800000000000000
+      internalID: 7583688133712877751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_walk_13
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36bec9c263a8db400800000000000000
+      internalID: 341581112031374179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_walk_14
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85ddbd43cc301c50800000000000000
+      internalID: 6633869060637316494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_walk_15
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92cf8bfb70d0e150800000000000000
+      internalID: 5899944742775407262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_walk_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8220cad7bb65ff780800000000000000
+      internalID: -8647097396260765144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_walk_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c766ef840dd54b5e0800000000000000
+      internalID: -1894786394056923524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_walk_18
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f49be2bb45b24d0800000000000000
+      internalID: -3158337550750756970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_walk_19
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe41bd0879779100800000000000000
+      internalID: 114693872053997247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_walk_20
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c3414afea7da4e0800000000000000
+      internalID: -1968782292422476662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_walk_21
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7d4f6f257a75060800000000000000
+      internalID: 6942201325387306953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_walk_22
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1daa4f7b83d8a0400800000000000000
+      internalID: 291200400662768337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_walk_23
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c192b5981e8c4f420800000000000000
+      internalID: 2662974150680455452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MeleeGuardGait33_walk_0: 1643345622633101988
+      MeleeGuardGait33_walk_1: -5530595337498595351
+      MeleeGuardGait33_walk_10: -3259127003554746253
+      MeleeGuardGait33_walk_11: -5218756939309467445
+      MeleeGuardGait33_walk_12: 7363972159040678139
+      MeleeGuardGait33_walk_13: -2751151205873347788
+      MeleeGuardGait33_walk_14: -3180034602555858811
+      MeleeGuardGait33_walk_15: 4773349398445741407
+      MeleeGuardGait33_walk_16: -7510314131178768194
+      MeleeGuardGait33_walk_17: 4484335733550411199
+      MeleeGuardGait33_walk_18: 2960836816512578994
+      MeleeGuardGait33_walk_19: -3257715600468769572
+      MeleeGuardGait33_walk_2: -5263637601954913688
+      MeleeGuardGait33_walk_20: -270350080983852725
+      MeleeGuardGait33_walk_21: 7035393312492863667
+      MeleeGuardGait33_walk_22: 7911407328217938969
+      MeleeGuardGait33_walk_23: 1473486127970437067
+      MeleeGuardGait33_walk_3: 5001131139374962422
+      MeleeGuardGait33_walk_4: -5941493444344491243
+      MeleeGuardGait33_walk_5: 8172680422267105047
+      MeleeGuardGait33_walk_6: 4517548880974552708
+      MeleeGuardGait33_walk_7: -4781917664108633392
+      MeleeGuardGait33_walk_8: 6375250419689031411
+      MeleeGuardGait33_walk_9: 1878492378934448950
+      MeleeGuard_walk_00: 2667221582198940209
+      MeleeGuard_walk_01: -1085471931413719451
+      MeleeGuard_walk_02: 7668744359968946158
+      MeleeGuard_walk_03: 7822538967506796355
+      MeleeGuard_walk_04: -3893749234870828038
+      MeleeGuard_walk_05: -8051854735820680884
+      MeleeGuard_walk_06: -1979583720054090769
+      MeleeGuard_walk_07: 4546524365467918458
+      MeleeGuard_walk_08: 7807640947367871255
+      MeleeGuard_walk_09: 5757653013842235184
+      MeleeGuard_walk_10: 2734343534469930429
+      MeleeGuard_walk_11: -3684221658562928842
+      MeleeGuard_walk_12: 7583688133712877751
+      MeleeGuard_walk_13: 341581112031374179
+      MeleeGuard_walk_14: 6633869060637316494
+      MeleeGuard_walk_15: 5899944742775407262
+      MeleeGuard_walk_16: -8647097396260765144
+      MeleeGuard_walk_17: -1894786394056923524
+      MeleeGuard_walk_18: -3158337550750756970
+      MeleeGuard_walk_19: 114693872053997247
+      MeleeGuard_walk_20: -1968782292422476662
+      MeleeGuard_walk_21: 6942201325387306953
+      MeleeGuard_walk_22: 291200400662768337
+      MeleeGuard_walk_23: 2662974150680455452
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

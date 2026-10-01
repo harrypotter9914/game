@@ -1,0 +1,365 @@
+fileFormatVersion: 2
+guid: 1737c4307a9561b47843ed57fcc6c315
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5948882314514062502
+    second: MeleeGuardWholeRun32_0
+  - first:
+      213: -8426426368443203513
+    second: MeleeGuardWholeRun32_1
+  - first:
+      213: 222010558841836889
+    second: MeleeGuardWholeRun32_2
+  - first:
+      213: 4203120606116283657
+    second: MeleeGuardWholeRun32_3
+  - first:
+      213: -4129956924511559958
+    second: MeleeGuardWholeRun32_4
+  - first:
+      213: -8670396967422215008
+    second: MeleeGuardWholeRun32_5
+  - first:
+      213: -1177643429957437663
+    second: MeleeGuardWholeRun32_6
+  - first:
+      213: 2595198007387445545
+    second: MeleeGuardWholeRun32_7
+  - first:
+      213: 5810615657129019203
+    second: MeleeGuardWholeRun32_8
+  - first:
+      213: 8096271360049518153
+    second: MeleeGuardWholeRun32_9
+  - first:
+      213: -5769306782940374188
+    second: MeleeGuard_whole_0
+  - first:
+      213: 4347786345562013747
+    second: MeleeGuard_whole_1
+  - first:
+      213: -1619439382894416690
+    second: MeleeGuard_whole_2
+  - first:
+      213: 6061902927852898861
+    second: MeleeGuard_whole_3
+  - first:
+      213: 6098036774049372261
+    second: MeleeGuard_whole_4
+  - first:
+      213: 1599048650942036240
+    second: MeleeGuard_whole_5
+  - first:
+      213: -1146271638958119552
+    second: MeleeGuard_whole_6
+  - first:
+      213: 3441073414187326105
+    second: MeleeGuard_whole_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MeleeGuard_whole_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b569a4c0e4fefa0800000000000000
+      internalID: -5769306782940374188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_whole_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330848e45a0765c30800000000000000
+      internalID: 4347786345562013747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_whole_2
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eccec4f16789689e0800000000000000
+      internalID: -1619439382894416690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_whole_3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a82957894302450800000000000000
+      internalID: 6061902927852898861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_whole_4
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5685b70232490a450800000000000000
+      internalID: 6098036774049372261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_whole_5
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019b7f1a646f03610800000000000000
+      internalID: 1599048650942036240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_whole_6
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085ebcf7400a710f0800000000000000
+      internalID: -1146271638958119552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuard_whole_7
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 320
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a1da2e90621cf20800000000000000
+      internalID: 3441073414187326105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MeleeGuardWholeRun32_0: -5948882314514062502
+      MeleeGuardWholeRun32_1: -8426426368443203513
+      MeleeGuardWholeRun32_2: 222010558841836889
+      MeleeGuardWholeRun32_3: 4203120606116283657
+      MeleeGuardWholeRun32_4: -4129956924511559958
+      MeleeGuardWholeRun32_5: -8670396967422215008
+      MeleeGuardWholeRun32_6: -1177643429957437663
+      MeleeGuardWholeRun32_7: 2595198007387445545
+      MeleeGuardWholeRun32_8: 5810615657129019203
+      MeleeGuardWholeRun32_9: 8096271360049518153
+      MeleeGuard_whole_0: -5769306782940374188
+      MeleeGuard_whole_1: 4347786345562013747
+      MeleeGuard_whole_2: -1619439382894416690
+      MeleeGuard_whole_3: 6061902927852898861
+      MeleeGuard_whole_4: 6098036774049372261
+      MeleeGuard_whole_5: 1599048650942036240
+      MeleeGuard_whole_6: -1146271638958119552
+      MeleeGuard_whole_7: 3441073414187326105
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

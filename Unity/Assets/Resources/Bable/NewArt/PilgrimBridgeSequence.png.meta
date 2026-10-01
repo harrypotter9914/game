@@ -1,0 +1,597 @@
+fileFormatVersion: 2
+guid: 85e3ca9658e482b408050ba33bfeee02
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7745132577808112991
+    second: PilgrimBridgeSequence_0
+  - first:
+      213: -4817291172053296288
+    second: PilgrimBridgeSequence_1
+  - first:
+      213: 5905751792039685326
+    second: PilgrimBridgeSequence_2
+  - first:
+      213: 6798394213531446799
+    second: PilgrimBridgeSequence_3
+  - first:
+      213: -3476830299331149458
+    second: PilgrimBridgeSequence_4
+  - first:
+      213: -3080586420664774333
+    second: PilgrimBridgeSequence_5
+  - first:
+      213: -5634359496754037286
+    second: PilgrimBridgeSequence_6
+  - first:
+      213: 7140209122046928282
+    second: PilgrimBridgeSequence_7
+  - first:
+      213: -2072379642057816342
+    second: PilgrimBridgeSequence_8
+  - first:
+      213: -831587627673123968
+    second: PilgrimBridgeSequence_9
+  - first:
+      213: 8407873968159924466
+    second: PilgrimBridgeSequence_10
+  - first:
+      213: 4298730387439049150
+    second: PilgrimBridgeSequence_11
+  - first:
+      213: 4021186283930132178
+    second: PilgrimBridgeSequence_12
+  - first:
+      213: 999043581337914268
+    second: PilgrimBridgeSequence_13
+  - first:
+      213: 5612388799693484330
+    second: PilgrimBridgeSequence_14
+  - first:
+      213: -6256619367053515244
+    second: PilgrimBridgeSequence_15
+  - first:
+      213: 5744412633628512704
+    second: PilgrimBridge_00
+  - first:
+      213: 8320252315413148774
+    second: PilgrimBridge_01
+  - first:
+      213: -785497084598609982
+    second: PilgrimBridge_02
+  - first:
+      213: 6260884645495263682
+    second: PilgrimBridge_03
+  - first:
+      213: -2845444068586330945
+    second: PilgrimBridge_04
+  - first:
+      213: -4035068008379678424
+    second: PilgrimBridge_05
+  - first:
+      213: 6830832777384463632
+    second: PilgrimBridge_06
+  - first:
+      213: 7020139638728710951
+    second: PilgrimBridge_07
+  - first:
+      213: 177206141432139690
+    second: PilgrimBridge_08
+  - first:
+      213: -984729114664418698
+    second: PilgrimBridge_09
+  - first:
+      213: -7960622229949471295
+    second: PilgrimBridge_10
+  - first:
+      213: -6177523082198006021
+    second: PilgrimBridge_11
+  - first:
+      213: 986283700242641426
+    second: PilgrimBridge_12
+  - first:
+      213: 31486771213826331
+    second: PilgrimBridge_13
+  - first:
+      213: -6051278635880359299
+    second: PilgrimBridge_14
+  - first:
+      213: -1746565343345032595
+    second: PilgrimBridge_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 145.12
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PilgrimBridge_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 384
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c191b6ead048bf40800000000000000
+      internalID: 5744412633628512704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimBridge_01
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 384
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66472d5f569777370800000000000000
+      internalID: 8320252315413148774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimBridge_02
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 480
+        width: 384
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c71564309a5915f0800000000000000
+      internalID: -785497084598609982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimBridge_03
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 480
+        width: 384
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1517ad96123e650800000000000000
+      internalID: 6260884645495263682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimBridge_04
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 480
+        width: 384
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb46ba702b3f288d0800000000000000
+      internalID: -2845444068586330945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimBridge_05
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 480
+        width: 384
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8218cfb660f8008c0800000000000000
+      internalID: -4035068008379678424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimBridge_06
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 480
+        width: 384
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d8810483efbce50800000000000000
+      internalID: 6830832777384463632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimBridge_07
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 480
+        width: 384
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b5010aecb8c6160800000000000000
+      internalID: 7020139638728710951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimBridge_08
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf8418fb00957200800000000000000
+      internalID: 177206141432139690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimBridge_09
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 384
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6724178661a8552f0800000000000000
+      internalID: -984729114664418698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimBridge_10
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 384
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5a8c05240368190800000000000000
+      internalID: -7960622229949471295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimBridge_11
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 384
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6cfc59c77054aa0800000000000000
+      internalID: -6177523082198006021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimBridge_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 384
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21278b0cccbffad00800000000000000
+      internalID: 986283700242641426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimBridge_13
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 384
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19f2553d0ddf6000800000000000000
+      internalID: 31486771213826331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimBridge_14
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 384
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ad077442a850ca0800000000000000
+      internalID: -6051278635880359299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimBridge_15
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 384
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6249ece214f2c7e0800000000000000
+      internalID: -1746565343345032595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PilgrimBridgeSequence_0: -7745132577808112991
+      PilgrimBridgeSequence_1: -4817291172053296288
+      PilgrimBridgeSequence_10: 8407873968159924466
+      PilgrimBridgeSequence_11: 4298730387439049150
+      PilgrimBridgeSequence_12: 4021186283930132178
+      PilgrimBridgeSequence_13: 999043581337914268
+      PilgrimBridgeSequence_14: 5612388799693484330
+      PilgrimBridgeSequence_15: -6256619367053515244
+      PilgrimBridgeSequence_2: 5905751792039685326
+      PilgrimBridgeSequence_3: 6798394213531446799
+      PilgrimBridgeSequence_4: -3476830299331149458
+      PilgrimBridgeSequence_5: -3080586420664774333
+      PilgrimBridgeSequence_6: -5634359496754037286
+      PilgrimBridgeSequence_7: 7140209122046928282
+      PilgrimBridgeSequence_8: -2072379642057816342
+      PilgrimBridgeSequence_9: -831587627673123968
+      PilgrimBridge_00: 5744412633628512704
+      PilgrimBridge_01: 8320252315413148774
+      PilgrimBridge_02: -785497084598609982
+      PilgrimBridge_03: 6260884645495263682
+      PilgrimBridge_04: -2845444068586330945
+      PilgrimBridge_05: -4035068008379678424
+      PilgrimBridge_06: 6830832777384463632
+      PilgrimBridge_07: 7020139638728710951
+      PilgrimBridge_08: 177206141432139690
+      PilgrimBridge_09: -984729114664418698
+      PilgrimBridge_10: -7960622229949471295
+      PilgrimBridge_11: -6177523082198006021
+      PilgrimBridge_12: 986283700242641426
+      PilgrimBridge_13: 31486771213826331
+      PilgrimBridge_14: -6051278635880359299
+      PilgrimBridge_15: -1746565343345032595
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

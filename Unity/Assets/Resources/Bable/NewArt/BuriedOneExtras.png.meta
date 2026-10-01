@@ -1,0 +1,281 @@
+fileFormatVersion: 2
+guid: 0dcf75d1e40fcfa49aeae95363811e29
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2236984999302796429
+    second: BuriedOneExtras_0
+  - first:
+      213: -5528772207490516313
+    second: BuriedOneExtras_1
+  - first:
+      213: -5882737992851043341
+    second: BuriedOneExtras_2
+  - first:
+      213: 5173250344026820991
+    second: BuriedOneExtras_3
+  - first:
+      213: -4404876605924967596
+    second: BuriedOneExtras_4
+  - first:
+      213: -8205767786949631136
+    second: BuriedOneExtras_5
+  - first:
+      213: 6471210675675239028
+    second: BuriedOneExtras_6
+  - first:
+      213: -2953749625352459313
+    second: BuriedOneExtras_7
+  - first:
+      213: -3853084192560656686
+    second: BuriedOneExtras_8
+  - first:
+      213: -4475526338070686513
+    second: BuriedOneExtras_9
+  - first:
+      213: 140013866773965673
+    second: BuriedOneExtras_10
+  - first:
+      213: 6858473311272638049
+    second: BuriedOneExtras_11
+  - first:
+      213: 8934699416747188636
+    second: BuriedOneExtras_12
+  - first:
+      213: -5911494411355330207
+    second: BuriedOneExtras_13
+  - first:
+      213: 775855142632307249
+    second: BuriedOneExtras_14
+  - first:
+      213: 4523165017027711545
+    second: BuriedOneExtras_00
+  - first:
+      213: -4278038900992383007
+    second: BuriedOneExtras_01
+  - first:
+      213: 2070567958067147327
+    second: BuriedOneExtras_02
+  - first:
+      213: -1506002366239995299
+    second: BuriedOneExtras_03
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 210.34483
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BuriedOneExtras_00
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 126
+        width: 444
+        height: 412
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93219644e9285ce30800000000000000
+      internalID: 4523165017027711545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOneExtras_01
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 126
+        width: 491
+        height: 409
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7eb0b194a51a4c0800000000000000
+      internalID: -4278038900992383007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOneExtras_02
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 126
+        width: 447
+        height: 396
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32f5e766922cbc10800000000000000
+      internalID: 2070567958067147327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BuriedOneExtras_03
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 126
+        width: 434
+        height: 427
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a0e59b3da991be0800000000000000
+      internalID: -1506002366239995299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BuriedOneExtras_0: 2236984999302796429
+      BuriedOneExtras_00: 4523165017027711545
+      BuriedOneExtras_01: -4278038900992383007
+      BuriedOneExtras_02: 2070567958067147327
+      BuriedOneExtras_03: -1506002366239995299
+      BuriedOneExtras_1: -5528772207490516313
+      BuriedOneExtras_10: 140013866773965673
+      BuriedOneExtras_11: 6858473311272638049
+      BuriedOneExtras_12: 8934699416747188636
+      BuriedOneExtras_13: -5911494411355330207
+      BuriedOneExtras_14: 775855142632307249
+      BuriedOneExtras_2: -5882737992851043341
+      BuriedOneExtras_3: 5173250344026820991
+      BuriedOneExtras_4: -4404876605924967596
+      BuriedOneExtras_5: -8205767786949631136
+      BuriedOneExtras_6: 6471210675675239028
+      BuriedOneExtras_7: -2953749625352459313
+      BuriedOneExtras_8: -3853084192560656686
+      BuriedOneExtras_9: -4475526338070686513
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

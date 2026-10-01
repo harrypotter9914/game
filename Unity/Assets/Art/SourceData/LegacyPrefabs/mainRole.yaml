@@ -1,0 +1,63 @@
+behaviours:
+  - type: Transform
+    properties:
+      x: 0
+      y: 0
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+  - type: RigidBody
+    properties:
+      x: 0
+      y: 0
+      type: 2
+      gravityScale: 1
+  - type: Walkable
+    properties:
+      speed: 2
+      jumpForce: 8
+      wallJumpForce: 5
+      wallSlideSpeed: 1
+  - type: CapsuleCollider
+    properties:
+      isSensor: 0
+      tag: body
+      radius: 5
+      width: 40
+      height: 40
+      centerX: 40
+      centerY: 50
+  - type: CapsuleCollider
+    properties:
+      isSensor: 0
+      tag: feet
+      radius: 5
+      width: 20
+      height: 40
+      centerX: 40
+      centerY: 5
+  - type: Attackable
+  - type: StarCollisionHandler
+  - type: HealthStateMachine
+children:
+  - behaviours:
+      - type: Transform
+        properties:
+          x: -50
+          y: -110
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+      - type: AnimationRenderer
+        properties:
+          source: ./assets/animations/chrac.png
+          config: ./assets/animations/chrac.yaml
+          action: leftdead
+  - behaviours:
+      - type: Transform
+        properties:
+          x: -50
+          y: -78
+          scaleX: 1
+          scaleY: 1
+          rotation: 0

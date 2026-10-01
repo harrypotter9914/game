@@ -1,0 +1,1391 @@
+fileFormatVersion: 2
+guid: ad7092e979f603246aaebe34eea59e4b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8309513818500840712
+    second: DecorAtlas_0
+  - first:
+      213: 3495203868917629000
+    second: DecorAtlas_1
+  - first:
+      213: 2065439661502599449
+    second: DecorAtlas_2
+  - first:
+      213: -3298966736641742416
+    second: DecorAtlas_3
+  - first:
+      213: -3346809412538124300
+    second: DecorAtlas_4
+  - first:
+      213: -6295758946685826451
+    second: DecorAtlas_5
+  - first:
+      213: 7681393475878650037
+    second: DecorAtlas_6
+  - first:
+      213: -6952515422949443022
+    second: DecorAtlas_7
+  - first:
+      213: 1741867777754678641
+    second: DecorAtlas_8
+  - first:
+      213: -5264643894220826700
+    second: DecorAtlas_9
+  - first:
+      213: -6935326199281833357
+    second: DecorAtlas_10
+  - first:
+      213: 7352743954734124605
+    second: DecorAtlas_11
+  - first:
+      213: -6705782903126514102
+    second: DecorAtlas_12
+  - first:
+      213: 9168934312811774045
+    second: DecorAtlas_13
+  - first:
+      213: 7429921893329527821
+    second: DecorAtlas_14
+  - first:
+      213: -5284917934482521486
+    second: DecorAtlas_15
+  - first:
+      213: 1483680668047449047
+    second: DecorAtlas_16
+  - first:
+      213: 5705997420230259356
+    second: DecorAtlas_17
+  - first:
+      213: -5509950319683943335
+    second: DecorAtlas_18
+  - first:
+      213: -351595369209877657
+    second: DecorAtlas_19
+  - first:
+      213: 8044140417006768713
+    second: DecorAtlas_20
+  - first:
+      213: 9006509604046195028
+    second: DecorAtlas_21
+  - first:
+      213: -1479418757581291066
+    second: DecorAtlas_22
+  - first:
+      213: -1563664743396544697
+    second: DecorAtlas_23
+  - first:
+      213: -7797123784468125984
+    second: DecorAtlas_24
+  - first:
+      213: 6030557126206875290
+    second: DecorAtlas_25
+  - first:
+      213: -4966703763586556882
+    second: DecorAtlas_26
+  - first:
+      213: 7599536194131811280
+    second: DecorAtlas_27
+  - first:
+      213: -8422246902859083807
+    second: DecorAtlas_28
+  - first:
+      213: -4119612934845356382
+    second: DecorAtlas_29
+  - first:
+      213: -2385640431308201770
+    second: DecorAtlas_30
+  - first:
+      213: 6168114644092300117
+    second: DecorAtlas_31
+  - first:
+      213: -157529410537637338
+    second: DecorAtlas_32
+  - first:
+      213: -7812531327893559090
+    second: DecorAtlas_33
+  - first:
+      213: -6955505204727423172
+    second: DecorAtlas_34
+  - first:
+      213: 6860683537886647555
+    second: DecorAtlas_35
+  - first:
+      213: -431715592889736827
+    second: DecorAtlas_36
+  - first:
+      213: -3091116730154750636
+    second: DecorAtlas_37
+  - first:
+      213: 2280352675305382825
+    second: DecorAtlas_38
+  - first:
+      213: 1019530999045836480
+    second: DecorAtlas_39
+  - first:
+      213: 9138440760276139249
+    second: DecorAtlas_40
+  - first:
+      213: -1883595252393610938
+    second: DecorAtlas_41
+  - first:
+      213: 6912322650439870214
+    second: DecorAtlas_42
+  - first:
+      213: 4393151174354910455
+    second: DecorAtlas_43
+  - first:
+      213: -1194893083276215464
+    second: DecorAtlas_44
+  - first:
+      213: 786149874186469216
+    second: DecorAtlas_45
+  - first:
+      213: 7091689430075165319
+    second: DecorAtlas_46
+  - first:
+      213: -4151752854334643604
+    second: DecorAtlas_47
+  - first:
+      213: 2401057611398134475
+    second: DecorAtlas_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DecorAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 924
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2ce00353daeac80800000000000000
+      internalID: -8309513818500840712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 388
+        width: 423
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84008608665718030800000000000000
+      internalID: 3495203868917629000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_2
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 405
+        width: 377
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9119dd0dd6ae9ac10800000000000000
+      internalID: 2065439661502599449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_3
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 364
+        width: 301
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9a3a05b37b732d0800000000000000
+      internalID: -3298966736641742416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 326
+        width: 476
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f73bba429ebd81d0800000000000000
+      internalID: -3346809412538124300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 861
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6acd472898f0a8a0800000000000000
+      internalID: -6295758946685826451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 847
+        width: 47
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b000c52baac99a60800000000000000
+      internalID: 7681393475878650037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 780
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a7caf0f04b38f90800000000000000
+      internalID: -6952515422949443022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 729
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17544cad38b5c2810800000000000000
+      internalID: 1741867777754678641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 719
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7d900854a30f6b0800000000000000
+      internalID: -5264643894220826700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 652
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37aa8521195c0cf90800000000000000
+      internalID: -6935326199281833357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_11
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 624
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e045a9ba13a0660800000000000000
+      internalID: 7352743954734124605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_12
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 599
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46a1467af540f2a0800000000000000
+      internalID: -6705782903126514102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_13
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 582
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50490cad299e3f70800000000000000
+      internalID: 9168934312811774045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_14
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 573
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04edc8b8926c1760800000000000000
+      internalID: 7429921893329527821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_15
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 563
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2720418a32338a6b0800000000000000
+      internalID: -5284917934482521486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_16
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 554
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db151be4b7179410800000000000000
+      internalID: 1483680668047449047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_17
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 532
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92be1a0c66cf2f40800000000000000
+      internalID: 5705997420230259356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_18
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 536
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95440319069b883b0800000000000000
+      internalID: -5509950319683943335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_19
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 521
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ba291efd1ee1bf0800000000000000
+      internalID: -351595369209877657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_20
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 534
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9421d0fe61782af60800000000000000
+      internalID: 8044140417006768713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_21
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 510
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459415f24cc8dfc70800000000000000
+      internalID: 9006509604046195028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_22
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 502
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c141507a7c087be0800000000000000
+      internalID: -1479418757581291066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_23
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 487
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74feb06533fbc4ae0800000000000000
+      internalID: -1563664743396544697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_24
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 478
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6270d9a3d0bc390800000000000000
+      internalID: -7797123784468125984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_25
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 454
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a96e24941c7d0b350800000000000000
+      internalID: 6030557126206875290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_26
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 407
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2cd3d2ed39b21bb0800000000000000
+      internalID: -4966703763586556882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_27
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 396
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db53fc87e9f67960800000000000000
+      internalID: 7599536194131811280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 401
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef4378901b2e1b80800000000000000
+      internalID: -8422246902859083807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_29
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 361
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a62076ccd134d6c0800000000000000
+      internalID: -4119612934845356382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_30
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 355
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d0a01adaa084eed0800000000000000
+      internalID: -2385640431308201770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_31
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 481
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ba107b69b899550800000000000000
+      internalID: 6168114644092300117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_32
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 0
+        width: 259
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a3a33f5d750ddf0800000000000000
+      internalID: -157529410537637338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_33
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 15
+        width: 457
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec82b4c5620549390800000000000000
+      internalID: -7812531327893559090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_34
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 321
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f57de3ed4197f90800000000000000
+      internalID: -6955505204727423172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_35
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 299
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3059a18045b063f50800000000000000
+      internalID: 6860683537886647555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_36
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 218
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5816fc1a4fc320af0800000000000000
+      internalID: -431715592889736827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_37
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 137
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45debdb16b52a15d0800000000000000
+      internalID: -3091116730154750636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_38
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 23
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a360362da075af10800000000000000
+      internalID: 2280352675305382825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_39
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 15
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce40abba0a162e00800000000000000
+      internalID: 1019530999045836480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_40
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 15
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fcb535347342de70800000000000000
+      internalID: 9138440760276139249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_41
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 31
+        width: 56
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641777009102cd5e0800000000000000
+      internalID: -1883595252393610938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_42
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 31
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607ea58d3d08def50800000000000000
+      internalID: 6912322650439870214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_43
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 31
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fcb30897bb97fc30800000000000000
+      internalID: 4393151174354910455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_44
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 23
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85bffb25213ea6fe0800000000000000
+      internalID: -1194893083276215464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_45
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 34
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f3a173527f8ea00800000000000000
+      internalID: 786149874186469216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_46
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 17
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ac50996fdba6260800000000000000
+      internalID: 7091689430075165319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_47
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 17
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c626b22a6c20266c0800000000000000
+      internalID: -4151752854334643604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorAtlas_48
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 15
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca32ac1d25425120800000000000000
+      internalID: 2401057611398134475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DecorAtlas_0: -8309513818500840712
+      DecorAtlas_1: 3495203868917629000
+      DecorAtlas_10: -6935326199281833357
+      DecorAtlas_11: 7352743954734124605
+      DecorAtlas_12: -6705782903126514102
+      DecorAtlas_13: 9168934312811774045
+      DecorAtlas_14: 7429921893329527821
+      DecorAtlas_15: -5284917934482521486
+      DecorAtlas_16: 1483680668047449047
+      DecorAtlas_17: 5705997420230259356
+      DecorAtlas_18: -5509950319683943335
+      DecorAtlas_19: -351595369209877657
+      DecorAtlas_2: 2065439661502599449
+      DecorAtlas_20: 8044140417006768713
+      DecorAtlas_21: 9006509604046195028
+      DecorAtlas_22: -1479418757581291066
+      DecorAtlas_23: -1563664743396544697
+      DecorAtlas_24: -7797123784468125984
+      DecorAtlas_25: 6030557126206875290
+      DecorAtlas_26: -4966703763586556882
+      DecorAtlas_27: 7599536194131811280
+      DecorAtlas_28: -8422246902859083807
+      DecorAtlas_29: -4119612934845356382
+      DecorAtlas_3: -3298966736641742416
+      DecorAtlas_30: -2385640431308201770
+      DecorAtlas_31: 6168114644092300117
+      DecorAtlas_32: -157529410537637338
+      DecorAtlas_33: -7812531327893559090
+      DecorAtlas_34: -6955505204727423172
+      DecorAtlas_35: 6860683537886647555
+      DecorAtlas_36: -431715592889736827
+      DecorAtlas_37: -3091116730154750636
+      DecorAtlas_38: 2280352675305382825
+      DecorAtlas_39: 1019530999045836480
+      DecorAtlas_4: -3346809412538124300
+      DecorAtlas_40: 9138440760276139249
+      DecorAtlas_41: -1883595252393610938
+      DecorAtlas_42: 6912322650439870214
+      DecorAtlas_43: 4393151174354910455
+      DecorAtlas_44: -1194893083276215464
+      DecorAtlas_45: 786149874186469216
+      DecorAtlas_46: 7091689430075165319
+      DecorAtlas_47: -4151752854334643604
+      DecorAtlas_48: 2401057611398134475
+      DecorAtlas_5: -6295758946685826451
+      DecorAtlas_6: 7681393475878650037
+      DecorAtlas_7: -6952515422949443022
+      DecorAtlas_8: 1741867777754678641
+      DecorAtlas_9: -5264643894220826700
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

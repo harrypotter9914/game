@@ -1,0 +1,573 @@
+fileFormatVersion: 2
+guid: 586609023455dc3489022c5ed664d14d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4050301622038078134
+    second: ShieldGuardPatrol30_0
+  - first:
+      213: -5811425049431026723
+    second: ShieldGuardPatrol30_1
+  - first:
+      213: -1119469833713537508
+    second: ShieldGuardPatrol30_2
+  - first:
+      213: 1379069417885504413
+    second: ShieldGuardPatrol30_3
+  - first:
+      213: 7939021346213509315
+    second: ShieldGuardPatrol30_4
+  - first:
+      213: -7985846811682030241
+    second: ShieldGuardPatrol30_5
+  - first:
+      213: 1711140400782580816
+    second: ShieldGuardPatrol30_6
+  - first:
+      213: 604517662571128464
+    second: ShieldGuardPatrol30_7
+  - first:
+      213: 8824024820961063144
+    second: ShieldGuardPatrol30_8
+  - first:
+      213: -626043811555682667
+    second: ShieldGuardPatrol30_9
+  - first:
+      213: 6416916018449909130
+    second: ShieldGuardPatrol30_10
+  - first:
+      213: 5781804940132997498
+    second: ShieldGuardPatrol30_11
+  - first:
+      213: -4965868812646413295
+    second: ShieldGuardPatrol30_12
+  - first:
+      213: -7611551450967698382
+    second: ShieldGuardPatrol30_13
+  - first:
+      213: 1830591487826455325
+    second: ShieldGuardPatrol30_14
+  - first:
+      213: 6187077634771067917
+    second: ShieldGuardPatrol30_15
+  - first:
+      213: -606158934546115348
+    second: ShieldGuardPatrol30_00
+  - first:
+      213: 1729851569523856357
+    second: ShieldGuardPatrol30_01
+  - first:
+      213: -4507708285154464261
+    second: ShieldGuardPatrol30_02
+  - first:
+      213: 7681469106147402239
+    second: ShieldGuardPatrol30_03
+  - first:
+      213: -7926948281862471028
+    second: ShieldGuardPatrol30_04
+  - first:
+      213: 1678736822579317996
+    second: ShieldGuardPatrol30_05
+  - first:
+      213: 3534014197693709399
+    second: ShieldGuardPatrol30_06
+  - first:
+      213: 7445668993878850641
+    second: ShieldGuardPatrol30_07
+  - first:
+      213: -4622592578195720202
+    second: ShieldGuardPatrol30_08
+  - first:
+      213: -6905012075844942974
+    second: ShieldGuardPatrol30_09
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 87.78281
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ShieldGuardPatrol30_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046728972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce413fc19ad7697f0800000000000000
+      internalID: -606158934546115348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuardPatrol30_01
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046728972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e31f9b56daa10810800000000000000
+      internalID: 1729851569523856357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuardPatrol30_02
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046728972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd684092376171c0800000000000000
+      internalID: -4507708285154464261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuardPatrol30_03
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046728972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1ad01347f0a9a60800000000000000
+      internalID: 7681469106147402239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuardPatrol30_04
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 200
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046728972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82c1b25982ddf190800000000000000
+      internalID: -7926948281862471028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuardPatrol30_05
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 200
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046728972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec453dee321c4710800000000000000
+      internalID: 1678736822579317996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuardPatrol30_06
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 200
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046728972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c78b450375b0130800000000000000
+      internalID: 3534014197693709399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuardPatrol30_07
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 200
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046728972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15cf9474084545760800000000000000
+      internalID: 7445668993878850641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuardPatrol30_08
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 200
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046728972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f7794baa8049dfb0800000000000000
+      internalID: -4622592578195720202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuardPatrol30_09
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 200
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046728972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283ca71f9187c20a0800000000000000
+      internalID: -6905012075844942974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuardPatrol30_10
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 200
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046728972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a858839de177d0950800000000000000
+      internalID: 6416916018449909130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuardPatrol30_11
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 0
+        width: 200
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046728972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79d931b5f81d3050800000000000000
+      internalID: 5781804940132997498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuardPatrol30_12
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 200
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046728972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c050d00a0b51bb0800000000000000
+      internalID: -4965868812646413295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuardPatrol30_13
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 0
+        width: 200
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046728972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234167778465e5690800000000000000
+      internalID: -7611551450967698382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuardPatrol30_14
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 0
+        width: 200
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046728972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1befb06241976910800000000000000
+      internalID: 1830591487826455325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShieldGuardPatrol30_15
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 200
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5, y: 0.046728972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d042b4a045aecd550800000000000000
+      internalID: 6187077634771067917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ShieldGuardPatrol30_0: -4050301622038078134
+      ShieldGuardPatrol30_00: -606158934546115348
+      ShieldGuardPatrol30_01: 1729851569523856357
+      ShieldGuardPatrol30_02: -4507708285154464261
+      ShieldGuardPatrol30_03: 7681469106147402239
+      ShieldGuardPatrol30_04: -7926948281862471028
+      ShieldGuardPatrol30_05: 1678736822579317996
+      ShieldGuardPatrol30_06: 3534014197693709399
+      ShieldGuardPatrol30_07: 7445668993878850641
+      ShieldGuardPatrol30_08: -4622592578195720202
+      ShieldGuardPatrol30_09: -6905012075844942974
+      ShieldGuardPatrol30_1: -5811425049431026723
+      ShieldGuardPatrol30_10: 6416916018449909130
+      ShieldGuardPatrol30_11: 5781804940132997498
+      ShieldGuardPatrol30_12: -4965868812646413295
+      ShieldGuardPatrol30_13: -7611551450967698382
+      ShieldGuardPatrol30_14: 1830591487826455325
+      ShieldGuardPatrol30_15: 6187077634771067917
+      ShieldGuardPatrol30_2: -1119469833713537508
+      ShieldGuardPatrol30_3: 1379069417885504413
+      ShieldGuardPatrol30_4: 7939021346213509315
+      ShieldGuardPatrol30_5: -7985846811682030241
+      ShieldGuardPatrol30_6: 1711140400782580816
+      ShieldGuardPatrol30_7: 604517662571128464
+      ShieldGuardPatrol30_8: 8824024820961063144
+      ShieldGuardPatrol30_9: -626043811555682667
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,597 @@
+fileFormatVersion: 2
+guid: 62d1d2ced408e7c48a5cf710a6981283
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1395126740727578168
+    second: GiantGuardAlternatingGait_0
+  - first:
+      213: -8921221571196018237
+    second: GiantGuardAlternatingGait_1
+  - first:
+      213: -6671139984048143565
+    second: GiantGuardAlternatingGait_2
+  - first:
+      213: -5275950139989435498
+    second: GiantGuardAlternatingGait_3
+  - first:
+      213: -5516407320207524878
+    second: GiantGuardAlternatingGait_4
+  - first:
+      213: 6446597390097813964
+    second: GiantGuardAlternatingGait_5
+  - first:
+      213: -6379064933590218458
+    second: GiantGuardAlternatingGait_6
+  - first:
+      213: 6830677497782460910
+    second: GiantGuardAlternatingGait_7
+  - first:
+      213: 6353537266605921627
+    second: GiantGuardAlternatingGait_8
+  - first:
+      213: -6709716196333094508
+    second: GiantGuardAlternatingGait_9
+  - first:
+      213: 1182426985597210237
+    second: GiantGuardAlternatingGait_10
+  - first:
+      213: 2768043372925275949
+    second: GiantGuardAlternatingGait_11
+  - first:
+      213: -9118118455706574354
+    second: GiantGuardAlternatingGait_12
+  - first:
+      213: 4279295974410494631
+    second: GiantGuardAlternatingGait_13
+  - first:
+      213: 4447447076457756248
+    second: GiantGuardAlternatingGait_14
+  - first:
+      213: -7513410681747912348
+    second: GiantGuardAlternatingGait_15
+  - first:
+      213: -2550271905186569592
+    second: GiantGuardGait_00
+  - first:
+      213: -5969716013877702470
+    second: GiantGuardGait_01
+  - first:
+      213: -2517134523010683927
+    second: GiantGuardGait_02
+  - first:
+      213: 3853321215185334361
+    second: GiantGuardGait_03
+  - first:
+      213: -2465483578896270291
+    second: GiantGuardGait_04
+  - first:
+      213: -926318849777866548
+    second: GiantGuardGait_05
+  - first:
+      213: 5167157349251543307
+    second: GiantGuardGait_06
+  - first:
+      213: 2707136458232001841
+    second: GiantGuardGait_07
+  - first:
+      213: 8291168556937154187
+    second: GiantGuardGait_08
+  - first:
+      213: -3936806098072686118
+    second: GiantGuardGait_09
+  - first:
+      213: -1085764570265126623
+    second: GiantGuardGait_10
+  - first:
+      213: 3554111047871636859
+    second: GiantGuardGait_11
+  - first:
+      213: -1583454422032364869
+    second: GiantGuardGait_12
+  - first:
+      213: 4117469249283211818
+    second: GiantGuardGait_13
+  - first:
+      213: 427979886991381329
+    second: GiantGuardGait_14
+  - first:
+      213: -5610545395443470021
+    second: GiantGuardGait_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 72.92419
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GiantGuardGait_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88222b2d63d9b9cd0800000000000000
+      internalID: -2550271905186569592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardGait_01
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0dbde0aee472da0800000000000000
+      internalID: -5969716013877702470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardGait_02
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb6318dc77511dd0800000000000000
+      internalID: -2517134523010683927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardGait_03
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950399cba3fb97530800000000000000
+      internalID: 3853321215185334361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardGait_04
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c34586fb7d8cdd0800000000000000
+      internalID: -2465483578896270291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardGait_05
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8ed3af9ed0523f0800000000000000
+      internalID: -926318849777866548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardGait_06
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b01ffac7b3e65b740800000000000000
+      internalID: 5167157349251543307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardGait_07
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1357d67044ea19520800000000000000
+      internalID: 2707136458232001841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardGait_08
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e8021cfd5201370800000000000000
+      internalID: 8291168556937154187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardGait_09
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad139ce36b7ad59c0800000000000000
+      internalID: -3936806098072686118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardGait_10
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12974af30e69ee0f0800000000000000
+      internalID: -1085764570265126623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardGait_11
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b752ea4ea2db25130800000000000000
+      internalID: 3554111047871636859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardGait_12
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba4db8b790760ae0800000000000000
+      internalID: -1583454422032364869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardGait_13
+      rect:
+        serializedVersion: 2
+        x: 3042
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22ce198770342930800000000000000
+      internalID: 4117469249283211818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardGait_14
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153122f807d70f500800000000000000
+      internalID: 427979886991381329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiantGuardGait_15
+      rect:
+        serializedVersion: 2
+        x: 3510
+        y: 0
+        width: 234
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.045045044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31736450b65322b0800000000000000
+      internalID: -5610545395443470021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GiantGuardAlternatingGait_0: -1395126740727578168
+      GiantGuardAlternatingGait_1: -8921221571196018237
+      GiantGuardAlternatingGait_10: 1182426985597210237
+      GiantGuardAlternatingGait_11: 2768043372925275949
+      GiantGuardAlternatingGait_12: -9118118455706574354
+      GiantGuardAlternatingGait_13: 4279295974410494631
+      GiantGuardAlternatingGait_14: 4447447076457756248
+      GiantGuardAlternatingGait_15: -7513410681747912348
+      GiantGuardAlternatingGait_2: -6671139984048143565
+      GiantGuardAlternatingGait_3: -5275950139989435498
+      GiantGuardAlternatingGait_4: -5516407320207524878
+      GiantGuardAlternatingGait_5: 6446597390097813964
+      GiantGuardAlternatingGait_6: -6379064933590218458
+      GiantGuardAlternatingGait_7: 6830677497782460910
+      GiantGuardAlternatingGait_8: 6353537266605921627
+      GiantGuardAlternatingGait_9: -6709716196333094508
+      GiantGuardGait_00: -2550271905186569592
+      GiantGuardGait_01: -5969716013877702470
+      GiantGuardGait_02: -2517134523010683927
+      GiantGuardGait_03: 3853321215185334361
+      GiantGuardGait_04: -2465483578896270291
+      GiantGuardGait_05: -926318849777866548
+      GiantGuardGait_06: 5167157349251543307
+      GiantGuardGait_07: 2707136458232001841
+      GiantGuardGait_08: 8291168556937154187
+      GiantGuardGait_09: -3936806098072686118
+      GiantGuardGait_10: -1085764570265126623
+      GiantGuardGait_11: 3554111047871636859
+      GiantGuardGait_12: -1583454422032364869
+      GiantGuardGait_13: 4117469249283211818
+      GiantGuardGait_14: 427979886991381329
+      GiantGuardGait_15: -5610545395443470021
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,641 @@
+fileFormatVersion: 2
+guid: 121694afeaef73449b527ddbb7e060c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3666108905738011586
+    second: PilgrimLocomotion_0
+  - first:
+      213: 4376563521952669979
+    second: PilgrimLocomotion_00
+  - first:
+      213: 151553539060584500
+    second: PilgrimLocomotion_01
+  - first:
+      213: 4686067027500540197
+    second: PilgrimLocomotion_02
+  - first:
+      213: 8642171224395273210
+    second: PilgrimLocomotion_03
+  - first:
+      213: 2061654158966187442
+    second: PilgrimLocomotion_04
+  - first:
+      213: -8503583460028601251
+    second: PilgrimLocomotion_05
+  - first:
+      213: 1843478098051255352
+    second: PilgrimLocomotion_06
+  - first:
+      213: -5440657859220296719
+    second: PilgrimLocomotion_07
+  - first:
+      213: 1244957286273335386
+    second: PilgrimLocomotion_08
+  - first:
+      213: -2335495703754909569
+    second: PilgrimLocomotion_09
+  - first:
+      213: 8666519651326868184
+    second: PilgrimLocomotion_10
+  - first:
+      213: -3650672093026015812
+    second: PilgrimLocomotion_11
+  - first:
+      213: 4664961317775292686
+    second: PilgrimLocomotion_12
+  - first:
+      213: -5942875272902377726
+    second: PilgrimLocomotion_13
+  - first:
+      213: 5806803312838977422
+    second: PilgrimLocomotion_14
+  - first:
+      213: -3049304848863136734
+    second: PilgrimLocomotion_15
+  - first:
+      213: 1078648080383058395
+    second: PilgrimLocomotion_16
+  - first:
+      213: 8691225895136923839
+    second: PilgrimLocomotion_17
+  - first:
+      213: -2414693382846570208
+    second: PilgrimLocomotion_18
+  - first:
+      213: 9016388085738284046
+    second: PilgrimLocomotion_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 131.70732
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PilgrimLocomotion_00
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1142
+        width: 264
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11ebeec55dacbc30800000000000000
+      internalID: 4376563521952669979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimLocomotion_01
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1142
+        width: 251
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430d82c042d6a1200800000000000000
+      internalID: 151553539060584500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimLocomotion_02
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1142
+        width: 246
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52127d73221480140800000000000000
+      internalID: 4686067027500540197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimLocomotion_03
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1147
+        width: 259
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3de2eb0f82fe770800000000000000
+      internalID: 8642171224395273210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimLocomotion_04
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 886
+        width: 258
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5e2e2d8877c9c10800000000000000
+      internalID: 2061654158966187442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimLocomotion_05
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 886
+        width: 250
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5cab13a5e33df980800000000000000
+      internalID: -8503583460028601251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimLocomotion_06
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 886
+        width: 252
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83cce812099559910800000000000000
+      internalID: 1843478098051255352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimLocomotion_07
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 888
+        width: 258
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fbacbcb086ee74b0800000000000000
+      internalID: -5440657859220296719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimLocomotion_08
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 629
+        width: 249
+        height: 155
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a504bd84e0af64110800000000000000
+      internalID: 1244957286273335386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimLocomotion_09
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 629
+        width: 255
+        height: 190
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78dc3b0807a69fd0800000000000000
+      internalID: -2335495703754909569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimLocomotion_10
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 656
+        width: 263
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dab748a4b9a54870800000000000000
+      internalID: 8666519651326868184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimLocomotion_11
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 664
+        width: 250
+        height: 166
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5a0cfc215365dc0800000000000000
+      internalID: -3650672093026015812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimLocomotion_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 400
+        width: 245
+        height: 171
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e093fec3a954db040800000000000000
+      internalID: 4664961317775292686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimLocomotion_13
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 369
+        width: 243
+        height: 202
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f733e0d6aa68da0800000000000000
+      internalID: -5942875272902377726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimLocomotion_14
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 360
+        width: 261
+        height: 201
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e872456e8d8e59050800000000000000
+      internalID: 5806803312838977422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimLocomotion_15
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 360
+        width: 248
+        height: 211
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224f2a75561bea5d0800000000000000
+      internalID: -3049304848863136734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimLocomotion_16
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 86
+        width: 263
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1a3e4d6b028fe00800000000000000
+      internalID: 1078648080383058395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimLocomotion_17
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 86
+        width: 262
+        height: 191
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0105e47ef6d9870800000000000000
+      internalID: 8691225895136923839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimLocomotion_18
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 86
+        width: 259
+        height: 203
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 021a1f179294d7ed0800000000000000
+      internalID: -2414693382846570208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimLocomotion_19
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 86
+        width: 252
+        height: 216
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04ae7f6135a02d70800000000000000
+      internalID: 9016388085738284046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PilgrimLocomotion_0: -3666108905738011586
+      PilgrimLocomotion_00: 4376563521952669979
+      PilgrimLocomotion_01: 151553539060584500
+      PilgrimLocomotion_02: 4686067027500540197
+      PilgrimLocomotion_03: 8642171224395273210
+      PilgrimLocomotion_04: 2061654158966187442
+      PilgrimLocomotion_05: -8503583460028601251
+      PilgrimLocomotion_06: 1843478098051255352
+      PilgrimLocomotion_07: -5440657859220296719
+      PilgrimLocomotion_08: 1244957286273335386
+      PilgrimLocomotion_09: -2335495703754909569
+      PilgrimLocomotion_10: 8666519651326868184
+      PilgrimLocomotion_11: -3650672093026015812
+      PilgrimLocomotion_12: 4664961317775292686
+      PilgrimLocomotion_13: -5942875272902377726
+      PilgrimLocomotion_14: 5806803312838977422
+      PilgrimLocomotion_15: -3049304848863136734
+      PilgrimLocomotion_16: 1078648080383058395
+      PilgrimLocomotion_17: 8691225895136923839
+      PilgrimLocomotion_18: -2414693382846570208
+      PilgrimLocomotion_19: 9016388085738284046
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

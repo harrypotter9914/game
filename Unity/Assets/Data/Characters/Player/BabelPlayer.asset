@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c373ad55019e64f45bbd88f1e6c08319, type: 3}
+  m_Name: BabelPlayer
+  m_EditorClassIdentifier: 
+  baseMaxHealth: 6
+  baseMaxMana: 3
+  moveSpeed: 7
+  groundAcceleration: 60
+  airAcceleration: 35
+  jumpImpulse: 16.4
+  extraAirJumps: 1
+  wallSlideSpeed: 2
+  wallCheckDistance: 0.1
+  wallJumpHorizontalImpulse: 8
+  wallJumpVerticalImpulse: 16.9
+  meleeDamage: 1
+  meleeRange: 1.35
+  meleeCooldown: 0.3
+  shockwaveDamage: 2
+  shockwaveManaCost: 1
+  shockwaveRange: 10
+  shockwaveDuration: 2.5
+  shockwaveTickInterval: 0.3
+  shockwaveCooldown: 1.6
+  crystalDashDamage: 2
+  crystalDashSpeed: 26
+  crystalDashDuration: 0.7
+  crystalDashRange: 4.2
+  crystalDashCooldown: 1.2

@@ -1,0 +1,2397 @@
+fileFormatVersion: 2
+guid: bfaee404f19ec6a4493009dfbb79aceb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -251222214761830758
+    second: chrac_0
+  - first:
+      213: -8670729842595645285
+    second: chrac_1
+  - first:
+      213: 7680369682258912510
+    second: chrac_2
+  - first:
+      213: 6060876421069063595
+    second: chrac_3
+  - first:
+      213: -4639351509286009105
+    second: chrac_4
+  - first:
+      213: 5210753679982229273
+    second: chrac_5
+  - first:
+      213: -9174284846418686072
+    second: chrac_6
+  - first:
+      213: -8590762927390012052
+    second: chrac_7
+  - first:
+      213: -6096592829714529313
+    second: chrac_8
+  - first:
+      213: -5826364106352385630
+    second: chrac_9
+  - first:
+      213: 4525479241115967503
+    second: chrac_10
+  - first:
+      213: 7271957578973730348
+    second: chrac_11
+  - first:
+      213: -8637120562970055691
+    second: chrac_12
+  - first:
+      213: -4839500175628560547
+    second: chrac_13
+  - first:
+      213: 7064940545988785284
+    second: chrac_14
+  - first:
+      213: -3857580758732854270
+    second: chrac_15
+  - first:
+      213: -1314987007057657360
+    second: chrac_16
+  - first:
+      213: 4689744133872927166
+    second: chrac_17
+  - first:
+      213: -3477816792157338985
+    second: chrac_18
+  - first:
+      213: -4464950358841012152
+    second: chrac_19
+  - first:
+      213: 4103186531408329480
+    second: chrac_20
+  - first:
+      213: -3372813187507959741
+    second: chrac_21
+  - first:
+      213: 1212586503499232161
+    second: chrac_22
+  - first:
+      213: 4992179864971818083
+    second: chrac_23
+  - first:
+      213: 4555469042927852687
+    second: chrac_24
+  - first:
+      213: 4712662715353016808
+    second: chrac_25
+  - first:
+      213: 4816265503360359947
+    second: chrac_26
+  - first:
+      213: -8368411382923811412
+    second: chrac_27
+  - first:
+      213: -1895147575387253706
+    second: chrac_28
+  - first:
+      213: -6419886141210932278
+    second: chrac_29
+  - first:
+      213: -2129820249516749434
+    second: chrac_30
+  - first:
+      213: 916479881531091258
+    second: chrac_31
+  - first:
+      213: -6976462819858081181
+    second: chrac_32
+  - first:
+      213: -4309102122313933356
+    second: chrac_33
+  - first:
+      213: 417432235306938225
+    second: chrac_34
+  - first:
+      213: 41294175507748876
+    second: chrac_35
+  - first:
+      213: 3582820119066911859
+    second: chrac_36
+  - first:
+      213: -1297780271327833073
+    second: chrac_37
+  - first:
+      213: -4746846330105345222
+    second: chrac_38
+  - first:
+      213: -3462349860513106405
+    second: chrac_39
+  - first:
+      213: 6328019406706852926
+    second: chrac_40
+  - first:
+      213: -3739421690204470485
+    second: chrac_41
+  - first:
+      213: 538124007036863038
+    second: chrac_42
+  - first:
+      213: 3341924694553515168
+    second: chrac_43
+  - first:
+      213: -409647421125573527
+    second: chrac_44
+  - first:
+      213: 2938475175857512762
+    second: chrac_45
+  - first:
+      213: -6054387589226387512
+    second: chrac_46
+  - first:
+      213: -1437661618802485505
+    second: chrac_47
+  - first:
+      213: -6252751071810108009
+    second: chrac_48
+  - first:
+      213: -2915622418598014973
+    second: chrac_49
+  - first:
+      213: -5132427795862754177
+    second: chrac_50
+  - first:
+      213: -3703637676922578973
+    second: chrac_51
+  - first:
+      213: -4913038967841372051
+    second: chrac_52
+  - first:
+      213: -5807096130409948508
+    second: chrac_53
+  - first:
+      213: -6842185973134507633
+    second: chrac_54
+  - first:
+      213: 281328254153378764
+    second: chrac_55
+  - first:
+      213: 5676259120641683045
+    second: chrac_56
+  - first:
+      213: 3401783216274873143
+    second: chrac_57
+  - first:
+      213: 4280469832111316649
+    second: chrac_58
+  - first:
+      213: 9085825996486489369
+    second: chrac_59
+  - first:
+      213: 368992589971076487
+    second: chrac_60
+  - first:
+      213: -4161482865209159750
+    second: chrac_61
+  - first:
+      213: 7671258616990921330
+    second: chrac_62
+  - first:
+      213: -5118205422624106821
+    second: chrac_63
+  - first:
+      213: 7708582598021150521
+    second: chrac_64
+  - first:
+      213: -7753414543769866513
+    second: chrac_65
+  - first:
+      213: -8483630969749210370
+    second: chrac_66
+  - first:
+      213: -2611940366477708843
+    second: chrac_67
+  - first:
+      213: 2428322761763862064
+    second: chrac_68
+  - first:
+      213: -4156675887868264656
+    second: chrac_69
+  - first:
+      213: -622879444342835778
+    second: chrac_70
+  - first:
+      213: -1872110417186574019
+    second: chrac_71
+  - first:
+      213: 7866306923070805870
+    second: chrac_72
+  - first:
+      213: 2539017876560241366
+    second: chrac_73
+  - first:
+      213: -2767805078541606206
+    second: chrac_74
+  - first:
+      213: -1170333176530740735
+    second: chrac_75
+  - first:
+      213: 4339349394935215073
+    second: chrac_000
+  - first:
+      213: 6714529765801014574
+    second: chrac_001
+  - first:
+      213: 4694296583444121871
+    second: chrac_002
+  - first:
+      213: -466948397719667135
+    second: chrac_003
+  - first:
+      213: -6407014024530020669
+    second: chrac_004
+  - first:
+      213: -4202543073100631175
+    second: chrac_005
+  - first:
+      213: -5679660926958823406
+    second: chrac_006
+  - first:
+      213: 7191701556681068632
+    second: chrac_007
+  - first:
+      213: 8410732572395115730
+    second: chrac_008
+  - first:
+      213: 5094535515538127949
+    second: chrac_009
+  - first:
+      213: -7850187171808577452
+    second: chrac_010
+  - first:
+      213: -1408299169310438302
+    second: chrac_011
+  - first:
+      213: 306765175360693229
+    second: chrac_012
+  - first:
+      213: 2367065340840107339
+    second: chrac_013
+  - first:
+      213: -1205086690854403503
+    second: chrac_014
+  - first:
+      213: -5088173183930609632
+    second: chrac_015
+  - first:
+      213: 7286908653711988573
+    second: chrac_016
+  - first:
+      213: 5395741207011461171
+    second: chrac_017
+  - first:
+      213: 6718415504433357212
+    second: chrac_018
+  - first:
+      213: 3729805927378653433
+    second: chrac_019
+  - first:
+      213: -6025587274170950164
+    second: chrac_020
+  - first:
+      213: -3389828270099668735
+    second: chrac_021
+  - first:
+      213: 4198661168969664729
+    second: chrac_022
+  - first:
+      213: 6264463149876818809
+    second: chrac_023
+  - first:
+      213: -228299732697727624
+    second: chrac_024
+  - first:
+      213: -5937692617859585996
+    second: chrac_025
+  - first:
+      213: 6564695679287412801
+    second: chrac_026
+  - first:
+      213: 353325054025978567
+    second: chrac_027
+  - first:
+      213: -181936106723247779
+    second: chrac_028
+  - first:
+      213: -7099415014033644387
+    second: chrac_029
+  - first:
+      213: 6264847954982622437
+    second: chrac_030
+  - first:
+      213: -4204689734604559084
+    second: chrac_031
+  - first:
+      213: 6015570386318656748
+    second: chrac_032
+  - first:
+      213: 7942735398871871273
+    second: chrac_033
+  - first:
+      213: 9109432927443650550
+    second: chrac_034
+  - first:
+      213: 1770581868657584607
+    second: chrac_035
+  - first:
+      213: 601856920782576438
+    second: chrac_036
+  - first:
+      213: 3136455165756600327
+    second: chrac_037
+  - first:
+      213: -5800896414699648063
+    second: chrac_038
+  - first:
+      213: 299972113160866036
+    second: chrac_039
+  - first:
+      213: 7884572269419630760
+    second: chrac_040
+  - first:
+      213: 8049049656973909206
+    second: chrac_041
+  - first:
+      213: -7794865338104997085
+    second: chrac_042
+  - first:
+      213: -7551902706404589320
+    second: chrac_043
+  - first:
+      213: 2815408304154279043
+    second: chrac_044
+  - first:
+      213: 702741458925082844
+    second: chrac_045
+  - first:
+      213: 6608463086434090445
+    second: chrac_046
+  - first:
+      213: -6508765577132162331
+    second: chrac_047
+  - first:
+      213: -8653348569644042685
+    second: chrac_048
+  - first:
+      213: 8246749236531555662
+    second: chrac_049
+  - first:
+      213: -383833406289611988
+    second: chrac_050
+  - first:
+      213: 401979508127667985
+    second: chrac_051
+  - first:
+      213: -8896785623210392273
+    second: chrac_052
+  - first:
+      213: -1720244705207147330
+    second: chrac_053
+  - first:
+      213: -4533330580866469146
+    second: chrac_054
+  - first:
+      213: -7066085761157296731
+    second: chrac_055
+  - first:
+      213: 132116749690198618
+    second: chrac_056
+  - first:
+      213: 3993930840986271918
+    second: chrac_057
+  - first:
+      213: 8473275682916994361
+    second: chrac_058
+  - first:
+      213: 4231876373186661060
+    second: chrac_059
+  - first:
+      213: -6762437185208840647
+    second: chrac_060
+  - first:
+      213: 8804967883826070719
+    second: chrac_061
+  - first:
+      213: 5138507584519405850
+    second: chrac_062
+  - first:
+      213: -6381699488217070618
+    second: chrac_063
+  - first:
+      213: 8750129018802057793
+    second: chrac_064
+  - first:
+      213: -8395639299774071018
+    second: chrac_065
+  - first:
+      213: -2354491298786657831
+    second: chrac_066
+  - first:
+      213: 4680260634214056565
+    second: chrac_067
+  - first:
+      213: -2470378239023955602
+    second: chrac_068
+  - first:
+      213: 5305601148572133584
+    second: chrac_069
+  - first:
+      213: -5314316678938076212
+    second: chrac_070
+  - first:
+      213: -4756871446787528923
+    second: chrac_071
+  - first:
+      213: -8635594831668907619
+    second: chrac_072
+  - first:
+      213: 2599679309162055286
+    second: chrac_073
+  - first:
+      213: -3597151131822137710
+    second: chrac_074
+  - first:
+      213: 6500367671486111471
+    second: chrac_075
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chrac_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2380
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e37b69a847783c30800000000000000
+      internalID: 4339349394935215073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_001
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 2380
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e253b543f3dce2d50800000000000000
+      internalID: 6714529765801014574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_002
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2380
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0944860fdd752140800000000000000
+      internalID: 4694296583444121871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_003
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2240
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e3b7108e01589f0800000000000000
+      internalID: -466948397719667135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_004
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 2240
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c631f4c0b6b517a0800000000000000
+      internalID: -6407014024530020669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_005
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2240
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973fe8e47519da5c0800000000000000
+      internalID: -4202543073100631175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_006
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21814f3aa7acd21b0800000000000000
+      internalID: -5679660926958823406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_007
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 2100
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8505998667e0ec360800000000000000
+      internalID: 7191701556681068632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_008
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2100
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d41b6e66bce8b470800000000000000
+      internalID: 8410732572395115730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_009
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 2100
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4cf2433f0d63b640800000000000000
+      internalID: 5094535515538127949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_010
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2100
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458750cfb588e0390800000000000000
+      internalID: -7850187171808577452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_011
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1960
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c06c3fd57b47ce0800000000000000
+      internalID: -1408299169310438302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_012
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1960
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3a5da3d49d14400800000000000000
+      internalID: 306765175360693229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_013
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1960
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4dd9e0e26189d020800000000000000
+      internalID: 2367065340840107339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_014
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1960
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152821c1a0ca64fe0800000000000000
+      internalID: -1205086690854403503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_015
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1960
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020d520927d2369b0800000000000000
+      internalID: -5088173183930609632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_016
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1820
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57193710dc402560800000000000000
+      internalID: 7286908653711988573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_017
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1820
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3380bd73a0681ea40800000000000000
+      internalID: 5395741207011461171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_018
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1680
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c912a3b3e4b9c3d50800000000000000
+      internalID: 6718415504433357212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_019
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1680
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f01d86cabee2c330800000000000000
+      internalID: 3729805927378653433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_020
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1540
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced1def8c40d06ca0800000000000000
+      internalID: -6025587274170950164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_021
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1540
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101e12ff529e4f0d0800000000000000
+      internalID: -3389828270099668735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_022
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1540
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8c9a47614a44a30800000000000000
+      internalID: 4198661168969664729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_023
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1540
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973bee45b08dfe650800000000000000
+      internalID: 6264463149876818809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_024
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1540
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d3c3a4a9ae4dcf0800000000000000
+      internalID: -228299732697727624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_025
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1540
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4382507f504199da0800000000000000
+      internalID: -5937692617859585996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_026
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1540
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148c77660fb7a1b50800000000000000
+      internalID: 6564695679287412801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_027
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1400
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2d67fb34347e400800000000000000
+      internalID: 353325054025978567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_028
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1400
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5971fa2312a97df0800000000000000
+      internalID: -181936106723247779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_029
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1400
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d942377b8afc97d90800000000000000
+      internalID: -7099415014033644387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_030
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1400
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e45290c50631f650800000000000000
+      internalID: 6264847954982622437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_031
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1400
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41de92ab6f0f5a5c0800000000000000
+      internalID: -4204689734604559084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_032
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1400
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce402edf4699b7350800000000000000
+      internalID: 6015570386318656748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_033
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1400
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92fadaa43c34a3e60800000000000000
+      internalID: 7942735398871871273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_034
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1260
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f78681dbf43b6e70800000000000000
+      internalID: 9109432927443650550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_035
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1260
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9251f14de529810800000000000000
+      internalID: 1770581868657584607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_036
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1260
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b1bd04ea93a5800800000000000000
+      internalID: 601856920782576438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_037
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1260
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7007cd80b5de68b20800000000000000
+      internalID: 3136455165756600327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_038
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1260
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb8dfef1731f7fa0800000000000000
+      internalID: -5800896414699648063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_039
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1120
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f80a7f2c07b92400800000000000000
+      internalID: 299972113160866036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_040
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1120
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a017ac64b0ab6d60800000000000000
+      internalID: 7884572269419630760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_041
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1120
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dcd86f6408f3bf60800000000000000
+      internalID: 8049049656973909206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_042
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1120
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b1f32264313d390800000000000000
+      internalID: -7794865338104997085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_043
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1120
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0817e0080423790800000000000000
+      internalID: -7551902706404589320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_044
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 980
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cfcca9fe6521720800000000000000
+      internalID: 2815408304154279043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_045
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 980
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd85b2432a3a0c900800000000000000
+      internalID: 702741458925082844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_046
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 980
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd7f2af92af5bb50800000000000000
+      internalID: 6608463086434090445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_047
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 980
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e24fb841383ca5a0800000000000000
+      internalID: -6508765577132162331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_048
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3467bb4c25129e780800000000000000
+      internalID: -8653348569644042685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_049
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 840
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4def2bccb6527270800000000000000
+      internalID: 8246749236531555662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_050
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 840
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23fd25fc895caaf0800000000000000
+      internalID: -383833406289611988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_051
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 840
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1179fec9b3e149500800000000000000
+      internalID: 401979508127667985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_052
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f250eb5ec94488480800000000000000
+      internalID: -8896785623210392273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_053
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 700
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4a16b0e867028e0800000000000000
+      internalID: -1720244705207147330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_054
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2f906fadf5611c0800000000000000
+      internalID: -4533330580866469146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_055
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 560
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad06cd107830fd90800000000000000
+      internalID: -7066085761157296731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_056
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ad92edb7f55d100800000000000000
+      internalID: 132116749690198618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_057
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 420
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0c67a60fa4d6730800000000000000
+      internalID: 3993930840986271918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_058
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 420
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d093c175f179570800000000000000
+      internalID: 8473275682916994361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_059
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 420
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cac825d325aaba30800000000000000
+      internalID: 4231876373186661060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_060
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 420
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e0cbf753ff622a0800000000000000
+      internalID: -6762437185208840647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_061
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb40d2eb3a7813a70800000000000000
+      internalID: 8804967883826070719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_062
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 280
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a110ee25c65af4740800000000000000
+      internalID: 5138507584519405850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_063
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 280
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3878d8026af67a0800000000000000
+      internalID: -6381699488217070618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_064
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 280
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142b8808bf3be6970800000000000000
+      internalID: 8750129018802057793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_065
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 280
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f38a2f982bc7b80800000000000000
+      internalID: -8395639299774071018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_066
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9b21d63aa235fd0800000000000000
+      internalID: -2354491298786657831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_067
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 140
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572c29eef30a3f040800000000000000
+      internalID: 4680260634214056565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_068
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 140
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e614f1a841477bdd0800000000000000
+      internalID: -2470378239023955602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_069
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 140
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8eb84622841a940800000000000000
+      internalID: 5305601148572133584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_070
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 140
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb56ff0321cf36b0800000000000000
+      internalID: -5314316678938076212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_071
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527e7044f923cfdb0800000000000000
+      internalID: -4756871446787528923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_072
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91fc220144382880800000000000000
+      internalID: -8635594831668907619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_073
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6768988de8ae31420800000000000000
+      internalID: 2599679309162055286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_074
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ed858aa1a541ec0800000000000000
+      internalID: -3597151131822137710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chrac_075
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 180
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feedc50f4f1f53a50800000000000000
+      internalID: 6500367671486111471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      chrac_0: -251222214761830758
+      chrac_000: 4339349394935215073
+      chrac_001: 6714529765801014574
+      chrac_002: 4694296583444121871
+      chrac_003: -466948397719667135
+      chrac_004: -6407014024530020669
+      chrac_005: -4202543073100631175
+      chrac_006: -5679660926958823406
+      chrac_007: 7191701556681068632
+      chrac_008: 8410732572395115730
+      chrac_009: 5094535515538127949
+      chrac_010: -7850187171808577452
+      chrac_011: -1408299169310438302
+      chrac_012: 306765175360693229
+      chrac_013: 2367065340840107339
+      chrac_014: -1205086690854403503
+      chrac_015: -5088173183930609632
+      chrac_016: 7286908653711988573
+      chrac_017: 5395741207011461171
+      chrac_018: 6718415504433357212
+      chrac_019: 3729805927378653433
+      chrac_020: -6025587274170950164
+      chrac_021: -3389828270099668735
+      chrac_022: 4198661168969664729
+      chrac_023: 6264463149876818809
+      chrac_024: -228299732697727624
+      chrac_025: -5937692617859585996
+      chrac_026: 6564695679287412801
+      chrac_027: 353325054025978567
+      chrac_028: -181936106723247779
+      chrac_029: -7099415014033644387
+      chrac_030: 6264847954982622437
+      chrac_031: -4204689734604559084
+      chrac_032: 6015570386318656748
+      chrac_033: 7942735398871871273
+      chrac_034: 9109432927443650550
+      chrac_035: 1770581868657584607
+      chrac_036: 601856920782576438
+      chrac_037: 3136455165756600327
+      chrac_038: -5800896414699648063
+      chrac_039: 299972113160866036
+      chrac_040: 7884572269419630760
+      chrac_041: 8049049656973909206
+      chrac_042: -7794865338104997085
+      chrac_043: -7551902706404589320
+      chrac_044: 2815408304154279043
+      chrac_045: 702741458925082844
+      chrac_046: 6608463086434090445
+      chrac_047: -6508765577132162331
+      chrac_048: -8653348569644042685
+      chrac_049: 8246749236531555662
+      chrac_050: -383833406289611988
+      chrac_051: 401979508127667985
+      chrac_052: -8896785623210392273
+      chrac_053: -1720244705207147330
+      chrac_054: -4533330580866469146
+      chrac_055: -7066085761157296731
+      chrac_056: 132116749690198618
+      chrac_057: 3993930840986271918
+      chrac_058: 8473275682916994361
+      chrac_059: 4231876373186661060
+      chrac_060: -6762437185208840647
+      chrac_061: 8804967883826070719
+      chrac_062: 5138507584519405850
+      chrac_063: -6381699488217070618
+      chrac_064: 8750129018802057793
+      chrac_065: -8395639299774071018
+      chrac_066: -2354491298786657831
+      chrac_067: 4680260634214056565
+      chrac_068: -2470378239023955602
+      chrac_069: 5305601148572133584
+      chrac_070: -5314316678938076212
+      chrac_071: -4756871446787528923
+      chrac_072: -8635594831668907619
+      chrac_073: 2599679309162055286
+      chrac_074: -3597151131822137710
+      chrac_075: 6500367671486111471
+      chrac_1: -8670729842595645285
+      chrac_10: 4525479241115967503
+      chrac_11: 7271957578973730348
+      chrac_12: -8637120562970055691
+      chrac_13: -4839500175628560547
+      chrac_14: 7064940545988785284
+      chrac_15: -3857580758732854270
+      chrac_16: -1314987007057657360
+      chrac_17: 4689744133872927166
+      chrac_18: -3477816792157338985
+      chrac_19: -4464950358841012152
+      chrac_2: 7680369682258912510
+      chrac_20: 4103186531408329480
+      chrac_21: -3372813187507959741
+      chrac_22: 1212586503499232161
+      chrac_23: 4992179864971818083
+      chrac_24: 4555469042927852687
+      chrac_25: 4712662715353016808
+      chrac_26: 4816265503360359947
+      chrac_27: -8368411382923811412
+      chrac_28: -1895147575387253706
+      chrac_29: -6419886141210932278
+      chrac_3: 6060876421069063595
+      chrac_30: -2129820249516749434
+      chrac_31: 916479881531091258
+      chrac_32: -6976462819858081181
+      chrac_33: -4309102122313933356
+      chrac_34: 417432235306938225
+      chrac_35: 41294175507748876
+      chrac_36: 3582820119066911859
+      chrac_37: -1297780271327833073
+      chrac_38: -4746846330105345222
+      chrac_39: -3462349860513106405
+      chrac_4: -4639351509286009105
+      chrac_40: 6328019406706852926
+      chrac_41: -3739421690204470485
+      chrac_42: 538124007036863038
+      chrac_43: 3341924694553515168
+      chrac_44: -409647421125573527
+      chrac_45: 2938475175857512762
+      chrac_46: -6054387589226387512
+      chrac_47: -1437661618802485505
+      chrac_48: -6252751071810108009
+      chrac_49: -2915622418598014973
+      chrac_5: 5210753679982229273
+      chrac_50: -5132427795862754177
+      chrac_51: -3703637676922578973
+      chrac_52: -4913038967841372051
+      chrac_53: -5807096130409948508
+      chrac_54: -6842185973134507633
+      chrac_55: 281328254153378764
+      chrac_56: 5676259120641683045
+      chrac_57: 3401783216274873143
+      chrac_58: 4280469832111316649
+      chrac_59: 9085825996486489369
+      chrac_6: -9174284846418686072
+      chrac_60: 368992589971076487
+      chrac_61: -4161482865209159750
+      chrac_62: 7671258616990921330
+      chrac_63: -5118205422624106821
+      chrac_64: 7708582598021150521
+      chrac_65: -7753414543769866513
+      chrac_66: -8483630969749210370
+      chrac_67: -2611940366477708843
+      chrac_68: 2428322761763862064
+      chrac_69: -4156675887868264656
+      chrac_7: -8590762927390012052
+      chrac_70: -622879444342835778
+      chrac_71: -1872110417186574019
+      chrac_72: 7866306923070805870
+      chrac_73: 2539017876560241366
+      chrac_74: -2767805078541606206
+      chrac_75: -1170333176530740735
+      chrac_8: -6096592829714529313
+      chrac_9: -5826364106352385630
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

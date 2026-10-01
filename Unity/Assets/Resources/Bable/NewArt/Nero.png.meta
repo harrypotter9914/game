@@ -1,0 +1,641 @@
+fileFormatVersion: 2
+guid: ddfddfb09c7a3cc41b1c76b4b36f87ed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2242744793873578127
+    second: Nero_0
+  - first:
+      213: 4586063097206991297
+    second: Nero_00
+  - first:
+      213: -3419901777790478141
+    second: Nero_01
+  - first:
+      213: 1774994943951652383
+    second: Nero_02
+  - first:
+      213: -7623786546019481628
+    second: Nero_03
+  - first:
+      213: -6509631549526535342
+    second: Nero_04
+  - first:
+      213: -4245052894117321248
+    second: Nero_05
+  - first:
+      213: 5693538622229210352
+    second: Nero_06
+  - first:
+      213: -6080420332696986968
+    second: Nero_07
+  - first:
+      213: 7159215537328496355
+    second: Nero_08
+  - first:
+      213: 6491271704934000068
+    second: Nero_09
+  - first:
+      213: 3430463909424824872
+    second: Nero_10
+  - first:
+      213: 8572534787793675442
+    second: Nero_11
+  - first:
+      213: -8252038477457326834
+    second: Nero_12
+  - first:
+      213: 3885390107479213763
+    second: Nero_13
+  - first:
+      213: -9104751067708009764
+    second: Nero_14
+  - first:
+      213: 3257432082947948489
+    second: Nero_15
+  - first:
+      213: -5338646106514665801
+    second: Nero_16
+  - first:
+      213: -7871195586135256555
+    second: Nero_17
+  - first:
+      213: 5884676408639141090
+    second: Nero_18
+  - first:
+      213: -1380181981190477671
+    second: Nero_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nero_00
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1156
+        width: 231
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9ec82c618f4af30800000000000000
+      internalID: 4586063097206991297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nero_01
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1155
+        width: 214
+        height: 195
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c85218d3711a80d0800000000000000
+      internalID: -3419901777790478141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nero_02
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1152
+        width: 215
+        height: 196
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f164a584f7c02a810800000000000000
+      internalID: 1774994943951652383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nero_03
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1153
+        width: 207
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e74b19678ed23690800000000000000
+      internalID: -7623786546019481628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nero_04
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 888
+        width: 213
+        height: 196
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2539bcf589429a5a0800000000000000
+      internalID: -6509631549526535342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nero_05
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 891
+        width: 228
+        height: 193
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5a46152ea8615c0800000000000000
+      internalID: -4245052894117321248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nero_06
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 887
+        width: 223
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f460f41633830f40800000000000000
+      internalID: 5693538622229210352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nero_07
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 886
+        width: 203
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa98804ce10e9ba0800000000000000
+      internalID: -6080420332696986968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nero_08
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 596
+        width: 202
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee1cec9994aa5360800000000000000
+      internalID: 7159215537328496355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nero_09
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 597
+        width: 216
+        height: 235
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5a2213931a51a50800000000000000
+      internalID: 6491271704934000068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nero_10
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 596
+        width: 272
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822801010c47b9f20800000000000000
+      internalID: 3430463909424824872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nero_11
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 597
+        width: 259
+        height: 166
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4ee1368f2c7f670800000000000000
+      internalID: 8572534787793675442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nero_12
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 303
+        width: 180
+        height: 253
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0dfc46d9beda7d80800000000000000
+      internalID: -8252038477457326834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nero_13
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 302
+        width: 183
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c68d1297bdabe530800000000000000
+      internalID: 3885390107479213763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nero_14
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 300
+        width: 310
+        height: 224
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2d7e8942d65a180800000000000000
+      internalID: -9104751067708009764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nero_15
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 300
+        width: 185
+        height: 204
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cfb2188839b43d20800000000000000
+      internalID: 3257432082947948489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nero_16
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 65
+        width: 213
+        height: 185
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7becba7c6a159e5b0800000000000000
+      internalID: -5338646106514665801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nero_17
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 63
+        width: 207
+        height: 159
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51219ca5155e3c290800000000000000
+      internalID: -7871195586135256555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nero_18
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 60
+        width: 260
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4be0be3029aa150800000000000000
+      internalID: 5884676408639141090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nero_19
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 60
+        width: 303
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9982fb5fccb98dce0800000000000000
+      internalID: -1380181981190477671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Nero_0: -2242744793873578127
+      Nero_00: 4586063097206991297
+      Nero_01: -3419901777790478141
+      Nero_02: 1774994943951652383
+      Nero_03: -7623786546019481628
+      Nero_04: -6509631549526535342
+      Nero_05: -4245052894117321248
+      Nero_06: 5693538622229210352
+      Nero_07: -6080420332696986968
+      Nero_08: 7159215537328496355
+      Nero_09: 6491271704934000068
+      Nero_10: 3430463909424824872
+      Nero_11: 8572534787793675442
+      Nero_12: -8252038477457326834
+      Nero_13: 3885390107479213763
+      Nero_14: -9104751067708009764
+      Nero_15: 3257432082947948489
+      Nero_16: -5338646106514665801
+      Nero_17: -7871195586135256555
+      Nero_18: 5884676408639141090
+      Nero_19: -1380181981190477671
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

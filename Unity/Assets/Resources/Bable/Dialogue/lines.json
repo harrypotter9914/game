@@ -1,0 +1,359 @@
+{
+  "lines": [
+    {
+      "id": "boss1_intro",
+      "speaker": "Abaddon",
+      "text": "I keep the gate of ruin. Every stone remembers the name of a man who thought himself worthy."
+    },
+    {
+      "id": "boss1_attack1",
+      "speaker": "Abaddon",
+      "text": "Let the foundations answer!"
+    },
+    {
+      "id": "boss1_attack2",
+      "speaker": "Abaddon",
+      "text": "Your courage breaks before my blade."
+    },
+    {
+      "id": "boss1_death",
+      "speaker": "Abaddon",
+      "text": "Even ruin... must end."
+    },
+    {
+      "id": "boss2_intro",
+      "speaker": "Korah",
+      "text": "They buried my rebellion beneath their holy stones. Now I am the ground beneath your feet."
+    },
+    {
+      "id": "boss2_attack1",
+      "speaker": "Korah",
+      "text": "Listen. The earth is opening."
+    },
+    {
+      "id": "boss2_attack2",
+      "speaker": "Korah",
+      "text": "No throne stands above the grave!"
+    },
+    {
+      "id": "boss2_death",
+      "speaker": "Korah",
+      "text": "At last... silence below."
+    },
+    {
+      "id": "boss3_intro",
+      "speaker": "Azazel",
+      "text": "From these heights I saw their prayers become commands. Why climb, little pilgrim? The sky has no mercy."
+    },
+    {
+      "id": "boss3_attack1",
+      "speaker": "Azazel",
+      "text": "You cannot outrun a falling star."
+    },
+    {
+      "id": "boss3_attack2",
+      "speaker": "Azazel",
+      "text": "Look up. Your judgment descends."
+    },
+    {
+      "id": "boss3_death",
+      "speaker": "Azazel",
+      "text": "So this... is falling."
+    },
+    {
+      "id": "boss4_intro",
+      "speaker": "Bel",
+      "text": "Welcome to my golden table. Lay down your will, and I shall call it devotion."
+    },
+    {
+      "id": "boss4_attack1",
+      "speaker": "Bel",
+      "text": "Kneel before perfection."
+    },
+    {
+      "id": "boss4_attack2",
+      "speaker": "Bel",
+      "text": "Every jewel demands its offering."
+    },
+    {
+      "id": "boss4_death",
+      "speaker": "Bel",
+      "text": "Gold... cannot mend this."
+    },
+    {
+      "id": "boss5_intro",
+      "speaker": "Nero",
+      "text": "Below us, famine teaches men to kneel. Here I have built a language every tongue understands: obedience."
+    },
+    {
+      "id": "boss5_reply",
+      "speaker": "Nero",
+      "text": "The princess is the promise that binds them. You would tear down my heaven for one life? Then I shall bury you beneath it."
+    },
+    {
+      "id": "boss5_attack1",
+      "speaker": "Nero",
+      "text": "I am the crown of this tower!"
+    },
+    {
+      "id": "boss5_attack2",
+      "speaker": "Nero",
+      "text": "Let every stone bear witness to your failure!"
+    },
+    {
+      "id": "boss5_phase",
+      "speaker": "Nero",
+      "text": "No! I will not be scattered, forgotten among the nameless. If heaven will not have me, heaven will burn!"
+    },
+    {
+      "id": "boss5_death",
+      "speaker": "Nero",
+      "text": "My name... they will remember... my name."
+    },
+    {
+      "id": "pilgrim_reply",
+      "speaker": "The Pilgrim",
+      "text": "I have not come for your throne. Let me pass."
+    },
+    {
+      "id": "pilgrim_nero",
+      "speaker": "The Pilgrim",
+      "text": "A prison does not become heaven because you build it high. Release Livia."
+    },
+    {
+      "id": "merchant_low",
+      "speaker": "The Wayfarer",
+      "text": "Bread for the road, light for the dark. Even Babel has room for an honest bargain. [E] Trade"
+    },
+    {
+      "id": "merchant_mid",
+      "speaker": "The Wayfarer",
+      "text": "Keep your blade keen and your soul your own. The tower has taken enough. [E] Trade"
+    },
+    {
+      "id": "merchant_high",
+      "speaker": "The Wayfarer",
+      "text": "The higher the throne, the longer its shadow. Take what you need, pilgrim. [E] Trade"
+    },
+    {
+      "id": "gate_open",
+      "speaker": "The Western Gate",
+      "text": "Nero's seal is broken. Beyond the western passage, daylight waits."
+    },
+    {
+      "id": "princess_call",
+      "speaker": "Livia",
+      "text": "Here! Beyond the tower. I knew you would find the road."
+    },
+    {
+      "id": "princess_reunion",
+      "speaker": "Livia",
+      "text": "For so long I could hear only the bells. Now I can hear the sea."
+    },
+    {
+      "id": "pilgrim_rescue",
+      "speaker": "The Pilgrim",
+      "text": "Nero is gone. The western gate is open. You are free, Livia."
+    },
+    {
+      "id": "princess_tower",
+      "speaker": "Livia",
+      "text": "He promised to raise us above suffering. All he did was place more stone between us."
+    },
+    {
+      "id": "pilgrim_home",
+      "speaker": "The Pilgrim",
+      "text": "Then let us leave the stones behind. Messina still needs its people."
+    },
+    {
+      "id": "princess_home",
+      "speaker": "Livia",
+      "text": "And we shall return together. Not as his promise. As ourselves."
+    },
+    {
+      "id": "ending_narrator",
+      "speaker": "Dawn beyond Babel",
+      "text": "The princess was rescued. Beneath a sky no tyrant could possess, two travelers took the road home."
+    },
+    {
+      "id": "boss1_attack3",
+      "speaker": "Abaddon",
+      "text": "Break beneath the gate!"
+    },
+    {
+      "id": "boss1_attack4",
+      "speaker": "Abaddon",
+      "text": "Stone outlasts flesh."
+    },
+    {
+      "id": "boss1_taunt1",
+      "speaker": "Abaddon",
+      "text": "That blade is a prayer. I have heard better."
+    },
+    {
+      "id": "boss1_taunt2",
+      "speaker": "Abaddon",
+      "text": "You stumble like the men who built these walls."
+    },
+    {
+      "id": "boss1_taunt3",
+      "speaker": "Abaddon",
+      "text": "Another step? Have you so little to live for?"
+    },
+    {
+      "id": "boss1_taunt4",
+      "speaker": "Abaddon",
+      "text": "There is room in the foundations for one more."
+    },
+    {
+      "id": "boss2_attack3",
+      "speaker": "Korah",
+      "text": "Your footing belongs to me!"
+    },
+    {
+      "id": "boss2_attack4",
+      "speaker": "Korah",
+      "text": "Down, where the faithful left me!"
+    },
+    {
+      "id": "boss2_taunt1",
+      "speaker": "Korah",
+      "text": "Hear that hollow sound? Your courage, I think."
+    },
+    {
+      "id": "boss2_taunt2",
+      "speaker": "Korah",
+      "text": "They called me faithless. What will they call you?"
+    },
+    {
+      "id": "boss2_taunt3",
+      "speaker": "Korah",
+      "text": "Keep running. Every road ends in earth."
+    },
+    {
+      "id": "boss2_taunt4",
+      "speaker": "Korah",
+      "text": "I waited centuries. You will not last a minute."
+    },
+    {
+      "id": "boss3_attack3",
+      "speaker": "Azazel",
+      "text": "Fall with your foolish hopes!"
+    },
+    {
+      "id": "boss3_attack4",
+      "speaker": "Azazel",
+      "text": "The air itself condemns you."
+    },
+    {
+      "id": "boss3_taunt1",
+      "speaker": "Azazel",
+      "text": "Still looking for a stairway to heaven?"
+    },
+    {
+      "id": "boss3_taunt2",
+      "speaker": "Azazel",
+      "text": "Your little jumps are almost charming."
+    },
+    {
+      "id": "boss3_taunt3",
+      "speaker": "Azazel",
+      "text": "The sky has room for wings. None for your pride."
+    },
+    {
+      "id": "boss3_taunt4",
+      "speaker": "Azazel",
+      "text": "Climb higher. It makes the fall worth watching."
+    },
+    {
+      "id": "boss4_attack3",
+      "speaker": "Bel",
+      "text": "Let crystal carve your tribute!"
+    },
+    {
+      "id": "boss4_attack4",
+      "speaker": "Bel",
+      "text": "Shatter, little offering!"
+    },
+    {
+      "id": "boss4_taunt1",
+      "speaker": "Bel",
+      "text": "All that effort, and still so poorly dressed."
+    },
+    {
+      "id": "boss4_taunt2",
+      "speaker": "Bel",
+      "text": "Is that your finest blade? How unfortunate."
+    },
+    {
+      "id": "boss4_taunt3",
+      "speaker": "Bel",
+      "text": "I collect beautiful things. You will be an exception."
+    },
+    {
+      "id": "boss4_taunt4",
+      "speaker": "Bel",
+      "text": "Come now. Even your fear lacks elegance."
+    },
+    {
+      "id": "boss5_attack3",
+      "speaker": "Nero",
+      "text": "Bow, or be broken!"
+    },
+    {
+      "id": "boss5_attack4",
+      "speaker": "Nero",
+      "text": "My will is law!"
+    },
+    {
+      "id": "boss5_taunt1",
+      "speaker": "Nero",
+      "text": "Did they send a hero, or simply their last fool?"
+    },
+    {
+      "id": "boss5_taunt2",
+      "speaker": "Nero",
+      "text": "You call this courage? I call it a brief mistake."
+    },
+    {
+      "id": "boss5_taunt3",
+      "speaker": "Nero",
+      "text": "I built a heaven. You cannot even hold your ground."
+    },
+    {
+      "id": "boss5_taunt4",
+      "speaker": "Nero",
+      "text": "When you fall, I shall have your name scraped from the stone."
+    },
+    {
+      "id": "boss1_allegory",
+      "speaker": "Abaddon",
+      "text": "The builders heard a warning and asked for higher walls. I taught them to fear the voice that shook the stone. Will you listen, Hollow?"
+    },
+    {
+      "id": "boss2_allegory",
+      "speaker": "Korah",
+      "text": "They made this court a market for forgiveness. I overturned their tables; Nero buried me with the debtors. Now every trespasser pays in blood."
+    },
+    {
+      "id": "boss3_allegory",
+      "speaker": "Azazel",
+      "text": "They called the meek blessed. From my pulpit, I watched them starve. Climb, pilgrim. Show me a mercy that can rise above my judgment."
+    },
+    {
+      "id": "boss4_allegory",
+      "speaker": "Bel",
+      "text": "One final supper, and not a crust for those below. Livia refused my cup. Will you also choose the hungry over a place beside the crown?"
+    },
+    {
+      "id": "boss5_allegory",
+      "speaker": "Nero",
+      "text": "I prayed while my people died. Heaven answered nothing. Must she suffer for them too? No. Livia will remain my promise, and you will be my sacrifice."
+    },
+    {
+      "id": "princess_promise",
+      "speaker": "Livia",
+      "text": "You entered looking for shelter. Still, you came for me. Let us build nothing that asks another person to suffer in our place."
+    }
+  ]
+}

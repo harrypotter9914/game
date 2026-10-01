@@ -1,0 +1,20 @@
+* text=auto
+*.cs text eol=lf
+*.shader text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.ps1 text eol=crlf
+*.unity text eol=lf
+*.prefab text eol=lf
+*.asset text eol=lf
+*.meta text eol=lf
+Unity/**/*.png filter=lfs diff=lfs merge=lfs -text
+Unity/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+Unity/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+Unity/**/*.wav filter=lfs diff=lfs merge=lfs -text
+Unity/**/*.mp3 filter=lfs diff=lfs merge=lfs -text
+Unity/**/*.ogg filter=lfs diff=lfs merge=lfs -text
+Unity/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+Unity/**/*.ttf filter=lfs diff=lfs merge=lfs -text
+Unity/**/*.otf filter=lfs diff=lfs merge=lfs -text
+Unity/**/*.psd filter=lfs diff=lfs merge=lfs -text

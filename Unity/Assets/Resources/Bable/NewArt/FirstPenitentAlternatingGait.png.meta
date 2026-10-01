@@ -1,0 +1,597 @@
+fileFormatVersion: 2
+guid: d3749c150d4bf784bb7a89aaf8f735fc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4749736867006492990
+    second: FirstPenitentAlternatingGait_0
+  - first:
+      213: -8133327883631549753
+    second: FirstPenitentAlternatingGait_1
+  - first:
+      213: -6027859201491245417
+    second: FirstPenitentAlternatingGait_2
+  - first:
+      213: -1859810204509374431
+    second: FirstPenitentAlternatingGait_3
+  - first:
+      213: -3320868102051116611
+    second: FirstPenitentAlternatingGait_4
+  - first:
+      213: 7620769778064512616
+    second: FirstPenitentAlternatingGait_5
+  - first:
+      213: -5637937475391312237
+    second: FirstPenitentAlternatingGait_6
+  - first:
+      213: -49421721759793587
+    second: FirstPenitentAlternatingGait_7
+  - first:
+      213: 841397934828368733
+    second: FirstPenitentAlternatingGait_8
+  - first:
+      213: -743180622787112884
+    second: FirstPenitentAlternatingGait_9
+  - first:
+      213: -5694693107453033356
+    second: FirstPenitentAlternatingGait_10
+  - first:
+      213: 6819580874995334262
+    second: FirstPenitentAlternatingGait_11
+  - first:
+      213: 4533268306731706190
+    second: FirstPenitentAlternatingGait_12
+  - first:
+      213: -6462961525731631832
+    second: FirstPenitentAlternatingGait_13
+  - first:
+      213: -2268465499764586172
+    second: FirstPenitentAlternatingGait_14
+  - first:
+      213: -5045576924989170171
+    second: FirstPenitentAlternatingGait_15
+  - first:
+      213: 5291238311552456253
+    second: FirstPenitentGait_00
+  - first:
+      213: 7152093023157494051
+    second: FirstPenitentGait_01
+  - first:
+      213: -2767651971610509322
+    second: FirstPenitentGait_02
+  - first:
+      213: -5721720306097547759
+    second: FirstPenitentGait_03
+  - first:
+      213: -984048838912804456
+    second: FirstPenitentGait_04
+  - first:
+      213: 8685197229741854150
+    second: FirstPenitentGait_05
+  - first:
+      213: -4119553733611768576
+    second: FirstPenitentGait_06
+  - first:
+      213: 2125013142800363474
+    second: FirstPenitentGait_07
+  - first:
+      213: -3868308977691545085
+    second: FirstPenitentGait_08
+  - first:
+      213: 145967515611485598
+    second: FirstPenitentGait_09
+  - first:
+      213: -3865754073368870372
+    second: FirstPenitentGait_10
+  - first:
+      213: -804897938788000920
+    second: FirstPenitentGait_11
+  - first:
+      213: 7595739861249169685
+    second: FirstPenitentGait_12
+  - first:
+      213: -925477553522873193
+    second: FirstPenitentGait_13
+  - first:
+      213: 8182068762690379348
+    second: FirstPenitentGait_14
+  - first:
+      213: -940066084349882774
+    second: FirstPenitentGait_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 90.29126
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FirstPenitentGait_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 250
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5, y: 0.048543688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36950ec5314e6940800000000000000
+      internalID: 5291238311552456253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirstPenitentGait_01
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 250
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5, y: 0.048543688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3212add06b6514360800000000000000
+      internalID: 7152093023157494051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirstPenitentGait_02
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 250
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5, y: 0.048543688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fffe3a02335799d0800000000000000
+      internalID: -2767651971610509322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirstPenitentGait_03
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 250
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5, y: 0.048543688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1169ae252bd5890b0800000000000000
+      internalID: -5721720306097547759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirstPenitentGait_04
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 250
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5, y: 0.048543688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89977f27bc4f752f0800000000000000
+      internalID: -984048838912804456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirstPenitentGait_05
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 0
+        width: 250
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5, y: 0.048543688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd48f24dd4088870800000000000000
+      internalID: 8685197229741854150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirstPenitentGait_06
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 250
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5, y: 0.048543688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005bfe2a4b764d6c0800000000000000
+      internalID: -4119553733611768576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirstPenitentGait_07
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 0
+        width: 250
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5, y: 0.048543688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dfe6afc1309d7d10800000000000000
+      internalID: 2125013142800363474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirstPenitentGait_08
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 250
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5, y: 0.048543688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302bd3fda71015ac0800000000000000
+      internalID: -3868308977691545085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirstPenitentGait_09
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 0
+        width: 250
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5, y: 0.048543688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95d4cc9ea4960200800000000000000
+      internalID: 145967515611485598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirstPenitentGait_10
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 0
+        width: 250
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5, y: 0.048543688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1244d3e6251a5ac0800000000000000
+      internalID: -3865754073368870372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirstPenitentGait_11
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 0
+        width: 250
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5, y: 0.048543688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86bd816d69d64d4f0800000000000000
+      internalID: -804897938788000920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirstPenitentGait_12
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 250
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5, y: 0.048543688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519180ce82d796960800000000000000
+      internalID: 7595739861249169685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirstPenitentGait_13
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 0
+        width: 250
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5, y: 0.048543688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ceba6811b0823f0800000000000000
+      internalID: -925477553522873193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirstPenitentGait_14
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 0
+        width: 250
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5, y: 0.048543688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45edaff603c8c8170800000000000000
+      internalID: 8182068762690379348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FirstPenitentGait_15
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 0
+        width: 250
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5, y: 0.048543688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ecee080e634f2f0800000000000000
+      internalID: -940066084349882774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FirstPenitentAlternatingGait_0: -4749736867006492990
+      FirstPenitentAlternatingGait_1: -8133327883631549753
+      FirstPenitentAlternatingGait_10: -5694693107453033356
+      FirstPenitentAlternatingGait_11: 6819580874995334262
+      FirstPenitentAlternatingGait_12: 4533268306731706190
+      FirstPenitentAlternatingGait_13: -6462961525731631832
+      FirstPenitentAlternatingGait_14: -2268465499764586172
+      FirstPenitentAlternatingGait_15: -5045576924989170171
+      FirstPenitentAlternatingGait_2: -6027859201491245417
+      FirstPenitentAlternatingGait_3: -1859810204509374431
+      FirstPenitentAlternatingGait_4: -3320868102051116611
+      FirstPenitentAlternatingGait_5: 7620769778064512616
+      FirstPenitentAlternatingGait_6: -5637937475391312237
+      FirstPenitentAlternatingGait_7: -49421721759793587
+      FirstPenitentAlternatingGait_8: 841397934828368733
+      FirstPenitentAlternatingGait_9: -743180622787112884
+      FirstPenitentGait_00: 5291238311552456253
+      FirstPenitentGait_01: 7152093023157494051
+      FirstPenitentGait_02: -2767651971610509322
+      FirstPenitentGait_03: -5721720306097547759
+      FirstPenitentGait_04: -984048838912804456
+      FirstPenitentGait_05: 8685197229741854150
+      FirstPenitentGait_06: -4119553733611768576
+      FirstPenitentGait_07: 2125013142800363474
+      FirstPenitentGait_08: -3868308977691545085
+      FirstPenitentGait_09: 145967515611485598
+      FirstPenitentGait_10: -3865754073368870372
+      FirstPenitentGait_11: -804897938788000920
+      FirstPenitentGait_12: 7595739861249169685
+      FirstPenitentGait_13: -925477553522873193
+      FirstPenitentGait_14: 8182068762690379348
+      FirstPenitentGait_15: -940066084349882774
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

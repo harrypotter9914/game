@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 156cd519b3beaf5498f0de22fdc97183, type: 3}
+  m_Name: Moon
+  m_EditorClassIdentifier: 
+  runeId: 7
+  effectType: 6
+  displayName: Moon
+  icon: {fileID: 0}
+  description: Above these stars there is only the glory of God. Reflects part of
+    incoming damage.
+  magnitude: 0.5
+  lore: "Beyond the stars, divine glory fills the heavens. A meditation inspired by Paradiso."
+  effectRadius: 2.5

@@ -1,0 +1,537 @@
+fileFormatVersion: 2
+guid: fae60fedb7874aa4d8703bf7e835f855
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3228371371770035887
+    second: RangedGuard_0
+  - first:
+      213: 1788153190744903591
+    second: RangedGuard_00
+  - first:
+      213: 1152813548632972305
+    second: RangedGuard_01
+  - first:
+      213: -1752049058051643121
+    second: RangedGuard_02
+  - first:
+      213: 1175983706354581650
+    second: RangedGuard_03
+  - first:
+      213: 6353615638191262067
+    second: RangedGuard_04
+  - first:
+      213: 5165632143844580370
+    second: RangedGuard_05
+  - first:
+      213: 218800772950415337
+    second: RangedGuard_06
+  - first:
+      213: 356127558821357342
+    second: RangedGuard_07
+  - first:
+      213: 6978460114232895822
+    second: RangedGuard_08
+  - first:
+      213: 9003706467742900737
+    second: RangedGuard_09
+  - first:
+      213: 7119212722730718194
+    second: RangedGuard_10
+  - first:
+      213: -4108575714911195440
+    second: RangedGuard_11
+  - first:
+      213: -4395206863700774098
+    second: RangedGuard_12
+  - first:
+      213: -8820774112444132764
+    second: RangedGuard_13
+  - first:
+      213: 3472195140883266899
+    second: RangedGuard_14
+  - first:
+      213: 2459385957988768485
+    second: RangedGuard_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RangedGuard_00
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1090
+        width: 198
+        height: 241
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7afc45a5adbc0d810800000000000000
+      internalID: 1788153190744903591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuard_01
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1090
+        width: 197
+        height: 239
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c968a80dd9fff00800000000000000
+      internalID: 1152813548632972305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuard_02
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1090
+        width: 190
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0926c91aa87fa7e0800000000000000
+      internalID: -1752049058051643121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuard_03
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1090
+        width: 194
+        height: 242
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29089e643fee15010800000000000000
+      internalID: 1175983706354581650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuard_04
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 771
+        width: 221
+        height: 243
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379c1c192c39c2850800000000000000
+      internalID: 6353615638191262067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuard_05
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 771
+        width: 226
+        height: 243
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c123ee01300b740800000000000000
+      internalID: 5165632143844580370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuard_06
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 771
+        width: 240
+        height: 243
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e75a4cc426590300800000000000000
+      internalID: 218800772950415337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuard_07
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 771
+        width: 222
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17264eb02831f400800000000000000
+      internalID: 356127558821357342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuard_08
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 429
+        width: 213
+        height: 287
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49651c108878d060800000000000000
+      internalID: 6978460114232895822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuard_09
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 429
+        width: 249
+        height: 302
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102e3b7245793fc70800000000000000
+      internalID: 9003706467742900737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuard_10
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 429
+        width: 223
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f35eca80468cc260800000000000000
+      internalID: 7119212722730718194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuard_11
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 429
+        width: 322
+        height: 243
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0deebebc7286bf6c0800000000000000
+      internalID: -4108575714911195440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuard_12
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 119
+        width: 243
+        height: 238
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23b1cee4a61103c0800000000000000
+      internalID: -4395206863700774098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuard_13
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 119
+        width: 243
+        height: 191
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4625ecfdda0569580800000000000000
+      internalID: -8820774112444132764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuard_14
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 117
+        width: 304
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d3f2b8517bf2030800000000000000
+      internalID: 3472195140883266899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedGuard_15
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 109
+        width: 268
+        height: 91
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea11879f7e712220800000000000000
+      internalID: 2459385957988768485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RangedGuard_0: -3228371371770035887
+      RangedGuard_00: 1788153190744903591
+      RangedGuard_01: 1152813548632972305
+      RangedGuard_02: -1752049058051643121
+      RangedGuard_03: 1175983706354581650
+      RangedGuard_04: 6353615638191262067
+      RangedGuard_05: 5165632143844580370
+      RangedGuard_06: 218800772950415337
+      RangedGuard_07: 356127558821357342
+      RangedGuard_08: 6978460114232895822
+      RangedGuard_09: 9003706467742900737
+      RangedGuard_10: 7119212722730718194
+      RangedGuard_11: -4108575714911195440
+      RangedGuard_12: -4395206863700774098
+      RangedGuard_13: -8820774112444132764
+      RangedGuard_14: 3472195140883266899
+      RangedGuard_15: 2459385957988768485
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

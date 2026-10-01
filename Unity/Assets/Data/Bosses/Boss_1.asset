@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0721938ceb7a7e458441dbfb14b6c07, type: 3}
+  m_Name: Boss_1
+  m_EditorClassIdentifier: Assembly-CSharp::Bable.BossProfile
+  kind: 0
+  displayName: Abaddon, Herald of Ruin
+  health: 24
+  tileSize: 2
+  speed: 5
+  meleeRange: 2.6
+  burrowTrackSeconds: 3
+  emergeSeconds: 0.8
+  recoverySeconds: 1
+  waveWindup: 1
+  heavyWindup: 1.5
+  quickWindup: 0.5
+  flyWindup: 0.5
+  fanWindup: 2
+  fanCooldown: 10
+  comboCooldown: 5
+  dashWindup: 1
+  secondPhaseThreshold: 0.5
+  phaseTwoSpeedMultiplier: 1.3

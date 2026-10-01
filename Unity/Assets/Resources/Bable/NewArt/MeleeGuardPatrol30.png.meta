@@ -1,0 +1,573 @@
+fileFormatVersion: 2
+guid: 6f373072ee6f8df46828d48c075bbbab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6856007422095138316
+    second: MeleeGuardPatrol30_0
+  - first:
+      213: -915659668747211857
+    second: MeleeGuardPatrol30_1
+  - first:
+      213: 4292270113192519371
+    second: MeleeGuardPatrol30_2
+  - first:
+      213: 5684732230059812387
+    second: MeleeGuardPatrol30_3
+  - first:
+      213: 2470156814906750900
+    second: MeleeGuardPatrol30_4
+  - first:
+      213: 4940546799946959608
+    second: MeleeGuardPatrol30_5
+  - first:
+      213: -5200614777569305976
+    second: MeleeGuardPatrol30_6
+  - first:
+      213: -981417309329461755
+    second: MeleeGuardPatrol30_7
+  - first:
+      213: 7450973048186464631
+    second: MeleeGuardPatrol30_8
+  - first:
+      213: 2003407607735560863
+    second: MeleeGuardPatrol30_9
+  - first:
+      213: -848437326275767833
+    second: MeleeGuardPatrol30_10
+  - first:
+      213: 4004012216204234336
+    second: MeleeGuardPatrol30_11
+  - first:
+      213: 4304354687569641654
+    second: MeleeGuardPatrol30_12
+  - first:
+      213: -7574530514592734768
+    second: MeleeGuardPatrol30_13
+  - first:
+      213: -8540367063171138957
+    second: MeleeGuardPatrol30_14
+  - first:
+      213: -4298811444503419074
+    second: MeleeGuardPatrol30_15
+  - first:
+      213: 1705309770108113244
+    second: MeleeGuardPatrol30_00
+  - first:
+      213: -7121189005992847035
+    second: MeleeGuardPatrol30_01
+  - first:
+      213: -6925976493734152966
+    second: MeleeGuardPatrol30_02
+  - first:
+      213: -775245210138015622
+    second: MeleeGuardPatrol30_03
+  - first:
+      213: 1454289371691033836
+    second: MeleeGuardPatrol30_04
+  - first:
+      213: 5284186923806639468
+    second: MeleeGuardPatrol30_05
+  - first:
+      213: -8742321249998476467
+    second: MeleeGuardPatrol30_06
+  - first:
+      213: 6242134344649418756
+    second: MeleeGuardPatrol30_07
+  - first:
+      213: 5317937540661237979
+    second: MeleeGuardPatrol30_08
+  - first:
+      213: 5784974042290126922
+    second: MeleeGuardPatrol30_09
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 75.77093
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MeleeGuardPatrol30_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 211
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.052083332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c511c47633a7aa710800000000000000
+      internalID: 1705309770108113244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuardPatrol30_01
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 0
+        width: 211
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.052083332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549116724547c2d90800000000000000
+      internalID: -7121189005992847035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuardPatrol30_02
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 0
+        width: 211
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.052083332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af43548031df1ef90800000000000000
+      internalID: -6925976493734152966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuardPatrol30_03
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 0
+        width: 211
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.052083332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7886ebb696cd35f0800000000000000
+      internalID: -775245210138015622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuardPatrol30_04
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 0
+        width: 211
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.052083332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce425487a7cae2410800000000000000
+      internalID: 1454289371691033836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuardPatrol30_05
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 0
+        width: 211
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.052083332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c654248a204355940800000000000000
+      internalID: 5284186923806639468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuardPatrol30_06
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 0
+        width: 211
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.052083332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4bed7554290da680800000000000000
+      internalID: -8742321249998476467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuardPatrol30_07
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 0
+        width: 211
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.052083332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408281d3d1480a650800000000000000
+      internalID: 6242134344649418756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuardPatrol30_08
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 0
+        width: 211
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.052083332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8d3d0840c1dc940800000000000000
+      internalID: 5317937540661237979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuardPatrol30_09
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 0
+        width: 211
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.052083332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a400f89cd3b584050800000000000000
+      internalID: 5784974042290126922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuardPatrol30_10
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 0
+        width: 211
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.052083332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e196293fbeb934f0800000000000000
+      internalID: -848437326275767833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuardPatrol30_11
+      rect:
+        serializedVersion: 2
+        x: 2321
+        y: 0
+        width: 211
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.052083332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e8d2f75eb119730800000000000000
+      internalID: 4004012216204234336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuardPatrol30_12
+      rect:
+        serializedVersion: 2
+        x: 2532
+        y: 0
+        width: 211
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.052083332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b040eb68c32cbb30800000000000000
+      internalID: 4304354687569641654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuardPatrol30_13
+      rect:
+        serializedVersion: 2
+        x: 2743
+        y: 0
+        width: 211
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.052083332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1e759e0acd1e690800000000000000
+      internalID: -7574530514592734768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuardPatrol30_14
+      rect:
+        serializedVersion: 2
+        x: 2954
+        y: 0
+        width: 211
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.052083332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37afc34a7658a7980800000000000000
+      internalID: -8540367063171138957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeGuardPatrol30_15
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 0
+        width: 211
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.052083332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e376dfd64cd8754c0800000000000000
+      internalID: -4298811444503419074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MeleeGuardPatrol30_0: -6856007422095138316
+      MeleeGuardPatrol30_00: 1705309770108113244
+      MeleeGuardPatrol30_01: -7121189005992847035
+      MeleeGuardPatrol30_02: -6925976493734152966
+      MeleeGuardPatrol30_03: -775245210138015622
+      MeleeGuardPatrol30_04: 1454289371691033836
+      MeleeGuardPatrol30_05: 5284186923806639468
+      MeleeGuardPatrol30_06: -8742321249998476467
+      MeleeGuardPatrol30_07: 6242134344649418756
+      MeleeGuardPatrol30_08: 5317937540661237979
+      MeleeGuardPatrol30_09: 5784974042290126922
+      MeleeGuardPatrol30_1: -915659668747211857
+      MeleeGuardPatrol30_10: -848437326275767833
+      MeleeGuardPatrol30_11: 4004012216204234336
+      MeleeGuardPatrol30_12: 4304354687569641654
+      MeleeGuardPatrol30_13: -7574530514592734768
+      MeleeGuardPatrol30_14: -8540367063171138957
+      MeleeGuardPatrol30_15: -4298811444503419074
+      MeleeGuardPatrol30_2: 4292270113192519371
+      MeleeGuardPatrol30_3: 5684732230059812387
+      MeleeGuardPatrol30_4: 2470156814906750900
+      MeleeGuardPatrol30_5: 4940546799946959608
+      MeleeGuardPatrol30_6: -5200614777569305976
+      MeleeGuardPatrol30_7: -981417309329461755
+      MeleeGuardPatrol30_8: 7450973048186464631
+      MeleeGuardPatrol30_9: 2003407607735560863
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

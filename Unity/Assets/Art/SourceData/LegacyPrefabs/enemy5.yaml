@@ -1,0 +1,51 @@
+behaviours:
+  - type: Transform
+    properties:
+      x: 0
+      y: 0
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+  - type: RigidBody
+    properties:
+      x: 0
+      y: 0
+      type: 2
+      gravityScale: 8
+  - type: CapsuleCollider
+    properties:
+      isSensor: 0
+      tag: enemybody
+      radius: 8
+      width: 70
+      height: 70
+      centerX: 70
+      centerY: 65
+  - type: CapsuleCollider
+    properties:
+      isSensor: 0
+      tag: enemyfeet
+      width: 36
+      height: 18
+      radius: 5
+      centerX: 70
+      centerY: 8
+  - type: Enemy5
+    properties:
+      patrolSpeed: 0.9
+      chaseSpeed: 1.9
+  - type: Enemy5HealthStateMachine
+children:
+  - behaviours:
+      - type: Transform
+        properties:
+          x: -90
+          y: -140
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+      - type: AnimationRenderer
+        properties:
+          source: ./assets/animations/boss2.png
+          config: ./assets/animations/boss2.yaml
+          action: action1

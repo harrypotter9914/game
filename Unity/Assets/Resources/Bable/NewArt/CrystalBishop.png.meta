@@ -1,0 +1,537 @@
+fileFormatVersion: 2
+guid: c9abb282de0564a46bf1bbbd2768749d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1535246272423342425
+    second: CrystalBishop_0
+  - first:
+      213: -935860406619259044
+    second: CrystalBishop_00
+  - first:
+      213: 910569203312778227
+    second: CrystalBishop_01
+  - first:
+      213: -8097810048176577258
+    second: CrystalBishop_02
+  - first:
+      213: -2288583648029912836
+    second: CrystalBishop_03
+  - first:
+      213: -2692205954847858230
+    second: CrystalBishop_04
+  - first:
+      213: 6702174650083125409
+    second: CrystalBishop_05
+  - first:
+      213: 120018704083254827
+    second: CrystalBishop_06
+  - first:
+      213: 5627421688703380238
+    second: CrystalBishop_07
+  - first:
+      213: -4356906547484967998
+    second: CrystalBishop_08
+  - first:
+      213: 6925806718782693891
+    second: CrystalBishop_09
+  - first:
+      213: -2629489049848840019
+    second: CrystalBishop_10
+  - first:
+      213: -8324722876246541981
+    second: CrystalBishop_11
+  - first:
+      213: -8179414783754432585
+    second: CrystalBishop_12
+  - first:
+      213: 6885831828074215461
+    second: CrystalBishop_13
+  - first:
+      213: -5806853854876286659
+    second: CrystalBishop_14
+  - first:
+      213: -4738802113646972202
+    second: CrystalBishop_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CrystalBishop_00
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 847
+        width: 146
+        height: 239
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f3b182be72303f0800000000000000
+      internalID: -935860406619259044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalBishop_01
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 845
+        width: 152
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb5ed2bdddf2ac00800000000000000
+      internalID: 910569203312778227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalBishop_02
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 845
+        width: 164
+        height: 239
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615a8db4aacce9f80800000000000000
+      internalID: -8097810048176577258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalBishop_03
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 844
+        width: 162
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0d86c2c415d30e0800000000000000
+      internalID: -2288583648029912836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalBishop_04
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 585
+        width: 262
+        height: 210
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac12a1fa2fc53aad0800000000000000
+      internalID: -2692205954847858230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalBishop_05
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 585
+        width: 270
+        height: 210
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a825d8a558e20d50800000000000000
+      internalID: 6702174650083125409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalBishop_06
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 585
+        width: 266
+        height: 210
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ef84f10646aa100800000000000000
+      internalID: 120018704083254827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalBishop_07
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 587
+        width: 281
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b6e74e53e981e40800000000000000
+      internalID: 5627421688703380238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalBishop_08
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 310
+        width: 219
+        height: 225
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cbb59534982983c0800000000000000
+      internalID: -4356906547484967998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalBishop_09
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 315
+        width: 210
+        height: 237
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3026e0824886d1060800000000000000
+      internalID: 6925806718782693891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalBishop_10
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 308
+        width: 333
+        height: 225
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da00bfa04ad228bd0800000000000000
+      internalID: -2629489049848840019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalBishop_11
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 308
+        width: 194
+        height: 228
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369b1cb76a4a87c80800000000000000
+      internalID: -8324722876246541981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalBishop_12
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 32
+        width: 172
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf0dbf2791ec7e80800000000000000
+      internalID: -8179414783754432585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalBishop_13
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 32
+        width: 223
+        height: 237
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528317f90936f8f50800000000000000
+      internalID: 6885831828074215461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalBishop_14
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 32
+        width: 277
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d31cd7d5f29e96fa0800000000000000
+      internalID: -5806853854876286659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalBishop_15
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 32
+        width: 248
+        height: 225
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2b33bb5946c3eb0800000000000000
+      internalID: -4738802113646972202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CrystalBishop_0: 1535246272423342425
+      CrystalBishop_00: -935860406619259044
+      CrystalBishop_01: 910569203312778227
+      CrystalBishop_02: -8097810048176577258
+      CrystalBishop_03: -2288583648029912836
+      CrystalBishop_04: -2692205954847858230
+      CrystalBishop_05: 6702174650083125409
+      CrystalBishop_06: 120018704083254827
+      CrystalBishop_07: 5627421688703380238
+      CrystalBishop_08: -4356906547484967998
+      CrystalBishop_09: 6925806718782693891
+      CrystalBishop_10: -2629489049848840019
+      CrystalBishop_11: -8324722876246541981
+      CrystalBishop_12: -8179414783754432585
+      CrystalBishop_13: 6885831828074215461
+      CrystalBishop_14: -5806853854876286659
+      CrystalBishop_15: -4738802113646972202
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

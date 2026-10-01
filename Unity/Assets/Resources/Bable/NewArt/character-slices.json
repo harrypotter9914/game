@@ -1,0 +1,2466 @@
+{
+  "items": [
+    {
+      "name": "Pilgrim",
+      "frames": [
+        {
+          "x": 21,
+          "y": 1566,
+          "width": 196,
+          "height": 164,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 245,
+          "y": 1566,
+          "width": 191,
+          "height": 164,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 457,
+          "y": 1566,
+          "width": 193,
+          "height": 164,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 670,
+          "y": 1566,
+          "width": 190,
+          "height": 164,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 23,
+          "y": 1371,
+          "width": 201,
+          "height": 157,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 240,
+          "y": 1368,
+          "width": 203,
+          "height": 160,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 462,
+          "y": 1371,
+          "width": 193,
+          "height": 157,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 665,
+          "y": 1371,
+          "width": 206,
+          "height": 155,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 25,
+          "y": 1162,
+          "width": 193,
+          "height": 114,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 243,
+          "y": 1163,
+          "width": 175,
+          "height": 163,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 460,
+          "y": 1207,
+          "width": 198,
+          "height": 145,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 689,
+          "y": 1162,
+          "width": 190,
+          "height": 148,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 17,
+          "y": 936,
+          "width": 149,
+          "height": 207,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 208,
+          "y": 938,
+          "width": 236,
+          "height": 150,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 444,
+          "y": 936,
+          "width": 225,
+          "height": 188,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 679,
+          "y": 936,
+          "width": 202,
+          "height": 151,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 31,
+          "y": 708,
+          "width": 189,
+          "height": 130,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 234,
+          "y": 703,
+          "width": 149,
+          "height": 224,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 457,
+          "y": 708,
+          "width": 152,
+          "height": 219,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 661,
+          "y": 708,
+          "width": 181,
+          "height": 202,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 30,
+          "y": 482,
+          "width": 137,
+          "height": 219,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 253,
+          "y": 482,
+          "width": 134,
+          "height": 208,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 454,
+          "y": 482,
+          "width": 193,
+          "height": 185,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 686,
+          "y": 482,
+          "width": 180,
+          "height": 142,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 31,
+          "y": 269,
+          "width": 124,
+          "height": 179,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 245,
+          "y": 269,
+          "width": 145,
+          "height": 192,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 459,
+          "y": 269,
+          "width": 139,
+          "height": 192,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 680,
+          "y": 269,
+          "width": 139,
+          "height": 178,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 18,
+          "y": 68,
+          "width": 177,
+          "height": 184,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 221,
+          "y": 68,
+          "width": 191,
+          "height": 130,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 423,
+          "y": 67,
+          "width": 242,
+          "height": 111,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 665,
+          "y": 68,
+          "width": 210,
+          "height": 75,
+          "pivotX": 0.5,
+          "pivotY": 0
+        }
+      ],
+      "referenceHeight": 164
+    },
+    {
+      "name": "FirstPenitent",
+      "frames": [
+        {
+          "x": 36,
+          "y": 1159,
+          "width": 250,
+          "height": 206,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 318,
+          "y": 1159,
+          "width": 234,
+          "height": 206,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 587,
+          "y": 1159,
+          "width": 238,
+          "height": 206,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 864,
+          "y": 1159,
+          "width": 233,
+          "height": 206,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 20,
+          "y": 937,
+          "width": 260,
+          "height": 196,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 300,
+          "y": 937,
+          "width": 244,
+          "height": 196,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 571,
+          "y": 936,
+          "width": 260,
+          "height": 197,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 854,
+          "y": 936,
+          "width": 250,
+          "height": 193,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 22,
+          "y": 687,
+          "width": 226,
+          "height": 232,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 297,
+          "y": 687,
+          "width": 213,
+          "height": 232,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 546,
+          "y": 686,
+          "width": 279,
+          "height": 214,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 847,
+          "y": 687,
+          "width": 256,
+          "height": 141,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 20,
+          "y": 487,
+          "width": 212,
+          "height": 178,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 282,
+          "y": 487,
+          "width": 262,
+          "height": 171,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 552,
+          "y": 487,
+          "width": 285,
+          "height": 162,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 837,
+          "y": 487,
+          "width": 269,
+          "height": 175,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 35,
+          "y": 243,
+          "width": 181,
+          "height": 237,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 294,
+          "y": 243,
+          "width": 197,
+          "height": 237,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 546,
+          "y": 239,
+          "width": 281,
+          "height": 174,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 851,
+          "y": 240,
+          "width": 236,
+          "height": 178,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 26,
+          "y": 39,
+          "width": 242,
+          "height": 186,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 282,
+          "y": 45,
+          "width": 276,
+          "height": 154,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 558,
+          "y": 44,
+          "width": 279,
+          "height": 122,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 837,
+          "y": 44,
+          "width": 268,
+          "height": 92,
+          "pivotX": 0.5,
+          "pivotY": 0
+        }
+      ],
+      "referenceHeight": 206
+    },
+    {
+      "name": "BuriedOne",
+      "frames": [
+        {
+          "x": 35,
+          "y": 1153,
+          "width": 199,
+          "height": 202,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 304,
+          "y": 1153,
+          "width": 194,
+          "height": 203,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 581,
+          "y": 1153,
+          "width": 188,
+          "height": 203,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 857,
+          "y": 1153,
+          "width": 198,
+          "height": 200,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 28,
+          "y": 933,
+          "width": 210,
+          "height": 176,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 302,
+          "y": 932,
+          "width": 228,
+          "height": 175,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 582,
+          "y": 932,
+          "width": 220,
+          "height": 168,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 869,
+          "y": 932,
+          "width": 209,
+          "height": 172,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 34,
+          "y": 717,
+          "width": 193,
+          "height": 180,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 304,
+          "y": 716,
+          "width": 196,
+          "height": 145,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 584,
+          "y": 718,
+          "width": 232,
+          "height": 127,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 860,
+          "y": 717,
+          "width": 222,
+          "height": 82,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 35,
+          "y": 508,
+          "width": 209,
+          "height": 89,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 300,
+          "y": 507,
+          "width": 228,
+          "height": 119,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 576,
+          "y": 505,
+          "width": 236,
+          "height": 159,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 858,
+          "y": 504,
+          "width": 206,
+          "height": 187,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 26,
+          "y": 290,
+          "width": 183,
+          "height": 174,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 272,
+          "y": 290,
+          "width": 299,
+          "height": 173,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 575,
+          "y": 290,
+          "width": 284,
+          "height": 170,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 874,
+          "y": 289,
+          "width": 207,
+          "height": 169,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 38,
+          "y": 64,
+          "width": 175,
+          "height": 187,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 282,
+          "y": 64,
+          "width": 231,
+          "height": 148,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 544,
+          "y": 61,
+          "width": 238,
+          "height": 119,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 811,
+          "y": 60,
+          "width": 275,
+          "height": 92,
+          "pivotX": 0.5,
+          "pivotY": 0
+        }
+      ],
+      "referenceHeight": 203
+    },
+    {
+      "name": "SkyJudicator",
+      "frames": [
+        {
+          "x": 33,
+          "y": 1174,
+          "width": 220,
+          "height": 190,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 306,
+          "y": 1174,
+          "width": 211,
+          "height": 190,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 576,
+          "y": 1174,
+          "width": 216,
+          "height": 190,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 849,
+          "y": 1174,
+          "width": 213,
+          "height": 190,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 48,
+          "y": 963,
+          "width": 208,
+          "height": 168,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 324,
+          "y": 965,
+          "width": 214,
+          "height": 166,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 583,
+          "y": 963,
+          "width": 216,
+          "height": 168,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 855,
+          "y": 963,
+          "width": 219,
+          "height": 168,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 27,
+          "y": 715,
+          "width": 182,
+          "height": 210,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 307,
+          "y": 720,
+          "width": 193,
+          "height": 220,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 574,
+          "y": 715,
+          "width": 249,
+          "height": 224,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 847,
+          "y": 722,
+          "width": 248,
+          "height": 154,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 27,
+          "y": 499,
+          "width": 243,
+          "height": 193,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 316,
+          "y": 492,
+          "width": 229,
+          "height": 198,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 576,
+          "y": 494,
+          "width": 246,
+          "height": 196,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 847,
+          "y": 494,
+          "width": 245,
+          "height": 196,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 27,
+          "y": 305,
+          "width": 241,
+          "height": 136,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 281,
+          "y": 305,
+          "width": 215,
+          "height": 136,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 547,
+          "y": 305,
+          "width": 299,
+          "height": 134,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 868,
+          "y": 305,
+          "width": 225,
+          "height": 145,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 29,
+          "y": 72,
+          "width": 230,
+          "height": 177,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 300,
+          "y": 73,
+          "width": 195,
+          "height": 141,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 531,
+          "y": 69,
+          "width": 256,
+          "height": 118,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 799,
+          "y": 66,
+          "width": 294,
+          "height": 88,
+          "pivotX": 0.5,
+          "pivotY": 0
+        }
+      ],
+      "referenceHeight": 190
+    },
+    {
+      "name": "CrystalBishop",
+      "frames": [
+        {
+          "x": 91,
+          "y": 847,
+          "width": 146,
+          "height": 239,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 437,
+          "y": 845,
+          "width": 152,
+          "height": 240,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 782,
+          "y": 845,
+          "width": 164,
+          "height": 239,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 1139,
+          "y": 844,
+          "width": 162,
+          "height": 236,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 39,
+          "y": 585,
+          "width": 262,
+          "height": 210,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 379,
+          "y": 585,
+          "width": 270,
+          "height": 210,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 730,
+          "y": 585,
+          "width": 266,
+          "height": 210,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 1077,
+          "y": 587,
+          "width": 281,
+          "height": 206,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 63,
+          "y": 310,
+          "width": 219,
+          "height": 225,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 425,
+          "y": 315,
+          "width": 210,
+          "height": 237,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 726,
+          "y": 308,
+          "width": 333,
+          "height": 225,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 1135,
+          "y": 308,
+          "width": 194,
+          "height": 228,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 88,
+          "y": 32,
+          "width": 172,
+          "height": 232,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 419,
+          "y": 32,
+          "width": 223,
+          "height": 237,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 741,
+          "y": 32,
+          "width": 277,
+          "height": 236,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 1112,
+          "y": 32,
+          "width": 248,
+          "height": 225,
+          "pivotX": 0.5,
+          "pivotY": 0
+        }
+      ],
+      "referenceHeight": 240
+    },
+    {
+      "name": "Nero",
+      "frames": [
+        {
+          "x": 33,
+          "y": 1156,
+          "width": 231,
+          "height": 194,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 318,
+          "y": 1155,
+          "width": 214,
+          "height": 195,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 588,
+          "y": 1152,
+          "width": 215,
+          "height": 196,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 870,
+          "y": 1153,
+          "width": 207,
+          "height": 197,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 36,
+          "y": 888,
+          "width": 213,
+          "height": 196,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 303,
+          "y": 891,
+          "width": 228,
+          "height": 193,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 584,
+          "y": 887,
+          "width": 223,
+          "height": 197,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 876,
+          "y": 886,
+          "width": 203,
+          "height": 198,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 33,
+          "y": 596,
+          "width": 202,
+          "height": 264,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 294,
+          "y": 597,
+          "width": 216,
+          "height": 235,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 555,
+          "y": 596,
+          "width": 272,
+          "height": 230,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 848,
+          "y": 597,
+          "width": 259,
+          "height": 166,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 43,
+          "y": 303,
+          "width": 180,
+          "height": 253,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 305,
+          "y": 302,
+          "width": 183,
+          "height": 271,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 527,
+          "y": 300,
+          "width": 310,
+          "height": 224,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 837,
+          "y": 300,
+          "width": 185,
+          "height": 204,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 36,
+          "y": 65,
+          "width": 213,
+          "height": 185,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 292,
+          "y": 63,
+          "width": 207,
+          "height": 159,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 527,
+          "y": 60,
+          "width": 260,
+          "height": 120,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 796,
+          "y": 60,
+          "width": 303,
+          "height": 84,
+          "pivotX": 0.5,
+          "pivotY": 0
+        }
+      ],
+      "referenceHeight": 197
+    },
+    {
+      "name": "MeleeGuard",
+      "frames": [
+        {
+          "x": 32,
+          "y": 1120,
+          "width": 235,
+          "height": 227,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 308,
+          "y": 1120,
+          "width": 229,
+          "height": 227,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 584,
+          "y": 1120,
+          "width": 222,
+          "height": 227,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 855,
+          "y": 1120,
+          "width": 225,
+          "height": 227,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 31,
+          "y": 823,
+          "width": 232,
+          "height": 230,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 308,
+          "y": 824,
+          "width": 239,
+          "height": 229,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 579,
+          "y": 823,
+          "width": 234,
+          "height": 230,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 853,
+          "y": 823,
+          "width": 235,
+          "height": 230,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 32,
+          "y": 490,
+          "width": 204,
+          "height": 293,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 286,
+          "y": 490,
+          "width": 228,
+          "height": 268,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 544,
+          "y": 490,
+          "width": 289,
+          "height": 288,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 849,
+          "y": 490,
+          "width": 258,
+          "height": 213,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 29,
+          "y": 166,
+          "width": 223,
+          "height": 221,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 274,
+          "y": 166,
+          "width": 236,
+          "height": 183,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 518,
+          "y": 171,
+          "width": 319,
+          "height": 135,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 837,
+          "y": 171,
+          "width": 268,
+          "height": 96,
+          "pivotX": 0.5,
+          "pivotY": 0
+        }
+      ],
+      "referenceHeight": 227
+    },
+    {
+      "name": "ShieldGuard",
+      "frames": [
+        {
+          "x": 46,
+          "y": 1122,
+          "width": 192,
+          "height": 220,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 317,
+          "y": 1122,
+          "width": 187,
+          "height": 221,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 589,
+          "y": 1122,
+          "width": 183,
+          "height": 220,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 861,
+          "y": 1122,
+          "width": 183,
+          "height": 221,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 34,
+          "y": 818,
+          "width": 193,
+          "height": 230,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 306,
+          "y": 818,
+          "width": 195,
+          "height": 228,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 574,
+          "y": 818,
+          "width": 195,
+          "height": 230,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 854,
+          "y": 818,
+          "width": 188,
+          "height": 230,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 34,
+          "y": 473,
+          "width": 210,
+          "height": 286,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 298,
+          "y": 472,
+          "width": 185,
+          "height": 260,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 519,
+          "y": 472,
+          "width": 320,
+          "height": 264,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 841,
+          "y": 470,
+          "width": 245,
+          "height": 227,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 23,
+          "y": 158,
+          "width": 198,
+          "height": 222,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 269,
+          "y": 160,
+          "width": 226,
+          "height": 190,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 511,
+          "y": 159,
+          "width": 276,
+          "height": 142,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 796,
+          "y": 151,
+          "width": 301,
+          "height": 99,
+          "pivotX": 0.5,
+          "pivotY": 0
+        }
+      ],
+      "referenceHeight": 221
+    },
+    {
+      "name": "RangedGuard",
+      "frames": [
+        {
+          "x": 33,
+          "y": 1090,
+          "width": 198,
+          "height": 241,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 316,
+          "y": 1090,
+          "width": 197,
+          "height": 239,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 591,
+          "y": 1090,
+          "width": 190,
+          "height": 240,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 871,
+          "y": 1090,
+          "width": 194,
+          "height": 242,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 35,
+          "y": 771,
+          "width": 221,
+          "height": 243,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 301,
+          "y": 771,
+          "width": 226,
+          "height": 243,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 575,
+          "y": 771,
+          "width": 240,
+          "height": 243,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 870,
+          "y": 771,
+          "width": 222,
+          "height": 240,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 21,
+          "y": 429,
+          "width": 213,
+          "height": 287,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 285,
+          "y": 429,
+          "width": 249,
+          "height": 302,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 550,
+          "y": 429,
+          "width": 223,
+          "height": 290,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 776,
+          "y": 429,
+          "width": 322,
+          "height": 243,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 27,
+          "y": 119,
+          "width": 243,
+          "height": 238,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 286,
+          "y": 119,
+          "width": 243,
+          "height": 191,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 533,
+          "y": 117,
+          "width": 304,
+          "height": 120,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 837,
+          "y": 109,
+          "width": 268,
+          "height": 91,
+          "pivotX": 0.5,
+          "pivotY": 0
+        }
+      ],
+      "referenceHeight": 242
+    },
+    {
+      "name": "GiantGuard",
+      "frames": [
+        {
+          "x": 32,
+          "y": 1095,
+          "width": 248,
+          "height": 277,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 299,
+          "y": 1094,
+          "width": 251,
+          "height": 276,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 568,
+          "y": 1094,
+          "width": 259,
+          "height": 275,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 844,
+          "y": 1094,
+          "width": 245,
+          "height": 273,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 28,
+          "y": 785,
+          "width": 252,
+          "height": 258,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 296,
+          "y": 787,
+          "width": 254,
+          "height": 253,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 569,
+          "y": 786,
+          "width": 250,
+          "height": 254,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 833,
+          "y": 785,
+          "width": 264,
+          "height": 252,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 30,
+          "y": 446,
+          "width": 224,
+          "height": 313,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 276,
+          "y": 446,
+          "width": 241,
+          "height": 302,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 545,
+          "y": 446,
+          "width": 292,
+          "height": 304,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 837,
+          "y": 446,
+          "width": 268,
+          "height": 240,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 27,
+          "y": 105,
+          "width": 229,
+          "height": 276,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 279,
+          "y": 93,
+          "width": 224,
+          "height": 246,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 507,
+          "y": 90,
+          "width": 330,
+          "height": 196,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 837,
+          "y": 89,
+          "width": 264,
+          "height": 131,
+          "pivotX": 0.5,
+          "pivotY": 0
+        }
+      ],
+      "referenceHeight": 277
+    },
+    {
+      "name": "PilgrimExtras",
+      "frames": [
+        {
+          "x": 20,
+          "y": 1451,
+          "width": 202,
+          "height": 167,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 251,
+          "y": 1451,
+          "width": 220,
+          "height": 159,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 495,
+          "y": 1451,
+          "width": 212,
+          "height": 143,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 734,
+          "y": 1451,
+          "width": 195,
+          "height": 167,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 25,
+          "y": 1227,
+          "width": 206,
+          "height": 183,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 281,
+          "y": 1216,
+          "width": 184,
+          "height": 188,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 530,
+          "y": 1194,
+          "width": 151,
+          "height": 213,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 757,
+          "y": 1181,
+          "width": 142,
+          "height": 226,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 22,
+          "y": 1002,
+          "width": 175,
+          "height": 175,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 255,
+          "y": 1002,
+          "width": 179,
+          "height": 168,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 495,
+          "y": 1002,
+          "width": 199,
+          "height": 147,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 733,
+          "y": 1002,
+          "width": 196,
+          "height": 139,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 17,
+          "y": 711,
+          "width": 184,
+          "height": 226,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 251,
+          "y": 711,
+          "width": 187,
+          "height": 237,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 470,
+          "y": 711,
+          "width": 231,
+          "height": 231,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 717,
+          "y": 711,
+          "width": 221,
+          "height": 227,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 30,
+          "y": 567,
+          "width": 162,
+          "height": 144,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 251,
+          "y": 567,
+          "width": 183,
+          "height": 144,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 489,
+          "y": 564,
+          "width": 198,
+          "height": 147,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 726,
+          "y": 564,
+          "width": 190,
+          "height": 147,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 11,
+          "y": 345,
+          "width": 226,
+          "height": 145,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 237,
+          "y": 345,
+          "width": 237,
+          "height": 139,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 474,
+          "y": 343,
+          "width": 237,
+          "height": 145,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 711,
+          "y": 341,
+          "width": 227,
+          "height": 154,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 18,
+          "y": 60,
+          "width": 207,
+          "height": 173,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 239,
+          "y": 61,
+          "width": 204,
+          "height": 197,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 463,
+          "y": 60,
+          "width": 242,
+          "height": 230,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 709,
+          "y": 60,
+          "width": 227,
+          "height": 200,
+          "pivotX": 0.5,
+          "pivotY": 0
+        }
+      ],
+      "referenceHeight": 167
+    },
+    {
+      "name": "NeroExtras",
+      "frames": [
+        {
+          "x": 27,
+          "y": 1032,
+          "width": 228,
+          "height": 237,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 312,
+          "y": 1032,
+          "width": 237,
+          "height": 200,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 585,
+          "y": 1032,
+          "width": 222,
+          "height": 194,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 866,
+          "y": 1032,
+          "width": 234,
+          "height": 252,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 17,
+          "y": 614,
+          "width": 250,
+          "height": 223,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 291,
+          "y": 614,
+          "width": 250,
+          "height": 201,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 576,
+          "y": 614,
+          "width": 228,
+          "height": 202,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 850,
+          "y": 614,
+          "width": 238,
+          "height": 201,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 26,
+          "y": 158,
+          "width": 240,
+          "height": 186,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 300,
+          "y": 163,
+          "width": 224,
+          "height": 253,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 561,
+          "y": 163,
+          "width": 243,
+          "height": 294,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 843,
+          "y": 163,
+          "width": 262,
+          "height": 328,
+          "pivotX": 0.5,
+          "pivotY": 0
+        }
+      ],
+      "referenceHeight": 252
+    },
+    {
+      "name": "Princess",
+      "frames": [
+        {
+          "x": 138,
+          "y": 76,
+          "width": 305,
+          "height": 570,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 682,
+          "y": 76,
+          "width": 315,
+          "height": 570,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 1224,
+          "y": 76,
+          "width": 316,
+          "height": 568,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 1767,
+          "y": 76,
+          "width": 305,
+          "height": 570,
+          "pivotX": 0.5,
+          "pivotY": 0
+        }
+      ],
+      "referenceHeight": 570
+    },
+    {
+      "name": "MeleeGuardExtras",
+      "frames": [
+        {
+          "x": 40,
+          "y": 122,
+          "width": 481,
+          "height": 414,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 582,
+          "y": 122,
+          "width": 466,
+          "height": 384,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 1130,
+          "y": 122,
+          "width": 457,
+          "height": 415,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 1675,
+          "y": 122,
+          "width": 451,
+          "height": 417,
+          "pivotX": 0.5,
+          "pivotY": 0
+        }
+      ],
+      "referenceHeight": 417
+    },
+    {
+      "name": "ShieldGuardExtras",
+      "frames": [
+        {
+          "x": 37,
+          "y": 923,
+          "width": 206,
+          "height": 234,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 307,
+          "y": 923,
+          "width": 222,
+          "height": 234,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 577,
+          "y": 923,
+          "width": 206,
+          "height": 225,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 836,
+          "y": 923,
+          "width": 210,
+          "height": 234,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 40,
+          "y": 420,
+          "width": 228,
+          "height": 250,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 310,
+          "y": 420,
+          "width": 215,
+          "height": 241,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 556,
+          "y": 423,
+          "width": 248,
+          "height": 199,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 842,
+          "y": 424,
+          "width": 215,
+          "height": 248,
+          "pivotX": 0.5,
+          "pivotY": 0
+        }
+      ],
+      "referenceHeight": 234
+    },
+    {
+      "name": "RangedGuardExtras",
+      "frames": [
+        {
+          "x": 17,
+          "y": 904,
+          "width": 251,
+          "height": 350,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 282,
+          "y": 904,
+          "width": 246,
+          "height": 349,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 556,
+          "y": 904,
+          "width": 281,
+          "height": 375,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 837,
+          "y": 904,
+          "width": 250,
+          "height": 405,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 28,
+          "y": 282,
+          "width": 236,
+          "height": 280,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 290,
+          "y": 282,
+          "width": 261,
+          "height": 268,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 570,
+          "y": 282,
+          "width": 244,
+          "height": 256,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 848,
+          "y": 282,
+          "width": 233,
+          "height": 277,
+          "pivotX": 0.5,
+          "pivotY": 0
+        }
+      ],
+      "referenceHeight": 405
+    },
+    {
+      "name": "GiantGuardExtras",
+      "frames": [
+        {
+          "x": 27,
+          "y": 853,
+          "width": 261,
+          "height": 282,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 305,
+          "y": 854,
+          "width": 234,
+          "height": 379,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 562,
+          "y": 853,
+          "width": 241,
+          "height": 440,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 829,
+          "y": 854,
+          "width": 240,
+          "height": 408,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 17,
+          "y": 215,
+          "width": 273,
+          "height": 288,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 301,
+          "y": 215,
+          "width": 250,
+          "height": 262,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 565,
+          "y": 215,
+          "width": 262,
+          "height": 272,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 841,
+          "y": 215,
+          "width": 259,
+          "height": 287,
+          "pivotX": 0.5,
+          "pivotY": 0
+        }
+      ],
+      "referenceHeight": 440
+    },
+    {
+      "name": "FirstPenitentExtras",
+      "frames": [
+        {
+          "x": 37,
+          "y": 150,
+          "width": 511,
+          "height": 398,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 575,
+          "y": 150,
+          "width": 524,
+          "height": 393,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 1118,
+          "y": 150,
+          "width": 509,
+          "height": 377,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 1683,
+          "y": 150,
+          "width": 466,
+          "height": 405,
+          "pivotX": 0.5,
+          "pivotY": 0
+        }
+      ],
+      "referenceHeight": 405
+    },
+    {
+      "name": "BuriedOneExtras",
+      "frames": [
+        {
+          "x": 50,
+          "y": 126,
+          "width": 444,
+          "height": 412,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 567,
+          "y": 126,
+          "width": 491,
+          "height": 409,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 1152,
+          "y": 126,
+          "width": 447,
+          "height": 396,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 1692,
+          "y": 126,
+          "width": 434,
+          "height": 427,
+          "pivotX": 0.5,
+          "pivotY": 0
+        }
+      ],
+      "referenceHeight": 427
+    },
+    {
+      "name": "SkyJudicatorExtras",
+      "frames": [
+        {
+          "x": 73,
+          "y": 168,
+          "width": 442,
+          "height": 374,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 589,
+          "y": 168,
+          "width": 463,
+          "height": 362,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 1149,
+          "y": 168,
+          "width": 437,
+          "height": 354,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 1660,
+          "y": 168,
+          "width": 436,
+          "height": 374,
+          "pivotX": 0.5,
+          "pivotY": 0
+        }
+      ],
+      "referenceHeight": 374
+    },
+    {
+      "name": "CrystalBishopExtras",
+      "frames": [
+        {
+          "x": 49,
+          "y": 140,
+          "width": 428,
+          "height": 447,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 559,
+          "y": 161,
+          "width": 505,
+          "height": 406,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 1131,
+          "y": 133,
+          "width": 434,
+          "height": 455,
+          "pivotX": 0.5,
+          "pivotY": 0
+        },
+        {
+          "x": 1763,
+          "y": 130,
+          "width": 367,
+          "height": 458,
+          "pivotX": 0.5,
+          "pivotY": 0
+        }
+      ],
+      "referenceHeight": 458
+    }
+  ]
+}
