@@ -49,7 +49,7 @@ using Babel.Runtime.Combat;
   Capture("controls-mouse",1600,900);
   Pad(pad,GamepadButton.DpadDown);yield return null;Pad(pad);yield return new WaitForSecondsRealtime(.25f);
   Check("Controls follow active controller automatically",Find("CONTROLLER")!=null&&GameInput.UsingGamepad);
-  Click("Binding Attack");yield return null;Check("Controller rebind captures input",GameInput.Rebinding);
+  Click("Binding Attack");yield return new WaitForSecondsRealtime(.25f);Check("Controller rebind captures input",GameInput.Rebinding);
   Pad(pad,GamepadButton.RightStick);yield return null;Pad(pad);yield return new WaitForSecondsRealtime(.4f);
   Check("Controller rebind assigns new button",!GameInput.Rebinding&&GameInput.Action(GameAction.Attack).bindings[1].effectivePath=="<Gamepad>/rightStickPress");
   Check("Rebind returns focus to same action",EventSystem.current.currentSelectedGameObject==Find("Binding Attack").gameObject);Capture("controls-pad",1600,900);

@@ -26,7 +26,15 @@ namespace Bable {
   public static void ReloadBindings(){
    bool recovered;var json=LocalStorage.Read("bindings.json",out recovered);map.RemoveAllBindingOverrides();if(string.IsNullOrEmpty(json))return;
    var file=JsonUtility.FromJson<BindingsFile>(json);if(file==null||file.version!=1)throw new System.IO.InvalidDataException("Unsupported controls file");
-   foreach(var entry in file.entries??Array.Empty<BindingEntry>()){var a=map.FindAction(entry.action);if(a!=null&&entry.index>=0&&entry.index<a.bindings.Count&&entry.path!=null)a.ApplyBindingOverride(entry.index,entry.path);}
+   bool repaired=false;
+   foreach(var entry in file.entries??Array.Empty<BindingEntry>()){
+    var a=map.FindAction(entry.action);if(a==null||entry.index<0||entry.index>=a.bindings.Count||entry.path==null)continue;
+    // Older controls screens could capture the click used to open a direction row.
+    // Restore only that invalid override; retain all other customized bindings.
+    if(Enum.TryParse<GameAction>(entry.action,out var action)&&(int)action<4&&entry.index==0&&!entry.path.StartsWith("<Keyboard>/")){repaired=true;continue;}
+    a.ApplyBindingOverride(entry.index,entry.path);
+   }
+   if(repaired){Message="Movement keys restored. Other custom controls were kept.";SaveBindings();}
   }
   public static readonly GameAction[] Remappable={GameAction.Left,GameAction.Right,GameAction.Up,GameAction.Down,GameAction.Jump,GameAction.Attack,GameAction.Shockwave,GameAction.Heal,GameAction.Dash,GameAction.Interact,GameAction.Runes,GameAction.Map,GameAction.Recall};
   static readonly string[] keys={"leftArrow","rightArrow","upArrow","downArrow","space","x","z","a","leftShift","e","tab","m","g","escape","q","enter"};
@@ -49,14 +57,17 @@ namespace Bable {
   public static string KeyHint(GameAction action,bool pad)=>Action(action).GetBindingDisplayString(pad?1:0);
   public static void Rebind(GameAction action,bool pad,Action completed){
    if(Rebinding)return;var a=Action(action);int index=pad?1:0;string old=a.bindings[index].overridePath;
-   a.Disable();Message="Press a "+(pad?"controller button":"key or mouse button")+(pad?". B / East or Escape cancels.":". Escape cancels.");
-   rebind=a.PerformInteractiveRebinding(index).WithControlsHavingToMatchPath(pad?"<Gamepad>":"<Keyboard>").WithExpectedControlType("Button").WithCancelingThrough(pad?"<Gamepad>/buttonEast":"<Keyboard>/escape").OnCancel(op=>{Message="Binding unchanged.";Finish();completed?.Invoke();}).OnComplete(op=>{
+   bool direction=(int)action<4;float acceptAfter=Time.unscaledTime+.2f;int openedFrame=Time.frameCount;
+   a.Disable();Message="Release, then press a "+(pad?"controller button":direction?"keyboard key":"key or mouse button")+(pad?". B / East or Escape cancels.":". Escape cancels.");
+   rebind=a.PerformInteractiveRebinding(index).WithControlsHavingToMatchPath(pad?"<Gamepad>":"<Keyboard>").WithExpectedControlType("Button").WithCancelingThrough(pad?"<Gamepad>/buttonEast":"<Keyboard>/escape").OnMatchWaitForAnother(0).OnPotentialMatch(op=>{
+    if(Time.unscaledTime<acceptAfter||Time.frameCount<=openedFrame+1){foreach(var candidate in op.candidates.ToArray())op.RemoveCandidate(candidate);return;}op.Complete();
+   }).OnCancel(op=>{Message="Binding unchanged.";Finish();completed?.Invoke();}).OnComplete(op=>{
     string path=a.bindings[index].effectivePath;var conflict=Remappable.FirstOrDefault(other=>other!=action&&Action(other).bindings.Any(b=>b.effectivePath==path));
     bool duplicate=Remappable.Any(other=>other!=action&&Action(other).bindings.Any(b=>b.effectivePath==path));
     if(duplicate||path=="<Keyboard>/escape"||path=="<Keyboard>/q"||path=="<Keyboard>/enter"||path=="<Gamepad>/start"){if(old==null)a.RemoveBindingOverride(index);else a.ApplyBindingOverride(index,old);Message=duplicate?"Already assigned to "+conflict+".":"Escape is reserved for menus.";}
     else {for(int i=2;i<a.bindings.Count;i++)if(a.bindings[i].path.StartsWith("<Keyboard>")&&!pad)a.ApplyBindingOverride(i,"");try{SaveBindings();Message="Binding saved.";}catch(Exception e){Message="Unable to save binding: "+e.Message;}}
     Finish();completed?.Invoke();
-   });if(!pad)rebind.WithControlsHavingToMatchPath("<Mouse>");rebind.Start();
+   });if(!pad&&!direction)rebind.WithControlsHavingToMatchPath("<Mouse>");rebind.Start();
   }
   static void Finish(){suppressUntil=Time.unscaledTime+.25f;var op=rebind;rebind=null;op?.Dispose();foreach(var a in map.actions)a.Enable();}
   public static void CancelRebind(){rebind?.Cancel();}

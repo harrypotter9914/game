@@ -42,7 +42,7 @@ Automated checks use their own `-bableSaveRoot` folders. Tests cover both export
 
 Track `Unity/Assets`, `Unity/Packages`, `Unity/ProjectSettings`, `.meta` files and the build/test scripts. Binary artwork and audio use Git LFS. Unity caches, generated players, test saves, local voice-model installations and working archives are excluded. Rebuild players locally; executable folders are not source files.
 
-Future requested updates are committed and synchronized after validation. See [working agreements](AGENTS.md) and [0.53 notes](docs/Release-0.53.md).
+Future requested updates are committed and synchronized after validation. See [working agreements](AGENTS.md) and [0.54 notes](docs/Release-0.54.md).
 
 ## Menus and controls
 

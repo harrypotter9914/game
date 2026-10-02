@@ -56,12 +56,12 @@ namespace Babel.Runtime.Characters.Player
                 PerformMeleeAttack();
             }
 
-            if (Bable.GameInput.Down(Bable.GameAction.Shockwave) || Bable.GameInput.Down(Bable.GameAction.Shockwave))
+            if (Bable.GameInput.Down(Bable.GameAction.Shockwave))
             {
                 PerformShockwave();
             }
 
-            bool shift=Bable.GameInput.Held(Bable.GameAction.Dash)||Bable.GameInput.Held(Bable.GameAction.Dash);
+            bool shift=Bable.GameInput.Held(Bable.GameAction.Dash);
             if(shift && chargeStarted<0 && !controller.IsDashing && Time.time>=dashReadyTime && session!=null && session.HasAbility(AbilityId.CrystalDash) ) {chargeStarted=Time.time;controller.SetCharging(true);}
             if(chargeStarted>=0 && !shift){chargeStarted=-1;controller.SetCharging(false);}
             if(chargeStarted>=0 && Time.time-chargeStarted>=.7f){controller.SetCharging(false);chargeStarted=-1;PerformCrystalDash();}

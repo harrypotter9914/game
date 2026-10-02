@@ -6,6 +6,7 @@ namespace Babel.Runtime.Characters.Player
 {
     [RequireComponent(typeof(Rigidbody2D))]
     [RequireComponent(typeof(Collider2D))]
+    [DefaultExecutionOrder(-500)] // Sample direction before combat consumes this frame's attack.
     public sealed class PlayerController2D : MonoBehaviour
     {
         [SerializeField] private PlayerDefinition definition;
@@ -124,7 +125,7 @@ namespace Babel.Runtime.Characters.Player
                 facingSign = moveInput < 0f ? -1 : 1;
             }
 
-            jumpPressed |= Bable.GameInput.Down(Bable.GameAction.Jump) || Bable.GameInput.Down(Bable.GameAction.Jump);
+            jumpPressed |= Bable.GameInput.Down(Bable.GameAction.Jump);
             if (jumpPressed) bufferedJumpUntil = Time.time + .14f;
         }
 
