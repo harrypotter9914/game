@@ -22,7 +22,7 @@ public static class BablePlayerBuilds {
  [MenuItem("Bable/Preview/Practice Menus")]
  public static void PreviewPractice(){SessionState.SetBool("Bable.PracticePreview",true);}
  public static void Configure(){
-  PlayerSettings.bundleVersion="0.54.0";PlayerSettings.resizableWindow=true;
+  PlayerSettings.bundleVersion="0.55.0";PlayerSettings.resizableWindow=true;
   EditorBuildSettings.scenes=CampaignScenes.Select(p=>new EditorBuildSettingsScene(p,true)).ToArray();
   AssetDatabase.SaveAssets();
  }

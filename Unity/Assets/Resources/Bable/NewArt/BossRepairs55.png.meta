@@ -1,0 +1,385 @@
+fileFormatVersion: 2
+guid: 60523c8189da64849a94a435e6c8ca8f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3816294880986197754
+    second: BossRepairs55_0
+  - first:
+      213: -7766756475653911611
+    second: BossRepairs55_1
+  - first:
+      213: -6683148635549099258
+    second: BossRepairs55_2
+  - first:
+      213: 7151623358417922110
+    second: BossRepairs55_3
+  - first:
+      213: -181335735925739379
+    second: BossRepairs55_4
+  - first:
+      213: -1428635468395019608
+    second: BossRepairs55_5
+  - first:
+      213: -8072711051453193247
+    second: BossRepairs55_6
+  - first:
+      213: -5732720348305985268
+    second: BossRepairs55_7
+  - first:
+      213: 4365817958711150104
+    second: BossRepairs55_8
+  - first:
+      213: -5228532194254000098
+    second: BossRepairs55_9
+  - first:
+      213: 8299132473505165592
+    second: BossRepairs55_10
+  - first:
+      213: -7054021201632122062
+    second: BossRepairs55_11
+  - first:
+      213: 1748685010920594490
+    second: BossRepairs55_12
+  - first:
+      213: -3728169642529758390
+    second: BossRepairs55_13
+  - first:
+      213: -960767976708681960
+    second: BossRepairs55_14
+  - first:
+      213: -4440558857537822690
+    second: BossRepairs55_FirstPenitent_dead_0
+  - first:
+      213: -5954399254056210043
+    second: BossRepairs55_FirstPenitent_dead_1
+  - first:
+      213: 5842233513026947314
+    second: BossRepairs55_FirstPenitent_dead_2
+  - first:
+      213: -2024592185107443533
+    second: BossRepairs55_FirstPenitent_dead_3
+  - first:
+      213: -7918133313904565373
+    second: BossRepairs55_Nero_cast_0
+  - first:
+      213: -4812290573078162758
+    second: BossRepairs55_Nero_cast_1
+  - first:
+      213: -4252810000157285499
+    second: BossRepairs55_Nero_cast_2
+  - first:
+      213: -9190471980714172541
+    second: BossRepairs55_Nero_cast_3
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 146
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BossRepairs55_FirstPenitent_dead_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 442
+        width: 443
+        height: 445
+      alignment: 9
+      pivot: {x: 0.51241535, y: 0.051685393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e106e340f37ff52c0800000000000000
+      internalID: -4440558857537822690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossRepairs55_FirstPenitent_dead_1
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 442
+        width: 389
+        height: 445
+      alignment: 9
+      pivot: {x: 0.57583547, y: 0.051685393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581f02b1d69bd5da0800000000000000
+      internalID: -5954399254056210043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossRepairs55_FirstPenitent_dead_2
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 442
+        width: 430
+        height: 445
+      alignment: 9
+      pivot: {x: 0.55813956, y: 0.051685393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f88ad63d68c31150800000000000000
+      internalID: 5842233513026947314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossRepairs55_FirstPenitent_dead_3
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 442
+        width: 512
+        height: 445
+      alignment: 9
+      pivot: {x: 0.50390625, y: 0.051685393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b093a7622437e3e0800000000000000
+      internalID: -2024592185107443533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossRepairs55_Nero_cast_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 443
+        height: 442
+      alignment: 9
+      pivot: {x: 0.510158, y: 0.15158372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383288cf3b32d1290800000000000000
+      internalID: -7918133313904565373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossRepairs55_Nero_cast_1
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 0
+        width: 387
+        height: 442
+      alignment: 9
+      pivot: {x: 0.50904393, y: 0.15158372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab217bb683f473db0800000000000000
+      internalID: -4812290573078162758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossRepairs55_Nero_cast_2
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 0
+        width: 550
+        height: 442
+      alignment: 9
+      pivot: {x: 0.43272728, y: 0.15158372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583656356dbfaf4c0800000000000000
+      internalID: -4252810000157285499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossRepairs55_Nero_cast_3
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 0
+        width: 394
+        height: 442
+      alignment: 9
+      pivot: {x: 0.52791876, y: 0.15158372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fd95f3d62e47080800000000000000
+      internalID: -9190471980714172541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BossRepairs55_0: 3816294880986197754
+      BossRepairs55_1: -7766756475653911611
+      BossRepairs55_10: 8299132473505165592
+      BossRepairs55_11: -7054021201632122062
+      BossRepairs55_12: 1748685010920594490
+      BossRepairs55_13: -3728169642529758390
+      BossRepairs55_14: -960767976708681960
+      BossRepairs55_2: -6683148635549099258
+      BossRepairs55_3: 7151623358417922110
+      BossRepairs55_4: -181335735925739379
+      BossRepairs55_5: -1428635468395019608
+      BossRepairs55_6: -8072711051453193247
+      BossRepairs55_7: -5732720348305985268
+      BossRepairs55_8: 4365817958711150104
+      BossRepairs55_9: -5228532194254000098
+      BossRepairs55_FirstPenitent_dead_0: -4440558857537822690
+      BossRepairs55_FirstPenitent_dead_1: -5954399254056210043
+      BossRepairs55_FirstPenitent_dead_2: 5842233513026947314
+      BossRepairs55_FirstPenitent_dead_3: -2024592185107443533
+      BossRepairs55_Nero_cast_0: -7918133313904565373
+      BossRepairs55_Nero_cast_1: -4812290573078162758
+      BossRepairs55_Nero_cast_2: -4252810000157285499
+      BossRepairs55_Nero_cast_3: -9190471980714172541
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

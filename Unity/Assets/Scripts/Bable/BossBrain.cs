@@ -17,7 +17,7 @@ namespace Bable
         public bool DialogueHold;
         public void FaceDialogueTarget(Transform player){if(player==null)return;FaceTarget(player.position.x-transform.position.x);GetComponent<CharacterPresentation>()?.Face(FacingSign);}
         public void SetDialoguePose(bool active){DialogueHold=active;if(profile!=null&&profile.kind==BossKind.Burrow&&visual!=null)visual.enabled=active||Engaged&&State!="Burrow";if(active){Body.linearVelocity=Vector2.zero;GetComponent<CharacterPresentation>()?.Act("idle",60);}else GetComponent<CharacterPresentation>()?.ReleaseAction();}
-        public bool PhaseTwo => profile.kind==BossKind.Nero && Health.CurrentHealth<=profile.health*profile.secondPhaseThreshold;
+        public bool PhaseTwo => profile!=null && profile.kind==BossKind.Nero && (phasePresented || Health.CurrentHealth<=profile.health*.5f);
         public Vector2 LockedTarget {get;private set;}
         float deadline,fanReady,comboReady,nextShot,orbit,gravity, stateStarted, decisionReady, waveReady;
         int comboStep,airStep,flightShots; float nextTrap;
@@ -31,9 +31,12 @@ namespace Bable
         public int AttackEpoch {get;private set;}
         public Vector2 AttackCenter=>bodyCollider!=null?(Vector2)bodyCollider.bounds.center:(Vector2)transform.position;
         public bool AttackValid(int epoch)=>epoch==AttackEpoch&&isActiveAndEnabled&&Engaged&&!DialogueHold&&Health!=null&&Health.CurrentHealth>0&&TargetTransform!=null&&!TowerDialogue.StoryActive;
-        string AttackAnimation(string name)=>name=="Heavy"?"heavy":name=="Quick"?"quick":name=="Wave"?"shockwave":name=="Leap"?"jump":name=="AirSides"?"airside":name=="Rising"?"rising":name=="Dash"?"special":name=="Combo"?"attack":"cast";
+        string AttackAnimation(string name)=>name=="AntiAir"?"antiair":name=="Heavy"?"heavy":name=="Quick"?"quick":name=="Wave"?"shockwave":name=="Leap"?"jump":name=="AirSides"?"airside":name=="Rising"?"rising":name=="Dash"?"special":name=="Combo"?"attack":"cast";
         void Pose(string name,float duration,float from,float to)=>GetComponent<CharacterPresentation>()?.ActSegment(name,duration,from,to);
         int pattern;
+        float antiAirReady;
+        int repeatedAttacks;
+        bool phasePending;
         string attack;
         bool hit;
         bool phasePresented;
@@ -84,7 +87,7 @@ namespace Bable
             Health.Invincible=false;if(visual!=null)visual.enabled=true;
             transform.position=spawn;Body.linearVelocity=Vector2.zero;Health.Configure(profile.health,profile.health);
             State="Dormant";Engaged=false;pattern=comboStep=airStep=flightShots=0;nextTrap=0;fanReady=comboReady=nextShot=0;
-            phasePresented=false;decisionReady=waveReady=0;
+            phasePresented=phasePending=false;decisionReady=waveReady=antiAirReady=0;repeatedAttacks=0;attack=null;
             if(flightRoute!=null)flightRoute.ResetRoute();
             if(profile.kind==BossKind.Burrow){Body.simulated=false;bodyCollider.enabled=false;Health.Invincible=true;if(visual!=null)visual.enabled=false;}
         }
@@ -95,9 +98,14 @@ namespace Bable
             if(!InArena(TargetTransform.position)) {if(Engaged)ResetEncounter();return;}
             if(!Engaged){if(!CanStartEncounter(TargetTransform.GetComponent<PlayerController2D>()))return;Engaged=true;if(profile.kind==BossKind.Burrow){LockedTarget=SafeFloor(transform.position);Change("IntroEmerge",.8f,"emerge");SyncBurrowBody();}else Change("Recover",.8f);}
             if(Session!=null && Session.CurrentHealth<=0){Body.linearVelocity=Vector2.zero;return;}
-            if(PhaseTwo&&!phasePresented){AttackEpoch++;phasePresented=true;Cleanup();Body.gravityScale=gravity;Body.linearVelocity=Vector2.zero;Change("PhaseChange",.8f,"phasechange");return;}
+            if((phasePending||PhaseTwo)&&!phasePresented){
+                AttackEpoch++;StopAllCoroutines();phasePresented=true;phasePending=false;Cleanup();Health.Invincible=true;
+                Body.gravityScale=gravity;Body.linearVelocity=Vector2.zero;fanReady=comboReady=antiAirReady=0;
+                Change("PhaseChange",1.8f,"phasechange");return;
+            }
             if(State=="IntroEmerge"){MoveHorizontally(0);if(Time.time>=deadline)Change("Recover",1);return;}
-            if(State=="PhaseChange"){if(Time.time>=deadline)Change("Recover",.3f);return;}
+            if(State=="PhaseChange"){MoveHorizontally(0);if(Time.time>=deadline){Health.Invincible=false;Change("Recover",.5f);}return;}
+            if(State=="Reposition"){if(Time.time>=deadline||!CanReposition(FacingSign))Change("Recover",.25f);else MoveHorizontally(FacingSign*profile.speed);return;}
             if(State=="Burrow")
             {
                 var destination=SafeFloor(new Vector2(TargetTransform.position.x,transform.position.y));
@@ -160,36 +168,42 @@ namespace Bable
             }
             if(State=="Recover" && Time.time<deadline){if(Time.time-stateStarted>.45f)FaceDialogueTarget(TargetTransform);MoveHorizontally(0);return;}
             FaceTarget(GetTargetDelta().x);GetComponent<CharacterPresentation>()?.Face(FacingSign);
-            float distance=GetTargetDelta().magnitude;
+            Vector2 delta=GetTargetDelta();float distance=delta.magnitude;
             if(Time.time<decisionReady){MoveHorizontally(0);return;}
             switch(profile.kind)
             {
                 case BossKind.Burrow:
                     Change("Dig",.6f,"burrow");break;
                 case BossKind.Shockwave:
-                    if(distance>WeaponReach+1&&distance<=2.5f*profile.tileSize+1.2f&&Mathf.Abs(GetTargetDelta().y)<1.8f&&Time.time>=waveReady)Windup("Wave",profile.waveWindup);
+                    if(delta.y>.9f&&Mathf.Abs(delta.x)<WeaponReach){
+                        if(distance<=WeaponReach+1&&Time.time>=antiAirReady)Windup("AntiAir",.7f);
+                        else Reposition();
+                    }
+                    else if(distance>WeaponReach+.25f&&distance<=2.5f*profile.tileSize+1.2f&&Mathf.Abs(delta.y)<1.8f&&Time.time>=waveReady&&attack!="Wave")Windup("Wave",profile.waveWindup);
                     else if(distance<=WeaponReach+.55f){
                         var targetBody=TargetTransform.GetComponent<Rigidbody2D>();
-                        bool quick=attack=="Heavy"||(targetBody!=null&&targetBody.linearVelocity.magnitude>3);
+                        bool quick=attack=="Heavy"||(attack!="Quick"&&targetBody!=null&&targetBody.linearVelocity.magnitude>3);
                         Windup(quick?"Quick":"Heavy",quick?profile.quickWindup:profile.heavyWindup);
                     }
                     else MoveHorizontally(FacingSign*profile.speed);
                     break;
                 case BossKind.Aerial:
                     // Choose an attack that can reach the target; avoid repeating a failed charge.
-                    if(GetTargetDelta().y>1&&distance<=WeaponReach+2)Windup("Rising",.5f);
+                    if(delta.y>1&&distance<=WeaponReach+2&&!(attack=="Rising"&&repeatedAttacks>=2))Windup("Rising",.5f);
                     else if(distance<=WeaponReach+1.2f&&attack!="AirSides")Windup("AirSides",.5f);
-                    else if(Mathf.Abs(GetTargetDelta().y)>2||attack=="Dash"||distance<6)Windup("Leap",.65f);
+                    else if(Mathf.Abs(delta.y)>2||attack=="Dash"||distance<6)Windup(attack=="Leap"?"AirSides":"Leap",.65f);
                     else Windup("Dash",.5f);break;
                 case BossKind.Nero:
-                    if((distance>10*profile.tileSize||PhaseTwo&&distance>7&&attack!="Fan") && Time.time>=fanReady)Windup("Fan",profile.fanWindup);
+                    if((distance>7||PhaseTwo&&attack!="Fan"||delta.y>WeaponReach)&&Time.time>=fanReady)Windup("Fan",profile.fanWindup);
+                    else if(delta.y>.9f&&Mathf.Abs(delta.x)<WeaponReach){if(distance<=WeaponReach+1&&Time.time>=antiAirReady)Windup("AntiAir",.65f);else Reposition();}
                     else if(distance<WeaponReach+.65f && Time.time>=comboReady)Windup("Combo",.7f);
-                    else if(distance>=WeaponReach+.65f&&Mathf.Abs(GetTargetDelta().y)<3)Windup("Dash",profile.dashWindup);
-                    else if(distance>WeaponReach+.65f)MoveHorizontally(FacingSign*profile.speed);else {MoveHorizontally(0);Change("Recover",.4f);}break;
+                    else if(distance>=WeaponReach+.65f&&Mathf.Abs(delta.y)<3&&!(attack=="Dash"&&repeatedAttacks>=2))Windup("Dash",profile.dashWindup);
+                    else if(distance>WeaponReach+.65f)MoveHorizontally(FacingSign*profile.speed);else Reposition();break;
             }
         }
         void Windup(string name,float seconds)
         {
+            repeatedAttacks=attack==name?repeatedAttacks+1:1;
             AttackEpoch++;attack=name;LockedTarget=TargetTransform.position;dashDirection=(LockedTarget-(Vector2)transform.position).normalized;
             Change("Windup",seconds);
             CombatAudio.Boss(gameObject,"windup",.65f);
@@ -201,6 +215,7 @@ namespace Bable
             Cleanup();GetComponent<CharacterPresentation>()?.Face(FacingSign);
             switch(attack)
             {
+                case "AntiAir":antiAirReady=Time.time+2.4f;StrikeDirected(110,WeaponReach,PhaseTwo?2:1,90);Change("Recover",.9f);Pose("antiair",.4f,.25f,.999f);break;
                 case "Wave":waveReady=Time.time+3;StartCoroutine(ReleaseWave(Vector2.right*FacingSign));Change("Recover",1);Pose("shockwave",.36f,.25f,.999f);break;
                 case "Heavy":Strike(150,WeaponReach,2);Change("Recover",1);Pose("heavy",.38f,.25f,.999f);break;
                 case "Quick":Strike(270,WeaponReach,1);Change("QuickFollow",.4f);Pose("quick",.4f,.25f,.999f);break;
@@ -292,7 +307,36 @@ namespace Bable
             else if(next=="Dash"||next=="Dive")CombatAudio.Boss(gameObject,"dash");
             else if(next=="FlightAim")CombatAudio.Boss(gameObject,"windup",.6f);
             else if(next=="Leap"||next=="AirSides")CombatAudio.Boss(gameObject,profile.kind==BossKind.Aerial?"leap":"dash",.6f);GetComponent<CharacterPresentation>()?.Act(animation,seconds);}
-        public override bool TryReceiveDamage(DamageInfo d){if(!BurrowVulnerable||Health.Invincible||Health.CurrentHealth<=0)return false;int before=Health.CurrentHealth;base.TryReceiveDamage(d);return Health.CurrentHealth<before;}
+        void Reposition(){
+            // Step out from underneath a camping player. No collision damage and
+            // no instant retaliation; the next attack still has its full windup.
+            int away=GetTargetDelta().x>=0?-1:1;
+            if(Mathf.Abs(transform.position.x+away*2-arenaCenter.x)>arenaSize.x*.5f-1.5f)away=-away;
+            FacingSign=away;Change("Reposition",.4f,"run");
+        }
+        bool CanReposition(int direction){
+            Vector2 next=(Vector2)bodyCollider.bounds.center+Vector2.right*direction*(bodyCollider.bounds.extents.x+.4f);
+            if(!CombatGeometry.Clear(AttackCenter,next))return false;
+            next.y=bodyCollider.bounds.min.y+.15f;
+            foreach(var h in Physics2D.RaycastAll(next,Vector2.down,.9f))if(TerrainMotion.Solid(h.collider))return true;
+            return false;
+        }
+        public override bool TryReceiveDamage(DamageInfo d){
+            if(!BurrowVulnerable||Health.Invincible||Health.CurrentHealth<=0||phasePending)return false;
+            int before=Health.CurrentHealth;
+            base.TryReceiveDamage(d);
+            if(Health.CurrentHealth<before&&profile.kind==BossKind.Nero&&!phasePresented&&Health.CurrentHealth<=profile.health*.5f)phasePending=true;
+            return Health.CurrentHealth<before;
+        }
+        public int LimitDamageForPhase(int amount){
+            if(profile==null||profile.kind!=BossKind.Nero)return amount;
+            if(State=="PhaseChange"||phasePending)return 0;
+            if(phasePresented)return amount;
+            // Applied at the health boundary, including reflection/projectiles, so
+            // a large hit cannot jump from phase one straight to the death event.
+            int half=Mathf.CeilToInt(profile.health*.5f);
+            return Health.CurrentHealth>half?Mathf.Min(amount,Health.CurrentHealth-half):0;
+        }
         protected override void OnCollisionStay2D(Collision2D c) { /* Damage only during authored attack windows. */ }
         protected override void OnDrawGizmosSelected(){Gizmos.color=Color.cyan;Gizmos.DrawWireCube(arenaCenter,arenaSize);}
     }

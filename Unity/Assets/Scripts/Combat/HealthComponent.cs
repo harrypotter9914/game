@@ -62,6 +62,8 @@ namespace Babel.Runtime.Combat
 
         public void ApplyDamage(int amount, DamageInfo damage)
         {
+            var boss=GetComponent<Bable.BossBrain>();
+            if(boss!=null)amount=boss.LimitDamageForPhase(amount);
             if (amount <= 0 || CurrentHealth <= 0)
             {
                 return;

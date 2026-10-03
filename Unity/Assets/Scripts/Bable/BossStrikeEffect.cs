@@ -20,7 +20,9 @@ namespace Bable {
             float age=Time.time-started;if(age>=.42f){Destroy(gameObject);return;}
             float progress=Mathf.Clamp01((age-.06f)/.25f),previous=Mathf.Clamp01((age-Time.deltaTime-.06f)/.25f);
             Vector2 origin=owner.AttackCenter;transform.position=origin;
-            float head=Mathf.Lerp(angle*.5f,-angle*.5f,progress);
+            bool rising=owner.CurrentAttack=="AntiAir"||owner.CurrentAttack=="Rising";
+            float start=angle*(rising?-.5f:.5f),end=-start;
+            float head=Mathf.Lerp(start,end,progress);
             if(groundStrike&&!groundSound&&age>=.16f){
                 float a=(axis+head)*Mathf.Deg2Rad;Vector2 dir=new Vector2(Mathf.Cos(a)*facing,Mathf.Sin(a));
                 foreach(var h in Physics2D.RaycastAll(origin,dir,Mathf.Min(range,owner.WeaponReach))){
@@ -36,7 +38,7 @@ namespace Bable {
             // the entire attack sector into an invisible body-contact damage zone.
             bool crossing=false;
             float reach=Mathf.Min(range,owner.WeaponReach);
-            float oldHead=Mathf.Lerp(angle*.5f,-angle*.5f,previous);
+            float oldHead=Mathf.Lerp(start,end,previous);
             int samples=Mathf.Max(1,Mathf.CeilToInt(Mathf.Abs(oldHead-head)/8));
             for(int i=0;i<=samples&&!crossing;i++){
                 float a=(axis+Mathf.Lerp(oldHead,head,i/(float)samples))*Mathf.Deg2Rad;

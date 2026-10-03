@@ -1,0 +1,449 @@
+fileFormatVersion: 2
+guid: 71b0257f7a92ed24e9ab838f32142f01
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2849106915145067420
+    second: PilgrimVerticalDash55_0
+  - first:
+      213: -3205984287022215748
+    second: PilgrimVerticalDash55_1
+  - first:
+      213: -7875664078381196551
+    second: PilgrimVerticalDash55_2
+  - first:
+      213: 8035214579706534931
+    second: PilgrimVerticalDash55_3
+  - first:
+      213: 7107329857185605286
+    second: PilgrimVerticalDash55_4
+  - first:
+      213: 4160682124353634361
+    second: PilgrimVerticalDash55_5
+  - first:
+      213: 6112465875570639121
+    second: PilgrimVerticalDash55_6
+  - first:
+      213: 6224060179082142303
+    second: PilgrimVerticalDash55_7
+  - first:
+      213: 7049423246494557732
+    second: PilgrimVerticalDash55_8
+  - first:
+      213: 2843549254693683198
+    second: PilgrimVerticalDash55_9
+  - first:
+      213: 2419655259924642623
+    second: PilgrimVerticalDash55_10
+  - first:
+      213: 6268685771681666373
+    second: PilgrimVerticalDash55_11
+  - first:
+      213: 1701128230669075128
+    second: PilgrimVerticalDash55_12
+  - first:
+      213: 667225109309997734
+    second: PilgrimVerticalDash55_13
+  - first:
+      213: 3789975781754929230
+    second: PilgrimVerticalDash55_14
+  - first:
+      213: -6038562404216411495
+    second: PilgrimVerticalDash55_15
+  - first:
+      213: -4154894812136637570
+    second: PilgrimVerticalDash55_16
+  - first:
+      213: -5120282407373583752
+    second: PilgrimVerticalDash55_17
+  - first:
+      213: 4186628875395254919
+    second: PilgrimVerticalDash55_18
+  - first:
+      213: 1693465886872942918
+    second: PilgrimVerticalDash55_19
+  - first:
+      213: 1139574446901890304
+    second: PilgrimVerticalDash55_20
+  - first:
+      213: -8782377147697125291
+    second: PilgrimVerticalDash55_21
+  - first:
+      213: 1360891503093821634
+    second: PilgrimVerticalDash55_22
+  - first:
+      213: -1184879254994082034
+    second: PilgrimVerticalDash55_23
+  - first:
+      213: -3285917940431134995
+    second: PilgrimVerticalDash55_24
+  - first:
+      213: -5649414506684570165
+    second: PilgrimVerticalDash55_25
+  - first:
+      213: 7481924814684167601
+    second: PilgrimVerticalDash55_26
+  - first:
+      213: 93474409383222792
+    second: PilgrimVerticalDash55_27
+  - first:
+      213: -5053286604483215574
+    second: PilgrimVerticalDash55_28
+  - first:
+      213: -5313766253419634677
+    second: PilgrimVerticalDash55_29
+  - first:
+      213: -2221480675418813460
+    second: PilgrimVerticalDash55_30
+  - first:
+      213: 8488016841192497795
+    second: PilgrimVerticalDash55_Pilgrim_dashup_0
+  - first:
+      213: -4955354227544836377
+    second: PilgrimVerticalDash55_Pilgrim_dashup_1
+  - first:
+      213: 7513335884595220409
+    second: PilgrimVerticalDash55_Pilgrim_dashup_2
+  - first:
+      213: -3056517218526660775
+    second: PilgrimVerticalDash55_Pilgrim_dashup_3
+  - first:
+      213: -1014936890783336172
+    second: PilgrimVerticalDash55_Pilgrim_dashdown_0
+  - first:
+      213: 7090092575604111992
+    second: PilgrimVerticalDash55_Pilgrim_dashdown_1
+  - first:
+      213: -2612980957532732911
+    second: PilgrimVerticalDash55_Pilgrim_dashdown_2
+  - first:
+      213: 285643200627989980
+    second: PilgrimVerticalDash55_Pilgrim_dashdown_3
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 140
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PilgrimVerticalDash55_Pilgrim_dashup_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 412
+        width: 443
+        height: 475
+      alignment: 9
+      pivot: {x: 0.6094808, y: 0.09894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382efca785e7bc570800000000000000
+      internalID: 8488016841192497795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimVerticalDash55_Pilgrim_dashup_1
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 412
+        width: 444
+        height: 475
+      alignment: 9
+      pivot: {x: 0.5765766, y: 0.094736844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6b5faa59b0b3bb0800000000000000
+      internalID: -4955354227544836377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimVerticalDash55_Pilgrim_dashup_2
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 412
+        width: 443
+        height: 475
+      alignment: 9
+      pivot: {x: 0.5282167, y: 0.09263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf4e7ffd2bb44860800000000000000
+      internalID: 7513335884595220409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimVerticalDash55_Pilgrim_dashup_3
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 412
+        width: 444
+        height: 475
+      alignment: 9
+      pivot: {x: 0.5202703, y: 0.07789474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9577adba8c11595d0800000000000000
+      internalID: -3056517218526660775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimVerticalDash55_Pilgrim_dashdown_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 443
+        height: 412
+      alignment: 9
+      pivot: {x: 0.5711061, y: 0.33009708}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4197b6376483ae1f0800000000000000
+      internalID: -1014936890783336172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimVerticalDash55_Pilgrim_dashdown_1
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 0
+        width: 444
+        height: 412
+      alignment: 9
+      pivot: {x: 0.5720721, y: 0.23058252}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a7481f1a1156260800000000000000
+      internalID: 7090092575604111992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimVerticalDash55_Pilgrim_dashdown_2
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 0
+        width: 443
+        height: 412
+      alignment: 9
+      pivot: {x: 0.5214447, y: 0.1553398}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112c66dc9a3dcbbd0800000000000000
+      internalID: -2612980957532732911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimVerticalDash55_Pilgrim_dashdown_3
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 0
+        width: 444
+        height: 412
+      alignment: 9
+      pivot: {x: 0.527027, y: 0.23543689}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdddfe14afec6f300800000000000000
+      internalID: 285643200627989980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PilgrimVerticalDash55_0: 2849106915145067420
+      PilgrimVerticalDash55_1: -3205984287022215748
+      PilgrimVerticalDash55_10: 2419655259924642623
+      PilgrimVerticalDash55_11: 6268685771681666373
+      PilgrimVerticalDash55_12: 1701128230669075128
+      PilgrimVerticalDash55_13: 667225109309997734
+      PilgrimVerticalDash55_14: 3789975781754929230
+      PilgrimVerticalDash55_15: -6038562404216411495
+      PilgrimVerticalDash55_16: -4154894812136637570
+      PilgrimVerticalDash55_17: -5120282407373583752
+      PilgrimVerticalDash55_18: 4186628875395254919
+      PilgrimVerticalDash55_19: 1693465886872942918
+      PilgrimVerticalDash55_2: -7875664078381196551
+      PilgrimVerticalDash55_20: 1139574446901890304
+      PilgrimVerticalDash55_21: -8782377147697125291
+      PilgrimVerticalDash55_22: 1360891503093821634
+      PilgrimVerticalDash55_23: -1184879254994082034
+      PilgrimVerticalDash55_24: -3285917940431134995
+      PilgrimVerticalDash55_25: -5649414506684570165
+      PilgrimVerticalDash55_26: 7481924814684167601
+      PilgrimVerticalDash55_27: 93474409383222792
+      PilgrimVerticalDash55_28: -5053286604483215574
+      PilgrimVerticalDash55_29: -5313766253419634677
+      PilgrimVerticalDash55_3: 8035214579706534931
+      PilgrimVerticalDash55_30: -2221480675418813460
+      PilgrimVerticalDash55_4: 7107329857185605286
+      PilgrimVerticalDash55_5: 4160682124353634361
+      PilgrimVerticalDash55_6: 6112465875570639121
+      PilgrimVerticalDash55_7: 6224060179082142303
+      PilgrimVerticalDash55_8: 7049423246494557732
+      PilgrimVerticalDash55_9: 2843549254693683198
+      PilgrimVerticalDash55_Pilgrim_dashdown_0: -1014936890783336172
+      PilgrimVerticalDash55_Pilgrim_dashdown_1: 7090092575604111992
+      PilgrimVerticalDash55_Pilgrim_dashdown_2: -2612980957532732911
+      PilgrimVerticalDash55_Pilgrim_dashdown_3: 285643200627989980
+      PilgrimVerticalDash55_Pilgrim_dashup_0: 8488016841192497795
+      PilgrimVerticalDash55_Pilgrim_dashup_1: -4955354227544836377
+      PilgrimVerticalDash55_Pilgrim_dashup_2: 7513335884595220409
+      PilgrimVerticalDash55_Pilgrim_dashup_3: -3056517218526660775
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

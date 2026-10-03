@@ -86,7 +86,8 @@ namespace Bable
             if(!player&&!(minion is BossBrain)&&state=="run"&&minion!=null&&minion.BehaviourState=="Patrol")state="walk";
             if (player && Time.time >= until && !controller.IsGrounded) state = controller.IsWallSliding ? "wallslide" : body.linearVelocity.y < -.2f ? "fall" : "jump";
             if (player && controller.IsCharging) state = "charge";
-            if (player && controller.IsDashing) state = "crystaldash";
+            if (player && controller.IsDashing) state = Mathf.Abs(body.linearVelocity.y)>Mathf.Abs(body.linearVelocity.x)
+                ? (body.linearVelocity.y>0?"dashup":"dashdown") : "crystaldash";
             var channel = player ? GetComponent<PlayerHealChannelController>() : null;
             if (channel != null && channel.IsChanneling && Time.time >= until) state = "heal";
             if(casting)state=controller.IsGrounded&&motion>.25f?"run":"shockwave";
@@ -104,8 +105,9 @@ namespace Bable
                 if(!animator.HasState(0,Animator.StringToHash(key)))key="rightunarmedidle";
             }
             if(player){
-                float angle=controller.IsDashing&&body.linearVelocity.sqrMagnitude>1?Mathf.Atan2(body.linearVelocity.y,body.linearVelocity.x)*Mathf.Rad2Deg-(facing<0?180:0):0;
-                animator.transform.localRotation=Quaternion.Euler(0,0,angle);animator.transform.localPosition=Quaternion.Euler(0,0,angle)*visualHome;
+                // Vertical dashes have authored anatomy and their own origin. Rotating
+                // a sprite under a non-uniform parent scale shears the entire knight.
+                animator.transform.localRotation=Quaternion.identity;animator.transform.localPosition=visualHome;
             }
             if (!animator.HasState(0, Animator.StringToHash(key))) key = (facing < 0 && !mirrorRightFrames ? "left" : "right") + "idle";
             if (key != current && animator.HasState(0, Animator.StringToHash(key))) { animator.speed=1;animator.Play(key, 0, 0);animator.Update(0);if(Time.time<until&&actionDuration>0)animator.speed=Mathf.Clamp(animator.GetCurrentAnimatorStateInfo(0).length/actionDuration,.1f,4);current = key; }

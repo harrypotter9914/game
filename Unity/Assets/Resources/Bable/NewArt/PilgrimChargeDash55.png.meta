@@ -1,0 +1,501 @@
+fileFormatVersion: 2
+guid: 7cdef478466c0b54dadac3dddfed9e92
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9096043575187457176
+    second: PilgrimChargeDash55_0
+  - first:
+      213: 5984223094161220312
+    second: PilgrimChargeDash55_1
+  - first:
+      213: 5323767432949294802
+    second: PilgrimChargeDash55_2
+  - first:
+      213: -794855114124827557
+    second: PilgrimChargeDash55_3
+  - first:
+      213: -2654270201457724515
+    second: PilgrimChargeDash55_4
+  - first:
+      213: 8741370891652103108
+    second: PilgrimChargeDash55_5
+  - first:
+      213: 7997357215915513513
+    second: PilgrimChargeDash55_6
+  - first:
+      213: -7111904057634391108
+    second: PilgrimChargeDash55_7
+  - first:
+      213: 8168319728625999670
+    second: PilgrimChargeDash55_8
+  - first:
+      213: 7790184263853427134
+    second: PilgrimChargeDash55_9
+  - first:
+      213: 8549958112961773724
+    second: PilgrimChargeDash55_10
+  - first:
+      213: -4659999859726204322
+    second: PilgrimChargeDash55_11
+  - first:
+      213: 8257718611890120256
+    second: PilgrimChargeDash55_12
+  - first:
+      213: -8087434626230899631
+    second: PilgrimChargeDash55_13
+  - first:
+      213: 3122028447305265218
+    second: PilgrimChargeDash55_14
+  - first:
+      213: 723593959809793871
+    second: PilgrimChargeDash55_15
+  - first:
+      213: 6348867625165348697
+    second: PilgrimChargeDash55_16
+  - first:
+      213: 3273110901169297283
+    second: PilgrimChargeDash55_17
+  - first:
+      213: -525342173516923919
+    second: PilgrimChargeDash55_18
+  - first:
+      213: -2678818545930514619
+    second: PilgrimChargeDash55_19
+  - first:
+      213: -406944137044064096
+    second: PilgrimChargeDash55_20
+  - first:
+      213: 8161309266228482262
+    second: PilgrimChargeDash55_21
+  - first:
+      213: -6891265579507244633
+    second: PilgrimChargeDash55_22
+  - first:
+      213: 6345707842460743673
+    second: PilgrimChargeDash55_23
+  - first:
+      213: -8077348469136585410
+    second: PilgrimChargeDash55_24
+  - first:
+      213: -4516486711951991006
+    second: PilgrimChargeDash55_25
+  - first:
+      213: -3014723805863892178
+    second: PilgrimChargeDash55_26
+  - first:
+      213: 5245410970272988107
+    second: PilgrimChargeDash55_27
+  - first:
+      213: 2085679138752095068
+    second: PilgrimChargeDash55_28
+  - first:
+      213: 3839467495679719712
+    second: PilgrimChargeDash55_29
+  - first:
+      213: -4528100162885188314
+    second: PilgrimChargeDash55_30
+  - first:
+      213: 3448842973851354445
+    second: PilgrimChargeDash55_31
+  - first:
+      213: 7787629644835564701
+    second: PilgrimChargeDash55_32
+  - first:
+      213: 1608857061426654960
+    second: PilgrimChargeDash55_33
+  - first:
+      213: 6573044861826733233
+    second: PilgrimChargeDash55_34
+  - first:
+      213: 4926626147793267437
+    second: PilgrimChargeDash55_35
+  - first:
+      213: 1881317649362627784
+    second: PilgrimChargeDash55_36
+  - first:
+      213: 7351487492155434510
+    second: PilgrimChargeDash55_37
+  - first:
+      213: 6647022263214089597
+    second: PilgrimChargeDash55_38
+  - first:
+      213: 5251319445201696147
+    second: PilgrimChargeDash55_39
+  - first:
+      213: -1183101831757871310
+    second: PilgrimChargeDash55_40
+  - first:
+      213: 3234357167528813865
+    second: PilgrimChargeDash55_41
+  - first:
+      213: 4356227379389792898
+    second: PilgrimChargeDash55_42
+  - first:
+      213: -1133810496593242367
+    second: PilgrimChargeDash55_43
+  - first:
+      213: -7922179267652879537
+    second: PilgrimChargeDash55_Pilgrim_charge_0
+  - first:
+      213: 4334996653362526700
+    second: PilgrimChargeDash55_Pilgrim_charge_1
+  - first:
+      213: -5637942598045639707
+    second: PilgrimChargeDash55_Pilgrim_charge_2
+  - first:
+      213: 8549307672899457549
+    second: PilgrimChargeDash55_Pilgrim_charge_3
+  - first:
+      213: 1328960425544391808
+    second: PilgrimChargeDash55_Pilgrim_crystaldash_0
+  - first:
+      213: -3817642533048446374
+    second: PilgrimChargeDash55_Pilgrim_crystaldash_1
+  - first:
+      213: -2852293201823151138
+    second: PilgrimChargeDash55_Pilgrim_crystaldash_2
+  - first:
+      213: 5574625033503668874
+    second: PilgrimChargeDash55_Pilgrim_crystaldash_3
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 144
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PilgrimChargeDash55_Pilgrim_charge_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 387
+        width: 443
+        height: 500
+      alignment: 9
+      pivot: {x: 0.523702, y: 0.072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4bf598fde3ce0290800000000000000
+      internalID: -7922179267652879537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimChargeDash55_Pilgrim_charge_1
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 387
+        width: 444
+        height: 500
+      alignment: 9
+      pivot: {x: 0.536036, y: 0.072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce93e2a0d70092c30800000000000000
+      internalID: 4334996653362526700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimChargeDash55_Pilgrim_charge_2
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 387
+        width: 451
+        height: 500
+      alignment: 9
+      pivot: {x: 0.5166297, y: 0.072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb5273041102c1b0800000000000000
+      internalID: -5637942598045639707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimChargeDash55_Pilgrim_charge_3
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 387
+        width: 436
+        height: 500
+      alignment: 9
+      pivot: {x: 0.5321101, y: 0.072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0291b6480e35a670800000000000000
+      internalID: 8549307672899457549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimChargeDash55_Pilgrim_crystaldash_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 443
+        height: 387
+      alignment: 9
+      pivot: {x: 0.45146728, y: 0.250646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c1025477a617210800000000000000
+      internalID: 1328960425544391808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimChargeDash55_Pilgrim_crystaldash_1
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 0
+        width: 448
+        height: 387
+      alignment: 9
+      pivot: {x: 0.46205357, y: 0.250646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52993ac752050bc0800000000000000
+      internalID: -3817642533048446374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimChargeDash55_Pilgrim_crystaldash_2
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 0
+        width: 448
+        height: 387
+      alignment: 9
+      pivot: {x: 0.46651787, y: 0.250646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edbc11ee17e9a68d0800000000000000
+      internalID: -2852293201823151138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PilgrimChargeDash55_Pilgrim_crystaldash_3
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 0
+        width: 435
+        height: 387
+      alignment: 9
+      pivot: {x: 0.48505747, y: 0.250646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a7cfdaeeb0d5d40800000000000000
+      internalID: 5574625033503668874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PilgrimChargeDash55_0: 9096043575187457176
+      PilgrimChargeDash55_1: 5984223094161220312
+      PilgrimChargeDash55_10: 8549958112961773724
+      PilgrimChargeDash55_11: -4659999859726204322
+      PilgrimChargeDash55_12: 8257718611890120256
+      PilgrimChargeDash55_13: -8087434626230899631
+      PilgrimChargeDash55_14: 3122028447305265218
+      PilgrimChargeDash55_15: 723593959809793871
+      PilgrimChargeDash55_16: 6348867625165348697
+      PilgrimChargeDash55_17: 3273110901169297283
+      PilgrimChargeDash55_18: -525342173516923919
+      PilgrimChargeDash55_19: -2678818545930514619
+      PilgrimChargeDash55_2: 5323767432949294802
+      PilgrimChargeDash55_20: -406944137044064096
+      PilgrimChargeDash55_21: 8161309266228482262
+      PilgrimChargeDash55_22: -6891265579507244633
+      PilgrimChargeDash55_23: 6345707842460743673
+      PilgrimChargeDash55_24: -8077348469136585410
+      PilgrimChargeDash55_25: -4516486711951991006
+      PilgrimChargeDash55_26: -3014723805863892178
+      PilgrimChargeDash55_27: 5245410970272988107
+      PilgrimChargeDash55_28: 2085679138752095068
+      PilgrimChargeDash55_29: 3839467495679719712
+      PilgrimChargeDash55_3: -794855114124827557
+      PilgrimChargeDash55_30: -4528100162885188314
+      PilgrimChargeDash55_31: 3448842973851354445
+      PilgrimChargeDash55_32: 7787629644835564701
+      PilgrimChargeDash55_33: 1608857061426654960
+      PilgrimChargeDash55_34: 6573044861826733233
+      PilgrimChargeDash55_35: 4926626147793267437
+      PilgrimChargeDash55_36: 1881317649362627784
+      PilgrimChargeDash55_37: 7351487492155434510
+      PilgrimChargeDash55_38: 6647022263214089597
+      PilgrimChargeDash55_39: 5251319445201696147
+      PilgrimChargeDash55_4: -2654270201457724515
+      PilgrimChargeDash55_40: -1183101831757871310
+      PilgrimChargeDash55_41: 3234357167528813865
+      PilgrimChargeDash55_42: 4356227379389792898
+      PilgrimChargeDash55_43: -1133810496593242367
+      PilgrimChargeDash55_5: 8741370891652103108
+      PilgrimChargeDash55_6: 7997357215915513513
+      PilgrimChargeDash55_7: -7111904057634391108
+      PilgrimChargeDash55_8: 8168319728625999670
+      PilgrimChargeDash55_9: 7790184263853427134
+      PilgrimChargeDash55_Pilgrim_charge_0: -7922179267652879537
+      PilgrimChargeDash55_Pilgrim_charge_1: 4334996653362526700
+      PilgrimChargeDash55_Pilgrim_charge_2: -5637942598045639707
+      PilgrimChargeDash55_Pilgrim_charge_3: 8549307672899457549
+      PilgrimChargeDash55_Pilgrim_crystaldash_0: 1328960425544391808
+      PilgrimChargeDash55_Pilgrim_crystaldash_1: -3817642533048446374
+      PilgrimChargeDash55_Pilgrim_crystaldash_2: -2852293201823151138
+      PilgrimChargeDash55_Pilgrim_crystaldash_3: 5574625033503668874
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

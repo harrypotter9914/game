@@ -35,6 +35,7 @@ namespace Bable {
    if(active!=null&&active.Health!=null){if(active!=current)Bind(active);float next=Mathf.Clamp01(active.Health.CurrentHealth/(float)Mathf.Max(1,active.Health.MaxHealth));if(next<fraction)delayUntil=Time.time+.25f;if(next>fraction)delayed=next;fraction=next;deathUntil=0;group.alpha=Mathf.MoveTowards(group.alpha,1,Time.unscaledDeltaTime*4);}
    else if(current!=null&&current.Health!=null&&current.Health.CurrentHealth==0){if(deathUntil==0)deathUntil=Time.time+.65f;fraction=0;if(Time.time>deathUntil)group.alpha=Mathf.MoveTowards(group.alpha,0,Time.unscaledDeltaTime*4);}
    else {group.alpha=0;current=null;}
+   if(current!=null){var brain=current.GetComponent<BossBrain>();if(brain!=null){title.text=current.title+(brain.PhaseTwo?"  ·  II":"");if(brain.PhaseTwo)fill.GetComponent<Image>().color=new Color(.94f,.27f,.065f);}}
    if(Time.time>delayUntil)delayed=Mathf.MoveTowards(delayed,fraction,Time.deltaTime*1.7f);SetWidths();
   }
  }

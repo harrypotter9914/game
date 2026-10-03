@@ -1,0 +1,35 @@
+{
+  "revision": "0.55",
+  "assets": [
+    {
+      "asset": "Unity/Assets/Resources/Bable/NewArt/PilgrimVerticalDash55.png",
+      "generator": "built-in image_gen",
+      "transparent": true,
+      "prompt": "Create a production pixel-art game sprite sheet: 4 columns by 2 rows, EIGHT complete isolated frames on TRANSPARENT background, large equal cells and generous empty gutters so NO sword, cape or effect crosses cell boundaries. Use ONLY the gold/bronze armored knight from the attached reference, identical helmet cyan slit visor, armor details, long pale-blue ragged cape, straight silver sword with gold hilt, pixel density and silhouette proportions. This is the SAME knight, not a redesign. ROW 1: four sequential UPWARD vertical crystal dash frames, from launching through full upward extension to recovery. His head and raised sword lead UPWARD, torso upright, legs naturally trailing below with knees slightly bent, cape trailing DOWN. ROW 2: four sequential DOWNWARD vertical crystal dash frames, sword-point leading DOWN, both hands stabilizing downward sword, upright body above hands, legs bent naturally behind and cape trailing UP. True separately drawn anatomical poses, NOT rotated or squashed horizontal running sprites. Consistent body proportions and armor color in ALL eight frames. Body, sword and cape fully inside each cell with at least 10% margin. Very restrained small cyan crystal wisps, do not obscure anatomy. Facing slightly right in side view. Same apparent body scale across rows, consistent hip position within cells. No text, no gridlines, no environment."
+    },
+    {
+      "asset": "Unity/Assets/Resources/Bable/NewArt/BossRising55.png",
+      "generator": "built-in image_gen",
+      "transparent": true,
+      "prompt": "Production game pixel sprite sheet, 4 columns x 2 rows, 8 isolated complete frames on transparent background. Row 1 SAME masked bronze executioner from FirstPenitent reference, rust cape, ivory slit executioner mask, broad curved dark cleaver. Row 2 SAME crowned black-faced king from Nero reference, gold/bronze armor, tall gold crown, red ragged cape, long straight sword. NO redesigns; preserve exact armor, masks, colors, proportions and pixel-art rendering. Each row is ONE clear rising overhead anti-air sword attack sequence: frame1 low sword drawn back and knees braced (telegraph), frame2 raises sword in front/up while starting to extend legs, frame3 full upward overhead sweep sword above head reaching a target ABOVE actor, frame4 recovery sword forward and knees settled. Sword tip must reach overhead, not only horizontal. Side view facing right. Fully visible entire body and whole weapon every frame. Ample empty gutters, each complete actor plus sword stays fully inside its own cell. Consistent body scale and foot baseline across all four frames of each row. No ground impact, no lettering, no grid, no background, only small muted bronze blade-trail in middle frames."
+    },
+    {
+      "asset": "Unity/Assets/Resources/Bable/NewArt/FirstQuick55.png",
+      "generator": "built-in image_gen",
+      "transparent": true,
+      "prompt": "One row of FOUR complete game pixel-art animation frames, transparent background, wide generous separate cells. Exact same masked bronze/rust executioner knight from reference FirstPenitent, identical ivory slit face mask, bronze heavy armor, rusty red cape, VERY broad curved dark cleaver sword with worn silver edge. Preserve character identity and anatomy, no redesign. A horizontal fast cleaver sweep: 1 preparation torso twisting sword held behind left; 2 strong horizontal sweep halfway with blade to front right; 3 full extension long cleaver front right with small bronze blade trail; 4 recovery blade diagonally down right. Same size body, same ground baseline and same hip x within each cell. Every blade and cape FULLY VISIBLE and separated by transparent gutter at least 50 pixels; no effects, cape, sword overlap adjacent cell. Do not crop blade tips or feet. Four true sequential frames, no letters no border no background, consistent original low-resolution crisp pixel rendering. Large landscape wide canvas."
+    },
+    {
+      "asset": "Unity/Assets/Resources/Bable/NewArt/BossRepairs55.png",
+      "generator": "built-in image_gen",
+      "transparent": true,
+      "prompt": "Transparent 4-column 2-row pixel art sprite sheet. Match the TWO referenced game characters EXACTLY: top row bronze armored ivory slit-mask executioner with rust cloak and broad curved cleaver; bottom row crowned bronze king Nero, black face opening, ragged red cape and straight sword. Exact original style/colors/armor. Row1: four death sequence frames, wounded standing, sinking to one knee, falling sidewards, lying dead fully stretched on ground. Row2: four magic casting frames, crown wearer raises hand with restrained gold halo, charge overhead, thrust front RIGHT hand to release small gold rune magic flash, hand retract recovery. EACH sprite fully within own generous WIDE cell, no cape, blade, body, sparks can overlap another frame, 40px empty gutters. CONSISTENT anatomical size across frames. Full body all frames, no text labels or borders. Pixel sprite quality, no background."
+    },
+    {
+      "asset": "Unity/Assets/Resources/Bable/NewArt/PilgrimChargeDash55.png",
+      "generator": "built-in image_gen",
+      "transparent": true,
+      "prompt": "Pixel-art sprite sheet for same knight EXACTLY as reference: gold/bronze armor, pointed helmet with narrow cyan visor, pale blue long torn cape, long straight silver sword gold hilt. 4 columns x 2 rows on TRANSPARENT background. Equal anatomical size in all frames. ROW 1 FOUR crystal dash CHARGING frames: standing/braced slight crouch, fists and sword preparing forward dash, restrained cyan sparks gradually gather, feet on same baseline. ROW 2 FOUR HORIZONTAL dash frames facing right, leaning forward with legs trailing back and cape streaming left, full straight sword reaching right, moderate cyan streaks behind body. Entire sword, body, cape and all trails stay isolated within each cell with WIDE generous empty gutters. No effects can cross cell boundaries. Do not crop anything. No text borders ground or background. Match exact original character details and crisp pixel-art style, no redesign. Each cell large enough for full horizontal weapon and cape."
+    }
+  ]
+}

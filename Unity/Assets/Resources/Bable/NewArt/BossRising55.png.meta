@@ -1,0 +1,425 @@
+fileFormatVersion: 2
+guid: 0203c4e48b7cac645abad5b446bbcb93
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5883455851347860231
+    second: BossRising55_0
+  - first:
+      213: -6490222007015736008
+    second: BossRising55_1
+  - first:
+      213: -7282015991756350135
+    second: BossRising55_2
+  - first:
+      213: -801831843748293249
+    second: BossRising55_3
+  - first:
+      213: -1839959430243237638
+    second: BossRising55_4
+  - first:
+      213: -4481877999891878988
+    second: BossRising55_5
+  - first:
+      213: 3428418006630897134
+    second: BossRising55_6
+  - first:
+      213: 3510097088858914923
+    second: BossRising55_7
+  - first:
+      213: -6095760706277917461
+    second: BossRising55_8
+  - first:
+      213: -3002354399995791337
+    second: BossRising55_9
+  - first:
+      213: -8529627586371942384
+    second: BossRising55_10
+  - first:
+      213: 4613562582548112479
+    second: BossRising55_11
+  - first:
+      213: -2949023417575731097
+    second: BossRising55_12
+  - first:
+      213: 8287103855191015512
+    second: BossRising55_13
+  - first:
+      213: -4633946138339894975
+    second: BossRising55_14
+  - first:
+      213: -3983844288337813878
+    second: BossRising55_15
+  - first:
+      213: 1899462138680107443
+    second: BossRising55_16
+  - first:
+      213: 44700987418889536
+    second: BossRising55_17
+  - first:
+      213: 3941576177223771721
+    second: BossRising55_18
+  - first:
+      213: -8938244771652993002
+    second: BossRising55_19
+  - first:
+      213: 5117959145339622772
+    second: BossRising55_20
+  - first:
+      213: -634990180489463433
+    second: BossRising55_21
+  - first:
+      213: -180665844199785993
+    second: BossRising55_22
+  - first:
+      213: -7752634549083755646
+    second: BossRising55_23
+  - first:
+      213: 4523711530192784548
+    second: BossRising55_24
+  - first:
+      213: -8959324001725756679
+    second: BossRising55_FirstPenitent_antiair_0
+  - first:
+      213: 4586615052413177169
+    second: BossRising55_FirstPenitent_antiair_1
+  - first:
+      213: 1257618651479421293
+    second: BossRising55_FirstPenitent_antiair_2
+  - first:
+      213: 227873408603344966
+    second: BossRising55_FirstPenitent_antiair_3
+  - first:
+      213: -887382362100333059
+    second: BossRising55_Nero_antiair_0
+  - first:
+      213: -5138900244300930127
+    second: BossRising55_Nero_antiair_1
+  - first:
+      213: 9205733162941841263
+    second: BossRising55_Nero_antiair_2
+  - first:
+      213: 1032751122401780614
+    second: BossRising55_Nero_antiair_3
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 132
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BossRising55_FirstPenitent_antiair_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 411
+        width: 480
+        height: 476
+      alignment: 9
+      pivot: {x: 0.68958336, y: 0.0021008404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa4189f9461aa380800000000000000
+      internalID: -8959324001725756679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossRising55_FirstPenitent_antiair_1
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 411
+        width: 420
+        height: 476
+      alignment: 9
+      pivot: {x: 0.5452381, y: 0.0021008404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d0c88d61ee6af30800000000000000
+      internalID: 4586615052413177169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossRising55_FirstPenitent_antiair_2
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 411
+        width: 440
+        height: 476
+      alignment: 9
+      pivot: {x: 0.5840909, y: 0.0021008404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6136581085f37110800000000000000
+      internalID: 1257618651479421293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossRising55_FirstPenitent_antiair_3
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 411
+        width: 434
+        height: 476
+      alignment: 9
+      pivot: {x: 0.5138249, y: 0.0021008404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6405f8568a1992300800000000000000
+      internalID: 227873408603344966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossRising55_Nero_antiair_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 480
+        height: 411
+      alignment: 9
+      pivot: {x: 0.68958336, y: 0.05352798}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5001771726fa3f0800000000000000
+      internalID: -887382362100333059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossRising55_Nero_antiair_1
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 420
+        height: 411
+      alignment: 9
+      pivot: {x: 0.5452381, y: 0.05352798}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b366427475fea8b0800000000000000
+      internalID: -5138900244300930127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossRising55_Nero_antiair_2
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 440
+        height: 411
+      alignment: 9
+      pivot: {x: 0.5840909, y: 0.05352798}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f7e22a98551cf70800000000000000
+      internalID: 9205733162941841263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossRising55_Nero_antiair_3
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 0
+        width: 434
+        height: 411
+      alignment: 9
+      pivot: {x: 0.5138249, y: 0.05352798}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683e4209ca1155e00800000000000000
+      internalID: 1032751122401780614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BossRising55_0: 5883455851347860231
+      BossRising55_1: -6490222007015736008
+      BossRising55_10: -8529627586371942384
+      BossRising55_11: 4613562582548112479
+      BossRising55_12: -2949023417575731097
+      BossRising55_13: 8287103855191015512
+      BossRising55_14: -4633946138339894975
+      BossRising55_15: -3983844288337813878
+      BossRising55_16: 1899462138680107443
+      BossRising55_17: 44700987418889536
+      BossRising55_18: 3941576177223771721
+      BossRising55_19: -8938244771652993002
+      BossRising55_2: -7282015991756350135
+      BossRising55_20: 5117959145339622772
+      BossRising55_21: -634990180489463433
+      BossRising55_22: -180665844199785993
+      BossRising55_23: -7752634549083755646
+      BossRising55_24: 4523711530192784548
+      BossRising55_3: -801831843748293249
+      BossRising55_4: -1839959430243237638
+      BossRising55_5: -4481877999891878988
+      BossRising55_6: 3428418006630897134
+      BossRising55_7: 3510097088858914923
+      BossRising55_8: -6095760706277917461
+      BossRising55_9: -3002354399995791337
+      BossRising55_FirstPenitent_antiair_0: -8959324001725756679
+      BossRising55_FirstPenitent_antiair_1: 4586615052413177169
+      BossRising55_FirstPenitent_antiair_2: 1257618651479421293
+      BossRising55_FirstPenitent_antiair_3: 227873408603344966
+      BossRising55_Nero_antiair_0: -887382362100333059
+      BossRising55_Nero_antiair_1: -5138900244300930127
+      BossRising55_Nero_antiair_2: 9205733162941841263
+      BossRising55_Nero_antiair_3: 1032751122401780614
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -29,6 +29,8 @@ reference/*.zip
 !/docs/Release-0.53.md
 !/docs/Release-0.54.md
 !/docs/Art-0.53.json
+!/docs/Art-0.55.json
+!/docs/Release-0.55.md
 Unity/Assets/_Recovery/
 Unity/Assets/_Recovery.meta
 Unity/.vs/
