@@ -7,9 +7,26 @@ namespace Bable
     public sealed class VotiveHud:MonoBehaviour
     {
         Image[] hp,mp;Sprite[] art;int maxHp=-1,maxMp=-1;Transform root;
+        static VotiveHud instance;
+        Text spiritWarning; float warningUntil;
+        public bool SpiritWarningVisible => spiritWarning != null && spiritWarning.gameObject.activeSelf;
+        void Awake(){instance=this;}
+        public static void ShowSpiritRequired(int cost){
+            if(instance==null||Time.unscaledTime<instance.warningUntil-1.2f)return;
+            if(instance.spiritWarning==null){
+                var label=new GameObject("Spirit required",typeof(RectTransform),typeof(Text)).GetComponent<Text>();
+                label.transform.SetParent(instance.transform,false);label.rectTransform.anchoredPosition=new Vector2(-585,266);
+                label.rectTransform.sizeDelta=new Vector2(370,34);label.font=Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+                label.fontSize=20;label.color=new Color(1,.81f,.42f);label.raycastTarget=false;instance.spiritWarning=label;
+            }
+            instance.spiritWarning.text="Crystal Dash needs "+cost+" Spirit";
+            instance.spiritWarning.gameObject.SetActive(true);instance.warningUntil=Time.unscaledTime+1.8f;
+            CombatAudio.UI("ui_deny",.45f);
+        }
         void Start(){art=Resources.LoadAll<Sprite>("Bable/NewArt/VotiveAtlas").OrderBy(s=>s.name).ToArray();root=transform;}
         void Update()
         {
+            if(spiritWarning!=null&&Time.unscaledTime>=warningUntil)spiritWarning.gameObject.SetActive(false);
             var s=GameSession.Instance;if(s==null||art==null||art.Length<16)return;
             if(maxHp!=s.MaxHealth||maxMp!=s.MaxMana){
                 foreach(Transform child in transform)if(child.name=="Votive vitals")Destroy(child.gameObject);
@@ -33,5 +50,6 @@ namespace Bable
         Image Make(string name,Sprite sprite,Vector2 pos,Vector2 size){var image=new GameObject(name,typeof(RectTransform),typeof(Image)).GetComponent<Image>();image.transform.SetParent(root,false);image.rectTransform.anchoredPosition=pos;image.rectTransform.sizeDelta=size;image.sprite=sprite;image.preserveAspect=true;image.raycastTarget=false;return image;}
         void Caption(string text,Vector2 pos){var label=new GameObject(text,typeof(RectTransform),typeof(Text)).GetComponent<Text>();label.transform.SetParent(root,false);label.rectTransform.anchoredPosition=pos;label.rectTransform.sizeDelta=new Vector2(280,22);label.font=Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");label.text=text;label.fontSize=14;label.color=new Color(.85f,.72f,.45f);label.raycastTarget=false;}
         void Animate(Image[] images,int value,Color flash){for(int i=0;i<images.Length;i++){float target=i<value?1:0;bool changing=Mathf.Abs(images[i].fillAmount-target)>.01f;images[i].fillAmount=Mathf.MoveTowards(images[i].fillAmount,target,Time.deltaTime*2.5f);images[i].color=changing?Color.Lerp(Color.white,flash,.4f):Color.white;images[i].transform.localScale=Vector3.one*(changing?1.06f:1);}}
+        void OnDestroy(){if(instance==this)instance=null;}
     }
 }

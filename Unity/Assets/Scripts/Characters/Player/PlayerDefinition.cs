@@ -35,6 +35,7 @@ namespace Babel.Runtime.Characters.Player
 
         [Header("Crystal Dash")]
         [SerializeField] private int crystalDashDamage = 2;
+        [SerializeField, Min(1)] private int crystalDashManaCost = 1;
         [SerializeField] private float crystalDashSpeed = 14f;
         [SerializeField] private float crystalDashDuration = 0.18f;
         [SerializeField] private float crystalDashRange = 4.2f;
@@ -61,6 +62,7 @@ namespace Babel.Runtime.Characters.Player
         public float ShockwaveTickInterval => shockwaveTickInterval;
         public float ShockwaveCooldown => shockwaveCooldown;
         public int CrystalDashDamage => crystalDashDamage;
+        public int CrystalDashManaCost => Mathf.Max(1, crystalDashManaCost);
         public float CrystalDashSpeed => crystalDashSpeed;
         public float CrystalDashDuration => crystalDashDuration;
         public float CrystalDashRange => crystalDashRange;

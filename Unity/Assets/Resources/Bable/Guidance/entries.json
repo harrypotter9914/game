@@ -141,7 +141,7 @@
       "id": "dash",
       "title": "The Last Place at the Table",
       "text": "Crystal Dash is yours. Livia refused a feast bought with her people's hunger. Climb toward the high central crown and the master who keeps her captive.",
-      "controls": "ARROWS  Aim     Hold SHIFT for 0.7 seconds to Dash"
+      "controls": "ARROWS  Aim     HOLD SHIFT 0.7 s     Cost: 1 Spirit"
     },
     {
       "id": "crown_approach",

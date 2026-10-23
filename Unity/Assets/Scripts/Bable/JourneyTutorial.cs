@@ -14,7 +14,7 @@ namespace Bable {
    if(session.HasAbility(AbilityId.Shockwave))n.Teach("shock","The power to break stone","Aim in any cardinal direction. The wave stops at solid walls and shatters fractured seals.","ARROWS + Z  Shockwave     Cost: 1 Spirit");
    if(session.HasAbility(AbilityId.WallJump))n.Teach("wall","Rise between the walls","Press toward a wall while airborne, then jump to kick away from it.","HOLD toward wall + SPACE / C  Wall Jump");
    if(session.HasAbility(AbilityId.DoubleJump))n.Teach("double","A second step in the air","Jump once, then press jump again before you land.","SPACE / C, then SPACE / C again  Double Jump");
-   if(session.HasAbility(AbilityId.CrystalDash))n.Teach("dash","Ride the crystal current","Aim with the arrows and hold Shift for 0.7 seconds to launch. Releasing early cancels the charge.","ARROWS + HOLD SHIFT 0.7 s  Crystal Dash");
+   if(session.HasAbility(AbilityId.CrystalDash))n.Teach("dash_spirit56","Ride the crystal current","Aim and hold Shift for 0.7 seconds. A successful launch costs one Spirit; releasing early costs nothing. Release before charging again. Save Spirit for healing and breaking seals.","ARROWS + HOLD SHIFT 0.7 s     Cost: 1 Spirit");
    if(session.RuneInventory.CollectedRunes.Count>0)n.Teach("runes","Carry your chosen signs","Open the repository and select a rune to equip it. Select an equipped rune to remove it; carry up to four.","TAB  Rune repository     MOUSE / ARROWS  Select");
    if(Vector2.Distance(start,player.transform.position)>12)n.Teach("map","Remember the road","Your atlas records only the passages you have explored. Unvisited paths remain black.","M  Open / close atlas     G  Recall your path");
   }

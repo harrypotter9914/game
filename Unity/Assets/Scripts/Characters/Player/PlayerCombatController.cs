@@ -22,9 +22,10 @@ namespace Babel.Runtime.Characters.Player
         private float dashReadyTime;
         private Sprite cachedSprite;
         private float chargeStarted=-1;
+        private bool dashNeedsRelease;
         public void InterruptForHit()
         {
-            StopAllCoroutines();EndShockwave();chargeStarted=-1;
+            StopAllCoroutines();EndShockwave();chargeStarted=-1;dashNeedsRelease=true;
             if(controller!=null)controller.SetCharging(false);
         }
 
@@ -62,9 +63,13 @@ namespace Babel.Runtime.Characters.Player
             }
 
             bool shift=Bable.GameInput.Held(Bable.GameAction.Dash);
-            if(shift && chargeStarted<0 && !controller.IsDashing && Time.time>=dashReadyTime && session!=null && session.HasAbility(AbilityId.CrystalDash) ) {chargeStarted=Time.time;controller.SetCharging(true);}
+            if(!shift) dashNeedsRelease=false;
+            if(shift && !dashNeedsRelease && chargeStarted<0 && CanStartDash()) {
+                if(session.CurrentMana>=definition.CrystalDashManaCost){chargeStarted=Time.time;controller.SetCharging(true);}
+                else if(Bable.GameInput.Down(Bable.GameAction.Dash)) Bable.VotiveHud.ShowSpiritRequired(definition.CrystalDashManaCost);
+            }
             if(chargeStarted>=0 && !shift){chargeStarted=-1;controller.SetCharging(false);}
-            if(chargeStarted>=0 && Time.time-chargeStarted>=.7f){controller.SetCharging(false);chargeStarted=-1;PerformCrystalDash();}
+            if(chargeStarted>=0 && Time.time-chargeStarted>=.7f){controller.SetCharging(false);chargeStarted=-1;dashNeedsRelease=true;PerformCrystalDash();}
         }
 
         public bool PerformMeleeAttack()
@@ -211,6 +216,8 @@ namespace Babel.Runtime.Characters.Player
         }
         private void OnDisable()
         {
+            chargeStarted = -1;
+            if (controller != null) controller.SetCharging(false);
             if (shockwaveRoutine != null) StopCoroutine(shockwaveRoutine);
             EndShockwave();
         }
@@ -218,8 +225,13 @@ namespace Babel.Runtime.Characters.Player
         public bool PerformCrystalDash()
         {
             ResolveSession();
-            if (definition == null || session == null || session.IsPaused || IsShockwaveActive || controller.IsRecoiling || !session.HasAbility(AbilityId.CrystalDash) || Time.time < dashReadyTime) return false;
+            if (!CanStartDash()) return false;
             var direction = ResolveCardinalDirection();
+            // Pay once at launch, after all eligibility checks. Cancelled charges are free.
+            if (!session.TrySpendMana(definition.CrystalDashManaCost)) {
+                Bable.VotiveHud.ShowSpiritRequired(definition.CrystalDashManaCost);
+                return false;
+            }
             controller.StartDash(direction, definition.CrystalDashSpeed, definition.CrystalDashDuration);
             GetComponent<Bable.CharacterPresentation>()?.Act("crystaldash", definition.CrystalDashDuration);
             Bable.RelicFX.Dash(gameObject, definition.CrystalDashDuration);
@@ -228,6 +240,11 @@ namespace Babel.Runtime.Characters.Player
             dashReadyTime = Time.time + definition.CrystalDashCooldown * GetCooldownMultiplier();
             return true;
         }
+
+        private bool CanStartDash() => definition != null && session != null && !session.IsPaused
+            && !Bable.TowerLoading.Busy && Alive && controller.enabled && !controller.IsDashing
+            && !IsShockwaveActive && !controller.IsRecoiling
+            && session.HasAbility(AbilityId.CrystalDash) && Time.time >= dashReadyTime;
 
         private IEnumerator DashSequence(Vector2 direction)
         {

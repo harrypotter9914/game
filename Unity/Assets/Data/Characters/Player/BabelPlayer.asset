@@ -33,6 +33,7 @@ MonoBehaviour:
   shockwaveTickInterval: 0.3
   shockwaveCooldown: 1.6
   crystalDashDamage: 2
+  crystalDashManaCost: 1
   crystalDashSpeed: 26
   crystalDashDuration: 0.7
   crystalDashRange: 4.2
