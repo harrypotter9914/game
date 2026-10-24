@@ -42,13 +42,15 @@ Automated checks use their own `-bableSaveRoot` folders. Tests cover both export
 
 Track `Unity/Assets`, `Unity/Packages`, `Unity/ProjectSettings`, `.meta` files and the build/test scripts. Binary artwork and audio use Git LFS. Unity caches, generated players, test saves, local voice-model installations and working archives are excluded. Rebuild players locally; executable folders are not source files.
 
-Future requested updates are committed and synchronized after validation. See [working agreements](AGENTS.md) and [0.54 notes](docs/Release-0.54.md).
+Future requested updates are committed and synchronized after validation. See [working agreements](AGENTS.md) and [0.57 notes](docs/Release-0.57.md).
 
 ## Menus and controls
 
 Windows can be resized to different aspect ratios. Full-screen menu artwork covers the viewport while controls scale to fit; settings and shop panels retain their decorative frames. Mouse hover, keyboard navigation and controller focus switch automatically with input. Settings tabs mark the current page independently of the selected control. Controller remapping supports confirmation, cancellation and return to the same row without a keyboard.
 
 The rune repository can be viewed anywhere. Campaign equipment changes require standing at an altar outside an active Boss encounter; the standalone practice player allows changes anywhere. Existing rune effects and restored save equipment are unchanged.
+
+Exploration uses a fixed 14-unit-high view; only the lower-right moss labyrinth uses the 7-unit-high close view. A rectangular dead zone lets the player move or turn without constantly shifting the camera. Crossing its edges starts smooth follow, with faster catch-up during rapid movement near the viewport edge. Region transitions are gradual, and nearby walls do not change the ordinary zoom.
 
 ## Assets and release status
 
